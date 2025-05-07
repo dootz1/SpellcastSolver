@@ -42,11 +42,10 @@ public class SettingsController {
     private ObjectProperty<Integer> roundObject;
 
     public void initialize() {
-//        SliderUtils.applySliderProgressGradient(maxSwapsSlider, "-swaps-track-color", Color.rgb(155, 7, 255), Color.rgb(80, 80, 80));
         playerGems.setValueFactory(new SpinnerValueFactory.IntegerSpinnerValueFactory(1, 10));
         gameRound.setValueFactory(new SpinnerValueFactory.IntegerSpinnerValueFactory(1, 5));
-        setIntegerRangeFormatter(playerGems, 1, 10);
-        setIntegerRangeFormatter(gameRound, 1, 5);
+        setIntegerRangeFormatter(playerGems);
+        setIntegerRangeFormatter(gameRound);
         pause = new PauseTransition(Duration.seconds(5));
     }
 
@@ -54,7 +53,7 @@ public class SettingsController {
         this.dictionary = dictionary;
     }
 
-    private void setIntegerRangeFormatter(Spinner<Integer> spinner, int min, int max) {
+    private void setIntegerRangeFormatter(Spinner<Integer> spinner) {
         UnaryOperator<TextFormatter.Change> filter = change -> {
             String newText = change.getControlNewText();
             if (newText.matches("\\d*")) { // allow only digits
