@@ -92,30 +92,26 @@ java -jar SpellcastSolver-v1.0.0.jar
 
 1. **Input the board state**  
    Type in the letters to match the current game board.
-
 2. **Add tile modifiers**  
    Right-click on any tile to add modifiers such as:
-  - 💎 Gems
-  - 🔠 Double/Triple Letter (DL/TL)
-  - 🔤 Double/Triple Word (DW/TW)
-
+- 💎 Gems
+- 🔠 Double/Triple Letter (DL/TL)
+- 🔤 Double/Triple Word (DW/TW)
 3. **Set game context**  
    Enter the current **round number** and configure your **gem inventory**.
-
 4. **Solve the board**  
    Click the **Solve** button to generate possible words.
-
 5. **Explore results**  
    Click any row in the result table to highlight the word's path on the board.
   - 🔴 Swapped letters are highlighted in red.
-
-6. **Sort your results**  
+6. **Sort/Search your results**  
    Click on column headers to sort by:
   - 🧠 `evalScore` (engine-recommended move)
   - 💯 `Points`
   - 💎 `Gems`
   - 🔄 `Swaps`
-  - 📖 `Lexicographical order`
+  - 📖 `Lexicographical order`  
+    Type in the search bar to find matches for your desired word.
 
 ## 📸Screenshots
 
