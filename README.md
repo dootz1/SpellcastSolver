@@ -109,7 +109,7 @@ cd /path/to/downloaded/jar
   - 💯 `Points`
   - 💎 `Gems`
   - 🔄 `Swaps`
-  - 📖 Lexicographical order
+  - 📖 `Lexicographical order`
 
 ## 📸Screenshots
 
