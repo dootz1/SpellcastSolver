@@ -83,6 +83,11 @@ words if they yield more gems for future moves with swaps.
 cd /path/to/downloaded/jar
 ```
 
+2. Launch the application 
+```bash
+java -jar SpellCastSolver-v1.0.0.jar
+```
+
 ## 🧑‍💻Usage
 
 1. **Input the board state**  
