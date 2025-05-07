@@ -60,12 +60,12 @@ words if they yield more gems for future moves with swaps.
 - 📊 Boards played on round 3.
 - 🖥️ Benchmarking was done with 100 boards on an M2 MacBook Air.
 
-| GEMS        | Avg Words Found | Avg Points/Word | Avg Eval Score/Word | Time/Board (Multithreading) | Time/Board (Single threaded) |
-|-------------|-----------------|-----------------|---------------------|-----------------------------|------------------------------|
-| 0 (0 swaps) | 121             | 34.16           | 91.41               | 1.48 ms                     | 0.43 ms                      |
-| 3 (1 swap)  | 2,374           | 58.76           | 122.76              | 5.41 ms                     | 8.84 ms                      |
-| 6 (2 swaps) | 14,288          | 74.04           | 143.37              | 66.96 ms                    | 250.29 ms                    |
-| 9 (3 swaps) | 46,601          | 86.42           | 160.00              | 1,092.39 ms                 | 4,188.90 ms                  |
+| Gems [Swaps] | Avg Words Found | Avg Points/Word | Avg Eval Score/Word | Time/Board (Multithreading) | Time/Board (Single threaded) |
+|--------------|-----------------|-----------------|---------------------|-----------------------------|------------------------------|
+| 0 [1]        | 121             | 34.16           | 91.41               | 1.48 ms                     | 0.43 ms                      |
+| 3 [2]        | 2,374           | 58.76           | 122.76              | 5.41 ms                     | 8.84 ms                      |
+| 6 [3]        | 14,288          | 74.04           | 143.37              | 66.96 ms                    | 250.29 ms                    |
+| 9 [4]        | 46,601          | 86.42           | 160.00              | 1,092.39 ms                 | 4,188.90 ms                  |
 
 
 ## 🛠️Installation
