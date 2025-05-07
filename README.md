@@ -51,7 +51,8 @@ words if they yield more gems for future moves with swaps.
     - 💎 **Gem count**
     - 🔄 **Swap usage**
 
-- ✅ Strategic Scoring System
+- ✅ **Strategic Scoring System**
+
   Words are ranked not just by immediate points, but also by gems gained—favoring long-term advantage 
   through swaps over short-term score.
 
