@@ -85,7 +85,7 @@ cd /path/to/downloaded/jar
 
 2. Launch the application 
 ```bash
-java -jar SpellCastSolver-v1.0.0.jar
+java -jar SpellcastSolver-v1.0.0.jar
 ```
 
 ## 🧑‍💻Usage
