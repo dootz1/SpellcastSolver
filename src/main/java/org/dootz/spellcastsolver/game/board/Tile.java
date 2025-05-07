@@ -1,4 +1,4 @@
-package org.dootz.spellcastsolver.solver.board;
+package org.dootz.spellcastsolver.game.board;
 
 import org.dootz.spellcastsolver.utils.TileModifier;
 import org.dootz.spellcastsolver.utils.TileUtils;
@@ -94,5 +94,25 @@ public class Tile {
 
     public Tile copy() {
         return new Tile(letter, new HashSet<>(modifiers), wildcard, wildcardLetter, row, column);
+    }
+
+    public String toString() {
+        String tile = String.valueOf(wildcard ? wildcardLetter : letter);
+        if (hasModifier(TileModifier.GEM)) {
+            tile += '!';
+        }
+        if (hasModifier(TileModifier.DOUBLE_WORD)) {
+            tile += '@';
+        }
+        if (hasModifier(TileModifier.TRIPLE_WORD)) {
+            tile += '#';
+        }
+        if (hasModifier(TileModifier.DOUBLE_LETTER)) {
+            tile += '$';
+        }
+        if (hasModifier(TileModifier.TRIPLE_LETTER)) {
+            tile += '%';
+        }
+        return tile;
     }
 }

@@ -6,8 +6,6 @@ import org.dootz.spellcastsolver.solver.Solver;
 import org.dootz.spellcastsolver.solver.dictionary.Dictionary;
 import org.dootz.spellcastsolver.utils.Constants;
 
-import java.beans.PropertyChangeEvent;
-import java.beans.PropertyChangeListener;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
@@ -16,12 +14,12 @@ public class SolverTask extends Task<Void> {
     private static final int MAX_PROGRESS = Dictionary.ALPHABET_CHARACTERS * Constants.BOARD_SIZE * Constants.BOARD_SIZE;
     private static final int TERMINATION_TIMEOUT_SECONDS = 20;
     private final Solver solver;
-    private final int swaps;
+    private final int gems;
     private final boolean useMultithreading;
     private final ProgressReporter progressReporter;
-    public SolverTask(Solver solver, int swaps, boolean multithreading) {
+    public SolverTask(Solver solver, int gems, boolean multithreading) {
         this.solver = solver;
-        this.swaps = swaps;
+        this.gems = gems;
         this.useMultithreading = multithreading;
         this.progressReporter = new ProgressReporter();
         updateProgress(0, MAX_PROGRESS);
@@ -48,7 +46,7 @@ public class SolverTask extends Task<Void> {
             for (int col = 0; col < Constants.BOARD_SIZE; col++) {
                 if (isCancelled()) return;
                 int id = row * Constants.BOARD_SIZE + col;
-                new SolveSingle(id, solver, row, col, swaps, false, progressReporter).run();
+                new SolveSingle(id, solver, gems, row, col, false, progressReporter).run();
             }
         }
     }
@@ -59,7 +57,7 @@ public class SolverTask extends Task<Void> {
         for (int row = 0; row < Constants.BOARD_SIZE; row++) {
             for (int col = 0; col < Constants.BOARD_SIZE; col++) {
                 int id = row * Constants.BOARD_SIZE + col;
-                executor.submit(new SolveSingle(id, solver, row, col, swaps, true, progressReporter));
+                executor.submit(new SolveSingle(id, solver, gems, row, col, true, progressReporter));
             }
         }
 

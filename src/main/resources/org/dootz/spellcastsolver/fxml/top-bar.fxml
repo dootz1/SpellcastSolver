@@ -9,7 +9,7 @@
 
 <AnchorPane prefHeight="80.0" prefWidth="1350.0" stylesheets="@../css/top-bar.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.dootz.spellcastsolver.controller.TopBarController">
    <children>
-      <ImageView fitHeight="64.0" fitWidth="64.0" layoutX="6.0" layoutY="17.0">
+      <ImageView fitHeight="64.0" fitWidth="66.0" layoutX="6.0" layoutY="17.0">
          <image>
             <Image url="@../images/logo.png" />
          </image>

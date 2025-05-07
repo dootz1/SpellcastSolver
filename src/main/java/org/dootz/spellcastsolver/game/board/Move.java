@@ -5,17 +5,21 @@ import org.dootz.spellcastsolver.utils.TileModifier;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Word {
+public class Move {
     private final List<Tile> tiles;
     private double evaluationScore;
 
-    public Word() {
+    public Move() {
         this(new ArrayList<>(20));
     }
 
-    public Word(List<Tile> tiles) {
+    public Move(List<Tile> tiles) {
         this.tiles = tiles;
         this.evaluationScore = 0;
+    }
+
+    public boolean isLongWord() {
+        return tiles.size() >= 6;
     }
 
     public int getTotalPoints() {
@@ -24,14 +28,14 @@ public class Word {
         for (Tile tile: tiles) {
             points += tile.getPoints();
             if (tile.hasModifier(TileModifier.DOUBLE_WORD)) {
-                multiplier <<= 1;
+                multiplier <<= 1; // multiply by 2
             }
             if (tile.hasModifier(TileModifier.TRIPLE_WORD)) {
                 multiplier *= 3;
             }
         }
         points *= multiplier;
-        if (tiles.size() >= 6) {
+        if (isLongWord()) {
             points += 10;
         }
         return points;
@@ -68,15 +72,15 @@ public class Word {
         return tiles;
     }
 
-    public Word copy() {
+    public Move copy() {
         List<Tile> copied = new ArrayList<>(tiles.size());
         for (Tile tile: tiles) {
             copied.add(tile.copy());
         }
-        return new Word(copied);
+        return new Move(copied);
     }
 
-    public int compareTo(Word other) { // no null check for performance
+    public int compareTo(Move other) { // no null check for performance
         int cmp = Integer.compare(this.getTotalPoints(), other.getTotalPoints()); // higher points
         if (cmp != 0) return cmp;
 

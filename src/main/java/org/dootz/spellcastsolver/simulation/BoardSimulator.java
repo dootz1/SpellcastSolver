@@ -1,13 +1,11 @@
-package org.dootz.spellcastsolver;
+package org.dootz.spellcastsolver.simulation;
 
+import org.dootz.spellcastsolver.SpellcastSolver;
 import org.dootz.spellcastsolver.solver.Evaluator;
 import org.dootz.spellcastsolver.solver.Solver;
 import org.dootz.spellcastsolver.game.board.Board;
 import org.dootz.spellcastsolver.solver.dictionary.Dictionary;
-import org.dootz.spellcastsolver.solver.multithreading.ProgressReporter;
-import org.dootz.spellcastsolver.solver.multithreading.SolveSingle;
 import org.dootz.spellcastsolver.utils.BoardUtils;
-import org.dootz.spellcastsolver.utils.Constants;
 
 import java.io.File;
 import java.io.FileWriter;
@@ -16,9 +14,6 @@ import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
-import java.util.concurrent.TimeUnit;
 
 import static org.dootz.spellcastsolver.utils.BenchmarkUtils.solveBoardConcurrently;
 import static org.dootz.spellcastsolver.utils.BenchmarkUtils.solveBoardSequentially;
@@ -28,7 +23,7 @@ public class BoardSimulator {
 
     private static final boolean ENABLE_MULTITHREADING = true; // toggle threading
     private static final int[] SWAP_COUNTS = {0, 3, 6, 9}; // try all swap amounts
-    private static final int GEMS = SWAP_COUNTS[2];
+    private static final int GEMS = SWAP_COUNTS[3];
     private static final int ROUND = 3;
     public static void main(String[] args) {
         Dictionary dictionary = loadDictionary();
@@ -46,6 +41,7 @@ public class BoardSimulator {
         List<Board> boards = new ArrayList<>(BOARD_COUNT);
         List<Evaluator.EvaluatedMove> bestMoves = new ArrayList<>(BOARD_COUNT);
         List<Long> times = new ArrayList<>(BOARD_COUNT);
+        List<Integer> frequencies = new ArrayList<>(BOARD_COUNT);
 
         for (int i = 0; i < BOARD_COUNT; i++) {
             Board board = BoardUtils.randomBoard(false);
@@ -66,6 +62,7 @@ public class BoardSimulator {
                 continue;
             }
 
+            long evaluationTimeStart = System.nanoTime();
             var moves = solver.getMovesAsList();
             Evaluator evaluator = new Evaluator();
             var evaluatedMoves = evaluator.evaluateMoves(moves, ROUND, GEMS);
@@ -74,21 +71,23 @@ public class BoardSimulator {
                 bestMoves.add(evaluatedMoves.getFirst());
             }
 
-            times.add(duration);
+            times.add(duration + (System.nanoTime() - evaluationTimeStart));
+            frequencies.add(evaluatedMoves.size());
             System.out.printf("Finished %d: %.2fms\n", i, duration / 1_000_000.0);
-            solver.clearResult();
         }
 
-        printSummary(boards, bestMoves, times, outputFile);
+        printSummary(boards, bestMoves, frequencies, times, outputFile);
     }
 
     private static Dictionary loadDictionary() {
         Dictionary dictionary = new Dictionary();
-        dictionary.importFromFile(BoardSimulator.class.getResourceAsStream("dictionary.txt"));
+        dictionary.importFromFile(SpellcastSolver.class.getResourceAsStream("dictionary.txt"));
         return dictionary;
     }
 
-    private static void printSummary(List<Board> boards, List<Evaluator.EvaluatedMove> bestMoves, List<Long> times, File outputFile) {
+    private static void printSummary(List<Board> boards, List<Evaluator.EvaluatedMove> bestMoves,
+                                     List<Integer> frequencies, List<Long> times, File outputFile) {
+        int totalWords = 0;
         int totalPoints = 0;
         long totalTime = 0;
         double totalEvalScore = 0;
@@ -105,16 +104,19 @@ public class BoardSimulator {
                 System.out.println(board);
                 System.out.printf("%s %d%n%n", bestMove, bestMove.getMove().getTotalPoints());
 
+                totalWords += frequencies.get(i);
                 totalPoints += bestMove.getMove().getTotalPoints();
                 totalTime += time;
                 totalEvalScore += bestMove.getEvaluationScore();
             }
 
+            int avgWordsFound = totalWords / boards.size();
             double avgPoints = (double) totalPoints / boards.size();
             double avgTimeMs = totalTime / 1_000_000.0 / boards.size();
             double avgEvalScore = totalEvalScore / boards.size();
 
             writer.printf("SUMMARY: GEMS=%d, ROUND=%d%n", GEMS, ROUND);
+            writer.printf("AVERAGE WORDS FOUND: %d%n", avgWordsFound);
             writer.printf("AVERAGE POINTS PER WORD: %.2f%n", avgPoints);
             writer.printf("AVERAGE EVALUATION SCORE PER WORD: %.2f%n", avgEvalScore);
             writer.printf("AVERAGE TIME PER BOARD: %.2fms%n", avgTimeMs);

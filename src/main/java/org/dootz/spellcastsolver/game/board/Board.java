@@ -1,4 +1,4 @@
-package org.dootz.spellcastsolver.solver.board;
+package org.dootz.spellcastsolver.game.board;
 
 import org.dootz.spellcastsolver.utils.Constants;
 import org.dootz.spellcastsolver.utils.TileModifier;
@@ -24,6 +24,38 @@ public class Board {
         this.tiles = tiles;
     }
 
+    public int getGems() {
+        int gems = 0;
+        for (int i = 0; i < Constants.BOARD_SIZE; i++) {
+            for (int j = 0; j < Constants.BOARD_SIZE; j++) {
+                if (tiles[i][j].hasModifier(TileModifier.GEM)) gems++;
+            }
+        }
+        return gems;
+    }
+
+    public boolean hasLetterMultiplier() {
+        for (int i = 0; i < Constants.BOARD_SIZE; i++) {
+            for (int j = 0; j < Constants.BOARD_SIZE; j++) {
+                Tile tile = tiles[i][j];
+                if (tile.hasModifier(TileModifier.TRIPLE_LETTER) || tile.hasModifier(TileModifier.DOUBLE_LETTER))
+                    return true;
+            }
+        }
+        return false;
+    }
+
+    public boolean hasWordMultiplier() {
+        for (int i = 0; i < Constants.BOARD_SIZE; i++) {
+            for (int j = 0; j < Constants.BOARD_SIZE; j++) {
+                Tile tile = tiles[i][j];
+                if (tile.hasModifier(TileModifier.TRIPLE_WORD) || tile.hasModifier(TileModifier.DOUBLE_WORD))
+                    return true;
+            }
+        }
+        return false;
+    }
+
     public Board copy() {
         Tile[][] newTiles = new Tile[Constants.BOARD_SIZE][Constants.BOARD_SIZE];
         for (int i = 0; i < Constants.BOARD_SIZE; i++) {
@@ -44,22 +76,7 @@ public class Board {
                     continue;
                 }
 
-                builder.append(tile.getLetter());
-                if (tile.hasModifier(TileModifier.GEM)) {
-                    builder.append('!');
-                }
-                if (tile.hasModifier(TileModifier.DOUBLE_WORD)) {
-                    builder.append('@');
-                }
-                if (tile.hasModifier(TileModifier.TRIPLE_WORD)) {
-                    builder.append('#');
-                }
-                if (tile.hasModifier(TileModifier.DOUBLE_LETTER)) {
-                    builder.append('$');
-                }
-                if (tile.hasModifier(TileModifier.TRIPLE_LETTER)) {
-                    builder.append('%');
-                }
+                builder.append(tile);
             }
             builder.append('\n');
         }

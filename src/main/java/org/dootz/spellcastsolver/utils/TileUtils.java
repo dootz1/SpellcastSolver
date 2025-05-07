@@ -34,6 +34,8 @@ public class TileUtils {
 
     private static final Random random = new Random();
 
+    private TileUtils() {}
+
     public static int letterToPoints(char letter) {
         return SPELLCAST_LETTER_POINTS[letter - 'A'];
     }

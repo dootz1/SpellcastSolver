@@ -3,21 +3,22 @@ package org.dootz.spellcastsolver.model;
 import javafx.beans.property.*;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
-import org.dootz.spellcastsolver.solver.board.Word;
+import org.dootz.spellcastsolver.game.board.Move;
+import org.dootz.spellcastsolver.solver.Evaluator;
 
 public class TableModel {
     private final IntegerProperty resultWordCount;
     private final LongProperty resultTimeMs;
     private final StringProperty query;
-    private final ObservableList<Word> words;
-    private final ObjectProperty<Word> selectedWord;
+    private final ObservableList<Evaluator.EvaluatedMove> moves;
+    private final ObjectProperty<Evaluator.EvaluatedMove> selectedWord;
 
     public TableModel() {
         this.resultWordCount = new SimpleIntegerProperty(0);
         this.resultTimeMs = new SimpleLongProperty(0);
         this.query = new SimpleStringProperty();
-        this.words = FXCollections.observableArrayList();
-        this.selectedWord = new SimpleObjectProperty<>(new Word());
+        this.moves = FXCollections.observableArrayList();
+        this.selectedWord = new SimpleObjectProperty<>();
     }
 
     public int getResultWordCount() {
@@ -56,27 +57,27 @@ public class TableModel {
         this.query.set(query);
     }
 
-    public ObservableList<Word> getWords() {
-        return words;
+    public ObservableList<Evaluator.EvaluatedMove> getWords() {
+        return moves;
     }
 
-    public Word getSelectedWord() {
+    public Evaluator.EvaluatedMove getSelectedWord() {
         return selectedWord.get();
     }
 
-    public ObjectProperty<Word> selectedWordProperty() {
+    public ObjectProperty<Evaluator.EvaluatedMove> selectedWordProperty() {
         return selectedWord;
     }
 
-    public void setSelectedWord(Word selectedWord) {
-        this.selectedWord.set(selectedWord);
+    public void setSelectedWord(Evaluator.EvaluatedMove selectedMove) {
+        this.selectedWord.set(selectedMove);
     }
 
     @Override
     public String toString() {
         return "TableModel{" +
                 "query=" + query.get() +
-                ", words=" + words +
+                ", words=" + moves +
                 ", selectedWord=" + selectedWord.get() +
                 '}';
     }

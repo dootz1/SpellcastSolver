@@ -1,13 +1,12 @@
-.selected-word-container {
+.selected-move-container {
     -fx-background-color: rgb(26, 23, 42);
-    -fx-border-color: linear-gradient(to right, rgb(0, 107, 255), rgb(198, 0, 245));
+    -fx-border-color:  linear-gradient(to right, #5A31F4, #8A66FF);
     -fx-border-width: 4px;
     -fx-background-radius: 8px;
     -fx-border-radius: 6px;
-
 }
 
-.selected-word-text {
+.selected-move-text {
     -fx-font-size: 32px;
     -fx-alignment: center;
 }
@@ -117,4 +116,21 @@
 
 .board-grid *:disabled {
     -fx-opacity: 1.0;
+}
+
+.button {
+    -fx-background-color: #161324;
+    -fx-border-color: #A288FF;
+    -fx-border-radius: 4px;
+    -fx-background-radius: 4px;
+    -fx-max-width: 28px;
+    -fx-max-height: 28px;
+    -fx-padding: 3px;
+    -fx-background-insets: 0 0 0 0;
+}
+
+.button:hover {
+    -fx-background-color: #A288FF;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, #8A66FF, 10, 0, 0, 0);
 }

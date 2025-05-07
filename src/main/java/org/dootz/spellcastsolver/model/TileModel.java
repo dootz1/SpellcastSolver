@@ -3,7 +3,7 @@ package org.dootz.spellcastsolver.model;
 import javafx.beans.property.*;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableSet;
-import org.dootz.spellcastsolver.solver.board.Tile;
+import org.dootz.spellcastsolver.game.board.Tile;
 import org.dootz.spellcastsolver.utils.TileModifier;
 
 import java.util.EnumSet;
@@ -106,6 +106,7 @@ public class TileModel {
     public void setColumn(int column) {
         this.column.set(column);
     }
+
     public Tile toDomainObject() {
         EnumSet<TileModifier> safeModifiers = modifiers.isEmpty()
                 ? EnumSet.noneOf(TileModifier.class)

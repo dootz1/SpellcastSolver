@@ -3,31 +3,31 @@ package org.dootz.spellcastsolver.model;
 import javafx.beans.property.*;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
-import org.dootz.spellcastsolver.solver.board.Board;
+import org.dootz.spellcastsolver.game.board.Board;
 import org.dootz.spellcastsolver.utils.Constants;
 
-import java.util.Random;
-
 public class BoardModel {
-    private final StringProperty selectedWord;
-    private final IntegerProperty selectedWordPoints;
+    private final StringProperty currentWord;
+    private final IntegerProperty currentWordScore;
+    private final BooleanProperty isLongWordBonusApplied;
+    private final IntegerProperty currentWordGemsEarned;
     private final TileModel[][] inputTiles;
     private final TileModel[][] solvedTiles;
     private final ObservableList<Integer> path;
     private final BooleanProperty solvedVisible;
-    private final BooleanProperty inputTilesDisabled;
 
     public BoardModel() {
-        this("", 0, createTileModels(), createTileModels(), FXCollections.observableArrayList(), false, false);
+        this("", 0, false, 0, createTileModels(), createTileModels(), FXCollections.observableArrayList(), false);
     }
-    public BoardModel(String selectedWord, int selectedWordPoints, TileModel[][] inputTiles, TileModel[][] solvedTiles, ObservableList<Integer> path, boolean solvedVisible, boolean inputTilesDisabled) {
-        this.selectedWord = new SimpleStringProperty(selectedWord);
-        this.selectedWordPoints = new SimpleIntegerProperty(selectedWordPoints);
+    public BoardModel(String currentWord, int currentWordScore, boolean isLongWordBonusApplied, int currentWordGemsEarned, TileModel[][] inputTiles, TileModel[][] solvedTiles, ObservableList<Integer> path, boolean solvedVisible) {
+        this.currentWord = new SimpleStringProperty(currentWord);
+        this.currentWordScore = new SimpleIntegerProperty(currentWordScore);
+        this.isLongWordBonusApplied = new SimpleBooleanProperty(isLongWordBonusApplied);
+        this.currentWordGemsEarned = new SimpleIntegerProperty(currentWordGemsEarned);
         this.inputTiles = inputTiles;
         this.solvedTiles = solvedTiles;
         this.path = path;
         this.solvedVisible = new SimpleBooleanProperty(solvedVisible);
-        this.inputTilesDisabled = new SimpleBooleanProperty(inputTilesDisabled);
     }
 
     private static TileModel[][] createTileModels() {
@@ -40,28 +40,52 @@ public class BoardModel {
         return tiles;
     }
 
-    public String getSelectedWord() {
-        return selectedWord.get();
+    public String getCurrentWord() {
+        return currentWord.get();
     }
 
-    public StringProperty selectedWordProperty() {
-        return selectedWord;
+    public StringProperty currentWordProperty() {
+        return currentWord;
     }
 
-    public void setSelectedWord(String selectedWord) {
-        this.selectedWord.set(selectedWord);
+    public void setCurrentWord(String currentWord) {
+        this.currentWord.set(currentWord);
     }
 
-    public int getSelectedWordPoints() {
-        return selectedWordPoints.get();
+    public int getCurrentWordScore() {
+        return currentWordScore.get();
     }
 
-    public IntegerProperty selectedWordPointsProperty() {
-        return selectedWordPoints;
+    public IntegerProperty currentWordScoreProperty() {
+        return currentWordScore;
     }
 
-    public void setSelectedWordPoints(int selectedWordPoints) {
-        this.selectedWordPoints.set(selectedWordPoints);
+    public void setCurrentWordScore(int currentWordScore) {
+        this.currentWordScore.set(currentWordScore);
+    }
+
+    public boolean isLongWordBonusApplied() {
+        return isLongWordBonusApplied.get();
+    }
+
+    public BooleanProperty isLongWordBonusAppliedProperty() {
+        return isLongWordBonusApplied;
+    }
+
+    public void setIsLongWordBonusApplied(boolean isLongWordBonusApplied) {
+        this.isLongWordBonusApplied.set(isLongWordBonusApplied);
+    }
+
+    public int getCurrentWordGemsEarned() {
+        return currentWordGemsEarned.get();
+    }
+
+    public IntegerProperty currentWordGemsEarnedProperty() {
+        return currentWordGemsEarned;
+    }
+
+    public void setCurrentWordGemsEarned(int currentWordGemsEarned) {
+        this.currentWordGemsEarned.set(currentWordGemsEarned);
     }
 
     public TileModel[][] getInputTiles() {
@@ -82,23 +106,6 @@ public class BoardModel {
         path.clear();
     }
 
-    public void clearSolvedSelected() {
-        for (int i = 0; i < Constants.BOARD_SIZE; i++) {
-            for (int j = 0; j < Constants.BOARD_SIZE; j++) {
-                solvedTiles[i][j].setSelected(false);
-            }
-        }
-    }
-
-    public void clearSolvedWildcard() {
-        for (int i = 0; i < Constants.BOARD_SIZE; i++) {
-            for (int j = 0; j < Constants.BOARD_SIZE; j++) {
-                solvedTiles[i][j].setWildcard(false);
-                solvedTiles[i][j].setWildcardLetter("\0");
-            }
-        }
-    }
-
     public boolean isSolvedVisible() {
         return solvedVisible.get();
     }
@@ -109,36 +116,6 @@ public class BoardModel {
 
     public void setSolvedVisible(boolean solvedVisible) {
         this.solvedVisible.set(solvedVisible);
-    }
-
-    public boolean getInputTilesDisabled() {
-        return inputTilesDisabled.get();
-    }
-
-    public BooleanProperty inputTilesDisabledProperty() {
-        return inputTilesDisabled;
-    }
-
-    public void setInputTilesDisabled(boolean disabled) {
-        this.inputTilesDisabled.set(disabled);
-    }
-
-    public void saveInputTilesIntoSolvedTiles() {
-        for (int i = 0; i < Constants.BOARD_SIZE; i++) {
-            for (int j = 0; j < Constants.BOARD_SIZE; j++) {
-                TileModel input = inputTiles[i][j];
-                TileModel solved = solvedTiles[i][j];
-
-                solved.setLetter(input.getLetter());
-                solved.getModifiers().clear();
-                solved.getModifiers().addAll(input.getModifiers());
-                solved.setWildcard(input.isWildcard());
-                solved.setWildcardLetter(input.getWildcardLetter());
-                solved.setSelected(input.isSelected());
-                solved.setRow(input.getRow());
-                solved.setColumn(input.getColumn());
-            }
-        }
     }
 
     public Board toDomainObject() {

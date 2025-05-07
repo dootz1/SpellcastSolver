@@ -1,5 +1,4 @@
 package org.dootz.spellcastsolver.solver.multithreading;
-import javafx.beans.property.SimpleIntegerProperty;
 
 import java.beans.PropertyChangeListener;
 import java.beans.PropertyChangeSupport;

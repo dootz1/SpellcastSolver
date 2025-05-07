@@ -1,5 +1,7 @@
 package org.dootz.spellcastsolver;
 
+import javafx.animation.KeyFrame;
+import javafx.animation.Timeline;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
@@ -11,15 +13,17 @@ import javafx.scene.shape.Line;
 import javafx.stage.Popup;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
+import javafx.util.Duration;
 import javafx.util.Pair;
 import org.dootz.spellcastsolver.controller.BoardController;
 import org.dootz.spellcastsolver.controller.ContextMenuController;
 import org.dootz.spellcastsolver.controller.SettingsController;
 import org.dootz.spellcastsolver.controller.TableController;
 import org.dootz.spellcastsolver.model.*;
+import org.dootz.spellcastsolver.game.Game;
 import org.dootz.spellcastsolver.solver.Solver;
-import org.dootz.spellcastsolver.solver.board.Board;
 import org.dootz.spellcastsolver.solver.dictionary.Dictionary;
+import org.dootz.spellcastsolver.solver.dictionary.DictionaryNode;
 
 import java.io.IOException;
 
@@ -31,7 +35,6 @@ public class SpellcastSolver extends Application {
 
     @Override
     public void start(Stage stage) throws IOException {
-        System.out.println(getClass());
         String stylesheet = SpellcastSolver.class.getResource("css/root.css").toExternalForm();
         AnchorPane root = createRoot(stylesheet);
         AnchorPane main = createMainLayout();
@@ -57,16 +60,15 @@ public class SpellcastSolver extends Application {
 
         Dictionary dictionary = new Dictionary();
         dictionary.importFromFile(SpellcastSolver.class.getResourceAsStream("dictionary.txt"));
-        Solver solver = new Solver(dictionary, new Board());
 
-        initControllers(boardController, settingsController, tableController, contextMenuController, model, solver, contextMenu);
+        initControllers(boardController, settingsController, tableController, contextMenuController, model, dictionary, contextMenu);
 
         stage.initStyle(StageStyle.TRANSPARENT);
         setupDragEventHandlers(root, stage);
 
         Scene scene = new Scene(root, 1440, 900);
         scene.setFill(Color.TRANSPARENT);
-        stage.setTitle("Hello!");
+        stage.setTitle("SpellcastSolver");
         stage.setScene(scene);
         stage.show();
     }
@@ -98,8 +100,8 @@ public class SpellcastSolver extends Application {
 
     private BoardController loadBoardController(AnchorPane main) throws IOException {
         FXMLLoader boardLoader = new FXMLLoader(SpellcastSolver.class.getResource("fxml/board.fxml"));
-        VBox board = boardLoader.load();
-        board.setLayoutX(676);
+        AnchorPane board = boardLoader.load();
+        board.setLayoutX(635);
         board.setLayoutY(29);
         main.getChildren().add(board);
         return boardLoader.getController();
@@ -144,10 +146,10 @@ public class SpellcastSolver extends Application {
 
     private void initControllers(BoardController boardController, SettingsController settingsController,
                                  TableController tableController, ContextMenuController contextMenuController,
-                                 DataModel model, Solver solver, Popup contextMenu) {
+                                 DataModel model, Dictionary dictionary, Popup contextMenu) {
         boardController.initModel(model);
         settingsController.initModel(model);
-        settingsController.initSolver(solver);
+        settingsController.setDictionary(dictionary);
         tableController.initModel(model);
         contextMenuController.setPopup(contextMenu);
         contextMenuController.initModel(model);

@@ -1,11 +1,13 @@
 package org.dootz.spellcastsolver.controller;
 
 import javafx.beans.binding.Bindings;
+import javafx.beans.property.StringProperty;
 import javafx.beans.value.ChangeListener;
 import javafx.collections.ListChangeListener;
 import javafx.collections.ObservableList;
 import javafx.collections.ObservableSet;
 import javafx.collections.SetChangeListener;
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.geometry.Bounds;
 import javafx.scene.Node;
@@ -24,14 +26,23 @@ import org.dootz.spellcastsolver.model.BoardModel;
 import org.dootz.spellcastsolver.model.ContextMenuModel;
 import org.dootz.spellcastsolver.model.DataModel;
 import org.dootz.spellcastsolver.model.TileModel;
+import org.dootz.spellcastsolver.game.board.Board;
+import org.dootz.spellcastsolver.game.board.Tile;
+import org.dootz.spellcastsolver.utils.BoardUtils;
 import org.dootz.spellcastsolver.utils.Constants;
 import org.dootz.spellcastsolver.utils.TileModifier;
 import org.dootz.spellcastsolver.utils.TileUtils;
 
+import java.util.Set;
+
 public class BoardController {
     private DataModel model;
     @FXML
-    private Label selectedWordLabel;
+    private Label currentWordLabel;
+    @FXML
+    private Label longWordBonusStatusLabel;
+    @FXML
+    private Label gemsEarnedLabel;
     @FXML
     private Pane canvas;
     @FXML
@@ -57,15 +68,46 @@ public class BoardController {
         }
 
         bindPathToCanvas(boardModel.getPath());
-        inputGrid.disableProperty().bind(boardModel.inputTilesDisabledProperty());
         inputGrid.visibleProperty().bind(boardModel.solvedVisibleProperty().not());
         solvedGrid.visibleProperty().bind(boardModel.solvedVisibleProperty());
         canvas.visibleProperty().bind(boardModel.solvedVisibleProperty());
-        selectedWordLabel.textProperty().bind(Bindings.createStringBinding(() -> {
-            String word = boardModel.selectedWordProperty().get();
-            int points = boardModel.getSelectedWordPoints();
+        currentWordLabel.textProperty().bind(Bindings.createStringBinding(() -> {
+            String word = boardModel.currentWordProperty().get();
+            int points = boardModel.getCurrentWordScore();
             return points > 0 ? word + " +" + points : word;
-        }, boardModel.selectedWordProperty(), boardModel.selectedWordPointsProperty()));
+        }, boardModel.currentWordProperty(), boardModel.currentWordScoreProperty()));
+        longWordBonusStatusLabel.visibleProperty().bind(boardModel.isLongWordBonusAppliedProperty());
+        gemsEarnedLabel.textProperty().bind(Bindings.concat("x", boardModel.currentWordGemsEarnedProperty().asString()));
+    }
+
+    @FXML
+    private void handleClearTileLetters(ActionEvent event) {
+        BoardModel boardModel = model.getBoardModel();
+        for (int i = 0; i < Constants.BOARD_TILES; i++) {
+            boardModel.getInputTileModelByIndex(i).setLetter("");
+        }
+    }
+
+    @FXML
+    private void handleClearTileModifiers(ActionEvent event) {
+        BoardModel boardModel = model.getBoardModel();
+        for (int i = 0; i < Constants.BOARD_TILES; i++) {
+            boardModel.getInputTileModelByIndex(i).getModifiers().clear();
+        }
+    }
+
+    @FXML
+    private void handleRandomizeBoard(ActionEvent event) {
+        BoardModel boardModel = model.getBoardModel();
+        Board randomBoard = BoardUtils.randomBoard(true);
+        for (int i = 0; i < Constants.BOARD_TILES; i++) {
+            TileModel tileModel = boardModel.getInputTileModelByIndex(i);
+            Tile tile = randomBoard.getTile(i / 5, i % 5);
+
+            tileModel.setLetter(String.valueOf(tile.getLetter()));
+            tileModel.getModifiers().clear();
+            tileModel.getModifiers().addAll(tile.getModifiers());
+        }
     }
 
     private void bindPathToCanvas(ObservableList<Integer> path) {
@@ -139,11 +181,16 @@ public class BoardController {
                 () -> {
                     String letter = tileModel.isWildcard() ? tileModel.getWildcardLetter() : tileModel.getLetter();
                     if (letter == null || letter.isEmpty() || !TileUtils.validLetter(letter.charAt(0))) return "0";
-                    return String.valueOf(TileUtils.letterToPoints(letter.charAt(0)));
+                    int points = TileUtils.letterToPoints(letter.charAt(0));
+                    Set<TileModifier> modifiers = tileModel.getModifiers();
+                    if (modifiers.contains(TileModifier.DOUBLE_LETTER)) points *= 2;
+                    else if (modifiers.contains(TileModifier.TRIPLE_LETTER)) points *= 3;
+                    return String.valueOf(points);
                 },
                 tileModel.letterProperty(),
                 tileModel.wildcardLetterProperty(),
-                tileModel.wildcardProperty()
+                tileModel.wildcardProperty(),
+                tileModel.getModifiers()
         ));
 
         tileInput.setTextFormatter(new TextFormatter<>(change -> {

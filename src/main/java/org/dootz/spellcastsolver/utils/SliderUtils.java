@@ -4,6 +4,7 @@ import javafx.scene.control.Slider;
 import javafx.scene.paint.Color;
 
 public class SliderUtils {
+    private SliderUtils() {}
     public static void applySliderProgressGradient(Slider slider, String trackColorProperty, Color progressColor, Color unfilledColor) {
         slider.valueProperty().addListener((observable, oldVal, newVal) -> {
             double percentage = 100.0 * (newVal.doubleValue() - slider.getMin()) / (slider.getMax() - slider.getMin());

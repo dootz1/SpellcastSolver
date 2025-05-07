@@ -1,5 +1,6 @@
-package org.dootz.spellcastsolver;
+package org.dootz.spellcastsolver.simulation;
 
+import org.dootz.spellcastsolver.SpellcastSolver;
 import org.dootz.spellcastsolver.game.Game;
 import org.dootz.spellcastsolver.game.Player;
 import org.dootz.spellcastsolver.game.Round;
@@ -8,10 +9,7 @@ import org.dootz.spellcastsolver.game.board.Move;
 import org.dootz.spellcastsolver.solver.Evaluator;
 import org.dootz.spellcastsolver.solver.Solver;
 import org.dootz.spellcastsolver.solver.dictionary.Dictionary;
-import org.dootz.spellcastsolver.solver.multithreading.ProgressReporter;
-import org.dootz.spellcastsolver.solver.multithreading.SolveSingle;
 import org.dootz.spellcastsolver.utils.BoardUtils;
-import org.dootz.spellcastsolver.utils.Constants;
 
 import java.io.FileWriter;
 import java.io.IOException;
@@ -19,19 +17,16 @@ import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
-import java.util.concurrent.TimeUnit;
 
 import static org.dootz.spellcastsolver.utils.BenchmarkUtils.solveBoardConcurrently;
 
 public class GameSimulator {
     private static final int GAMES = 100;
-    private static final String OUTPUT_FILE = "benchmarks/simulation_results.txt";
+    private static final String OUTPUT_FILE = "benchmark/simulation_results.txt";
 
     public static void main(String[] args) {
         Dictionary dictionary = new Dictionary();
-        dictionary.importFromFile(GameSimulator.class.getResourceAsStream("dictionary.txt"));
+        dictionary.importFromFile(SpellcastSolver.class.getResourceAsStream("dictionary.txt"));
 
         List<Game> allGames = new ArrayList<>();
 
@@ -142,7 +137,8 @@ public class GameSimulator {
             Evaluator evaluator = new Evaluator();
             List<Evaluator.EvaluatedMove> evaluatedMoves = evaluator.evaluateMoves(moves, roundNum, player.getGems());
             evaluatedMoves.sort(Comparator.comparingDouble(Evaluator.EvaluatedMove::getEvaluationScore).reversed());
-            Evaluator.EvaluatedMove best = evaluatedMoves.getFirst();
+            Evaluator.EvaluatedMove best = evaluatedMoves.isEmpty() ?
+                    new Evaluator.EvaluatedMove(new Move(), 0) : evaluatedMoves.getFirst();
 
             game.submitMove(best);
         }

@@ -7,18 +7,20 @@ public class SettingsModel {
     private final LongProperty timeStartedSolving;
     private final DoubleProperty progress;
     private final BooleanProperty multithreadingEnabled;
-    private final IntegerProperty maxSwaps;
+    private final IntegerProperty playerGems;
+    private final IntegerProperty gameRound;
     private final BooleanProperty showInvalidBoardWarning;
     public SettingsModel() {
-        this(false, 0, 0, true, 0, false);
+        this(false, 0, 0, true, 3, 1, false);
     }
 
-    public SettingsModel(boolean isSolving, long timeStartedSolving, double progress, boolean multithreadingEnabled, int maxSwaps, boolean showInvalidBoardWarning) {
+    public SettingsModel(boolean isSolving, long timeStartedSolving, double progress, boolean multithreadingEnabled, int playerGems, int gameRound, boolean showInvalidBoardWarning) {
         this.isSolving = new SimpleBooleanProperty(isSolving);
         this.timeStartedSolving = new SimpleLongProperty(timeStartedSolving);
         this.progress = new SimpleDoubleProperty(progress);
         this.multithreadingEnabled = new SimpleBooleanProperty(multithreadingEnabled);
-        this.maxSwaps = new SimpleIntegerProperty(maxSwaps);
+        this.playerGems = new SimpleIntegerProperty(playerGems);
+        this.gameRound = new SimpleIntegerProperty(gameRound);
         this.showInvalidBoardWarning = new SimpleBooleanProperty(showInvalidBoardWarning);
     }
 
@@ -70,16 +72,28 @@ public class SettingsModel {
         this.multithreadingEnabled.set(multithreadingEnabled);
     }
 
-    public int getMaxSwaps() {
-        return maxSwaps.get();
+    public int getPlayerGems() {
+        return playerGems.get();
     }
 
-    public IntegerProperty maxSwapsProperty() {
-        return maxSwaps;
+    public IntegerProperty playerGemsProperty() {
+        return playerGems;
     }
 
-    public void setMaxSwaps(int maxSwaps) {
-        this.maxSwaps.set(maxSwaps);
+    public void setPlayerGems(int playerGems) {
+        this.playerGems.set(playerGems);
+    }
+
+    public int getGameRound() {
+        return gameRound.get();
+    }
+
+    public IntegerProperty gameRoundProperty() {
+        return gameRound;
+    }
+
+    public void setGameRound(int gameRound) {
+        this.gameRound.set(gameRound);
     }
 
     public boolean isShowInvalidBoardWarning() {
@@ -98,9 +112,12 @@ public class SettingsModel {
     public String toString() {
         return "SettingsModel{" +
                 "isSolving=" + isSolving.get() +
+                ", timeStartedSolving=" + timeStartedSolving.get() +
                 ", progress=" + progress.get() +
                 ", multithreadingEnabled=" + multithreadingEnabled.get() +
-                ", maxSwaps=" + maxSwaps.get() +
+                ", playerGems=" + playerGems.get() +
+                ", gameRound=" + gameRound.get() +
+                ", showInvalidBoardWarning=" + showInvalidBoardWarning.get() +
                 '}';
     }
 }

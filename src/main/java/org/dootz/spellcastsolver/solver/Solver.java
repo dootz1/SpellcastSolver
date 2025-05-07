@@ -1,8 +1,8 @@
 package org.dootz.spellcastsolver.solver;
 
-import org.dootz.spellcastsolver.solver.board.Board;
-import org.dootz.spellcastsolver.solver.board.Tile;
-import org.dootz.spellcastsolver.solver.board.Word;
+import org.dootz.spellcastsolver.game.board.Board;
+import org.dootz.spellcastsolver.game.board.Move;
+import org.dootz.spellcastsolver.game.board.Tile;
 import org.dootz.spellcastsolver.solver.dictionary.Dictionary;
 import org.dootz.spellcastsolver.solver.dictionary.DictionaryNode;
 import org.dootz.spellcastsolver.utils.Constants;
@@ -11,7 +11,7 @@ import org.dootz.spellcastsolver.utils.TileModifier;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
-import java.util.concurrent.*;
+import java.util.concurrent.ConcurrentHashMap;
 import java.util.function.IntConsumer;
 
 public class Solver {
@@ -26,8 +26,8 @@ public class Solver {
             { 0, -1}  // left
     };
     private final Dictionary dictionary;
-    private Board board;
-    private final Map<String, Word> result;
+    private final Board board;
+    private final Map<String, Move> result;
     public Solver(Dictionary dictionary, Board board) {
         this.dictionary = dictionary;
         this.board = board;
@@ -42,24 +42,21 @@ public class Solver {
         return board;
     }
 
-    public void setBoard(Board board) {
-        this.board = board;
-    }
-
-    public Map<String, Word> getResult() {
+    public Map<String, Move> getResult() {
         return result;
     }
 
     public void clearResult() {
         result.clear();
     }
-    public List<Word> getResultAsList() {
+    public List<Move> getMovesAsList() {
         return new ArrayList<>(result.values());
     }
 
-    public void solveSingle(int row, int col, int swaps, boolean threadSafe, IntConsumer onProgress) throws InterruptedException {
+    public void findValidMoves(int row, int col, int gems, boolean threadSafe, IntConsumer onProgress) throws InterruptedException {
         Board board = threadSafe ? this.board.copy() : this.board;
         Tile tile = board.getTile(row, col);
+        int swaps = gems / 3;
 
         if (tile.hasModifier(TileModifier.FROZEN)) {
             onProgress.accept(26);
@@ -67,16 +64,16 @@ public class Solver {
         }
 
         boolean[][] visited = new boolean[Constants.BOARD_SIZE][Constants.BOARD_SIZE];
-        Word word = new Word();
+        Move move = new Move();
         DictionaryNode root = dictionary.getRoot();
         char letter = tile.getLetter();
         int progressUnits = 0;
 
         DictionaryNode childNode = root.getChild(letter);
         if (childNode != null) {
-            word.appendTile(tile);
-            solve(board, visited, word, childNode, row, col, swaps);
-            word.popTile();
+            move.appendTile(tile);
+            findValidMoves(board, visited, move, childNode, row, col, swaps);
+            move.popTile();
             onProgress.accept(1);
             progressUnits++;
         }
@@ -90,15 +87,13 @@ public class Solver {
                 DictionaryNode wildcardChild = root.getChild(wildcardLetter);
                 if (wildcardChild != null) {
                     tile.setWildcardLetter(wildcardLetter);
-                    word.appendTile(tile);
-                    solve(board, visited, word, wildcardChild, row, col, swaps - 1);
-                    word.popTile();
+                    move.appendTile(tile);
+                    findValidMoves(board, visited, move, wildcardChild, row, col, swaps - 1);
+                    move.popTile();
                 }
                 onProgress.accept(1);
                 progressUnits++;
-                if (Thread.interrupted()) {
-                    throw new InterruptedException();
-                } // when cancelled
+                if (Thread.interrupted()) throw new InterruptedException(); // when cancelled
             }
             tile.setWildcard(false);
             tile.setWildcardLetter(letter);
@@ -107,50 +102,10 @@ public class Solver {
         onProgress.accept(26 - progressUnits); // Fake remaining progress
     }
 
-//    public void solve(int swaps, boolean multithreading) {
-//        if (multithreading) {
-//            solveMultithreaded(swaps);
-//        } else {
-//            solveSequential(swaps);
-//        }
-//    }
-
-//    private void solveMultithreaded(int swaps) {
-//        ExecutorService executor = Executors.newFixedThreadPool(Runtime.getRuntime().availableProcessors());
-//        List<Future<?>> futures = new ArrayList<>();
-//
-//        for (int i = 0; i < 5; i++) {
-//            for (int j = 0; j < 5; j++) {
-//                final int row = i;
-//                final int col = j;
-//                futures.add(executor.submit(() -> solveSingle(row, col, swaps, true)));
-//            }
-//        }
-//
-//        // Wait for all tasks to complete
-//        for (Future<?> future : futures) {
-//            try {
-//                future.get(); // waits for task completion
-//            } catch (InterruptedException | ExecutionException e) {
-//                e.printStackTrace();
-//            }
-//        }
-//
-//        executor.shutdown();
-//    }
-//
-//    private void solveSequential(int swaps) {
-//        for (int i = 0; i < Board.BOARD_SIZE; i++) {
-//            for (int j = 0; j < Board.BOARD_SIZE; j++) {
-//                solveSingle(i, j, swaps, false);
-//            }
-//        }
-//    }
-
-    private void solve(Board board, boolean[][] visited, Word word, DictionaryNode node, int row, int col, int swaps) {
+    private void findValidMoves(Board board, boolean[][] visited, Move move, DictionaryNode node, int row, int col, int swaps) {
         if (node.isWord()) {
-            result.compute(word.toString(), (key, oldWord) ->
-                (oldWord == null || word.compareTo(oldWord) > 0) ? word.copy() : oldWord
+            result.compute(move.toString(), (key, oldWord) ->
+                (oldWord == null || move.compareTo(oldWord) > 0) ? move.copy() : oldWord
             );
         }
 
@@ -175,9 +130,9 @@ public class Solver {
             // Normal move
             DictionaryNode childNode = node.getChild(letter);
             if (childNode != null) {
-                word.appendTile(tile);
-                solve(board, visited, word, childNode, newRow, newCol, swaps);
-                word.popTile();
+                move.appendTile(tile);
+                findValidMoves(board, visited, move, childNode, newRow, newCol, swaps);
+                move.popTile();
             }
 
             // Swap move
@@ -189,9 +144,9 @@ public class Solver {
                     DictionaryNode wildcardChild = node.getChild(wildcardLetter);
                     if (wildcardChild != null) {
                         tile.setWildcardLetter(wildcardLetter);
-                        word.appendTile(tile);
-                        solve(board, visited, word, wildcardChild, newRow, newCol, swaps - 1);
-                        word.popTile();
+                        move.appendTile(tile);
+                        findValidMoves(board, visited, move, wildcardChild, newRow, newCol, swaps - 1);
+                        move.popTile();
                     }
                 }
                 tile.setWildcard(false);

@@ -1,7 +1,7 @@
 package org.dootz.spellcastsolver.utils;
 
-import org.dootz.spellcastsolver.solver.board.Board;
-import org.dootz.spellcastsolver.solver.board.Tile;
+import org.dootz.spellcastsolver.game.board.Board;
+import org.dootz.spellcastsolver.game.board.Tile;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -10,6 +10,8 @@ import java.util.Random;
 
 public class BoardUtils {
     private static final Random random = new Random();
+
+    private BoardUtils() {}
     public static Board randomBoard(boolean tripleTile) {
         Board board = new Board();
         for (int i = 0; i < Constants.BOARD_SIZE; i++) {
@@ -19,19 +21,27 @@ public class BoardUtils {
             }
         }
 
-        int randomIndex = randomIndex(0, Constants.BOARD_TILES);
-        board.getTile(indexToRow(randomIndex), indexToColumn(randomIndex)).addModifier(
-                tripleTile ? TileModifier.TRIPLE_LETTER : TileModifier.DOUBLE_LETTER);
-        randomIndex = randomIndex(0, Constants.BOARD_TILES);
-        board.getTile(indexToRow(randomIndex), indexToColumn(randomIndex)).addModifier(TileModifier.DOUBLE_WORD);
-        List<Integer> randomIndexes = randomIndexes(Constants.GEM_TILES, 0, Constants.BOARD_TILES);
-        for (int index: randomIndexes) {
+        int letterModIndex = randomIndex(0, Constants.BOARD_TILES);
+        TileModifier letterMod = tripleTile && randomBoolean()
+                ? TileModifier.TRIPLE_LETTER
+                : TileModifier.DOUBLE_LETTER;
+        board.getTile(indexToRow(letterModIndex), indexToColumn(letterModIndex)).addModifier(letterMod);
+
+        // Add word multiplier modifier
+        int wordModIndex = randomIndex(0, Constants.BOARD_TILES);
+        board.getTile(indexToRow(wordModIndex), indexToColumn(wordModIndex)).addModifier(TileModifier.DOUBLE_WORD);
+
+        // Add gem modifiers
+        for (int index : randomIndexes(Constants.GEM_TILES, 0, Constants.BOARD_TILES)) {
             board.getTile(indexToRow(index), indexToColumn(index)).addModifier(TileModifier.GEM);
         }
 
         return board;
     }
 
+    public static boolean randomBoolean() {
+        return random.nextBoolean();
+    }
     public static int indexToRow(int index) {
         return index / Constants.BOARD_SIZE;
     }
@@ -40,7 +50,7 @@ public class BoardUtils {
         return index % Constants.BOARD_SIZE;
     }
 
-    private static int randomIndex(int start, int end) {
+    public static int randomIndex(int start, int end) {
         return start + random.nextInt(end);
     }
 

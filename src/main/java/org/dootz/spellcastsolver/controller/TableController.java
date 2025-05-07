@@ -1,6 +1,7 @@
 package org.dootz.spellcastsolver.controller;
 
 import javafx.beans.binding.Bindings;
+import javafx.beans.property.ReadOnlyDoubleWrapper;
 import javafx.beans.property.ReadOnlyIntegerWrapper;
 import javafx.beans.property.ReadOnlyStringWrapper;
 import javafx.collections.ObservableList;
@@ -9,11 +10,12 @@ import javafx.collections.transformation.SortedList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.*;
+import org.controlsfx.control.textfield.CustomTextField;
 import org.dootz.spellcastsolver.model.BoardModel;
 import org.dootz.spellcastsolver.model.DataModel;
 import org.dootz.spellcastsolver.model.TableModel;
-import org.dootz.spellcastsolver.solver.board.Tile;
-import org.dootz.spellcastsolver.solver.board.Word;
+import org.dootz.spellcastsolver.game.board.Tile;
+import org.dootz.spellcastsolver.solver.Evaluator;
 import org.dootz.spellcastsolver.utils.Constants;
 
 public class TableController {
@@ -21,30 +23,48 @@ public class TableController {
     @FXML
     private Label resultsSummary;
     @FXML
-    private TextField wordQuery;
+    private CustomTextField wordQuery;
     @FXML
-    private TableView<Word> resultsTable;
+    private TableView<Evaluator.EvaluatedMove> resultsTable;
     @FXML
-    private TableColumn<Word, String> wordsColumn;
+    private TableColumn<Evaluator.EvaluatedMove, String> wordsColumn;
     @FXML
-    private TableColumn<Word, Number> pointsColumn;
+    private TableColumn<Evaluator.EvaluatedMove, Number> pointsColumn;
     @FXML
-    private TableColumn<Word, Number> gemsColumn;
+    private TableColumn<Evaluator.EvaluatedMove, Number> gemsColumn;
     @FXML
-    private TableColumn<Word, Number> swapsColumn;
+    private TableColumn<Evaluator.EvaluatedMove, Number> swapsColumn;
+    @FXML
+    private TableColumn<Evaluator.EvaluatedMove, Number> evaluationColumn;
     @FXML
     private Button clearSelection;
 
     public void initialize() {
         wordsColumn.setCellValueFactory(cellData -> new ReadOnlyStringWrapper(cellData.getValue().toString()));
-        gemsColumn.setCellValueFactory(cellData -> new ReadOnlyIntegerWrapper(cellData.getValue().getTotalGems()));
-        pointsColumn.setCellValueFactory(cellData -> new ReadOnlyIntegerWrapper(cellData.getValue().getTotalPoints()));
-        swapsColumn.setCellValueFactory(cellData -> new ReadOnlyIntegerWrapper(cellData.getValue().getTotalSwaps()));
+        gemsColumn.setCellValueFactory(cellData -> new ReadOnlyIntegerWrapper(cellData.getValue().getMove().getTotalGems()));
+        pointsColumn.setCellValueFactory(cellData -> new ReadOnlyIntegerWrapper(cellData.getValue().getMove().getTotalPoints()));
+        swapsColumn.setCellValueFactory(cellData -> new ReadOnlyIntegerWrapper(cellData.getValue().getMove().getTotalSwaps()));
+        evaluationColumn.setCellValueFactory(cellData -> new ReadOnlyDoubleWrapper(cellData.getValue().getEvaluationScore()));
+        evaluationColumn.setCellFactory(column -> new TableCell<>() {
+            @Override
+            protected void updateItem(Number item, boolean empty) {
+                super.updateItem(item, empty);
+                if (empty || item == null) {
+                    setText(null);
+                } else {
+                    setText(String.format("%.2f", item.doubleValue()));
+                }
+            }
+        });
 
         wordQuery.setTextFormatter(new TextFormatter<>(change -> {
             change.setText(change.getText().toUpperCase());
             return change;
         }));
+
+        evaluationColumn.setSortType(TableColumn.SortType.DESCENDING);
+        resultsTable.getSortOrder().add(evaluationColumn);
+        resultsTable.sort(); // sort by evaluation by default
     }
 
     public void initModel(DataModel model) {
@@ -65,18 +85,18 @@ public class TableController {
         // React to selected word changes
         tableModel.selectedWordProperty().addListener((obs, oldWord, newWord) -> updateBoardSelection(boardModel, newWord));
 
-        // Setup filtered and sorted view
-        ObservableList<Word> allWords = tableModel.getWords();
-        FilteredList<Word> filteredWords = new FilteredList<>(allWords, w -> true);
+        // Setup search bar
+        ObservableList<Evaluator.EvaluatedMove> allMoves = tableModel.getWords();
+        FilteredList<Evaluator.EvaluatedMove> filteredMoves = new FilteredList<>(allMoves, w -> true);
 
         tableModel.queryProperty().addListener((obs, old, filter) -> {
             String query = filter.toUpperCase();
-            filteredWords.setPredicate(w -> query.isEmpty() || w.toString().toUpperCase().contains(query));
+            filteredMoves.setPredicate(m -> query.isEmpty() || m.toString().toUpperCase().contains(query));
         });
 
-        SortedList<Word> sortedWords = new SortedList<>(filteredWords);
-        sortedWords.comparatorProperty().bind(resultsTable.comparatorProperty());
-        resultsTable.setItems(sortedWords);
+        SortedList<Evaluator.EvaluatedMove> sortedMoves = new SortedList<>(filteredMoves);
+        sortedMoves.comparatorProperty().bind(resultsTable.comparatorProperty());
+        resultsTable.setItems(sortedMoves);
 
         resultsSummary.textProperty().bind(Bindings.createStringBinding(() -> {
             int count = tableModel.getResultWordCount();
@@ -88,31 +108,42 @@ public class TableController {
         }, tableModel.resultWordCountProperty(), tableModel.resultTimeMsProperty()));
     }
 
-    private void updateBoardSelection(BoardModel board, Word newWord) {
+    private void updateBoardSelection(BoardModel board, Evaluator.EvaluatedMove newMove) {
         board.clearPath();
-        board.clearSolvedSelected();
-        board.clearSolvedWildcard();
+        clearPreviousSolveData(board);
 
-        if (newWord == null) {
+        if (newMove == null) {
             resultsTable.getSelectionModel().clearSelection();
             board.setSolvedVisible(false);
-            board.setSelectedWord("");
-            board.setSelectedWordPoints(0);
+            board.setCurrentWord("");
+            board.setCurrentWordScore(0);
+            board.setIsLongWordBonusApplied(false);
+            board.setCurrentWordGemsEarned(0);
             return;
         }
 
-        resultsTable.getSelectionModel().select(newWord);
+        resultsTable.getSelectionModel().select(newMove);
         board.setSolvedVisible(true);
-        board.setSelectedWord(newWord.toString());
-        board.setSelectedWordPoints(newWord.getTotalPoints());
+        board.setCurrentWord(newMove.toString());
+        board.setCurrentWordScore(newMove.getMove().getTotalPoints());
+        board.setIsLongWordBonusApplied(newMove.getMove().isLongWord());
+        board.setCurrentWordGemsEarned(newMove.getMove().getTotalGems());
 
-        for (Tile tile : newWord.getTiles()) {
+        for (Tile tile : newMove.getMove().getTiles()) {
             int index = tile.getRow() * Constants.BOARD_SIZE + tile.getColumn();
             board.addPathNode(index);
             var tileModel = board.getSolvedTileModelByIndex(index);
             tileModel.setSelected(true);
             tileModel.setWildcard(tile.isWildcard());
             tileModel.setWildcardLetter(tile.isWildcard() ? String.valueOf(tile.getWildcardLetter()) : "\0");
+        }
+    }
+
+    private void clearPreviousSolveData(BoardModel board) {
+        for (int i = 0; i < Constants.BOARD_TILES; i++) {
+            board.getSolvedTileModelByIndex(i).setSelected(false);
+            board.getSolvedTileModelByIndex(i).setWildcard(false);
+            board.getSolvedTileModelByIndex(i).setWildcardLetter("\0");
         }
     }
 
