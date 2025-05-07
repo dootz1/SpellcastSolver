@@ -1,7 +1,5 @@
 package org.dootz.spellcastsolver;
 
-import javafx.animation.KeyFrame;
-import javafx.animation.Timeline;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
@@ -13,17 +11,13 @@ import javafx.scene.shape.Line;
 import javafx.stage.Popup;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
-import javafx.util.Duration;
 import javafx.util.Pair;
 import org.dootz.spellcastsolver.controller.BoardController;
 import org.dootz.spellcastsolver.controller.ContextMenuController;
 import org.dootz.spellcastsolver.controller.SettingsController;
 import org.dootz.spellcastsolver.controller.TableController;
 import org.dootz.spellcastsolver.model.*;
-import org.dootz.spellcastsolver.game.Game;
-import org.dootz.spellcastsolver.solver.Solver;
 import org.dootz.spellcastsolver.solver.dictionary.Dictionary;
-import org.dootz.spellcastsolver.solver.dictionary.DictionaryNode;
 
 import java.io.IOException;
 

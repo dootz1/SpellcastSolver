@@ -1,6 +1,5 @@
 package org.dootz.spellcastsolver.game;
 
-import org.dootz.spellcastsolver.game.board.Move;
 import org.dootz.spellcastsolver.solver.Evaluator;
 
 import java.util.ArrayList;

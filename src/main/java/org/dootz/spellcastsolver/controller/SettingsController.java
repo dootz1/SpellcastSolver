@@ -1,8 +1,6 @@
 package org.dootz.spellcastsolver.controller;
 
-import javafx.animation.KeyFrame;
 import javafx.animation.PauseTransition;
-import javafx.animation.Timeline;
 import javafx.beans.binding.Bindings;
 import javafx.beans.property.ObjectProperty;
 import javafx.event.ActionEvent;

@@ -9,58 +9,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="607948f6-3af1-4ecc-85b1-1e4263d2b890" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/SpellcastSolver_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/screenshot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/benchmark/results_MT_0swaps.txt" beforeDir="false" afterPath="$PROJECT_DIR$/benchmark/results_MT_0swaps.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/benchmark/results_MT_1swaps.txt" beforeDir="false" afterPath="$PROJECT_DIR$/benchmark/results_MT_1swaps.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/benchmark/results_MT_2swaps.txt" beforeDir="false" afterPath="$PROJECT_DIR$/benchmark/results_MT_2swaps.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/benchmark/results_MT_3swaps.txt" beforeDir="false" afterPath="$PROJECT_DIR$/benchmark/results_MT_3swaps.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/benchmark/results_ST_0swaps.txt" beforeDir="false" afterPath="$PROJECT_DIR$/benchmark/results_ST_0swaps.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/benchmark/simulation_results.txt" beforeDir="false" afterPath="$PROJECT_DIR$/benchmark/simulation_results.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/dootz/spellcastsolver/Launcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dootz/spellcastsolver/Launcher.java" afterDir="false" />
+    <list default="true" id="607948f6-3af1-4ecc-85b1-1e4263d2b890" name="Changes" comment="Add README.md">
       <change beforePath="$PROJECT_DIR$/src/main/java/org/dootz/spellcastsolver/SpellcastSolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dootz/spellcastsolver/SpellcastSolver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/dootz/spellcastsolver/controller/BoardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dootz/spellcastsolver/controller/BoardController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/dootz/spellcastsolver/controller/SettingsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dootz/spellcastsolver/controller/SettingsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/dootz/spellcastsolver/controller/TableController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dootz/spellcastsolver/controller/TableController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/dootz/spellcastsolver/game/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dootz/spellcastsolver/game/Game.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/dootz/spellcastsolver/game/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dootz/spellcastsolver/game/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/dootz/spellcastsolver/game/Round.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dootz/spellcastsolver/game/Round.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/dootz/spellcastsolver/game/board/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dootz/spellcastsolver/game/board/Board.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/dootz/spellcastsolver/game/board/Move.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dootz/spellcastsolver/game/board/Move.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/dootz/spellcastsolver/game/board/Tile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dootz/spellcastsolver/game/board/Tile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/dootz/spellcastsolver/model/BoardModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dootz/spellcastsolver/model/BoardModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/dootz/spellcastsolver/model/SettingsModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dootz/spellcastsolver/model/SettingsModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/dootz/spellcastsolver/model/TableModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dootz/spellcastsolver/model/TableModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/dootz/spellcastsolver/model/TileModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dootz/spellcastsolver/model/TileModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/dootz/spellcastsolver/simulation/BoardSimulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dootz/spellcastsolver/simulation/BoardSimulator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/dootz/spellcastsolver/simulation/GameSimulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dootz/spellcastsolver/simulation/GameSimulator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/dootz/spellcastsolver/solver/Evaluator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dootz/spellcastsolver/solver/Evaluator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/dootz/spellcastsolver/solver/Solver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dootz/spellcastsolver/solver/Solver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/dootz/spellcastsolver/solver/multithreading/ProgressReporter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dootz/spellcastsolver/solver/multithreading/ProgressReporter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/dootz/spellcastsolver/solver/multithreading/SolveSingle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dootz/spellcastsolver/solver/multithreading/SolveSingle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/dootz/spellcastsolver/solver/multithreading/SolverTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dootz/spellcastsolver/solver/multithreading/SolverTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/dootz/spellcastsolver/utils/BenchmarkUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dootz/spellcastsolver/utils/BenchmarkUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/dootz/spellcastsolver/utils/BoardUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dootz/spellcastsolver/utils/BoardUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/dootz/spellcastsolver/utils/SliderUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dootz/spellcastsolver/utils/SliderUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/dootz/spellcastsolver/utils/TileUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dootz/spellcastsolver/utils/TileUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/org/dootz/spellcastsolver/css/board.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/dootz/spellcastsolver/css/board.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/org/dootz/spellcastsolver/css/settings.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/dootz/spellcastsolver/css/settings.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/org/dootz/spellcastsolver/css/table.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/dootz/spellcastsolver/css/table.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/org/dootz/spellcastsolver/fxml/board.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/dootz/spellcastsolver/fxml/board.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/org/dootz/spellcastsolver/fxml/settings.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/dootz/spellcastsolver/fxml/settings.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/org/dootz/spellcastsolver/fxml/slider.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/dootz/spellcastsolver/fxml/slider.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/org/dootz/spellcastsolver/fxml/table.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/dootz/spellcastsolver/fxml/table.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/org/dootz/spellcastsolver/fxml/top-bar.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/dootz/spellcastsolver/fxml/top-bar.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/org/dootz/spellcastsolver/images/images.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/org/dootz/spellcastsolver/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/dootz/spellcastsolver/images/logo.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -206,8 +159,17 @@
       <workItem from="1746238501840" duration="322000" />
       <workItem from="1746238894372" duration="34740000" />
       <workItem from="1746394447938" duration="35286000" />
-      <workItem from="1746651479339" duration="7087000" />
+      <workItem from="1746651479339" duration="7307000" />
     </task>
+    <task id="LOCAL-00001" summary="Add README.md">
+      <option name="closed" value="true" />
+      <created>1746660276658</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1746660276658</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,5 +177,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Add README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add README.md" />
   </component>
 </project>

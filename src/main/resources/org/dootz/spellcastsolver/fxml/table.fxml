@@ -7,7 +7,6 @@
 <?import javafx.scene.control.TableView?>
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.layout.VBox?>
-<?import org.controlsfx.control.textfield.CustomTextField?>
 <?import org.controlsfx.control.textfield.TextFields?>
 
 
