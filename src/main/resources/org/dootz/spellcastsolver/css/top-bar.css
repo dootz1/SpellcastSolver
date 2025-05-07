@@ -1,0 +1,16 @@
+.close-app {
+    -fx-fill: rgb(242, 92, 86);
+}
+
+.minimize-app {
+    -fx-fill: rgb(253, 188, 52);
+}
+
+.close-app:hover,
+.minimize-app:hover{
+    -fx-cursor: hand;
+}
+
+.title-label {
+    -fx-font-size: 24px;
+}

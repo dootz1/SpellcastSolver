@@ -1,0 +1,79 @@
+.menu-container {
+    -fx-background-color: rgb(26, 26, 26);
+    -fx-border-width: 0;
+    -fx-spacing: 18px;
+    -fx-padding: 16px;
+    -fx-background-radius: 4px;
+}
+
+.menu-title {
+    -fx-font-weight: 800;
+}
+
+.label {
+    -fx-text-fill: rgb(200, 200, 200);
+}
+
+.toggle-switch .thumb-area {
+    -fx-pref-height: 18px;
+    -fx-pref-width: 32px;
+    -fx-background-color: rgb(54, 54, 54);
+}
+
+.toggle-switch .thumb {
+    -fx-background-color: rgb(26, 26, 26);
+    -fx-pref-height: 16px;
+    -fx-pref-width: 16px;
+    -fx-background-insets: 2px;
+}
+
+.toggle-switch:selected .thumb-area {
+    -fx-background-color: rgb(155, 7, 255);
+}
+
+.toggle-switch:hover {
+    -fx-cursor: hand;
+}
+
+.slider .track:hover,
+.slider .thumb-area:hover,
+.slider .thumb:hover{
+    -fx-cursor: hand;
+}
+
+.slider {
+    -letter-multiplier-track-color: rgb(40, 40, 40);
+    -word-multiplier-track-color: rgb(40, 40, 40);
+}
+
+.letter-multiplier-slider .track {
+    -fx-background-color: -letter-multiplier-track-color;
+}
+
+.word-multiplier-slider .track {
+    -fx-background-color: -word-multiplier-track-color;
+}
+
+.slider .track {
+    -fx-background-insets: 2px 0;
+}
+
+.slider .thumb {
+    -fx-background-color: rgb(155, 7, 255);
+    -fx-pref-height: 20px;
+    -fx-pref-width: 20px;
+    -fx-border-color: rgb(26, 26, 26);
+    -fx-border-width: 4px;
+    -fx-border-radius: 50%;
+    -fx-background-insets: 2px;
+}
+
+.slider .axis {
+    -fx-tick-label-fill: rgb(200, 200, 200);
+    -fx-tick-label-font-size: 8px;
+    -fx-tick-length: 3;
+}
+
+.slider .axis .axis-tick-mark {
+    -fx-stroke: rgb(200, 200, 200);
+}

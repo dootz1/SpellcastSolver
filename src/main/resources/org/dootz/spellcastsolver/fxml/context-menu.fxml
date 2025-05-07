@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import org.controlsfx.control.ToggleSwitch?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="240.0" prefWidth="180.0" styleClass="menu-container" stylesheets="@../css/context-menu.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.dootz.spellcastsolver.controller.ContextMenuController">
+   <children>
+      <HBox prefHeight="20.0" prefWidth="148.0" spacing="4.0">
+         <children>
+            <ImageView fitHeight="18.0" fitWidth="18.0">
+               <image>
+                  <Image url="@../images/cube.png" />
+               </image>
+               <effect>
+                  <ColorAdjust brightness="0.64" />
+               </effect>
+            </ImageView>
+            <Label fx:id="tileIndex" styleClass="menu-title" text="Tile (0, 0)" />
+         </children>
+      </HBox>
+      <VBox prefHeight="200.0" prefWidth="100.0">
+         <children>
+            <VBox prefHeight="52.0" prefWidth="149.0" spacing="4.0">
+               <children>
+                  <BorderPane prefHeight="200.0" prefWidth="99.0">
+                     <left>
+                        <Label text="Letter Multiplier" BorderPane.alignment="CENTER" />
+                     </left>
+                     <right>
+                        <Label fx:id="letterMultiplierLabel" text="1x" BorderPane.alignment="CENTER" />
+                     </right>
+                  </BorderPane>
+                  <Slider fx:id="letterMultiplierSlider" blockIncrement="1.0" majorTickUnit="1.0" max="3.0" min="1.0" minorTickCount="0" showTickLabels="true" showTickMarks="true" snapToTicks="true" styleClass="letter-multiplier-slider" value="1.0" />
+               </children>
+            </VBox>
+            <VBox prefHeight="52.0" prefWidth="149.0" spacing="4.0">
+               <children>
+                  <BorderPane prefHeight="200.0" prefWidth="99.0">
+                     <left>
+                        <Label text="Word Multiplier" BorderPane.alignment="CENTER" />
+                     </left>
+                     <right>
+                        <Label fx:id="wordMultiplierLabel" text="1x" BorderPane.alignment="CENTER" />
+                     </right>
+                  </BorderPane>
+                  <Slider fx:id="wordMultiplierSlider" blockIncrement="1.0" majorTickUnit="1.0" max="3.0" min="1.0" minorTickCount="0" showTickLabels="true" showTickMarks="true" snapToTicks="true" styleClass="word-multiplier-slider" value="1.0" />
+               </children>
+            </VBox>
+            <BorderPane prefHeight="33.0" prefWidth="149.0">
+               <right>
+                  <ToggleSwitch fx:id="gemToggle" BorderPane.alignment="CENTER" />
+               </right>
+               <left>
+                  <Label text="Gem" BorderPane.alignment="CENTER" />
+               </left>
+            </BorderPane>
+            <BorderPane prefHeight="30.0" prefWidth="149.0">
+               <right>
+                  <ToggleSwitch fx:id="frozenToggle" BorderPane.alignment="CENTER" />
+               </right>
+               <left>
+                  <Label text="Frozen" BorderPane.alignment="CENTER" />
+               </left>
+            </BorderPane>
+         </children>
+      </VBox>
+   </children>
+   <effect>
+      <DropShadow blurType="GAUSSIAN" height="30.0" radius="14.5" width="30.0" />
+   </effect>
+</VBox>

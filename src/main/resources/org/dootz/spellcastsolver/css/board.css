@@ -1,0 +1,120 @@
+.selected-word-container {
+    -fx-background-color: rgb(26, 23, 42);
+    -fx-border-color: linear-gradient(to right, rgb(0, 107, 255), rgb(198, 0, 245));
+    -fx-border-width: 4px;
+    -fx-background-radius: 8px;
+    -fx-border-radius: 6px;
+
+}
+
+.selected-word-text {
+    -fx-font-size: 32px;
+    -fx-alignment: center;
+}
+
+.right-side {
+    -fx-background-color: rgb(26, 23, 42);
+    -fx-background-radius: 8px;
+}
+
+.board-grid {
+    -fx-vgap: 8px;
+    -fx-hgap: 8px;
+}
+
+.board-grid Line {
+    -fx-stroke: red;
+}
+
+.board-grid .tile-container {
+    -fx-pref-width: 96px;
+    -fx-pref-height: 96px;
+    -fx-max-width: 96px;
+    -fx-max-height: 96px;
+}
+
+.board-grid .tile-input {
+    -fx-background-color: white;
+    -fx-max-height: 80px;
+    -fx-max-width: 80px;
+    -fx-pref-height: 80px;
+    -fx-pref-width: 80px;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 10px;
+    -fx-border-width: 6px;
+    -fx-border-color: linear-gradient(rgb(255, 242, 227), rgb(253, 221, 200));
+    -fx-font-weight: 900;
+    -fx-font-size: 36px;
+    -fx-alignment: center;
+    -fx-padding: -4px;
+}
+
+.tile-modifier-container {
+    -fx-min-width: 36px;
+    -fx-min-height: 36px;
+}
+
+.tile-modifier-container .label {
+    -fx-font-size: 16px;
+}
+
+.tile-modifier {
+    -fx-fill: rgb(0, 12, 28);
+    -fx-stroke: white;
+    -fx-stroke-width: 2px;
+}
+
+.tile-modifier.double-letter-modifier{
+    -fx-stroke: rgb(252, 244, 163);
+}
+
+.tile-modifier.triple-letter-modifier{
+    -fx-stroke: rgb(214, 112, 64);
+}
+
+.tile-modifier.double-word-modifier{
+    -fx-stroke: rgb(236, 115, 236);
+}
+
+.tile-modifier.triple-word-modifier{
+    -fx-stroke: rgb(115, 233, 64);
+}
+
+.gem {
+    -fx-fill: linear-gradient(to bottom right, rgb(235, 121, 252), rgb(244, 197, 255));
+}
+
+.frozen {
+    -fx-stroke-width: 0;
+    -fx-arc-height: 16px;
+    -fx-arc-width: 16px;
+    -fx-fill: linear-gradient(to bottom right, rgba(205, 205, 205, 1), rgba(205, 205, 205, 0.3));
+}
+
+.tile-selected {
+    -fx-scale-x: 0.9;
+    -fx-scale-y: 0.9;
+}
+
+.tile-selected .tile-input {
+    -fx-background-color: linear-gradient(to right bottom, rgb(49, 181, 222) , rgb(143, 195, 211));
+    -fx-border-color: linear-gradient(to right bottom, rgb(1, 78, 163), rgb(45, 99, 159));
+    -fx-text-fill: white;
+}
+
+.tile-selected > .label {
+    -fx-text-fill: white;
+}
+
+.tile-wildcard > .label,
+.tile-wildcard .tile-input {
+    -fx-text-fill: #a10000;
+}
+
+.canvas {
+    -fx-background-color: rgb(26, 23, 42);
+}
+
+.board-grid *:disabled {
+    -fx-opacity: 1.0;
+}

@@ -1,0 +1,102 @@
+.settings-container {
+    -fx-alignment: center;
+    -fx-background-color: rgb(26, 23, 42);
+    -fx-background-radius: 8px;
+}
+
+.primary-text-accent {
+    -fx-text-fill: white;
+    -fx-font-weight: 800;
+}
+
+.solve-button {
+    -fx-background-color: #141124;
+    -fx-border-color: linear-gradient(to right, rgb(0, 107, 255), rgb(198, 0, 245));
+    -fx-font-size: 18px;
+    -fx-font-weight: 800;
+}
+
+.solve-button:hover {
+    -fx-background-color: linear-gradient(to right, rgb(0, 107, 255), rgb(198, 0, 245));
+    -fx-cursor: hand;
+}
+
+.progress-bar {
+    -fx-pref-height: 4px;
+}
+
+.progress-bar > .bar {
+    -fx-padding: 1px;
+    -fx-background-insets: 0;
+    -fx-background-radius: 0;
+    -fx-background-color: linear-gradient(to right, rgb(0, 107, 255), rgb(198, 0, 245));
+}
+
+.progress-bar > .track {
+    -fx-border-radius: 0;
+    -fx-background-radius: 0;
+    -fx-text-box-border: transparent;
+    -fx-control-inner-background: transparent;
+    -fx-background-color: rgba(255, 255, 255, 0.1);
+}
+
+.multithreading-container {
+    -fx-pref-width: 84px;
+    -fx-spacing: 8px;
+}
+
+.toggle-switch .thumb-area {
+    -fx-pref-height: 24px;
+    -fx-pref-width: 48px;
+    -fx-background-color: rgb(84, 84, 84);
+}
+
+.toggle-switch .thumb {
+    -fx-background-color: rgb(26, 23, 42);
+    -fx-pref-height: 24px;
+    -fx-pref-width: 24px;
+    -fx-background-insets: 4px;
+}
+
+.toggle-switch:selected .thumb-area {
+    -fx-background-color: rgb(155, 7, 255);
+}
+
+.toggle-switch:hover {
+    -fx-cursor: hand;
+}
+
+.slider .track:hover,
+.slider .thumb-area:hover,
+.slider .thumb:hover{
+    -fx-cursor: hand;
+}
+
+.slider {
+    -swaps-track-color: rgb(80, 80, 80);
+}
+
+.slider .track {
+    -fx-background-color: -swaps-track-color;
+    -fx-background-insets: 1px 0;
+}
+
+.slider .thumb {
+    -fx-background-color: rgb(155, 7, 255);
+    -fx-pref-height: 24px;
+    -fx-pref-width: 24px;
+    -fx-border-color: rgb(26, 23, 42);
+    -fx-border-width: 4px;
+    -fx-border-radius: 50%;
+    -fx-background-insets: 2px;
+}
+
+.slider .axis {
+    -fx-tick-label-fill: white;
+    -fx-tick-label-font-size: 12px;
+    -fx-tick-length: 4;
+}
+
+.slider .axis .axis-tick-mark {
+    -fx-stroke: rgb(200, 200, 200);
+}

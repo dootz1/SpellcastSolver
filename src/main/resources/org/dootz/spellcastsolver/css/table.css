@@ -1,0 +1,65 @@
+.table-search-container .text-field {
+    -fx-background-color: rgb(27, 23, 43);
+    -fx-background-radius: 0;
+    -fx-border-width: 0 0 1 0;
+    -fx-border-color: linear-gradient(to right,rgb(155, 7, 255), rgb(198, 0, 245));
+    -fx-font-size: 14px;
+    -fx-text-fill: rgb(200, 200, 200);
+}
+
+.results-table {
+    -fx-background-color: linear-gradient(rgb(27, 23, 43) 0%, rgb(35, 33, 47) 100% )
+}
+
+.table-view .column-header-background {
+    -fx-background-color: transparent;
+    -fx-border-width: 1px;
+    -fx-border-color: transparent transparent linear-gradient(to right,rgb(155, 7, 255), rgb(198, 0, 245)) transparent;
+}
+
+.table-view .column-header-background .label {
+    -fx-text-fill: white;
+    -fx-alignment: CENTER_LEFT;
+}
+
+.table-view .column-header {
+    -fx-background-color: transparent;
+    -fx-padding: 8px;
+}
+
+.table-view .table-cell {
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-border-width: 0;
+    -fx-alignment: center-left;
+    -fx-padding: 0 8px;
+}
+
+.table-view .table-row-cell {
+    -fx-background-color: transparent;
+    -fx-cell-size: 36px;
+}
+
+.table-view .table-row-cell:hover {
+    -fx-cursor: hand;
+    -fx-background-color: linear-gradient(to right, rgba(155, 7, 255, 0.5), rgba(198, 0, 245, 0.5));
+}
+
+.table-view .table-row-cell:selected {
+    -fx-background-color:  linear-gradient(to right,rgb(155, 7, 255), rgb(198, 0, 245));
+}
+
+.clear-selection-button {
+    -fx-background-color: rgb(27, 23, 43);
+    -fx-border-color: rgb(120, 0, 200);
+    -fx-text-fill: rgb(200, 200, 200);
+    -fx-border-width: 2px;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 12px;
+    -fx-background-insets: 0 0 0 0;
+}
+
+.clear-selection-button:hover {
+    -fx-background-color: rgb(155, 7, 255);
+    -fx-cursor: hand;
+}

@@ -1,0 +1,36 @@
+#root {
+    -fx-background-color:  rgb(3, 2, 7);
+    -fx-background-radius: 16px;
+}
+
+.primary-text {
+    -fx-text-fill: white;
+}
+
+.primary-text-accent {
+    -fx-text-fill: white;
+    -fx-font-weight: 800;
+}
+
+.error-text {
+    -fx-text-fill: #ff5c5c;
+}
+
+.main {
+    -fx-background-color: rgb(19, 16, 34);
+    -fx-border-radius: 16px;
+    -fx-background-radius: 16px;
+    -fx-pref-width: 1308px;
+    -fx-pref-height: 720px;
+}
+
+.divider {
+    -fx-stroke-width: 4px;
+    -fx-stroke: grey;
+}
+
+
+
+
+
+
