@@ -3,7 +3,7 @@ name: Build and Release Installers
 on:
   push:
     tags:
-      - 'v*.*.*'  # Only run on version tags like v1.0.0
+      - 'v*.*.*'
 
 jobs:
   build:
@@ -13,13 +13,13 @@ jobs:
         include:
           - os: windows-latest
             jpackage-goal: jpackage:jpackage@win
-            artifact: target/dist/SpellcastSolver.exe
+            artifact: target/dist/SpellcastSolver-${{ github.ref_name }}.exe
           - os: macos-latest
             jpackage-goal: jpackage:jpackage@mac
-            artifact: target/dist/SpellcastSolver.dmg
+            artifact: target/dist/SpellcastSolver-${{ github.ref_name }}.dmg
           - os: ubuntu-latest
             jpackage-goal: jpackage:jpackage@linux
-            artifact: target/dist/SpellcastSolver
+            artifact: target/dist/SpellcastSolver-${{ github.ref_name }}
 
     steps:
       - name: Checkout repository
@@ -45,7 +45,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
-          name: SpellcastSolver-${{ matrix.os }}
+          name: SpellcastSolver-${{ matrix.os }}-${{ github.ref_name }}
           path: ${{ matrix.artifact }}
 
   release:

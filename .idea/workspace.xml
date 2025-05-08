@@ -9,8 +9,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="607948f6-3af1-4ecc-85b1-1e4263d2b890" name="Changes" comment="Update build config">
-      <change afterPath="$PROJECT_DIR$/.github/workflows/build-installers.yml" afterDir="false" />
+    <list default="true" id="607948f6-3af1-4ecc-85b1-1e4263d2b890" name="Changes" comment="Add build script workflows">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/build-installers.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/build-installers.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -166,7 +166,7 @@
       <workItem from="1746238501840" duration="322000" />
       <workItem from="1746238894372" duration="34740000" />
       <workItem from="1746394447938" duration="35286000" />
-      <workItem from="1746651479339" duration="26568000" />
+      <workItem from="1746651479339" duration="27280000" />
     </task>
     <task id="LOCAL-00001" summary="Add README.md">
       <option name="closed" value="true" />
@@ -272,7 +272,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746683986436</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Add build script workflows">
+      <option name="closed" value="true" />
+      <created>1746684380580</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1746684380580</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -285,6 +293,7 @@
     <MESSAGE value="Remove unused range formatter parameters" />
     <MESSAGE value="Update README.md" />
     <MESSAGE value="Update build config" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update build config" />
+    <MESSAGE value="Add build script workflows" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add build script workflows" />
   </component>
 </project>
