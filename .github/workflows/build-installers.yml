@@ -41,6 +41,7 @@ jobs:
 
       - name: Extract version (strip leading 'v')
         id: version
+        shell: bash
         run: echo "VERSION=${GITHUB_REF_NAME#v}" >> "$GITHUB_OUTPUT"
 
       - name: Build and package for ${{ matrix.os }}
@@ -53,5 +54,23 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: SpellcastSolver-${{ matrix.os }}-${{ github.ref_name }}
-          path: target/dist/SpellcastSolver-${{ steps.version.outputs.VERSION }}${{ matrix.extension && '.' || '' }}${{ matrix.extension }}
+          path: target/dist/SpellcastSolver-1.0.0.${{ matrix.extension }}
 
+  release:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download artifacts
+        uses: actions/download-artifact@v4
+        with:
+          path: artifacts
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ github.ref_name }}
+          name: Release ${{ github.ref_name }}
+          files: |
+            artifacts/**/*
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
