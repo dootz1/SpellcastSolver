@@ -1,0 +1,68 @@
+name: Build and Release Installers
+
+on:
+  push:
+    tags:
+      - 'v*.*.*'  # Only run on version tags like v1.0.0
+
+jobs:
+  build:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        include:
+          - os: windows-latest
+            jpackage-goal: jpackage:jpackage@win
+            artifact: target/dist/SpellcastSolver.exe
+          - os: macos-latest
+            jpackage-goal: jpackage:jpackage@mac
+            artifact: target/dist/SpellcastSolver.dmg
+          - os: ubuntu-latest
+            jpackage-goal: jpackage:jpackage@linux
+            artifact: target/dist/SpellcastSolver
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Java 21
+        uses: actions/setup-java@v4
+        with:
+          java-version: '21'
+          distribution: 'temurin'
+
+      - name: Cache Maven packages
+        uses: actions/cache@v4
+        with:
+          path: ~/.m2
+          key: ${{ runner.os }}-maven-${{ hashFiles('**/pom.xml') }}
+          restore-keys: |
+            ${{ runner.os }}-maven-
+
+      - name: Build and package for ${{ matrix.os }}
+        run: mvn clean package ${{ matrix.jpackage-goal }}
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: SpellcastSolver-${{ matrix.os }}
+          path: ${{ matrix.artifact }}
+
+  release:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download artifacts
+        uses: actions/download-artifact@v4
+        with:
+          path: artifacts
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ github.ref_name }}
+          name: Release ${{ github.ref_name }}
+          files: |
+            artifacts/**/*
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
