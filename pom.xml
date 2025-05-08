@@ -6,7 +6,7 @@
 
   <groupId>org.dootz</groupId>
   <artifactId>SpellcastSolver</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0</version>
   <name>SpellcastSolver</name>
 
   <properties>
@@ -26,12 +26,13 @@
       <artifactId>javafx-fxml</artifactId>
       <version>${javafx.version}</version>
     </dependency>
-<dependency>
+    <dependency>
       <groupId>org.controlsfx</groupId>
       <artifactId>controlsfx</artifactId>
       <version>11.1.2</version>
     </dependency>
-<dependency>
+
+    <dependency>
       <groupId>org.junit.jupiter</groupId>
       <artifactId>junit-jupiter-api</artifactId>
       <version>${junit.version}</version>
@@ -55,26 +56,127 @@
           <target>21</target>
         </configuration>
       </plugin>
+
       <plugin>
-        <groupId>org.openjfx</groupId>
-        <artifactId>javafx-maven-plugin</artifactId>
-        <version>0.0.8</version>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-jar-plugin</artifactId>
+        <configuration>
+          <outputDirectory>target/jmods</outputDirectory>
+        </configuration>
+      </plugin>
+
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-dependency-plugin</artifactId>
         <executions>
           <execution>
-            <!-- Default configuration for running with: mvn clean javafx:run -->
-            <id>default-cli</id>
+            <id>copy-dependencies</id>
+            <phase>package</phase>
+            <goals>
+              <goal>copy-dependencies</goal>
+            </goals>
             <configuration>
-              <mainClass>org.dootz.spellcastsolver/org.dootz.spellcastsolver.HelloApplication</mainClass>
-              <launcher>app</launcher>
-              <jlinkZipName>app</jlinkZipName>
-              <jlinkImageName>app</jlinkImageName>
-              <noManPages>true</noManPages>
-              <stripDebug>true</stripDebug>
-              <noHeaderFiles>true</noHeaderFiles>
+              <includeScope>runtime</includeScope>
+              <outputDirectory>target/jmods</outputDirectory>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-resources-plugin</artifactId>
+        <version>3.2.0</version>
+        <executions>
+          <execution>
+            <id>copy-resources</id>
+            <phase>package</phase>
+            <goals>
+              <goal>copy-resources</goal>
+            </goals>
+            <configuration>
+              <outputDirectory>${project.build.directory}/dist/icons</outputDirectory>
+              <resources>
+                <resource>
+                  <directory>src/main/resources/org/dootz/spellcastsolver/icons</directory>
+                </resource>
+              </resources>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+
+<!--      <plugin>-->
+<!--        <groupId>org.apache.maven.plugins</groupId>-->
+<!--        <artifactId>maven-jlink-plugin</artifactId>-->
+<!--        <version>3.1.0</version>-->
+<!--        <executions>-->
+<!--          <execution>-->
+<!--            <goals>-->
+<!--              <goal>jlink</goal>-->
+<!--            </goals>-->
+<!--            <configuration>-->
+<!--              <outputDirectory>${project.build.directory}/runtime</outputDirectory>-->
+<!--              <modulePaths>-->
+<!--                <modulePath>target/classes</modulePath>-->
+<!--                <modulePath>target/jmods</modulePath>-->
+<!--              </modulePaths>-->
+<!--              <addModules>-->
+<!--                <addModule>org.dootz.spellcastsolver</addModule>-->
+<!--                <addModule>javafx.controls</addModule>-->
+<!--                <addModule>javafx.fxml</addModule>-->
+<!--                <addModule>org.controlsfx.controls</addModule>-->
+<!--              </addModules>-->
+<!--              <compress>2</compress>-->
+<!--            </configuration>-->
+<!--          </execution>-->
+<!--        </executions>-->
+<!--      </plugin>-->
+
+      <plugin>
+        <groupId>org.panteleyev</groupId>
+        <artifactId>jpackage-maven-plugin</artifactId>
+        <version>1.6.6</version>
+        <configuration>
+          <input>target/jmods</input>
+          <name>SpellcastSolver</name>
+          <appVersion>${project.version}</appVersion>
+          <mainJar>SpellcastSolver-${project.version}.jar</mainJar>
+          <modulePaths>
+            <modulePath>target/classes</modulePath>
+            <modulePath>target/jmods</modulePath>
+          </modulePaths>
+          <destination>target/dist</destination>
+          <javaOptions>
+            <option>-Xmx1024m</option>
+          </javaOptions>
+          <mainClass>org.dootz.spellcastsolver.Launcher</mainClass>
+        </configuration>
+
+        <executions>
+          <execution>
+            <id>mac</id>
+            <configuration>
+              <icon>target/dist/icons/icon.icns</icon>
+            </configuration>
+          </execution>
+          <execution>
+            <id>win</id>
+            <configuration>
+              <icon>target/dist/icons/icon.ico</icon>
+              <winMenu>true</winMenu>
+            </configuration>
+          </execution>
+          <execution>
+            <id>linux</id>
+            <configuration>
+              <type>APP_IMAGE</type>
+              <icon>target/dist/icons/icon.png</icon>
             </configuration>
           </execution>
         </executions>
       </plugin>
     </plugins>
+
   </build>
 </project>

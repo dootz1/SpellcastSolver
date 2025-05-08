@@ -7,5 +7,4 @@ module org.dootz.spellcastsolver {
 
     opens org.dootz.spellcastsolver.controller to javafx.fxml;
     exports org.dootz.spellcastsolver;
-    exports org.dootz.spellcastsolver.simulation;
 }

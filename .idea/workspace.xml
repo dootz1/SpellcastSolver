@@ -10,8 +10,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="607948f6-3af1-4ecc-85b1-1e4263d2b890" name="Changes" comment="Update README.md">
+      <change afterPath="$PROJECT_DIR$/dependency-reduced-pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/dootz/spellcastsolver/icons/icon.icns" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/dootz/spellcastsolver/icons/icon.ico" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/org/dootz/spellcastsolver/fxml/top-bar.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/dootz/spellcastsolver/fxml/top-bar.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/org/dootz/spellcastsolver/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/dootz/spellcastsolver/icons/icon.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +64,15 @@
     "Application.GameSimulator.executor": "Run",
     "Application.HelloApplication.executor": "Run",
     "Application.SpellcastSolver.executor": "Run",
+    "Maven.SpellcastSolver [clean].executor": "Run",
     "Maven.SpellcastSolver [deploy].executor": "Run",
+    "Maven.SpellcastSolver [install].executor": "Run",
+    "Maven.SpellcastSolver [org.apache.maven.plugins:maven-resources-plugin:3.2.0:copy-resources].executor": "Run",
+    "Maven.SpellcastSolver [org.apache.maven.plugins:maven-resources-plugin:3.2.0:resources].executor": "Run",
+    "Maven.SpellcastSolver [org.codehaus.mojo:exec-maven-plugin:3.5.0:exec].executor": "Run",
+    "Maven.SpellcastSolver [org.panteleyev:jpackage-maven-plugin:1.6.6:help].executor": "Run",
+    "Maven.SpellcastSolver [org.panteleyev:jpackage-maven-plugin:1.6.6:jpackage].executor": "Run",
+    "Maven.SpellcastSolver [package].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -84,8 +98,9 @@
       <recent name="$PROJECT_DIR$/src/main/resources/org/dootz/spellcastsolver" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/screenshots" />
+      <recent name="$PROJECT_DIR$/src/main/resources/org/dootz/spellcastsolver/icons" />
       <recent name="$PROJECT_DIR$/src/main/resources/org/dootz/spellcastsolver/images" />
+      <recent name="$PROJECT_DIR$/screenshots" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="org.dootz.spellcastsolver" />
@@ -157,7 +172,7 @@
       <workItem from="1746238501840" duration="322000" />
       <workItem from="1746238894372" duration="34740000" />
       <workItem from="1746394447938" duration="35286000" />
-      <workItem from="1746651479339" duration="8833000" />
+      <workItem from="1746651479339" duration="26135000" />
     </task>
     <task id="LOCAL-00001" summary="Add README.md">
       <option name="closed" value="true" />
@@ -247,7 +262,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746661877097</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Update README.md">
+      <option name="closed" value="true" />
+      <created>1746661954215</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1746661954215</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

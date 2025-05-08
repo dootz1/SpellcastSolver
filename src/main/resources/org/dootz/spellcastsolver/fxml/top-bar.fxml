@@ -11,7 +11,7 @@
    <children>
       <ImageView fitHeight="64.0" fitWidth="66.0" layoutX="6.0" layoutY="17.0">
          <image>
-            <Image url="@../images/logo.png" />
+            <Image url="@../icons/icon.png" />
          </image>
       </ImageView>
       <Label layoutX="77.0" layoutY="26.0" prefHeight="46.0" prefWidth="181.0" text="SpellcastSolver">
