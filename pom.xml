@@ -6,7 +6,7 @@
 
   <groupId>org.dootz</groupId>
   <artifactId>SpellcastSolver</artifactId>
-  <version>1.0</version>
+  <version>1.0.0</version>
   <name>SpellcastSolver</name>
 
   <properties>
@@ -60,6 +60,7 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-jar-plugin</artifactId>
+        <version>3.4.2</version>
         <configuration>
           <outputDirectory>target/jmods</outputDirectory>
         </configuration>
