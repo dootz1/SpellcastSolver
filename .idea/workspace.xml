@@ -9,8 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="607948f6-3af1-4ecc-85b1-1e4263d2b890" name="Changes" comment="Fix pom.xml versioning">
+    <list default="true" id="607948f6-3af1-4ecc-85b1-1e4263d2b890" name="Changes" comment="Debug yml">
       <change beforePath="$PROJECT_DIR$/.github/workflows/build-installers.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/build-installers.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +28,20 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "dootz1"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="59e6cbc8-db6e-4233-b1d9-fa80bdb9c10e" />
+        <option name="url" value="https://github.com/dootz1/SpellcastSolver.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -165,7 +180,7 @@
       <workItem from="1746238501840" duration="322000" />
       <workItem from="1746238894372" duration="34740000" />
       <workItem from="1746394447938" duration="35286000" />
-      <workItem from="1746651479339" duration="27755000" />
+      <workItem from="1746651479339" duration="29082000" />
     </task>
     <task id="LOCAL-00001" summary="Add README.md">
       <option name="closed" value="true" />
@@ -295,7 +310,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746685317928</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Debug yml">
+      <option name="closed" value="true" />
+      <created>1746685611246</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1746685611246</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -310,6 +333,7 @@
     <MESSAGE value="Update build config" />
     <MESSAGE value="Add build script workflows" />
     <MESSAGE value="Fix pom.xml versioning" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix pom.xml versioning" />
+    <MESSAGE value="Debug yml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Debug yml" />
   </component>
 </project>
