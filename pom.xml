@@ -151,6 +151,7 @@
           <javaOptions>
             <option>-Xmx1024m</option>
           </javaOptions>
+          <runtimeImage>target/runtime</runtimeImage>
           <mainClass>org.dootz.spellcastsolver.Launcher</mainClass>
         </configuration>
 
@@ -171,7 +172,7 @@
           <execution>
             <id>linux</id>
             <configuration>
-              <type>APP_IMAGE</type>
+              <type>deb</type>
               <icon>target/dist/icons/icon.png</icon>
             </configuration>
           </execution>
