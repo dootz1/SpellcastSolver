@@ -42,7 +42,7 @@ public class SettingsController {
     private ObjectProperty<Integer> roundObject;
 
     public void initialize() {
-        playerGems.setValueFactory(new SpinnerValueFactory.IntegerSpinnerValueFactory(1, 10));
+        playerGems.setValueFactory(new SpinnerValueFactory.IntegerSpinnerValueFactory(0, 10));
         gameRound.setValueFactory(new SpinnerValueFactory.IntegerSpinnerValueFactory(1, 5));
         setIntegerRangeFormatter(playerGems);
         setIntegerRangeFormatter(gameRound);
@@ -158,7 +158,6 @@ public class SettingsController {
             tableModel.setResultWordCount(evaluatedMoves.size());
 
             tableModel.getWords().setAll(evaluatedMoves);
-            solver.clearResult();
         });
 
         Thread solverThread = new Thread(solverTask);
