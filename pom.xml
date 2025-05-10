@@ -172,7 +172,6 @@
           <execution>
             <id>linux</id>
             <configuration>
-              <type>deb</type>
               <icon>target/dist/icons/icon.png</icon>
             </configuration>
           </execution>
