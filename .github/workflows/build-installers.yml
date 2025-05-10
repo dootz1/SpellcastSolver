@@ -50,13 +50,24 @@ jobs:
       - name: Clean and build with Maven
         run: mvn clean package
 
-      - name: Create runtime image
+      - name: Create runtime image (Linux/macOS)
+        if: matrix.os != 'windows-latest'
+        shell: bash
         run: |
           jlink \
             --module-path target/classes:target/jmods \
             --add-modules org.dootz.spellcastsolver,javafx.controls,javafx.fxml,org.controlsfx.controls,java.desktop \
             --output target/runtime \
             --compress=2
+
+      - name: Create runtime image (Windows)
+        if: matrix.os == 'windows-latest'
+        shell: pwsh
+        run: >
+          jlink --module-path target/classes;target/jmods
+          --add-modules org.dootz.spellcastsolver,javafx.controls,javafx.fxml,org.controlsfx.controls,java.desktop
+          --output target/runtime
+          --compress=2
 
       - name: Package with jpackage
         run: mvn ${{ matrix.jpackage-goal }}
