@@ -33,6 +33,7 @@ import org.dootz.spellcastsolver.utils.BoardUtils;
 import org.dootz.spellcastsolver.utils.Constants;
 import org.dootz.spellcastsolver.utils.TileModifier;
 import org.dootz.spellcastsolver.utils.TileUtils;
+import org.w3c.dom.Text;
 
 import java.util.Set;
 
@@ -50,6 +51,49 @@ public class BoardController {
     private GridPane inputGrid;
     @FXML
     private GridPane solvedGrid;
+
+    public void initialize() {
+        for (int i = 0; i < Constants.BOARD_TILES; i++) {
+            setupTileInput(getTileFromGrid(inputGrid, i));
+            setupTileInput(getTileFromGrid(solvedGrid, i));
+        }
+    }
+
+    private StackPane getTileFromGrid(GridPane grid, int index) {
+        return (StackPane) grid.getChildren().get(index);
+    }
+
+    private void setupTileInput(StackPane tileContainer) {
+        TextField tileInput = (TextField) tileContainer.getChildren().getFirst();
+
+        tileInput.setTextFormatter(new TextFormatter<>(change -> {
+            String text = change.getText();
+            if (text.isEmpty()) return change; // Allow deletion
+
+            String upper = text.toUpperCase();
+            if (upper.matches("[A-Z]")) {
+                change.setText(upper);
+                change.setRange(0, change.getControlText().length()); // Replace all text
+                return change;
+            }
+
+            return null; // Reject invalid input
+        }));
+
+        tileInput.textProperty().addListener((obs, oldText, newText) -> {
+            if (newText.isEmpty()) return;
+
+            GridPane parentGrid = (GridPane) tileContainer.getParent();
+            int currentIndex = parentGrid.getChildren().indexOf(tileContainer);
+            int nextIndex = currentIndex + 1;
+
+            if (nextIndex < Constants.BOARD_TILES) {
+                StackPane nextContainer = (StackPane) parentGrid.getChildren().get(nextIndex);
+                TextField nextInput = (TextField) nextContainer.getChildren().getFirst();
+                nextInput.requestFocus();
+            }
+        });
+    }
 
     public void initModel(DataModel model) {
         if (this.model != null) {
@@ -193,33 +237,6 @@ public class BoardController {
                 tileModel.wildcardProperty(),
                 tileModel.getModifiers()
         ));
-
-        tileInput.setTextFormatter(new TextFormatter<>(change -> {
-            String text = change.getText().toUpperCase();
-
-            if (text.matches("[A-Z]")) {
-                change.setText(text);
-                change.setRange(0, change.getControlText().length()); // Replace all existing text
-                return change;
-            }
-
-            if (text.isEmpty()) { // backspace allowed
-                return change;
-            }
-
-            return null;
-        }));
-
-        tileInput.textProperty().addListener((obs, oldText, newText) -> {
-            if (!newText.isEmpty()) {
-                int nextIndex = Math.min(Constants.BOARD_TILES - 1,
-                        GridPane.getRowIndex(tileContainer) * 5 + GridPane.getColumnIndex(tileContainer) + 1);
-                StackPane nextContainer = (StackPane) tileContainer.getParent().getChildrenUnmodifiable().get(nextIndex);
-                TextField nextInput = (TextField) nextContainer.getChildren().getFirst();
-                nextInput.requestFocus();
-            }
-        });
-
 
         bindTileModifiers(tileModel, tileContainer);
         bindTileSelection(tileModel, tileContainer);
