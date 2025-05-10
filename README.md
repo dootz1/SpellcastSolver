@@ -76,10 +76,10 @@ words if they yield more gems for future moves with swaps.
 
 🔽 **[Download the latest release](https://github.com/dootz1/SpellcastSolver/releases/latest)** from the GitHub Releases page. Choose the appropriate installer for your platform:
 
-| Platform | Installer |
-|----------|-----------|
-| **Windows** | `SpellcastSolver-<version>.exe` |
-| **macOS**   | `SpellcastSolver-<version>.dmg` |
+| Platform    | Installer                                                                   |
+|-------------|-----------------------------------------------------------------------------|
+| **Windows** | `SpellcastSolver-<version>.exe`                                             |
+| **macOS**   | `SpellcastSolver-<version>.dmg`                                             |
 | **Linux**   | `spellcastsolver_<version>_amd64.deb` or `SpellcastSolver-<version>.tar.gz` |
 
 > ℹ️ Replace `<version>` with the actual version number, e.g., `1.0.0`.
