@@ -9,9 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="607948f6-3af1-4ecc-85b1-1e4263d2b890" name="Changes" comment="Fix pom.xml windows config">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/build-installers.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/build-installers.yml" afterDir="false" />
+    <list default="true" id="607948f6-3af1-4ecc-85b1-1e4263d2b890" name="Changes" comment="Fix installation anchor">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,7 +180,7 @@
       <workItem from="1746238501840" duration="322000" />
       <workItem from="1746238894372" duration="34740000" />
       <workItem from="1746394447938" duration="35286000" />
-      <workItem from="1746651479339" duration="34105000" />
+      <workItem from="1746651479339" duration="35338000" />
     </task>
     <task id="LOCAL-00001" summary="Add README.md">
       <option name="closed" value="true" />
@@ -382,7 +382,47 @@
       <option name="project" value="LOCAL" />
       <updated>1746840723114</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Fix pom.xml windows config">
+      <option name="closed" value="true" />
+      <created>1746840908411</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1746840908411</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Fix build installer upload artifact path">
+      <option name="closed" value="true" />
+      <created>1746840932987</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1746840932987</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Fix create runtime image for windows">
+      <option name="closed" value="true" />
+      <created>1746841187242</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1746841187242</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Change installation to use installers">
+      <option name="closed" value="true" />
+      <created>1746841976627</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1746841976627</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Fix installation anchor">
+      <option name="closed" value="true" />
+      <created>1746842067616</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1746842067616</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -401,7 +441,11 @@
     <MESSAGE value="Add runtime image" />
     <MESSAGE value="Fix pom.xml linux config" />
     <MESSAGE value="Fix pom.xml windows config" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix pom.xml windows config" />
+    <MESSAGE value="Fix build installer upload artifact path" />
+    <MESSAGE value="Fix create runtime image for windows" />
+    <MESSAGE value="Change installation to use installers" />
+    <MESSAGE value="Fix installation anchor" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix installation anchor" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
