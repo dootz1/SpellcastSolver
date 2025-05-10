@@ -79,7 +79,11 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: SpellcastSolver-${{ matrix.os }}-${{ github.ref_name }}
-          path: target/dist/SpellcastSolver*
+          path: |
+            target/dist/SpellcastSolver-*.exe
+            target/dist/SpellcastSolver-*.dmg
+            target/dist/spellcastsolver_*.deb
+            target/dist/SpellcastSolver-*.tar.gz
 
   release:
     needs: build
