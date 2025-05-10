@@ -72,21 +72,42 @@ words if they yield more gems for future moves with swaps.
 ## 🛠️Installation
 
 **Prerequisites:**
-- Java 21 or higher must be installed and available in your system's `PATH`.
+- **No Java installation required** — the app includes a custom runtime built with Java 21 via [`jlink`](https://docs.oracle.com/en/java/javase/21/docs/specs/jlink/jlink.html).
 
-🔽 **[Download the latest release](https://github.com/dootz1/SpellcastSolver/releases/latest)** from the GitHub Releases page.
+🔽 **[Download the latest release](https://github.com/dootz1/SpellcastSolver/releases/latest)** from the GitHub Releases page. Choose the appropriate installer for your platform:
 
-### ▶️ Run the Application
+| Platform | Installer |
+|----------|-----------|
+| **Windows** | `SpellcastSolver-<version>.exe` |
+| **macOS**   | `SpellcastSolver-<version>.dmg` |
+| **Linux**   | `spellcastsolver_<version>_amd64.deb` or `SpellcastSolver-<version>.tar.gz` |
 
-1. Open your terminal and navigate to the directory where you downloaded the `.jar` file:
-```bash
-cd /path/to/downloaded/jar
-```
+> ℹ️ Replace `<version>` with the actual version number, e.g., `1.0.0`.
 
-2. Launch the application 
-```bash
-java -jar SpellcastSolver-v1.0.0.jar
-```
+---
+
+### ▶️ Install & Run the Application
+
+#### 🪟 Windows
+1. Download and run the `.exe` installer.
+2. Follow the setup wizard to complete installation.
+3. Launch **SpellcastSolver** from your Start Menu or desktop shortcut.
+
+#### 🍎 macOS
+1. Download the `.dmg` file.
+2. Open it and drag **SpellcastSolver** into your `Applications` folder.
+3. Open it from Launchpad or Spotlight.
+
+#### 🐧 Linux (Debian-based)
+1. Download the `.deb` file.
+2. Install it using:
+   ```bash
+   sudo dpkg -i spellcastsolver_<version>_amd64.deb
+    ```
+3. Launch it via your system’s app menu or run:
+   ```bash
+   spellcastsolver
+    ```
 
 ## 🧑‍💻Usage
 
