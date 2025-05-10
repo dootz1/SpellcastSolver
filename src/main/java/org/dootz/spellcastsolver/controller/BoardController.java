@@ -203,6 +203,16 @@ public class BoardController {
             return null;
         }));
 
+        tileInput.textProperty().addListener((obs, oldText, newText) -> {
+            if (!newText.isEmpty()) {
+                int nextIndex = Math.min(Constants.BOARD_TILES - 1,
+                        GridPane.getRowIndex(tileContainer) * 5 + GridPane.getColumnIndex(tileContainer) + 1);
+                StackPane nextContainer = (StackPane) tileContainer.getParent().getChildrenUnmodifiable().get(nextIndex);
+                TextField nextInput = (TextField) nextContainer.getChildren().getFirst();
+                nextInput.requestFocus();
+            }
+        });
+
         bindTileModifiers(tileModel, tileContainer);
         bindTileSelection(tileModel, tileContainer);
     }

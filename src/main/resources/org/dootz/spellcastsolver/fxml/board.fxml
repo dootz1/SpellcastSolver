@@ -62,7 +62,7 @@
                <children>
                   <GridPane fx:id="inputGrid" alignment="CENTER" maxHeight="512.0" maxWidth="512.0" prefHeight="512.0" prefWidth="512.0" styleClass="board-grid">
                      <columnConstraints>
-                        <ColumnConstraints hgrow="NEVER" maxWidth="96.0" prefWidth="96.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="96.0" prefWidth="96.0" />
                         <ColumnConstraints hgrow="SOMETIMES" maxWidth="96.0" prefWidth="96.0" />
                         <ColumnConstraints hgrow="SOMETIMES" maxWidth="96.0" prefWidth="96.0" />
                         <ColumnConstraints hgrow="SOMETIMES" maxWidth="96.0" prefWidth="96.0" />
@@ -76,7 +76,7 @@
                         <RowConstraints maxHeight="96.0" prefHeight="96.0" vgrow="SOMETIMES" />
                      </rowConstraints>
                      <children>
-                        <StackPane styleClass="tile-container">
+                        <StackPane styleClass="tile-container" GridPane.columnIndex="0" GridPane.rowIndex="0">
                            <children>
                               <TextField styleClass="tile-input" />
                               <Label alignment="CENTER" text="1" textAlignment="CENTER" StackPane.alignment="BOTTOM_RIGHT">
@@ -123,7 +123,7 @@
                               <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
                            </children>
                         </StackPane>
-                        <StackPane styleClass="tile-container" GridPane.columnIndex="1">
+                        <StackPane styleClass="tile-container" GridPane.columnIndex="1" GridPane.rowIndex="0" >
                            <children>
                               <TextField styleClass="tile-input" />
                               <Label alignment="CENTER" text="1" textAlignment="CENTER" StackPane.alignment="BOTTOM_RIGHT">
@@ -170,7 +170,7 @@
                               <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
                            </children>
                         </StackPane>
-                        <StackPane styleClass="tile-container" GridPane.columnIndex="2">
+                        <StackPane styleClass="tile-container" GridPane.columnIndex="2" GridPane.rowIndex="0">
                            <children>
                               <TextField styleClass="tile-input" />
                               <Label alignment="CENTER" text="1" textAlignment="CENTER" StackPane.alignment="BOTTOM_RIGHT">
@@ -217,7 +217,7 @@
                               <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
                            </children>
                         </StackPane>
-                        <StackPane styleClass="tile-container" GridPane.columnIndex="3">
+                        <StackPane styleClass="tile-container" GridPane.columnIndex="3" GridPane.rowIndex="0">
                            <children>
                               <TextField styleClass="tile-input" />
                               <Label alignment="CENTER" text="1" textAlignment="CENTER" StackPane.alignment="BOTTOM_RIGHT">
@@ -264,7 +264,7 @@
                               <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
                            </children>
                         </StackPane>
-                        <StackPane styleClass="tile-container" GridPane.columnIndex="4">
+                        <StackPane styleClass="tile-container" GridPane.columnIndex="4" GridPane.rowIndex="0">
                            <children>
                               <TextField styleClass="tile-input" />
                               <Label alignment="CENTER" text="1" textAlignment="CENTER" StackPane.alignment="BOTTOM_RIGHT">
@@ -311,7 +311,7 @@
                               <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
                            </children>
                         </StackPane>
-                        <StackPane styleClass="tile-container" GridPane.rowIndex="1">
+                        <StackPane styleClass="tile-container" GridPane.columnIndex="0" GridPane.rowIndex="1" >
                            <children>
                               <TextField styleClass="tile-input" />
                               <Label alignment="CENTER" text="1" textAlignment="CENTER" StackPane.alignment="BOTTOM_RIGHT">
@@ -546,7 +546,7 @@
                               <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
                            </children>
                         </StackPane>
-                        <StackPane styleClass="tile-container" GridPane.rowIndex="2">
+                        <StackPane styleClass="tile-container" GridPane.columnIndex="0" GridPane.rowIndex="2">
                            <children>
                               <TextField styleClass="tile-input" />
                               <Label alignment="CENTER" text="1" textAlignment="CENTER" StackPane.alignment="BOTTOM_RIGHT">
@@ -781,7 +781,7 @@
                               <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
                            </children>
                         </StackPane>
-                        <StackPane styleClass="tile-container" GridPane.rowIndex="3">
+                        <StackPane styleClass="tile-container" GridPane.columnIndex="0" GridPane.rowIndex="3">
                            <children>
                               <TextField styleClass="tile-input" />
                               <Label alignment="CENTER" text="1" textAlignment="CENTER" StackPane.alignment="BOTTOM_RIGHT">
@@ -1016,7 +1016,7 @@
                               <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
                            </children>
                         </StackPane>
-                        <StackPane styleClass="tile-container" GridPane.rowIndex="4">
+                        <StackPane styleClass="tile-container" GridPane.columnIndex="0" GridPane.rowIndex="4">
                            <children>
                               <TextField styleClass="tile-input" />
                               <Label alignment="CENTER" text="1" textAlignment="CENTER" StackPane.alignment="BOTTOM_RIGHT">
@@ -1256,21 +1256,21 @@
                   <Pane fx:id="canvas" prefHeight="512.0" prefWidth="512.0" styleClass="canvas" visible="false" />
                   <GridPane fx:id="solvedGrid" alignment="CENTER" disable="true" maxHeight="512.0" maxWidth="512.0" prefHeight="512.0" prefWidth="512.0" styleClass="board-grid" visible="false">
                      <columnConstraints>
-                        <ColumnConstraints hgrow="NEVER" maxWidth="96.0" prefWidth="96.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="96.0" prefWidth="96.0" />
                         <ColumnConstraints hgrow="SOMETIMES" maxWidth="96.0" prefWidth="96.0" />
                         <ColumnConstraints hgrow="SOMETIMES" maxWidth="96.0" prefWidth="96.0" />
                         <ColumnConstraints hgrow="SOMETIMES" maxWidth="96.0" prefWidth="96.0" />
                         <ColumnConstraints hgrow="SOMETIMES" maxWidth="96.0" prefWidth="96.0" />
                      </columnConstraints>
                      <rowConstraints>
-                        <RowConstraints maxHeight="96.0" prefHeight="96.0" vgrow="NEVER" />
+                        <RowConstraints maxHeight="96.0" prefHeight="96.0" vgrow="SOMETIMES" />
                         <RowConstraints maxHeight="96.0" prefHeight="96.0" vgrow="SOMETIMES" />
                         <RowConstraints maxHeight="96.0" prefHeight="96.0" vgrow="SOMETIMES" />
                         <RowConstraints maxHeight="96.0" prefHeight="96.0" vgrow="SOMETIMES" />
                         <RowConstraints maxHeight="96.0" prefHeight="96.0" vgrow="SOMETIMES" />
                      </rowConstraints>
                      <children>
-                        <StackPane styleClass="tile-container">
+                        <StackPane styleClass="tile-container" GridPane.columnIndex="0" GridPane.rowIndex="0">
                            <children>
                               <TextField styleClass="tile-input" />
                               <Label alignment="CENTER" text="1" textAlignment="CENTER" StackPane.alignment="BOTTOM_RIGHT">
@@ -1317,7 +1317,7 @@
                               <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
                            </children>
                         </StackPane>
-                        <StackPane styleClass="tile-container" GridPane.columnIndex="1">
+                        <StackPane styleClass="tile-container" GridPane.columnIndex="1" GridPane.rowIndex="0">
                            <children>
                               <TextField styleClass="tile-input" />
                               <Label alignment="CENTER" text="1" textAlignment="CENTER" StackPane.alignment="BOTTOM_RIGHT">
@@ -1364,7 +1364,7 @@
                               <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
                            </children>
                         </StackPane>
-                        <StackPane styleClass="tile-container" GridPane.columnIndex="2">
+                        <StackPane styleClass="tile-container" GridPane.columnIndex="2" GridPane.rowIndex="0">
                            <children>
                               <TextField styleClass="tile-input" />
                               <Label alignment="CENTER" text="1" textAlignment="CENTER" StackPane.alignment="BOTTOM_RIGHT">
@@ -1411,7 +1411,7 @@
                               <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
                            </children>
                         </StackPane>
-                        <StackPane styleClass="tile-container" GridPane.columnIndex="3">
+                        <StackPane styleClass="tile-container" GridPane.columnIndex="3" GridPane.rowIndex="0">
                            <children>
                               <TextField styleClass="tile-input" />
                               <Label alignment="CENTER" text="1" textAlignment="CENTER" StackPane.alignment="BOTTOM_RIGHT">
@@ -1458,7 +1458,7 @@
                               <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
                            </children>
                         </StackPane>
-                        <StackPane styleClass="tile-container" GridPane.columnIndex="4">
+                        <StackPane styleClass="tile-container" GridPane.columnIndex="4" GridPane.rowIndex="0">
                            <children>
                               <TextField styleClass="tile-input" />
                               <Label alignment="CENTER" text="1" textAlignment="CENTER" StackPane.alignment="BOTTOM_RIGHT">
@@ -1505,7 +1505,7 @@
                               <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
                            </children>
                         </StackPane>
-                        <StackPane styleClass="tile-container" GridPane.rowIndex="1">
+                        <StackPane styleClass="tile-container" GridPane.columnIndex="0" GridPane.rowIndex="1" >
                            <children>
                               <TextField styleClass="tile-input" />
                               <Label alignment="CENTER" text="1" textAlignment="CENTER" StackPane.alignment="BOTTOM_RIGHT">
@@ -1740,7 +1740,7 @@
                               <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
                            </children>
                         </StackPane>
-                        <StackPane styleClass="tile-container" GridPane.rowIndex="2">
+                        <StackPane styleClass="tile-container" GridPane.columnIndex="0" GridPane.rowIndex="2">
                            <children>
                               <TextField styleClass="tile-input" />
                               <Label alignment="CENTER" text="1" textAlignment="CENTER" StackPane.alignment="BOTTOM_RIGHT">
@@ -1975,7 +1975,7 @@
                               <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
                            </children>
                         </StackPane>
-                        <StackPane styleClass="tile-container" GridPane.rowIndex="3">
+                        <StackPane styleClass="tile-container" GridPane.columnIndex="0" GridPane.rowIndex="3">
                            <children>
                               <TextField styleClass="tile-input" />
                               <Label alignment="CENTER" text="1" textAlignment="CENTER" StackPane.alignment="BOTTOM_RIGHT">
@@ -2210,7 +2210,7 @@
                               <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
                            </children>
                         </StackPane>
-                        <StackPane styleClass="tile-container" GridPane.rowIndex="4">
+                        <StackPane styleClass="tile-container" GridPane.columnIndex="0" GridPane.rowIndex="4">
                            <children>
                               <TextField styleClass="tile-input" />
                               <Label alignment="CENTER" text="1" textAlignment="CENTER" StackPane.alignment="BOTTOM_RIGHT">
