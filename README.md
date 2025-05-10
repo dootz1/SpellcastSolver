@@ -8,6 +8,7 @@ A fast and efficient engine designed to find the best possible word in Discord's
 - [Solver Performance](#solver-performance)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Technologies Used](#technologies-used)
 - [Screenshots](#screenshots)
 - [License](#license)
 
@@ -140,6 +141,14 @@ words if they yield more gems for future moves with swaps.
 
    Type in the search bar to find matches for your desired word.
 
+## 🛠️Technologies Used
+
+This application is built with the following key technologies:
+
+- **JavaFX, FXML & ControlsFX with CSS styling** – Used for building a modern, responsive user interface with declarative layouts and rich UI components.
+- **jpackage & jlink** – Tools for creating native installers and bundling a custom Java runtime.
+- **Maven** – Handles dependency management and builds the application.
+- **GitHub Actions** – Automates building, packaging, and releasing across platforms via CI/CD.
 
 ## 📸Screenshots
 
