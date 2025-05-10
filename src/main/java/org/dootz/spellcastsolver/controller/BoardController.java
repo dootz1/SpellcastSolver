@@ -1,7 +1,6 @@
 package org.dootz.spellcastsolver.controller;
 
 import javafx.beans.binding.Bindings;
-import javafx.beans.property.StringProperty;
 import javafx.beans.value.ChangeListener;
 import javafx.collections.ListChangeListener;
 import javafx.collections.ObservableList;
@@ -10,6 +9,7 @@ import javafx.collections.SetChangeListener;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.geometry.Bounds;
+import javafx.geometry.Pos;
 import javafx.scene.Node;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
@@ -18,16 +18,17 @@ import javafx.scene.layout.GridPane;
 import javafx.scene.layout.Pane;
 import javafx.scene.layout.StackPane;
 import javafx.scene.paint.Color;
+import javafx.scene.paint.Paint;
 import javafx.scene.shape.Circle;
 import javafx.scene.shape.Line;
 import javafx.scene.shape.Polygon;
 import javafx.scene.shape.Rectangle;
+import org.dootz.spellcastsolver.game.board.Board;
+import org.dootz.spellcastsolver.game.board.Tile;
 import org.dootz.spellcastsolver.model.BoardModel;
 import org.dootz.spellcastsolver.model.ContextMenuModel;
 import org.dootz.spellcastsolver.model.DataModel;
 import org.dootz.spellcastsolver.model.TileModel;
-import org.dootz.spellcastsolver.game.board.Board;
-import org.dootz.spellcastsolver.game.board.Tile;
 import org.dootz.spellcastsolver.utils.BoardUtils;
 import org.dootz.spellcastsolver.utils.Constants;
 import org.dootz.spellcastsolver.utils.TileModifier;
@@ -194,12 +195,18 @@ public class BoardController {
         ));
 
         tileInput.setTextFormatter(new TextFormatter<>(change -> {
-            if (!change.isAdded()) return change;
-            String newText = change.getControlNewText().toUpperCase();
-            if (newText.matches("[A-Z]?")) {
-                change.setText(newText);
+            String text = change.getText().toUpperCase();
+
+            if (text.matches("[A-Z]")) {
+                change.setText(text);
+                change.setRange(0, change.getControlText().length()); // Replace all existing text
                 return change;
             }
+
+            if (text.isEmpty()) { // backspace allowed
+                return change;
+            }
+
             return null;
         }));
 
@@ -212,6 +219,7 @@ public class BoardController {
                 nextInput.requestFocus();
             }
         });
+
 
         bindTileModifiers(tileModel, tileContainer);
         bindTileSelection(tileModel, tileContainer);
