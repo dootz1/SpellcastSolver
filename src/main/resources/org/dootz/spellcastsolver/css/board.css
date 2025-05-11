@@ -41,8 +41,8 @@
 }
 
 .tile-modifier-background {
-    -fx-max-height: 84px;
-    -fx-max-width: 84px;
+    -fx-max-height: 86px;
+    -fx-max-width: 86px;
     -fx-background-radius: 20px;
 }
 
