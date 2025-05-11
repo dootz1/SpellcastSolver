@@ -61,6 +61,9 @@ public class Move {
         return swaps;
     }
 
+    public int gemProfit() {
+        return getTotalGems() - getTotalSwaps() * 3;
+    }
     public void appendTile(Tile tile) {
         tiles.add(tile);
     }

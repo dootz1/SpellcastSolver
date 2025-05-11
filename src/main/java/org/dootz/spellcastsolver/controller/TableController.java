@@ -13,6 +13,7 @@ import javafx.scene.control.*;
 import org.controlsfx.control.textfield.CustomTextField;
 import org.dootz.spellcastsolver.model.BoardModel;
 import org.dootz.spellcastsolver.model.DataModel;
+import org.dootz.spellcastsolver.model.SettingsModel;
 import org.dootz.spellcastsolver.model.TableModel;
 import org.dootz.spellcastsolver.game.board.Tile;
 import org.dootz.spellcastsolver.solver.Evaluator;
@@ -38,6 +39,8 @@ public class TableController {
     private TableColumn<Evaluator.EvaluatedMove, Number> evaluationColumn;
     @FXML
     private Button clearSelection;
+    @FXML
+    private Button playSelection;
 
     public void initialize() {
         wordsColumn.setCellValueFactory(cellData -> new ReadOnlyStringWrapper(cellData.getValue().toString()));
@@ -106,6 +109,9 @@ public class TableController {
             if (timeMs > 0) result += String.format(" (%.4f seconds)", timeMs / 1000.0);
             return result;
         }, tableModel.resultWordCountProperty(), tableModel.resultTimeMsProperty()));
+
+        clearSelection.disableProperty().bind(tableModel.selectedWordProperty().isNull());
+        playSelection.disableProperty().bind(tableModel.selectedWordProperty().isNull());
     }
 
     private void updateBoardSelection(BoardModel board, Evaluator.EvaluatedMove newMove) {
@@ -150,5 +156,28 @@ public class TableController {
     @FXML
     private void handleClearSelection(ActionEvent event) {
         model.getTableModel().setSelectedWord(null);
+    }
+
+    @FXML
+    private void handlePlaySelection(ActionEvent event) {
+        BoardModel board = model.getBoardModel();
+        SettingsModel settings = model.getSettingsModel();
+        TableModel table = model.getTableModel();
+        Evaluator.EvaluatedMove move = table.getSelectedWord();
+
+        if (move == null) return;
+
+        for (Tile tile : move.getMove().getTiles()) {
+            int index = tile.getRow() * Constants.BOARD_SIZE + tile.getColumn();
+            var tileModel = board.getInputTileModelByIndex(index);
+            tileModel.getModifiers().clear();
+            tileModel.setLetter("");
+        }
+
+        settings.setGameRound(Math.min(5, settings.getGameRound() + 1));
+        settings.setPlayerGems(Math.min(10, settings.getPlayerGems() + move.getMove().gemProfit()));
+
+        table.setSelectedWord(null);
+        table.getWords().clear();
     }
 }
