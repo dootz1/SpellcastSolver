@@ -9,11 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="607948f6-3af1-4ecc-85b1-1e4263d2b890" name="Changes" comment="Fix minimum gem count">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="607948f6-3af1-4ecc-85b1-1e4263d2b890" name="Changes" comment="Remove redundant gem profit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/dootz/spellcastsolver/controller/BoardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dootz/spellcastsolver/controller/BoardController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/org/dootz/spellcastsolver/fxml/board.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/dootz/spellcastsolver/fxml/board.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,41 +64,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Application.Benchmark.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BoardSimulator.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GameSimulator.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HelloApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SpellcastSolver.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.SpellcastSolver [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.SpellcastSolver [deploy].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.SpellcastSolver [install].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.SpellcastSolver [org.apache.maven.plugins:maven-resources-plugin:3.2.0:copy-resources].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.SpellcastSolver [org.apache.maven.plugins:maven-resources-plugin:3.2.0:resources].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.SpellcastSolver [org.codehaus.mojo:exec-maven-plugin:3.5.0:exec].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.SpellcastSolver [org.panteleyev:jpackage-maven-plugin:1.6.6:help].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.SpellcastSolver [org.panteleyev:jpackage-maven-plugin:1.6.6:jpackage].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.SpellcastSolver [package].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/stanleygu/Stanley/Programming/SpellcastSolver&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15039062&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.35097814&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.Benchmark.executor": "Run",
+    "Application.BoardSimulator.executor": "Run",
+    "Application.ClipTest.executor": "Run",
+    "Application.GameSimulator.executor": "Run",
+    "Application.HelloApplication.executor": "Run",
+    "Application.SpellcastSolver.executor": "Run",
+    "Maven.SpellcastSolver [clean].executor": "Run",
+    "Maven.SpellcastSolver [deploy].executor": "Run",
+    "Maven.SpellcastSolver [install].executor": "Run",
+    "Maven.SpellcastSolver [org.apache.maven.plugins:maven-resources-plugin:3.2.0:copy-resources].executor": "Run",
+    "Maven.SpellcastSolver [org.apache.maven.plugins:maven-resources-plugin:3.2.0:resources].executor": "Run",
+    "Maven.SpellcastSolver [org.codehaus.mojo:exec-maven-plugin:3.5.0:exec].executor": "Run",
+    "Maven.SpellcastSolver [org.panteleyev:jpackage-maven-plugin:1.6.6:help].executor": "Run",
+    "Maven.SpellcastSolver [org.panteleyev:jpackage-maven-plugin:1.6.6:jpackage].executor": "Run",
+    "Maven.SpellcastSolver [package].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/stanleygu/Stanley/Programming/SpellcastSolver",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15039062",
+    "project.structure.side.proportion": "0.35097814",
+    "settings.editor.selected.configurable": "terminal",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -123,6 +122,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.dootz.spellcastsolver.simulation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClipTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.dootz.spellcastsolver.ClipTest" />
+      <module name="SpellcastSolver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.dootz.spellcastsolver.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -159,6 +171,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.SpellcastSolver" />
+        <item itemvalue="Application.ClipTest" />
         <item itemvalue="Application.GameSimulator" />
         <item itemvalue="Application.BoardSimulator" />
       </list>
@@ -186,7 +199,7 @@
       <workItem from="1746843411432" duration="327000" />
       <workItem from="1746848543289" duration="161000" />
       <workItem from="1746849136353" duration="143000" />
-      <workItem from="1746906421102" duration="1418000" />
+      <workItem from="1746906421102" duration="20137000" />
     </task>
     <task id="LOCAL-00001" summary="Add README.md">
       <option name="closed" value="true" />
@@ -452,7 +465,79 @@
       <option name="project" value="LOCAL" />
       <updated>1746848589389</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Add autofocus switch for board tiles">
+      <option name="closed" value="true" />
+      <created>1746907844023</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1746907844024</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Allow typing over current letter for tiles">
+      <option name="closed" value="true" />
+      <created>1746918047694</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1746918047694</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Reformat tile input setup">
+      <option name="closed" value="true" />
+      <created>1746920955267</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1746920955267</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Update board UI">
+      <option name="closed" value="true" />
+      <created>1746929333359</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1746929333359</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Add animation to selected tiles">
+      <option name="closed" value="true" />
+      <created>1746929733095</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1746929733095</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Shrink button icons">
+      <option name="closed" value="true" />
+      <created>1746930476556</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1746930476556</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Bold words column">
+      <option name="closed" value="true" />
+      <created>1746930733354</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1746930733354</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Add play button">
+      <option name="closed" value="true" />
+      <created>1746931870366</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1746931870366</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Remove redundant gem profit">
+      <option name="closed" value="true" />
+      <created>1746931901956</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1746931901956</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -460,7 +545,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Add README.md" />
     <MESSAGE value="Optimize imports" />
     <MESSAGE value="Remove unused range formatter parameters" />
     <MESSAGE value="Update README.md" />
@@ -477,7 +561,16 @@
     <MESSAGE value="Fix installation anchor" />
     <MESSAGE value="Add tech used" />
     <MESSAGE value="Fix minimum gem count" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix minimum gem count" />
+    <MESSAGE value="Add autofocus switch for board tiles" />
+    <MESSAGE value="Allow typing over current letter for tiles" />
+    <MESSAGE value="Reformat tile input setup" />
+    <MESSAGE value="Update board UI" />
+    <MESSAGE value="Add animation to selected tiles" />
+    <MESSAGE value="Shrink button icons" />
+    <MESSAGE value="Bold words column" />
+    <MESSAGE value="Add play button" />
+    <MESSAGE value="Remove redundant gem profit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove redundant gem profit" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
