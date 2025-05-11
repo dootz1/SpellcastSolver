@@ -1,5 +1,6 @@
 package org.dootz.spellcastsolver.controller;
 
+import javafx.animation.ScaleTransition;
 import javafx.beans.binding.Bindings;
 import javafx.beans.value.ChangeListener;
 import javafx.collections.ListChangeListener;
@@ -21,6 +22,7 @@ import javafx.scene.shape.Circle;
 import javafx.scene.shape.Line;
 import javafx.scene.shape.Polygon;
 import javafx.scene.shape.Rectangle;
+import javafx.util.Duration;
 import org.dootz.spellcastsolver.game.board.Board;
 import org.dootz.spellcastsolver.game.board.Tile;
 import org.dootz.spellcastsolver.model.BoardModel;
@@ -350,13 +352,23 @@ public class BoardController {
     private void bindTileSelection(TileModel tileModel, StackPane container) {
         Pane bar = (Pane) container.getChildren().get(2);
         tileModel.selectedProperty().addListener((obs, wasSelected, isSelected) -> {
-            container.getStyleClass().remove("tile-selected");
-            bar.setVisible(false);
             if (isSelected) {
                 container.getStyleClass().add("tile-selected");
                 bar.setVisible(true);
-                System.out.println("bar");
+            } else {
+                container.getStyleClass().remove("tile-selected");
+                bar.setVisible(false);
             }
+
+            ScaleTransition scaleTransition = new ScaleTransition(Duration.millis(150), container);
+            if (isSelected) {
+                scaleTransition.setToX(0.9);
+                scaleTransition.setToY(0.9);
+            } else {
+                scaleTransition.setToX(1.0);
+                scaleTransition.setToY(1.0);
+            }
+            scaleTransition.play();
         });
     }
 }
