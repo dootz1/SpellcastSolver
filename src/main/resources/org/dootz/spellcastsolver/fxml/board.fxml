@@ -2812,9 +2812,9 @@
       </VBox>
       <VBox alignment="CENTER" layoutX="-5.0" layoutY="3.0" prefHeight="80.0" prefWidth="48.0" spacing="2.0">
          <children>
-            <Button maxHeight="28.0" maxWidth="28.0" mnemonicParsing="false" onAction="#handleClearTileLetters" prefHeight="33.0" prefWidth="33.0">
+            <Button minHeight="32.0" minWidth="32.0" mnemonicParsing="false" onAction="#handleClearTileLetters" prefHeight="32.0" prefWidth="32.0">
                <graphic>
-                  <ImageView fitHeight="26.0" fitWidth="25.0">
+                  <ImageView fitHeight="20.0" fitWidth="20.0" translateX="0.5">
                      <image>
                         <Image url="@../images/clear-letters.png" />
                      </image>
@@ -2827,9 +2827,9 @@
                   <Tooltip text="Clear tile letters" />
                </tooltip>
             </Button>
-            <Button maxHeight="33.0" maxWidth="39.0" mnemonicParsing="false" onAction="#handleClearTileModifiers" prefHeight="33.0" prefWidth="39.0">
+            <Button minHeight="32.0" minWidth="32.0" mnemonicParsing="false" onAction="#handleClearTileModifiers" prefHeight="32.0" prefWidth="32.0">
                <graphic>
-                  <ImageView fitHeight="26.0" fitWidth="25.0">
+                  <ImageView fitHeight="20.0" fitWidth="20.0" translateX="0.5">
                      <image>
                         <Image url="@../images/clear-modifiers.png" />
                      </image>
@@ -2842,9 +2842,9 @@
                   <Tooltip text="Clear tile modifiers" />
                </tooltip>
             </Button>
-            <Button maxHeight="33.0" maxWidth="39.0" mnemonicParsing="false" onAction="#handleRandomizeBoard" prefHeight="33.0" prefWidth="39.0">
+            <Button minHeight="32.0" minWidth="32.0" mnemonicParsing="false" onAction="#handleRandomizeBoard" prefHeight="32.0" prefWidth="32.0">
                <graphic>
-                  <ImageView fitHeight="26.0" fitWidth="25.0">
+                  <ImageView fitHeight="22.0" fitWidth="22.0">
                      <image>
                         <Image url="@../images/randomize.png" />
                      </image>
