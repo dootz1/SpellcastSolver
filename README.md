@@ -140,6 +140,10 @@ words if they yield more gems for future moves with swaps.
     - 📖 `Lexicographical order`
 
    Type in the search bar to find matches for your desired word.
+7. **Clear / Play Move**
+    - **Clear**: Deselect the current move and reset your tile selection.
+    - **Play**: Apply the selected move — updates the **round number**, adjusts your **gem inventory**,
+   and removes the used letters from the board for a smoother full-game experience.
 
 ## 🛠️Technologies Used
 
