@@ -33,7 +33,7 @@ public class Evaluator {
         List<EvaluatedMove> evaluatedMoves = new ArrayList<>(moves.size());
         boolean isFinalRound = round == 5;
         for (Move move: moves) {
-            double score = move.getTotalPoints() + estimatedSwapValue(round, Math.min(10,  gems + gemProfit(move)));
+            double score = move.getTotalPoints() + estimatedSwapValue(round, Math.min(10,  gems + move.gemProfit()));
             if (isFinalRound) score += move.getTotalGems();
             evaluatedMoves.add(new EvaluatedMove(move, score));
         }
@@ -52,9 +52,5 @@ public class Evaluator {
         }
 
         return value;
-    }
-
-    private int gemProfit(Move move) {
-        return move.getTotalGems() - move.getTotalSwaps() * 3;
     }
 }
