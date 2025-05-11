@@ -5,15 +5,14 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.TableColumn?>
 <?import javafx.scene.control.TableView?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.VBox?>
 <?import org.controlsfx.control.textfield.TextFields?>
 
-
-<?import javafx.scene.image.ImageView?>
-<?import javafx.scene.image.Image?>
-<?import javafx.scene.effect.ColorAdjust?>
-<?import javafx.scene.layout.HBox?>
 <VBox prefHeight="542.0" prefWidth="476.0" spacing="4.0" stylesheets="@../css/table.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.dootz.spellcastsolver.controller.TableController">
    <children>
       <BorderPane prefHeight="25.0" prefWidth="476.0">
@@ -35,12 +34,12 @@
             <Insets />
          </VBox.margin>
          <left>
-            <TextFields fx:factory="createClearableTextField" fx:id="wordQuery" prefHeight="28.0" prefWidth="360.0" promptText="Search" BorderPane.alignment="CENTER">
+            <TextFields fx:id="wordQuery" prefHeight="28.0" prefWidth="360.0" promptText="Search" BorderPane.alignment="CENTER" fx:factory="createClearableTextField">
                <left>
                   <HBox alignment="CENTER_LEFT" spacing="5" style="-fx-padding: 0 4 0 4;">
                   <ImageView fitHeight="14.0" fitWidth="14.0">
-                     <image >
-                        <Image url="@../images/search.png"/>
+                     <image>
+                        <Image url="@../images/search.png" />
                      </image>
                      <effect>
                         <ColorAdjust brightness="0.6" />
@@ -53,7 +52,7 @@
       </BorderPane>
       <TableView fx:id="resultsTable" prefHeight="487.0" prefWidth="476.0" styleClass="results-table">
          <columns>
-            <TableColumn fx:id="wordsColumn" editable="false" maxWidth="160.0" prefWidth="160.0" text="Word" />
+            <TableColumn fx:id="wordsColumn" editable="false" maxWidth="160.0" prefWidth="160.0" styleClass="primary-text-accent" text="Word" />
             <TableColumn fx:id="evaluationColumn" editable="false" maxWidth="80.0" resizable="false" text="Evalulation" />
             <TableColumn fx:id="pointsColumn" editable="false" maxWidth="72.0" prefWidth="72.0" text="Points" />
             <TableColumn fx:id="gemsColumn" editable="false" maxWidth="72.0" prefWidth="72.0" text="Gems" />
