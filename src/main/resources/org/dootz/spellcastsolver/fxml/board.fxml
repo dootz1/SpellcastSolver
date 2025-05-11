@@ -21,6 +21,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.paint.Color?>
 <?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
 <?import javafx.scene.shape.Polygon?>
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
@@ -78,10 +79,17 @@
                      <children>
                         <StackPane styleClass="tile-container" GridPane.columnIndex="0" GridPane.rowIndex="0">
                            <children>
+                              <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-modifier-background" />
+                              <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-background" />
+                              <Pane maxHeight="80.0" maxWidth="80.0" prefHeight="80.0" prefWidth="80.0" visible="false">
+                                 <children>
+                                    <Line endX="80.0" startY="80.0" styleClass="bar" />
+                                 </children>
+                              </Pane>
                               <TextField styleClass="tile-input" />
                               <Label alignment="CENTER" text="1" textAlignment="CENTER" StackPane.alignment="BOTTOM_RIGHT">
                                  <StackPane.margin>
-                                    <Insets bottom="14.0" right="18.0" />
+                                    <Insets bottom="16.0" right="20.0" />
                                  </StackPane.margin>
                                  <font>
                                     <Font name="System Bold" size="13.0" />
@@ -123,12 +131,19 @@
                               <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
                            </children>
                         </StackPane>
-                        <StackPane styleClass="tile-container" GridPane.columnIndex="1" GridPane.rowIndex="0" >
+                        <StackPane styleClass="tile-container" GridPane.columnIndex="1">
                            <children>
+                              <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-modifier-background" />
+                              <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-background" />
+                              <Pane maxHeight="80.0" maxWidth="80.0" prefHeight="80.0" prefWidth="80.0" visible="false">
+                                 <children>
+                                    <Line endX="80.0" startY="80.0" styleClass="bar" />
+                                 </children>
+                              </Pane>
                               <TextField styleClass="tile-input" />
                               <Label alignment="CENTER" text="1" textAlignment="CENTER" StackPane.alignment="BOTTOM_RIGHT">
                                  <StackPane.margin>
-                                    <Insets bottom="14.0" right="18.0" />
+                                    <Insets bottom="16.0" right="20.0" />
                                  </StackPane.margin>
                                  <font>
                                     <Font name="System Bold" size="13.0" />
@@ -170,12 +185,19 @@
                               <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
                            </children>
                         </StackPane>
-                        <StackPane styleClass="tile-container" GridPane.columnIndex="2" GridPane.rowIndex="0">
+                        <StackPane styleClass="tile-container" GridPane.columnIndex="2">
                            <children>
+                              <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-modifier-background" />
+                              <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-background" />
+                              <Pane maxHeight="80.0" maxWidth="80.0" prefHeight="80.0" prefWidth="80.0" visible="false">
+                                 <children>
+                                    <Line endX="80.0" startY="80.0" styleClass="bar" />
+                                 </children>
+                              </Pane>
                               <TextField styleClass="tile-input" />
                               <Label alignment="CENTER" text="1" textAlignment="CENTER" StackPane.alignment="BOTTOM_RIGHT">
                                  <StackPane.margin>
-                                    <Insets bottom="14.0" right="18.0" />
+                                    <Insets bottom="16.0" right="20.0" />
                                  </StackPane.margin>
                                  <font>
                                     <Font name="System Bold" size="13.0" />
@@ -217,12 +239,19 @@
                               <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
                            </children>
                         </StackPane>
-                        <StackPane styleClass="tile-container" GridPane.columnIndex="3" GridPane.rowIndex="0">
+                        <StackPane styleClass="tile-container" GridPane.columnIndex="3">
                            <children>
+                              <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-modifier-background" />
+                              <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-background" />
+                              <Pane maxHeight="80.0" maxWidth="80.0" prefHeight="80.0" prefWidth="80.0" visible="false">
+                                 <children>
+                                    <Line endX="80.0" startY="80.0" styleClass="bar" />
+                                 </children>
+                              </Pane>
                               <TextField styleClass="tile-input" />
                               <Label alignment="CENTER" text="1" textAlignment="CENTER" StackPane.alignment="BOTTOM_RIGHT">
                                  <StackPane.margin>
-                                    <Insets bottom="14.0" right="18.0" />
+                                    <Insets bottom="16.0" right="20.0" />
                                  </StackPane.margin>
                                  <font>
                                     <Font name="System Bold" size="13.0" />
@@ -264,12 +293,19 @@
                               <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
                            </children>
                         </StackPane>
-                        <StackPane styleClass="tile-container" GridPane.columnIndex="4" GridPane.rowIndex="0">
+                        <StackPane styleClass="tile-container" GridPane.columnIndex="4">
                            <children>
+                              <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-modifier-background" />
+                              <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-background" />
+                              <Pane maxHeight="80.0" maxWidth="80.0" prefHeight="80.0" prefWidth="80.0" visible="false">
+                                 <children>
+                                    <Line endX="80.0" startY="80.0" styleClass="bar" />
+                                 </children>
+                              </Pane>
                               <TextField styleClass="tile-input" />
                               <Label alignment="CENTER" text="1" textAlignment="CENTER" StackPane.alignment="BOTTOM_RIGHT">
                                  <StackPane.margin>
-                                    <Insets bottom="14.0" right="18.0" />
+                                    <Insets bottom="16.0" right="20.0" />
                                  </StackPane.margin>
                                  <font>
                                     <Font name="System Bold" size="13.0" />
@@ -311,12 +347,19 @@
                               <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
                            </children>
                         </StackPane>
-                        <StackPane styleClass="tile-container" GridPane.columnIndex="0" GridPane.rowIndex="1" >
+                        <StackPane styleClass="tile-container" GridPane.rowIndex="1">
                            <children>
+                              <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-modifier-background" />
+                              <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-background" />
+                              <Pane maxHeight="80.0" maxWidth="80.0" prefHeight="80.0" prefWidth="80.0" visible="false">
+                                 <children>
+                                    <Line endX="80.0" startY="80.0" styleClass="bar" />
+                                 </children>
+                              </Pane>
                               <TextField styleClass="tile-input" />
                               <Label alignment="CENTER" text="1" textAlignment="CENTER" StackPane.alignment="BOTTOM_RIGHT">
                                  <StackPane.margin>
-                                    <Insets bottom="14.0" right="18.0" />
+                                    <Insets bottom="16.0" right="20.0" />
                                  </StackPane.margin>
                                  <font>
                                     <Font name="System Bold" size="13.0" />
@@ -360,10 +403,17 @@
                         </StackPane>
                         <StackPane styleClass="tile-container" GridPane.columnIndex="1" GridPane.rowIndex="1">
                            <children>
+                              <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-modifier-background" />
+                              <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-background" />
+                              <Pane maxHeight="80.0" maxWidth="80.0" prefHeight="80.0" prefWidth="80.0" visible="false">
+                                 <children>
+                                    <Line endX="80.0" startY="80.0" styleClass="bar" />
+                                 </children>
+                              </Pane>
                               <TextField styleClass="tile-input" />
                               <Label alignment="CENTER" text="1" textAlignment="CENTER" StackPane.alignment="BOTTOM_RIGHT">
                                  <StackPane.margin>
-                                    <Insets bottom="14.0" right="18.0" />
+                                    <Insets bottom="16.0" right="20.0" />
                                  </StackPane.margin>
                                  <font>
                                     <Font name="System Bold" size="13.0" />
@@ -407,10 +457,17 @@
                         </StackPane>
                         <StackPane styleClass="tile-container" GridPane.columnIndex="2" GridPane.rowIndex="1">
                            <children>
+                              <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-modifier-background" />
+                              <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-background" />
+                              <Pane maxHeight="80.0" maxWidth="80.0" prefHeight="80.0" prefWidth="80.0" visible="false">
+                                 <children>
+                                    <Line endX="80.0" startY="80.0" styleClass="bar" />
+                                 </children>
+                              </Pane>
                               <TextField styleClass="tile-input" />
                               <Label alignment="CENTER" text="1" textAlignment="CENTER" StackPane.alignment="BOTTOM_RIGHT">
                                  <StackPane.margin>
-                                    <Insets bottom="14.0" right="18.0" />
+                                    <Insets bottom="16.0" right="20.0" />
                                  </StackPane.margin>
                                  <font>
                                     <Font name="System Bold" size="13.0" />
@@ -454,10 +511,17 @@
                         </StackPane>
                         <StackPane styleClass="tile-container" GridPane.columnIndex="3" GridPane.rowIndex="1">
                            <children>
+                              <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-modifier-background" />
+                              <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-background" />
+                              <Pane maxHeight="80.0" maxWidth="80.0" prefHeight="80.0" prefWidth="80.0" visible="false">
+                                 <children>
+                                    <Line endX="80.0" startY="80.0" styleClass="bar" />
+                                 </children>
+                              </Pane>
                               <TextField styleClass="tile-input" />
                               <Label alignment="CENTER" text="1" textAlignment="CENTER" StackPane.alignment="BOTTOM_RIGHT">
                                  <StackPane.margin>
-                                    <Insets bottom="14.0" right="18.0" />
+                                    <Insets bottom="16.0" right="20.0" />
                                  </StackPane.margin>
                                  <font>
                                     <Font name="System Bold" size="13.0" />
@@ -501,10 +565,17 @@
                         </StackPane>
                         <StackPane styleClass="tile-container" GridPane.columnIndex="4" GridPane.rowIndex="1">
                            <children>
+                              <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-modifier-background" />
+                              <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-background" />
+                              <Pane maxHeight="80.0" maxWidth="80.0" prefHeight="80.0" prefWidth="80.0" visible="false">
+                                 <children>
+                                    <Line endX="80.0" startY="80.0" styleClass="bar" />
+                                 </children>
+                              </Pane>
                               <TextField styleClass="tile-input" />
                               <Label alignment="CENTER" text="1" textAlignment="CENTER" StackPane.alignment="BOTTOM_RIGHT">
                                  <StackPane.margin>
-                                    <Insets bottom="14.0" right="18.0" />
+                                    <Insets bottom="16.0" right="20.0" />
                                  </StackPane.margin>
                                  <font>
                                     <Font name="System Bold" size="13.0" />
@@ -546,12 +617,19 @@
                               <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
                            </children>
                         </StackPane>
-                        <StackPane styleClass="tile-container" GridPane.columnIndex="0" GridPane.rowIndex="2">
+                        <StackPane styleClass="tile-container" GridPane.rowIndex="2">
                            <children>
+                              <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-modifier-background" />
+                              <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-background" />
+                              <Pane maxHeight="80.0" maxWidth="80.0" prefHeight="80.0" prefWidth="80.0" visible="false">
+                                 <children>
+                                    <Line endX="80.0" startY="80.0" styleClass="bar" />
+                                 </children>
+                              </Pane>
                               <TextField styleClass="tile-input" />
                               <Label alignment="CENTER" text="1" textAlignment="CENTER" StackPane.alignment="BOTTOM_RIGHT">
                                  <StackPane.margin>
-                                    <Insets bottom="14.0" right="18.0" />
+                                    <Insets bottom="16.0" right="20.0" />
                                  </StackPane.margin>
                                  <font>
                                     <Font name="System Bold" size="13.0" />
@@ -595,10 +673,17 @@
                         </StackPane>
                         <StackPane styleClass="tile-container" GridPane.columnIndex="1" GridPane.rowIndex="2">
                            <children>
+                              <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-modifier-background" />
+                              <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-background" />
+                              <Pane maxHeight="80.0" maxWidth="80.0" prefHeight="80.0" prefWidth="80.0" visible="false">
+                                 <children>
+                                    <Line endX="80.0" startY="80.0" styleClass="bar" />
+                                 </children>
+                              </Pane>
                               <TextField styleClass="tile-input" />
                               <Label alignment="CENTER" text="1" textAlignment="CENTER" StackPane.alignment="BOTTOM_RIGHT">
                                  <StackPane.margin>
-                                    <Insets bottom="14.0" right="18.0" />
+                                    <Insets bottom="16.0" right="20.0" />
                                  </StackPane.margin>
                                  <font>
                                     <Font name="System Bold" size="13.0" />
@@ -642,10 +727,17 @@
                         </StackPane>
                         <StackPane styleClass="tile-container" GridPane.columnIndex="2" GridPane.rowIndex="2">
                            <children>
+                              <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-modifier-background" />
+                              <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-background" />
+                              <Pane maxHeight="80.0" maxWidth="80.0" prefHeight="80.0" prefWidth="80.0" visible="false">
+                                 <children>
+                                    <Line endX="80.0" startY="80.0" styleClass="bar" />
+                                 </children>
+                              </Pane>
                               <TextField styleClass="tile-input" />
                               <Label alignment="CENTER" text="1" textAlignment="CENTER" StackPane.alignment="BOTTOM_RIGHT">
                                  <StackPane.margin>
-                                    <Insets bottom="14.0" right="18.0" />
+                                    <Insets bottom="16.0" right="20.0" />
                                  </StackPane.margin>
                                  <font>
                                     <Font name="System Bold" size="13.0" />
@@ -689,10 +781,17 @@
                         </StackPane>
                         <StackPane styleClass="tile-container" GridPane.columnIndex="3" GridPane.rowIndex="2">
                            <children>
+                              <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-modifier-background" />
+                              <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-background" />
+                              <Pane maxHeight="80.0" maxWidth="80.0" prefHeight="80.0" prefWidth="80.0" visible="false">
+                                 <children>
+                                    <Line endX="80.0" startY="80.0" styleClass="bar" />
+                                 </children>
+                              </Pane>
                               <TextField styleClass="tile-input" />
                               <Label alignment="CENTER" text="1" textAlignment="CENTER" StackPane.alignment="BOTTOM_RIGHT">
                                  <StackPane.margin>
-                                    <Insets bottom="14.0" right="18.0" />
+                                    <Insets bottom="16.0" right="20.0" />
                                  </StackPane.margin>
                                  <font>
                                     <Font name="System Bold" size="13.0" />
@@ -736,10 +835,17 @@
                         </StackPane>
                         <StackPane styleClass="tile-container" GridPane.columnIndex="4" GridPane.rowIndex="2">
                            <children>
+                              <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-modifier-background" />
+                              <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-background" />
+                              <Pane maxHeight="80.0" maxWidth="80.0" prefHeight="80.0" prefWidth="80.0" visible="false">
+                                 <children>
+                                    <Line endX="80.0" startY="80.0" styleClass="bar" />
+                                 </children>
+                              </Pane>
                               <TextField styleClass="tile-input" />
                               <Label alignment="CENTER" text="1" textAlignment="CENTER" StackPane.alignment="BOTTOM_RIGHT">
                                  <StackPane.margin>
-                                    <Insets bottom="14.0" right="18.0" />
+                                    <Insets bottom="16.0" right="20.0" />
                                  </StackPane.margin>
                                  <font>
                                     <Font name="System Bold" size="13.0" />
@@ -781,12 +887,19 @@
                               <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
                            </children>
                         </StackPane>
-                        <StackPane styleClass="tile-container" GridPane.columnIndex="0" GridPane.rowIndex="3">
+                        <StackPane styleClass="tile-container" GridPane.rowIndex="3">
                            <children>
+                              <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-modifier-background" />
+                              <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-background" />
+                              <Pane maxHeight="80.0" maxWidth="80.0" prefHeight="80.0" prefWidth="80.0" visible="false">
+                                 <children>
+                                    <Line endX="80.0" startY="80.0" styleClass="bar" />
+                                 </children>
+                              </Pane>
                               <TextField styleClass="tile-input" />
                               <Label alignment="CENTER" text="1" textAlignment="CENTER" StackPane.alignment="BOTTOM_RIGHT">
                                  <StackPane.margin>
-                                    <Insets bottom="14.0" right="18.0" />
+                                    <Insets bottom="16.0" right="20.0" />
                                  </StackPane.margin>
                                  <font>
                                     <Font name="System Bold" size="13.0" />
@@ -830,10 +943,17 @@
                         </StackPane>
                         <StackPane styleClass="tile-container" GridPane.columnIndex="1" GridPane.rowIndex="3">
                            <children>
+                              <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-modifier-background" />
+                              <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-background" />
+                              <Pane maxHeight="80.0" maxWidth="80.0" prefHeight="80.0" prefWidth="80.0" visible="false">
+                                 <children>
+                                    <Line endX="80.0" startY="80.0" styleClass="bar" />
+                                 </children>
+                              </Pane>
                               <TextField styleClass="tile-input" />
                               <Label alignment="CENTER" text="1" textAlignment="CENTER" StackPane.alignment="BOTTOM_RIGHT">
                                  <StackPane.margin>
-                                    <Insets bottom="14.0" right="18.0" />
+                                    <Insets bottom="16.0" right="20.0" />
                                  </StackPane.margin>
                                  <font>
                                     <Font name="System Bold" size="13.0" />
@@ -877,10 +997,17 @@
                         </StackPane>
                         <StackPane styleClass="tile-container" GridPane.columnIndex="2" GridPane.rowIndex="3">
                            <children>
+                              <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-modifier-background" />
+                              <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-background" />
+                              <Pane maxHeight="80.0" maxWidth="80.0" prefHeight="80.0" prefWidth="80.0" visible="false">
+                                 <children>
+                                    <Line endX="80.0" startY="80.0" styleClass="bar" />
+                                 </children>
+                              </Pane>
                               <TextField styleClass="tile-input" />
                               <Label alignment="CENTER" text="1" textAlignment="CENTER" StackPane.alignment="BOTTOM_RIGHT">
                                  <StackPane.margin>
-                                    <Insets bottom="14.0" right="18.0" />
+                                    <Insets bottom="16.0" right="20.0" />
                                  </StackPane.margin>
                                  <font>
                                     <Font name="System Bold" size="13.0" />
@@ -924,10 +1051,17 @@
                         </StackPane>
                         <StackPane styleClass="tile-container" GridPane.columnIndex="3" GridPane.rowIndex="3">
                            <children>
+                              <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-modifier-background" />
+                              <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-background" />
+                              <Pane maxHeight="80.0" maxWidth="80.0" prefHeight="80.0" prefWidth="80.0" visible="false">
+                                 <children>
+                                    <Line endX="80.0" startY="80.0" styleClass="bar" />
+                                 </children>
+                              </Pane>
                               <TextField styleClass="tile-input" />
                               <Label alignment="CENTER" text="1" textAlignment="CENTER" StackPane.alignment="BOTTOM_RIGHT">
                                  <StackPane.margin>
-                                    <Insets bottom="14.0" right="18.0" />
+                                    <Insets bottom="16.0" right="20.0" />
                                  </StackPane.margin>
                                  <font>
                                     <Font name="System Bold" size="13.0" />
@@ -971,10 +1105,17 @@
                         </StackPane>
                         <StackPane styleClass="tile-container" GridPane.columnIndex="4" GridPane.rowIndex="3">
                            <children>
+                              <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-modifier-background" />
+                              <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-background" />
+                              <Pane maxHeight="80.0" maxWidth="80.0" prefHeight="80.0" prefWidth="80.0" visible="false">
+                                 <children>
+                                    <Line endX="80.0" startY="80.0" styleClass="bar" />
+                                 </children>
+                              </Pane>
                               <TextField styleClass="tile-input" />
                               <Label alignment="CENTER" text="1" textAlignment="CENTER" StackPane.alignment="BOTTOM_RIGHT">
                                  <StackPane.margin>
-                                    <Insets bottom="14.0" right="18.0" />
+                                    <Insets bottom="16.0" right="20.0" />
                                  </StackPane.margin>
                                  <font>
                                     <Font name="System Bold" size="13.0" />
@@ -1016,12 +1157,19 @@
                               <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
                            </children>
                         </StackPane>
-                        <StackPane styleClass="tile-container" GridPane.columnIndex="0" GridPane.rowIndex="4">
+                        <StackPane styleClass="tile-container" GridPane.rowIndex="4">
                            <children>
+                              <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-modifier-background" />
+                              <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-background" />
+                              <Pane maxHeight="80.0" maxWidth="80.0" prefHeight="80.0" prefWidth="80.0" visible="false">
+                                 <children>
+                                    <Line endX="80.0" startY="80.0" styleClass="bar" />
+                                 </children>
+                              </Pane>
                               <TextField styleClass="tile-input" />
                               <Label alignment="CENTER" text="1" textAlignment="CENTER" StackPane.alignment="BOTTOM_RIGHT">
                                  <StackPane.margin>
-                                    <Insets bottom="14.0" right="18.0" />
+                                    <Insets bottom="16.0" right="20.0" />
                                  </StackPane.margin>
                                  <font>
                                     <Font name="System Bold" size="13.0" />
@@ -1065,10 +1213,17 @@
                         </StackPane>
                         <StackPane styleClass="tile-container" GridPane.columnIndex="1" GridPane.rowIndex="4">
                            <children>
+                              <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-modifier-background" />
+                              <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-background" />
+                              <Pane maxHeight="80.0" maxWidth="80.0" prefHeight="80.0" prefWidth="80.0" visible="false">
+                                 <children>
+                                    <Line endX="80.0" startY="80.0" styleClass="bar" />
+                                 </children>
+                              </Pane>
                               <TextField styleClass="tile-input" />
                               <Label alignment="CENTER" text="1" textAlignment="CENTER" StackPane.alignment="BOTTOM_RIGHT">
                                  <StackPane.margin>
-                                    <Insets bottom="14.0" right="18.0" />
+                                    <Insets bottom="16.0" right="20.0" />
                                  </StackPane.margin>
                                  <font>
                                     <Font name="System Bold" size="13.0" />
@@ -1112,10 +1267,17 @@
                         </StackPane>
                         <StackPane styleClass="tile-container" GridPane.columnIndex="2" GridPane.rowIndex="4">
                            <children>
+                              <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-modifier-background" />
+                              <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-background" />
+                              <Pane maxHeight="80.0" maxWidth="80.0" prefHeight="80.0" prefWidth="80.0" visible="false">
+                                 <children>
+                                    <Line endX="80.0" startY="80.0" styleClass="bar" />
+                                 </children>
+                              </Pane>
                               <TextField styleClass="tile-input" />
                               <Label alignment="CENTER" text="1" textAlignment="CENTER" StackPane.alignment="BOTTOM_RIGHT">
                                  <StackPane.margin>
-                                    <Insets bottom="14.0" right="18.0" />
+                                    <Insets bottom="16.0" right="20.0" />
                                  </StackPane.margin>
                                  <font>
                                     <Font name="System Bold" size="13.0" />
@@ -1159,10 +1321,17 @@
                         </StackPane>
                         <StackPane styleClass="tile-container" GridPane.columnIndex="3" GridPane.rowIndex="4">
                            <children>
+                              <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-modifier-background" />
+                              <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-background" />
+                              <Pane maxHeight="80.0" maxWidth="80.0" prefHeight="80.0" prefWidth="80.0" visible="false">
+                                 <children>
+                                    <Line endX="80.0" startY="80.0" styleClass="bar" />
+                                 </children>
+                              </Pane>
                               <TextField styleClass="tile-input" />
                               <Label alignment="CENTER" text="1" textAlignment="CENTER" StackPane.alignment="BOTTOM_RIGHT">
                                  <StackPane.margin>
-                                    <Insets bottom="14.0" right="18.0" />
+                                    <Insets bottom="16.0" right="20.0" />
                                  </StackPane.margin>
                                  <font>
                                     <Font name="System Bold" size="13.0" />
@@ -1206,10 +1375,17 @@
                         </StackPane>
                         <StackPane styleClass="tile-container" GridPane.columnIndex="4" GridPane.rowIndex="4">
                            <children>
+                              <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-modifier-background" />
+                              <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-background" />
+                              <Pane maxHeight="80.0" maxWidth="80.0" prefHeight="80.0" prefWidth="80.0" visible="false">
+                                 <children>
+                                    <Line endX="80.0" startY="80.0" styleClass="bar" />
+                                 </children>
+                              </Pane>
                               <TextField styleClass="tile-input" />
                               <Label alignment="CENTER" text="1" textAlignment="CENTER" StackPane.alignment="BOTTOM_RIGHT">
                                  <StackPane.margin>
-                                    <Insets bottom="14.0" right="18.0" />
+                                    <Insets bottom="16.0" right="20.0" />
                                  </StackPane.margin>
                                  <font>
                                     <Font name="System Bold" size="13.0" />
@@ -1263,7 +1439,7 @@
                         <ColumnConstraints hgrow="SOMETIMES" maxWidth="96.0" prefWidth="96.0" />
                      </columnConstraints>
                      <rowConstraints>
-                        <RowConstraints maxHeight="96.0" prefHeight="96.0" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="96.0" prefHeight="96.0" vgrow="NEVER" />
                         <RowConstraints maxHeight="96.0" prefHeight="96.0" vgrow="SOMETIMES" />
                         <RowConstraints maxHeight="96.0" prefHeight="96.0" vgrow="SOMETIMES" />
                         <RowConstraints maxHeight="96.0" prefHeight="96.0" vgrow="SOMETIMES" />
@@ -1272,10 +1448,17 @@
                      <children>
                         <StackPane styleClass="tile-container" GridPane.columnIndex="0" GridPane.rowIndex="0">
                            <children>
+                              <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-modifier-background" />
+                              <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-background" />
+                              <Pane maxHeight="80.0" maxWidth="80.0" prefHeight="80.0" prefWidth="80.0" visible="false">
+                                 <children>
+                                    <Line endX="80.0" startY="80.0" styleClass="bar" />
+                                 </children>
+                              </Pane>
                               <TextField styleClass="tile-input" />
                               <Label alignment="CENTER" text="1" textAlignment="CENTER" StackPane.alignment="BOTTOM_RIGHT">
                                  <StackPane.margin>
-                                    <Insets bottom="14.0" right="18.0" />
+                                    <Insets bottom="16.0" right="20.0" />
                                  </StackPane.margin>
                                  <font>
                                     <Font name="System Bold" size="13.0" />
@@ -1317,12 +1500,19 @@
                               <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
                            </children>
                         </StackPane>
-                        <StackPane styleClass="tile-container" GridPane.columnIndex="1" GridPane.rowIndex="0">
+                        <StackPane styleClass="tile-container" GridPane.columnIndex="1">
                            <children>
+                              <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-modifier-background" />
+                              <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-background" />
+                              <Pane maxHeight="80.0" maxWidth="80.0" prefHeight="80.0" prefWidth="80.0" visible="false">
+                                 <children>
+                                    <Line endX="80.0" startY="80.0" styleClass="bar" />
+                                 </children>
+                              </Pane>
                               <TextField styleClass="tile-input" />
                               <Label alignment="CENTER" text="1" textAlignment="CENTER" StackPane.alignment="BOTTOM_RIGHT">
                                  <StackPane.margin>
-                                    <Insets bottom="14.0" right="18.0" />
+                                    <Insets bottom="16.0" right="20.0" />
                                  </StackPane.margin>
                                  <font>
                                     <Font name="System Bold" size="13.0" />
@@ -1364,12 +1554,19 @@
                               <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
                            </children>
                         </StackPane>
-                        <StackPane styleClass="tile-container" GridPane.columnIndex="2" GridPane.rowIndex="0">
+                        <StackPane styleClass="tile-container" GridPane.columnIndex="2">
                            <children>
+                              <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-modifier-background" />
+                              <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-background" />
+                              <Pane maxHeight="80.0" maxWidth="80.0" prefHeight="80.0" prefWidth="80.0" visible="false">
+                                 <children>
+                                    <Line endX="80.0" startY="80.0" styleClass="bar" />
+                                 </children>
+                              </Pane>
                               <TextField styleClass="tile-input" />
                               <Label alignment="CENTER" text="1" textAlignment="CENTER" StackPane.alignment="BOTTOM_RIGHT">
                                  <StackPane.margin>
-                                    <Insets bottom="14.0" right="18.0" />
+                                    <Insets bottom="16.0" right="20.0" />
                                  </StackPane.margin>
                                  <font>
                                     <Font name="System Bold" size="13.0" />
@@ -1411,12 +1608,19 @@
                               <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
                            </children>
                         </StackPane>
-                        <StackPane styleClass="tile-container" GridPane.columnIndex="3" GridPane.rowIndex="0">
+                        <StackPane styleClass="tile-container" GridPane.columnIndex="3">
                            <children>
+                              <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-modifier-background" />
+                              <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-background" />
+                              <Pane maxHeight="80.0" maxWidth="80.0" prefHeight="80.0" prefWidth="80.0" visible="false">
+                                 <children>
+                                    <Line endX="80.0" startY="80.0" styleClass="bar" />
+                                 </children>
+                              </Pane>
                               <TextField styleClass="tile-input" />
                               <Label alignment="CENTER" text="1" textAlignment="CENTER" StackPane.alignment="BOTTOM_RIGHT">
                                  <StackPane.margin>
-                                    <Insets bottom="14.0" right="18.0" />
+                                    <Insets bottom="16.0" right="20.0" />
                                  </StackPane.margin>
                                  <font>
                                     <Font name="System Bold" size="13.0" />
@@ -1458,12 +1662,19 @@
                               <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
                            </children>
                         </StackPane>
-                        <StackPane styleClass="tile-container" GridPane.columnIndex="4" GridPane.rowIndex="0">
+                        <StackPane styleClass="tile-container" GridPane.columnIndex="4">
                            <children>
+                              <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-modifier-background" />
+                              <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-background" />
+                              <Pane maxHeight="80.0" maxWidth="80.0" prefHeight="80.0" prefWidth="80.0" visible="false">
+                                 <children>
+                                    <Line endX="80.0" startY="80.0" styleClass="bar" />
+                                 </children>
+                              </Pane>
                               <TextField styleClass="tile-input" />
                               <Label alignment="CENTER" text="1" textAlignment="CENTER" StackPane.alignment="BOTTOM_RIGHT">
                                  <StackPane.margin>
-                                    <Insets bottom="14.0" right="18.0" />
+                                    <Insets bottom="16.0" right="20.0" />
                                  </StackPane.margin>
                                  <font>
                                     <Font name="System Bold" size="13.0" />
@@ -1505,12 +1716,19 @@
                               <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
                            </children>
                         </StackPane>
-                        <StackPane styleClass="tile-container" GridPane.columnIndex="0" GridPane.rowIndex="1" >
+                        <StackPane styleClass="tile-container" GridPane.rowIndex="1">
                            <children>
+                              <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-modifier-background" />
+                              <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-background" />
+                              <Pane maxHeight="80.0" maxWidth="80.0" prefHeight="80.0" prefWidth="80.0" visible="false">
+                                 <children>
+                                    <Line endX="80.0" startY="80.0" styleClass="bar" />
+                                 </children>
+                              </Pane>
                               <TextField styleClass="tile-input" />
                               <Label alignment="CENTER" text="1" textAlignment="CENTER" StackPane.alignment="BOTTOM_RIGHT">
                                  <StackPane.margin>
-                                    <Insets bottom="14.0" right="18.0" />
+                                    <Insets bottom="16.0" right="20.0" />
                                  </StackPane.margin>
                                  <font>
                                     <Font name="System Bold" size="13.0" />
@@ -1554,10 +1772,17 @@
                         </StackPane>
                         <StackPane styleClass="tile-container" GridPane.columnIndex="1" GridPane.rowIndex="1">
                            <children>
+                              <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-modifier-background" />
+                              <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-background" />
+                              <Pane maxHeight="80.0" maxWidth="80.0" prefHeight="80.0" prefWidth="80.0" visible="false">
+                                 <children>
+                                    <Line endX="80.0" startY="80.0" styleClass="bar" />
+                                 </children>
+                              </Pane>
                               <TextField styleClass="tile-input" />
                               <Label alignment="CENTER" text="1" textAlignment="CENTER" StackPane.alignment="BOTTOM_RIGHT">
                                  <StackPane.margin>
-                                    <Insets bottom="14.0" right="18.0" />
+                                    <Insets bottom="16.0" right="20.0" />
                                  </StackPane.margin>
                                  <font>
                                     <Font name="System Bold" size="13.0" />
@@ -1601,10 +1826,17 @@
                         </StackPane>
                         <StackPane styleClass="tile-container" GridPane.columnIndex="2" GridPane.rowIndex="1">
                            <children>
+                              <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-modifier-background" />
+                              <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-background" />
+                              <Pane maxHeight="80.0" maxWidth="80.0" prefHeight="80.0" prefWidth="80.0" visible="false">
+                                 <children>
+                                    <Line endX="80.0" startY="80.0" styleClass="bar" />
+                                 </children>
+                              </Pane>
                               <TextField styleClass="tile-input" />
                               <Label alignment="CENTER" text="1" textAlignment="CENTER" StackPane.alignment="BOTTOM_RIGHT">
                                  <StackPane.margin>
-                                    <Insets bottom="14.0" right="18.0" />
+                                    <Insets bottom="16.0" right="20.0" />
                                  </StackPane.margin>
                                  <font>
                                     <Font name="System Bold" size="13.0" />
@@ -1648,10 +1880,17 @@
                         </StackPane>
                         <StackPane styleClass="tile-container" GridPane.columnIndex="3" GridPane.rowIndex="1">
                            <children>
+                              <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-modifier-background" />
+                              <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-background" />
+                              <Pane maxHeight="80.0" maxWidth="80.0" prefHeight="80.0" prefWidth="80.0" visible="false">
+                                 <children>
+                                    <Line endX="80.0" startY="80.0" styleClass="bar" />
+                                 </children>
+                              </Pane>
                               <TextField styleClass="tile-input" />
                               <Label alignment="CENTER" text="1" textAlignment="CENTER" StackPane.alignment="BOTTOM_RIGHT">
                                  <StackPane.margin>
-                                    <Insets bottom="14.0" right="18.0" />
+                                    <Insets bottom="16.0" right="20.0" />
                                  </StackPane.margin>
                                  <font>
                                     <Font name="System Bold" size="13.0" />
@@ -1695,10 +1934,17 @@
                         </StackPane>
                         <StackPane styleClass="tile-container" GridPane.columnIndex="4" GridPane.rowIndex="1">
                            <children>
+                              <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-modifier-background" />
+                              <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-background" />
+                              <Pane maxHeight="80.0" maxWidth="80.0" prefHeight="80.0" prefWidth="80.0" visible="false">
+                                 <children>
+                                    <Line endX="80.0" startY="80.0" styleClass="bar" />
+                                 </children>
+                              </Pane>
                               <TextField styleClass="tile-input" />
                               <Label alignment="CENTER" text="1" textAlignment="CENTER" StackPane.alignment="BOTTOM_RIGHT">
                                  <StackPane.margin>
-                                    <Insets bottom="14.0" right="18.0" />
+                                    <Insets bottom="16.0" right="20.0" />
                                  </StackPane.margin>
                                  <font>
                                     <Font name="System Bold" size="13.0" />
@@ -1740,12 +1986,19 @@
                               <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
                            </children>
                         </StackPane>
-                        <StackPane styleClass="tile-container" GridPane.columnIndex="0" GridPane.rowIndex="2">
+                        <StackPane styleClass="tile-container" GridPane.rowIndex="2">
                            <children>
+                              <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-modifier-background" />
+                              <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-background" />
+                              <Pane maxHeight="80.0" maxWidth="80.0" prefHeight="80.0" prefWidth="80.0" visible="false">
+                                 <children>
+                                    <Line endX="80.0" startY="80.0" styleClass="bar" />
+                                 </children>
+                              </Pane>
                               <TextField styleClass="tile-input" />
                               <Label alignment="CENTER" text="1" textAlignment="CENTER" StackPane.alignment="BOTTOM_RIGHT">
                                  <StackPane.margin>
-                                    <Insets bottom="14.0" right="18.0" />
+                                    <Insets bottom="16.0" right="20.0" />
                                  </StackPane.margin>
                                  <font>
                                     <Font name="System Bold" size="13.0" />
@@ -1789,10 +2042,17 @@
                         </StackPane>
                         <StackPane styleClass="tile-container" GridPane.columnIndex="1" GridPane.rowIndex="2">
                            <children>
+                              <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-modifier-background" />
+                              <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-background" />
+                              <Pane maxHeight="80.0" maxWidth="80.0" prefHeight="80.0" prefWidth="80.0" visible="false">
+                                 <children>
+                                    <Line endX="80.0" startY="80.0" styleClass="bar" />
+                                 </children>
+                              </Pane>
                               <TextField styleClass="tile-input" />
                               <Label alignment="CENTER" text="1" textAlignment="CENTER" StackPane.alignment="BOTTOM_RIGHT">
                                  <StackPane.margin>
-                                    <Insets bottom="14.0" right="18.0" />
+                                    <Insets bottom="16.0" right="20.0" />
                                  </StackPane.margin>
                                  <font>
                                     <Font name="System Bold" size="13.0" />
@@ -1836,10 +2096,17 @@
                         </StackPane>
                         <StackPane styleClass="tile-container" GridPane.columnIndex="2" GridPane.rowIndex="2">
                            <children>
+                              <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-modifier-background" />
+                              <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-background" />
+                              <Pane maxHeight="80.0" maxWidth="80.0" prefHeight="80.0" prefWidth="80.0" visible="false">
+                                 <children>
+                                    <Line endX="80.0" startY="80.0" styleClass="bar" />
+                                 </children>
+                              </Pane>
                               <TextField styleClass="tile-input" />
                               <Label alignment="CENTER" text="1" textAlignment="CENTER" StackPane.alignment="BOTTOM_RIGHT">
                                  <StackPane.margin>
-                                    <Insets bottom="14.0" right="18.0" />
+                                    <Insets bottom="16.0" right="20.0" />
                                  </StackPane.margin>
                                  <font>
                                     <Font name="System Bold" size="13.0" />
@@ -1883,10 +2150,17 @@
                         </StackPane>
                         <StackPane styleClass="tile-container" GridPane.columnIndex="3" GridPane.rowIndex="2">
                            <children>
+                              <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-modifier-background" />
+                              <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-background" />
+                              <Pane maxHeight="80.0" maxWidth="80.0" prefHeight="80.0" prefWidth="80.0" visible="false">
+                                 <children>
+                                    <Line endX="80.0" startY="80.0" styleClass="bar" />
+                                 </children>
+                              </Pane>
                               <TextField styleClass="tile-input" />
                               <Label alignment="CENTER" text="1" textAlignment="CENTER" StackPane.alignment="BOTTOM_RIGHT">
                                  <StackPane.margin>
-                                    <Insets bottom="14.0" right="18.0" />
+                                    <Insets bottom="16.0" right="20.0" />
                                  </StackPane.margin>
                                  <font>
                                     <Font name="System Bold" size="13.0" />
@@ -1930,10 +2204,17 @@
                         </StackPane>
                         <StackPane styleClass="tile-container" GridPane.columnIndex="4" GridPane.rowIndex="2">
                            <children>
+                              <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-modifier-background" />
+                              <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-background" />
+                              <Pane maxHeight="80.0" maxWidth="80.0" prefHeight="80.0" prefWidth="80.0" visible="false">
+                                 <children>
+                                    <Line endX="80.0" startY="80.0" styleClass="bar" />
+                                 </children>
+                              </Pane>
                               <TextField styleClass="tile-input" />
                               <Label alignment="CENTER" text="1" textAlignment="CENTER" StackPane.alignment="BOTTOM_RIGHT">
                                  <StackPane.margin>
-                                    <Insets bottom="14.0" right="18.0" />
+                                    <Insets bottom="16.0" right="20.0" />
                                  </StackPane.margin>
                                  <font>
                                     <Font name="System Bold" size="13.0" />
@@ -1975,12 +2256,19 @@
                               <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
                            </children>
                         </StackPane>
-                        <StackPane styleClass="tile-container" GridPane.columnIndex="0" GridPane.rowIndex="3">
+                        <StackPane styleClass="tile-container" GridPane.rowIndex="3">
                            <children>
+                              <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-modifier-background" />
+                              <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-background" />
+                              <Pane maxHeight="80.0" maxWidth="80.0" prefHeight="80.0" prefWidth="80.0" visible="false">
+                                 <children>
+                                    <Line endX="80.0" startY="80.0" styleClass="bar" />
+                                 </children>
+                              </Pane>
                               <TextField styleClass="tile-input" />
                               <Label alignment="CENTER" text="1" textAlignment="CENTER" StackPane.alignment="BOTTOM_RIGHT">
                                  <StackPane.margin>
-                                    <Insets bottom="14.0" right="18.0" />
+                                    <Insets bottom="16.0" right="20.0" />
                                  </StackPane.margin>
                                  <font>
                                     <Font name="System Bold" size="13.0" />
@@ -2024,10 +2312,17 @@
                         </StackPane>
                         <StackPane styleClass="tile-container" GridPane.columnIndex="1" GridPane.rowIndex="3">
                            <children>
+                              <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-modifier-background" />
+                              <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-background" />
+                              <Pane maxHeight="80.0" maxWidth="80.0" prefHeight="80.0" prefWidth="80.0" visible="false">
+                                 <children>
+                                    <Line endX="80.0" startY="80.0" styleClass="bar" />
+                                 </children>
+                              </Pane>
                               <TextField styleClass="tile-input" />
                               <Label alignment="CENTER" text="1" textAlignment="CENTER" StackPane.alignment="BOTTOM_RIGHT">
                                  <StackPane.margin>
-                                    <Insets bottom="14.0" right="18.0" />
+                                    <Insets bottom="16.0" right="20.0" />
                                  </StackPane.margin>
                                  <font>
                                     <Font name="System Bold" size="13.0" />
@@ -2071,10 +2366,17 @@
                         </StackPane>
                         <StackPane styleClass="tile-container" GridPane.columnIndex="2" GridPane.rowIndex="3">
                            <children>
+                              <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-modifier-background" />
+                              <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-background" />
+                              <Pane maxHeight="80.0" maxWidth="80.0" prefHeight="80.0" prefWidth="80.0" visible="false">
+                                 <children>
+                                    <Line endX="80.0" startY="80.0" styleClass="bar" />
+                                 </children>
+                              </Pane>
                               <TextField styleClass="tile-input" />
                               <Label alignment="CENTER" text="1" textAlignment="CENTER" StackPane.alignment="BOTTOM_RIGHT">
                                  <StackPane.margin>
-                                    <Insets bottom="14.0" right="18.0" />
+                                    <Insets bottom="16.0" right="20.0" />
                                  </StackPane.margin>
                                  <font>
                                     <Font name="System Bold" size="13.0" />
@@ -2118,10 +2420,17 @@
                         </StackPane>
                         <StackPane styleClass="tile-container" GridPane.columnIndex="3" GridPane.rowIndex="3">
                            <children>
+                              <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-modifier-background" />
+                              <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-background" />
+                              <Pane maxHeight="80.0" maxWidth="80.0" prefHeight="80.0" prefWidth="80.0" visible="false">
+                                 <children>
+                                    <Line endX="80.0" startY="80.0" styleClass="bar" />
+                                 </children>
+                              </Pane>
                               <TextField styleClass="tile-input" />
                               <Label alignment="CENTER" text="1" textAlignment="CENTER" StackPane.alignment="BOTTOM_RIGHT">
                                  <StackPane.margin>
-                                    <Insets bottom="14.0" right="18.0" />
+                                    <Insets bottom="16.0" right="20.0" />
                                  </StackPane.margin>
                                  <font>
                                     <Font name="System Bold" size="13.0" />
@@ -2165,10 +2474,17 @@
                         </StackPane>
                         <StackPane styleClass="tile-container" GridPane.columnIndex="4" GridPane.rowIndex="3">
                            <children>
+                              <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-modifier-background" />
+                              <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-background" />
+                              <Pane maxHeight="80.0" maxWidth="80.0" prefHeight="80.0" prefWidth="80.0" visible="false">
+                                 <children>
+                                    <Line endX="80.0" startY="80.0" styleClass="bar" />
+                                 </children>
+                              </Pane>
                               <TextField styleClass="tile-input" />
                               <Label alignment="CENTER" text="1" textAlignment="CENTER" StackPane.alignment="BOTTOM_RIGHT">
                                  <StackPane.margin>
-                                    <Insets bottom="14.0" right="18.0" />
+                                    <Insets bottom="16.0" right="20.0" />
                                  </StackPane.margin>
                                  <font>
                                     <Font name="System Bold" size="13.0" />
@@ -2210,12 +2526,19 @@
                               <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
                            </children>
                         </StackPane>
-                        <StackPane styleClass="tile-container" GridPane.columnIndex="0" GridPane.rowIndex="4">
+                        <StackPane styleClass="tile-container" GridPane.rowIndex="4">
                            <children>
+                              <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-modifier-background" />
+                              <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-background" />
+                              <Pane maxHeight="80.0" maxWidth="80.0" prefHeight="80.0" prefWidth="80.0" visible="false">
+                                 <children>
+                                    <Line endX="80.0" startY="80.0" styleClass="bar" />
+                                 </children>
+                              </Pane>
                               <TextField styleClass="tile-input" />
                               <Label alignment="CENTER" text="1" textAlignment="CENTER" StackPane.alignment="BOTTOM_RIGHT">
                                  <StackPane.margin>
-                                    <Insets bottom="14.0" right="18.0" />
+                                    <Insets bottom="16.0" right="20.0" />
                                  </StackPane.margin>
                                  <font>
                                     <Font name="System Bold" size="13.0" />
@@ -2259,10 +2582,17 @@
                         </StackPane>
                         <StackPane styleClass="tile-container" GridPane.columnIndex="1" GridPane.rowIndex="4">
                            <children>
+                              <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-modifier-background" />
+                              <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-background" />
+                              <Pane maxHeight="80.0" maxWidth="80.0" prefHeight="80.0" prefWidth="80.0" visible="false">
+                                 <children>
+                                    <Line endX="80.0" startY="80.0" styleClass="bar" />
+                                 </children>
+                              </Pane>
                               <TextField styleClass="tile-input" />
                               <Label alignment="CENTER" text="1" textAlignment="CENTER" StackPane.alignment="BOTTOM_RIGHT">
                                  <StackPane.margin>
-                                    <Insets bottom="14.0" right="18.0" />
+                                    <Insets bottom="16.0" right="20.0" />
                                  </StackPane.margin>
                                  <font>
                                     <Font name="System Bold" size="13.0" />
@@ -2306,10 +2636,17 @@
                         </StackPane>
                         <StackPane styleClass="tile-container" GridPane.columnIndex="2" GridPane.rowIndex="4">
                            <children>
+                              <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-modifier-background" />
+                              <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-background" />
+                              <Pane maxHeight="80.0" maxWidth="80.0" prefHeight="80.0" prefWidth="80.0" visible="false">
+                                 <children>
+                                    <Line endX="80.0" startY="80.0" styleClass="bar" />
+                                 </children>
+                              </Pane>
                               <TextField styleClass="tile-input" />
                               <Label alignment="CENTER" text="1" textAlignment="CENTER" StackPane.alignment="BOTTOM_RIGHT">
                                  <StackPane.margin>
-                                    <Insets bottom="14.0" right="18.0" />
+                                    <Insets bottom="16.0" right="20.0" />
                                  </StackPane.margin>
                                  <font>
                                     <Font name="System Bold" size="13.0" />
@@ -2353,10 +2690,17 @@
                         </StackPane>
                         <StackPane styleClass="tile-container" GridPane.columnIndex="3" GridPane.rowIndex="4">
                            <children>
+                              <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-modifier-background" />
+                              <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-background" />
+                              <Pane maxHeight="80.0" maxWidth="80.0" prefHeight="80.0" prefWidth="80.0" visible="false">
+                                 <children>
+                                    <Line endX="80.0" startY="80.0" styleClass="bar" />
+                                 </children>
+                              </Pane>
                               <TextField styleClass="tile-input" />
                               <Label alignment="CENTER" text="1" textAlignment="CENTER" StackPane.alignment="BOTTOM_RIGHT">
                                  <StackPane.margin>
-                                    <Insets bottom="14.0" right="18.0" />
+                                    <Insets bottom="16.0" right="20.0" />
                                  </StackPane.margin>
                                  <font>
                                     <Font name="System Bold" size="13.0" />
@@ -2400,10 +2744,17 @@
                         </StackPane>
                         <StackPane styleClass="tile-container" GridPane.columnIndex="4" GridPane.rowIndex="4">
                            <children>
+                              <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-modifier-background" />
+                              <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-background" />
+                              <Pane maxHeight="80.0" maxWidth="80.0" prefHeight="80.0" prefWidth="80.0" visible="false">
+                                 <children>
+                                    <Line endX="80.0" startY="80.0" styleClass="bar" />
+                                 </children>
+                              </Pane>
                               <TextField styleClass="tile-input" />
                               <Label alignment="CENTER" text="1" textAlignment="CENTER" StackPane.alignment="BOTTOM_RIGHT">
                                  <StackPane.margin>
-                                    <Insets bottom="14.0" right="18.0" />
+                                    <Insets bottom="16.0" right="20.0" />
                                  </StackPane.margin>
                                  <font>
                                     <Font name="System Bold" size="13.0" />

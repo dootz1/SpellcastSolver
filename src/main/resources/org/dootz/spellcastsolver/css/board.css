@@ -32,20 +32,46 @@
     -fx-max-height: 96px;
 }
 
+.board-grid .tile-background,
 .board-grid .tile-input {
+    -fx-max-height: 78px;
+    -fx-max-width: 78px;
+    -fx-pref-height: 78px;
+    -fx-pref-width: 78px;
+}
+
+.tile-modifier-background {
+    -fx-max-height: 84px;
+    -fx-max-width: 84px;
+    -fx-background-radius: 20px;
+}
+
+.tile-modifier-background.double-word-modifier{
+    -fx-background-color: rgb(236, 115, 236);
+}
+
+.tile-modifier-background.triple-word-modifier{
+    -fx-background-color: rgb(115, 233, 64);
+}
+
+.board-grid .tile-background {
     -fx-background-color: white;
-    -fx-max-height: 80px;
-    -fx-max-width: 80px;
-    -fx-pref-height: 80px;
-    -fx-pref-width: 80px;
-    -fx-border-radius: 8px;
-    -fx-background-radius: 10px;
+    -fx-border-radius: 16px;
+    -fx-background-radius: 20px;
     -fx-border-width: 6px;
     -fx-border-color: linear-gradient(rgb(255, 242, 227), rgb(253, 221, 200));
+}
+
+.board-grid .tile-input {
+    -fx-max-height: 78px;
+    -fx-max-width: 78px;
+    -fx-pref-height: 78px;
+    -fx-pref-width: 78px;
     -fx-font-weight: 900;
     -fx-font-size: 36px;
     -fx-alignment: center;
-    -fx-padding: -4px;
+    -fx-padding: -2px;
+    -fx-background-color: transparent;
 }
 
 .tile-modifier-container {
@@ -96,9 +122,17 @@
 }
 
 .tile-selected .tile-input {
-    -fx-background-color: linear-gradient(to right bottom, rgb(49, 181, 222) , rgb(143, 195, 211));
-    -fx-border-color: linear-gradient(to right bottom, rgb(1, 78, 163), rgb(45, 99, 159));
     -fx-text-fill: white;
+}
+
+.tile-selected .tile-background {
+    -fx-background-color: rgb(53, 181, 222);
+    -fx-border-color: rgb(11, 77, 161);
+}
+
+.bar {
+    -fx-stroke: rgba(134, 250, 237, 0.5);
+    -fx-stroke-width: 28;
 }
 
 .tile-selected > .label {

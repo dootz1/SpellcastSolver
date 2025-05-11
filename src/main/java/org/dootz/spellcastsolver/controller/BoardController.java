@@ -9,7 +9,6 @@ import javafx.collections.SetChangeListener;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.geometry.Bounds;
-import javafx.geometry.Pos;
 import javafx.scene.Node;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
@@ -18,7 +17,6 @@ import javafx.scene.layout.GridPane;
 import javafx.scene.layout.Pane;
 import javafx.scene.layout.StackPane;
 import javafx.scene.paint.Color;
-import javafx.scene.paint.Paint;
 import javafx.scene.shape.Circle;
 import javafx.scene.shape.Line;
 import javafx.scene.shape.Polygon;
@@ -33,11 +31,19 @@ import org.dootz.spellcastsolver.utils.BoardUtils;
 import org.dootz.spellcastsolver.utils.Constants;
 import org.dootz.spellcastsolver.utils.TileModifier;
 import org.dootz.spellcastsolver.utils.TileUtils;
-import org.w3c.dom.Text;
 
 import java.util.Set;
 
 public class BoardController {
+    private static final int TILE_MODIFIER_BACKGROUND_INDEX = 0;
+    private static final int TILE_BACKGROUND_INDEX = 1;
+    private static final int TILE_SELECTION_LINE_INDEX = 2;
+    private static final int TILE_INPUT_FIELD_INDEX = 3;
+    private static final int TILE_POINTS_LABEL_INDEX = 4;
+    private static final int LETTER_MODIFIER_CONTAINER_INDEX = 5;
+    private static final int WORD_MODIFIER_CONTAINER_INDEX = 6;
+    private static final int GEM_POLYGON_INDEX = 7;
+    private static final int FROZEN_RECTANGLE_INDEX = 8;
     private DataModel model;
     @FXML
     private Label currentWordLabel;
@@ -54,8 +60,8 @@ public class BoardController {
 
     public void initialize() {
         for (int i = 0; i < Constants.BOARD_TILES; i++) {
-            setupTileInput(getTileFromGrid(inputGrid, i));
-            setupTileInput(getTileFromGrid(solvedGrid, i));
+            setupTile(getTileFromGrid(inputGrid, i));
+            setupTile(getTileFromGrid(solvedGrid, i));
         }
     }
 
@@ -63,8 +69,8 @@ public class BoardController {
         return (StackPane) grid.getChildren().get(index);
     }
 
-    private void setupTileInput(StackPane tileContainer) {
-        TextField tileInput = (TextField) tileContainer.getChildren().getFirst();
+    private void setupTile(StackPane tileContainer) {
+        TextField tileInput = (TextField) tileContainer.getChildren().get(TILE_INPUT_FIELD_INDEX);
 
         tileInput.setTextFormatter(new TextFormatter<>(change -> {
             String text = change.getText();
@@ -89,10 +95,16 @@ public class BoardController {
 
             if (nextIndex < Constants.BOARD_TILES) {
                 StackPane nextContainer = (StackPane) parentGrid.getChildren().get(nextIndex);
-                TextField nextInput = (TextField) nextContainer.getChildren().getFirst();
+                TextField nextInput = (TextField) nextContainer.getChildren().get(TILE_INPUT_FIELD_INDEX);
                 nextInput.requestFocus();
             }
         });
+
+        Rectangle clip = new Rectangle(80, 80);
+        clip.setArcWidth(32);
+        clip.setArcHeight(32);
+        Pane bar = (Pane) tileContainer.getChildren().get(TILE_SELECTION_LINE_INDEX);
+        bar.setClip(clip);
     }
 
     public void initModel(DataModel model) {
@@ -117,7 +129,7 @@ public class BoardController {
         solvedGrid.visibleProperty().bind(boardModel.solvedVisibleProperty());
         canvas.visibleProperty().bind(boardModel.solvedVisibleProperty());
         currentWordLabel.textProperty().bind(Bindings.createStringBinding(() -> {
-            String word = boardModel.currentWordProperty().get();
+            String word = boardModel.getCurrentWord();
             int points = boardModel.getCurrentWordScore();
             return points > 0 ? word + " +" + points : word;
         }, boardModel.currentWordProperty(), boardModel.currentWordScoreProperty()));
@@ -147,7 +159,7 @@ public class BoardController {
         Board randomBoard = BoardUtils.randomBoard(true);
         for (int i = 0; i < Constants.BOARD_TILES; i++) {
             TileModel tileModel = boardModel.getInputTileModelByIndex(i);
-            Tile tile = randomBoard.getTile(i / 5, i % 5);
+            Tile tile = randomBoard.getTile(BoardUtils.indexToRow(i), BoardUtils.indexToColumn(i));
 
             tileModel.setLetter(String.valueOf(tile.getLetter()));
             tileModel.getModifiers().clear();
@@ -182,8 +194,8 @@ public class BoardController {
 
     private void bindTileToView(TileModel tileModel, StackPane tileContainer,
                                 ContextMenuModel contextMenuModel) {
-        TextField tileInput = (TextField) tileContainer.getChildren().get(0);
-        Label tilePoints = (Label) tileContainer.getChildren().get(1);
+        TextField tileInput = (TextField) tileContainer.getChildren().get(TILE_INPUT_FIELD_INDEX);
+        Label tilePoints = (Label) tileContainer.getChildren().get(TILE_POINTS_LABEL_INDEX);
 
         if (contextMenuModel != null) {
             setupContextMenu(tileModel, tileInput, contextMenuModel);
@@ -271,35 +283,55 @@ public class BoardController {
     }
 
     private void bindTileModifiers(TileModel tileModel, StackPane container) {
-        StackPane letterModCont = (StackPane) container.getChildren().get(2);
-        StackPane wordModCont = (StackPane) container.getChildren().get(3);
+        Pane wordModBackground = (Pane) container.getChildren().get(TILE_MODIFIER_BACKGROUND_INDEX);
+        StackPane letterModCont = (StackPane) container.getChildren().get(LETTER_MODIFIER_CONTAINER_INDEX);
+        StackPane wordModCont = (StackPane) container.getChildren().get(WORD_MODIFIER_CONTAINER_INDEX);
+        Polygon gem = (Polygon) container.getChildren().get(GEM_POLYGON_INDEX);
+        Rectangle frozen = (Rectangle) container.getChildren().get(FROZEN_RECTANGLE_INDEX);
         Circle letterCircle = (Circle) letterModCont.getChildren().getFirst();
         Circle wordCircle = (Circle) wordModCont.getChildren().getFirst();
         Label letterLabel = (Label) letterModCont.getChildren().get(1);
         Label wordLabel = (Label) wordModCont.getChildren().get(1);
-        Polygon gem = (Polygon) container.getChildren().get(4);
-        Rectangle frozen = (Rectangle) container.getChildren().get(5);
 
         tileModel.getModifiers().addListener((SetChangeListener<TileModifier>) change -> {
             ObservableSet<TileModifier> modifiers = tileModel.getModifiers();
 
-            updateModifierUI(letterModCont, letterCircle, letterLabel, modifiers,
+            updateModifierLabel(letterModCont, letterCircle, letterLabel, modifiers,
                     TileModifier.DOUBLE_LETTER, "double-letter-modifier", "DL",
                     TileModifier.TRIPLE_LETTER, "triple-letter-modifier", "TL");
 
-            updateModifierUI(wordModCont, wordCircle, wordLabel, modifiers,
+            updateModifierLabel(wordModCont, wordCircle, wordLabel, modifiers,
                     TileModifier.DOUBLE_WORD, "double-word-modifier", "2X",
                     TileModifier.TRIPLE_WORD, "triple-word-modifier", "3X");
 
+            updateModifierBackground(wordModBackground, modifiers,
+                    TileModifier.DOUBLE_WORD, "double-word-modifier",
+                    TileModifier.TRIPLE_WORD, "triple-word-modifier");
             gem.setVisible(modifiers.contains(TileModifier.GEM));
             frozen.setVisible(modifiers.contains(TileModifier.FROZEN));
         });
     }
 
-    private void updateModifierUI(StackPane container, Circle circle, Label label,
-                                  ObservableSet<TileModifier> modifiers,
-                                  TileModifier mod2x, String style2x, String label2x,
-                                  TileModifier mod3x, String style3x, String label3x) {
+    private void updateModifierBackground(Pane background, ObservableSet<TileModifier> modifiers,
+                                          TileModifier mod2x, String style2x,
+                                          TileModifier mod3x, String style3x) {
+        ObservableList<String> styleClass = background.getStyleClass();
+        styleClass.removeAll(style2x, style3x);
+        background.setVisible(true);
+
+        if (modifiers.contains(mod2x)) {
+            styleClass.add(style2x);
+        } else if (modifiers.contains(mod3x)) {
+            styleClass.add(style3x);
+        } else {
+            background.setVisible(false);
+        }
+    }
+
+    private void updateModifierLabel(StackPane container, Circle circle, Label label,
+                                     ObservableSet<TileModifier> modifiers,
+                                     TileModifier mod2x, String style2x, String label2x,
+                                     TileModifier mod3x, String style3x, String label3x) {
         ObservableList<String> styleClass = circle.getStyleClass();
         styleClass.removeAll(style2x, style3x);
         container.setVisible(true);
@@ -316,10 +348,14 @@ public class BoardController {
     }
 
     private void bindTileSelection(TileModel tileModel, StackPane container) {
+        Pane bar = (Pane) container.getChildren().get(2);
         tileModel.selectedProperty().addListener((obs, wasSelected, isSelected) -> {
             container.getStyleClass().remove("tile-selected");
+            bar.setVisible(false);
             if (isSelected) {
                 container.getStyleClass().add("tile-selected");
+                bar.setVisible(true);
+                System.out.println("bar");
             }
         });
     }
