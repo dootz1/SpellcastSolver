@@ -38,9 +38,16 @@
 .table-view .table-row-cell {
     -fx-background-color: transparent;
     -fx-cell-size: 36px;
+    -fx-scale-x: 1;
+    -fx-scale-y: 1;
+    transition-property: -fx-scale-x, -fx-scale-y;
+    transition-duration: 0.2s;
+    transition-timing-function: -fx-ease-both;
 }
 
 .table-view .table-row-cell:hover {
+    -fx-scale-x: 1.01;
+    -fx-scale-y: 1.01;
     -fx-cursor: hand;
     -fx-background-color:  linear-gradient(to right, rgba(90, 49, 244, 0.5), rgba(138, 102, 255, 0.5));
 }
@@ -50,7 +57,7 @@
     -fx-effect: dropshadow(gaussian, #8A66FF, 10, 0, 0, 0);
 }
 
-.clear-selection-button {
+.button-container Button {
     -fx-background-color: rgb(27, 23, 43);
     -fx-border-color: #8A66FF;
     -fx-text-fill: rgb(200, 200, 200);
@@ -58,11 +65,19 @@
     -fx-border-radius: 8px;
     -fx-background-radius: 12px;
     -fx-background-insets: 0 0 0 0;
+
+    -fx-scale-x: 1;
+    -fx-scale-y: 1;
+    transition-property: -fx-scale-x, -fx-scale-y;
+    transition-duration: 0.2s;
+    transition-timing-function: -fx-ease-both;
 }
 
-.clear-selection-button:hover {
+.button-container Button:hover {
     -fx-background-color: #8A66FF;
     -fx-cursor: hand;
+    -fx-scale-x: 1.05;
+    -fx-scale-y: 1.05;
 }
 
 .table-view .filler {

@@ -1,5 +1,6 @@
 package org.dootz.spellcastsolver.controller;
 
+import javafx.animation.Interpolator;
 import javafx.animation.ScaleTransition;
 import javafx.beans.binding.Bindings;
 import javafx.beans.value.ChangeListener;
@@ -11,6 +12,7 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.geometry.Bounds;
 import javafx.scene.Node;
+import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import javafx.scene.control.TextFormatter;
@@ -29,10 +31,7 @@ import org.dootz.spellcastsolver.model.BoardModel;
 import org.dootz.spellcastsolver.model.ContextMenuModel;
 import org.dootz.spellcastsolver.model.DataModel;
 import org.dootz.spellcastsolver.model.TileModel;
-import org.dootz.spellcastsolver.utils.BoardUtils;
-import org.dootz.spellcastsolver.utils.Constants;
-import org.dootz.spellcastsolver.utils.TileModifier;
-import org.dootz.spellcastsolver.utils.TileUtils;
+import org.dootz.spellcastsolver.utils.*;
 
 import java.util.Set;
 
@@ -59,6 +58,12 @@ public class BoardController {
     private GridPane inputGrid;
     @FXML
     private GridPane solvedGrid;
+    @FXML
+    private Button clearTileLetters;
+    @FXML
+    private Button clearTileModifiers;
+    @FXML
+    private Button generateRandomBoard;
 
     public void initialize() {
         for (int i = 0; i < Constants.BOARD_TILES; i++) {
@@ -93,13 +98,11 @@ public class BoardController {
 
             GridPane parentGrid = (GridPane) tileContainer.getParent();
             int currentIndex = parentGrid.getChildren().indexOf(tileContainer);
-            int nextIndex = currentIndex + 1;
+            int nextIndex = (currentIndex + 1) % Constants.BOARD_TILES;
 
-            if (nextIndex < Constants.BOARD_TILES) {
-                StackPane nextContainer = (StackPane) parentGrid.getChildren().get(nextIndex);
-                TextField nextInput = (TextField) nextContainer.getChildren().get(TILE_INPUT_FIELD_INDEX);
-                nextInput.requestFocus();
-            }
+            StackPane nextContainer = (StackPane) parentGrid.getChildren().get(nextIndex);
+            TextField nextInput = (TextField) nextContainer.getChildren().get(TILE_INPUT_FIELD_INDEX);
+            nextInput.requestFocus();
         });
 
         Rectangle clip = new Rectangle(80, 80);
@@ -350,7 +353,7 @@ public class BoardController {
     }
 
     private void bindTileSelection(TileModel tileModel, StackPane container) {
-        Pane bar = (Pane) container.getChildren().get(2);
+        Pane bar = (Pane) container.getChildren().get(TILE_SELECTION_LINE_INDEX);
         tileModel.selectedProperty().addListener((obs, wasSelected, isSelected) -> {
             if (isSelected) {
                 container.getStyleClass().add("tile-selected");
@@ -361,13 +364,8 @@ public class BoardController {
             }
 
             ScaleTransition scaleTransition = new ScaleTransition(Duration.millis(150), container);
-            if (isSelected) {
-                scaleTransition.setToX(0.9);
-                scaleTransition.setToY(0.9);
-            } else {
-                scaleTransition.setToX(1.0);
-                scaleTransition.setToY(1.0);
-            }
+            scaleTransition.setToX(isSelected ? 0.9 : 1.0);
+            scaleTransition.setToY(isSelected ? 0.9 : 1.0);
             scaleTransition.play();
         });
     }

@@ -47,9 +47,9 @@
             </TextFields>
          </left>
          <right>
-            <HBox alignment="CENTER" prefHeight="31.0" prefWidth="105.0" spacing="8.0" BorderPane.alignment="CENTER">
+            <HBox alignment="CENTER" prefHeight="31.0" prefWidth="105.0" spacing="8.0" styleClass="button-container" BorderPane.alignment="CENTER">
                <children>
-                  <Button fx:id="clearSelection" mnemonicParsing="false" onAction="#handleClearSelection" styleClass="clear-selection-button" text="Clear" />
+                  <Button fx:id="clearSelection" mnemonicParsing="false" onAction="#handleClearSelection" text="Clear" />
                   <Button fx:id="playSelection" mnemonicParsing="false" onAction="#handlePlaySelection" styleClass="clear-selection-button" text="Play" />
                </children>
             </HBox>

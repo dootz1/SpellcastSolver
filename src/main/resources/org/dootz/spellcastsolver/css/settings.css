@@ -14,12 +14,21 @@
     -fx-border-color: linear-gradient(to right, #5A31F4, #8A66FF);
     -fx-font-size: 18px;
     -fx-font-weight: 800;
+
+    -fx-scale-x: 1;
+    -fx-scale-y: 1;
+    transition-property: -fx-scale-x, -fx-scale-y;
+    transition-duration: 0.2s;
+    transition-timing-function: -fx-ease-both;
 }
 
 .solve-button:hover {
     -fx-background-color: linear-gradient(to right, #5A31F4, #8A66FF);
     -fx-effect: dropshadow(gaussian, #8A66FF, 10, 0, 0, 0);
     -fx-cursor: hand;
+
+    -fx-scale-x: 1.1;
+    -fx-scale-y: 1.1;
 }
 
 .progress-bar {
@@ -60,12 +69,28 @@
     -fx-background-insets: 4px;
 }
 
+.toggle-switch:hover .thumb-area {
+    -fx-background-color: #3a3355;
+}
+
+.toggle-switch:hover .thumb {
+    -fx-background-color: #e0e0ff;
+}
+
 .toggle-switch:selected .thumb-area {
     -fx-background-color: #5A31F4;
+
+    -fx-scale-x: 1;
+    -fx-scale-y: 1;
+    transition-property: -fx-scale-x, -fx-scale-y;
+    transition-duration: 0.2s;
+    transition-timing-function: -fx-ease-both;
 }
 
 .toggle-switch:hover {
     -fx-cursor: hand;
+    -fx-scale-x: 1.05;
+    -fx-scale-y: 1.05;
 }
 
 .toggle-switch:selected {
@@ -108,5 +133,10 @@
 .spinner .increment-arrow-button .increment-arrow,
 .spinner .decrement-arrow-button .decrement-arrow {
     -fx-background-color: #CCCCFF;
+}
+
+.spinner .increment-arrow-button:hover .increment-arrow,
+.spinner .decrement-arrow-button:hover .decrement-arrow {
+    -fx-background-color: #A3A3FF; /* Lighter shade */
 }
 
