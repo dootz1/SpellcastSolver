@@ -120,6 +120,7 @@ words if they yield more gems for future moves with swaps.
     - 💎 Gems
     - 🔠 Double/Triple Letter (DL/TL)
     - 🔤 Double/Triple Word (DW/TW)
+    - ❄️ Frozen 
 
 3. **Set game context**  
    Enter the current **round number** and configure your **gem inventory**.
