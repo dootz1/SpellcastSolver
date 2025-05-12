@@ -2800,7 +2800,7 @@
                   </GridPane>
                </children>
             </StackPane>
-            <Label prefHeight="17.0" prefWidth="187.0" styleClass="primary-text" text="right-click to apply tile modifiers" textFill="WHITE">
+            <Label fx:id="modifierInstructions" alignment="CENTER" prefHeight="17.0" prefWidth="402.0" styleClass="primary-text" text="right-click on tile to apply tile modifiers (or hover here for hotkeys)" textFill="WHITE">
                <font>
                   <Font name="Arial Italic" size="13.0" />
                </font>
