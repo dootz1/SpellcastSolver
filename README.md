@@ -163,7 +163,8 @@ This application is built with the following key technologies:
 
 ## 📸Screenshots
 
-![Alt text](screenshots/screenshot.png?raw=true "Optional Title")
+![Alt text](screenshots/screenshot.png?raw=true "Screenshot 1")
+![Alt text](screenshots/screenshot2.png?raw=true "Screenshot 2")
 
 ## 📝License
 
