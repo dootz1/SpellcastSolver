@@ -11,6 +11,9 @@
   <component name="ChangeListManager">
     <list default="true" id="607948f6-3af1-4ecc-85b1-1e4263d2b890" name="Changes" comment="Update version">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/dootz/spellcastsolver/controller/BoardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dootz/spellcastsolver/controller/BoardController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/org/dootz/spellcastsolver/css/board.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/dootz/spellcastsolver/css/board.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/org/dootz/spellcastsolver/fxml/board.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/dootz/spellcastsolver/fxml/board.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -210,15 +213,8 @@
       <workItem from="1747017011040" duration="589000" />
       <workItem from="1747017731410" duration="48000" />
       <workItem from="1747018943853" duration="27000" />
-      <workItem from="1747020039028" duration="79000" />
-    </task>
-    <task id="LOCAL-00013" summary="Update build config">
-      <option name="closed" value="true" />
-      <created>1746683986436</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1746683986436</updated>
+      <workItem from="1747020039028" duration="674000" />
+      <workItem from="1747081784293" duration="3095000" />
     </task>
     <task id="LOCAL-00014" summary="Add build script workflows">
       <option name="closed" value="true" />
@@ -604,7 +600,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747018967285</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="Update version">
+      <option name="closed" value="true" />
+      <created>1747020365587</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1747020365587</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -114,8 +114,8 @@ public class BoardController {
         });
 
         Rectangle clip = new Rectangle(80, 80);
-        clip.setArcWidth(32);
-        clip.setArcHeight(32);
+        clip.setArcWidth(40);
+        clip.setArcHeight(40);
         Pane bar = (Pane) tileContainer.getChildren().get(TILE_SELECTION_LINE_INDEX);
         bar.setClip(clip);
     }

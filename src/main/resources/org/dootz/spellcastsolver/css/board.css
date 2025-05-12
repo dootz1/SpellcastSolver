@@ -16,9 +16,25 @@
     -fx-background-radius: 8px;
 }
 
+.outer-border {
+    -fx-max-height: 520px;
+    -fx-max-width: 520px;
+    -fx-border-color: rgb(62, 194, 219);
+    -fx-border-width: 6px;
+    -fx-border-radius: 16px;
+}
+
+.inner-border {
+    -fx-max-height: 508px;
+    -fx-max-width: 508px;
+    -fx-border-color: rgb(0, 79, 131);
+    -fx-border-width: 6px;
+    -fx-border-radius: 12px;
+}
+
 .board-grid {
-    -fx-vgap: 8px;
-    -fx-hgap: 8px;
+    -fx-vgap: 2px;
+    -fx-hgap: 2px;
 }
 
 .board-grid Line {
@@ -77,12 +93,12 @@
 }
 
 .tile-modifier-container {
-    -fx-min-width: 36px;
-    -fx-min-height: 36px;
+    -fx-min-width: 32px;
+    -fx-min-height: 32px;
 }
 
 .tile-modifier-container .label {
-    -fx-font-size: 16px;
+    -fx-font-size: 14px;
 }
 
 .tile-modifier {
@@ -143,6 +159,8 @@
 
 .canvas {
     -fx-background-color: rgb(26, 23, 42);
+    -fx-max-height: 512px;
+    -fx-max-width: 512px;
 }
 
 .board-grid *:disabled {
