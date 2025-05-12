@@ -115,7 +115,7 @@ words if they yield more gems for future moves with swaps.
 1. **Input the board state**  
    Type in the letters to match the current game board.
 
-### 2. **Add Tile Modifiers**
+2. **Add Tile Modifiers**
 Right-click on any tile to apply special modifiers. You can also use keyboard shortcuts for quick access:
 
 | Modifier               | Description            | Hotkey    |
