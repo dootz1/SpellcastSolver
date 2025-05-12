@@ -9,14 +9,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="607948f6-3af1-4ecc-85b1-1e4263d2b890" name="Changes" comment="Increase thickness of modifier background">
+    <list default="true" id="607948f6-3af1-4ecc-85b1-1e4263d2b890" name="Changes" comment="Update version">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/dootz/spellcastsolver/controller/BoardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dootz/spellcastsolver/controller/BoardController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/org/dootz/spellcastsolver/css/board.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/dootz/spellcastsolver/css/board.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/org/dootz/spellcastsolver/css/settings.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/dootz/spellcastsolver/css/settings.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/org/dootz/spellcastsolver/css/table.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/dootz/spellcastsolver/css/table.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/org/dootz/spellcastsolver/fxml/board.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/dootz/spellcastsolver/fxml/board.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/org/dootz/spellcastsolver/fxml/table.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/dootz/spellcastsolver/fxml/table.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +52,9 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -92,7 +89,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/stanleygu/Stanley/Programming/SpellcastSolver&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/stanleygu/Stanley/Programming/SpellcastSolver/src/main/resources/org/dootz/spellcastsolver/fonts&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -107,14 +104,15 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/org/dootz/spellcastsolver/fonts" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/main/java/org/dootz/spellcastsolver" />
       <recent name="$PROJECT_DIR$/src/main/resources/org/dootz/spellcastsolver" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/screenshots" />
-      <recent name="$PROJECT_DIR$/src/main/resources/org/dootz/spellcastsolver/icons" />
       <recent name="$PROJECT_DIR$/src/main/resources/org/dootz/spellcastsolver/images" />
+      <recent name="$PROJECT_DIR$/src/main/resources/org/dootz/spellcastsolver/icons" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="org.dootz.spellcastsolver" />
@@ -206,103 +204,13 @@
       <workItem from="1746849136353" duration="143000" />
       <workItem from="1746906421102" duration="20516000" />
       <workItem from="1746933159084" duration="998000" />
-      <workItem from="1746938925998" duration="4995000" />
-    </task>
-    <task id="LOCAL-00001" summary="Add README.md">
-      <option name="closed" value="true" />
-      <created>1746660276658</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1746660276658</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Optimize imports">
-      <option name="closed" value="true" />
-      <created>1746660449033</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1746660449033</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Remove unused range formatter parameters">
-      <option name="closed" value="true" />
-      <created>1746660589184</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1746660589184</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Update README.md">
-      <option name="closed" value="true" />
-      <created>1746660846531</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1746660846531</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Update README.md">
-      <option name="closed" value="true" />
-      <created>1746661045386</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1746661045386</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Update README.md">
-      <option name="closed" value="true" />
-      <created>1746661230231</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1746661230231</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Update README.md">
-      <option name="closed" value="true" />
-      <created>1746661403517</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1746661403517</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Update README.md">
-      <option name="closed" value="true" />
-      <created>1746661429880</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1746661429880</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Update README.md">
-      <option name="closed" value="true" />
-      <created>1746661461275</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1746661461275</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Update README.md">
-      <option name="closed" value="true" />
-      <created>1746661495299</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1746661495299</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Update README.md">
-      <option name="closed" value="true" />
-      <created>1746661877097</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1746661877097</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Update README.md">
-      <option name="closed" value="true" />
-      <created>1746661954215</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1746661954215</updated>
+      <workItem from="1746938925998" duration="5051000" />
+      <workItem from="1747006433060" duration="8716000" />
+      <workItem from="1747016985833" duration="11000" />
+      <workItem from="1747017011040" duration="589000" />
+      <workItem from="1747017731410" duration="48000" />
+      <workItem from="1747018943853" duration="27000" />
+      <workItem from="1747020039028" duration="79000" />
     </task>
     <task id="LOCAL-00013" summary="Update build config">
       <option name="closed" value="true" />
@@ -576,7 +484,127 @@
       <option name="project" value="LOCAL" />
       <updated>1746935316186</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="Add hover effects to GUI">
+      <option name="closed" value="true" />
+      <created>1746943975976</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1746943975976</updated>
+    </task>
+    <task id="LOCAL-00048" summary="Add hotkeys to board modifiers">
+      <option name="closed" value="true" />
+      <created>1747013274308</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1747013274308</updated>
+    </task>
+    <task id="LOCAL-00049" summary="Improve board focus state visuals and add scale animation">
+      <option name="closed" value="true" />
+      <created>1747013323409</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1747013323409</updated>
+    </task>
+    <task id="LOCAL-00050" summary="Add modifier hotkeys">
+      <option name="closed" value="true" />
+      <created>1747014364598</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1747014364599</updated>
+    </task>
+    <task id="LOCAL-00051" summary="Add tooltip to modifier instructions">
+      <option name="closed" value="true" />
+      <created>1747014378082</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1747014378082</updated>
+    </task>
+    <task id="LOCAL-00052" summary="Add hover to modifier instructions">
+      <option name="closed" value="true" />
+      <created>1747014397972</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1747014397972</updated>
+    </task>
+    <task id="LOCAL-00053" summary="Add fonts">
+      <option name="closed" value="true" />
+      <created>1747016816496</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1747016816496</updated>
+    </task>
+    <task id="LOCAL-00054" summary="Change font">
+      <option name="closed" value="true" />
+      <created>1747016837561</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1747016837562</updated>
+    </task>
+    <task id="LOCAL-00055" summary="Remove unused imports">
+      <option name="closed" value="true" />
+      <created>1747016848887</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1747016848887</updated>
+    </task>
+    <task id="LOCAL-00056" summary="Update screenshot">
+      <option name="closed" value="true" />
+      <created>1747016854975</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1747016854975</updated>
+    </task>
+    <task id="LOCAL-00057" summary="Fix font size for multithreading">
+      <option name="closed" value="true" />
+      <created>1747017090973</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1747017090974</updated>
+    </task>
+    <task id="LOCAL-00058" summary="Fix and update screenshots">
+      <option name="closed" value="true" />
+      <created>1747017589526</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1747017589526</updated>
+    </task>
+    <task id="LOCAL-00059" summary="Fix and update screenshots">
+      <option name="closed" value="true" />
+      <created>1747017592919</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1747017592919</updated>
+    </task>
+    <task id="LOCAL-00060" summary="Update modifier hotkey tooltip message">
+      <option name="closed" value="true" />
+      <created>1747017770236</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1747017770236</updated>
+    </task>
+    <task id="LOCAL-00061" summary="Update version">
+      <option name="closed" value="true" />
+      <created>1747018967284</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1747018967285</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -584,19 +612,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Add build script workflows" />
-    <MESSAGE value="Fix pom.xml versioning" />
-    <MESSAGE value="Debug yml" />
-    <MESSAGE value="Add runtime image" />
-    <MESSAGE value="Fix pom.xml linux config" />
-    <MESSAGE value="Fix pom.xml windows config" />
-    <MESSAGE value="Fix build installer upload artifact path" />
-    <MESSAGE value="Fix create runtime image for windows" />
-    <MESSAGE value="Change installation to use installers" />
-    <MESSAGE value="Fix installation anchor" />
-    <MESSAGE value="Add tech used" />
-    <MESSAGE value="Fix minimum gem count" />
-    <MESSAGE value="Add autofocus switch for board tiles" />
     <MESSAGE value="Allow typing over current letter for tiles" />
     <MESSAGE value="Reformat tile input setup" />
     <MESSAGE value="Update board UI" />
@@ -606,10 +621,23 @@
     <MESSAGE value="Add play button" />
     <MESSAGE value="Remove redundant gem profit" />
     <MESSAGE value="Update clear/play move description" />
-    <MESSAGE value="Update screenshot" />
     <MESSAGE value="Add frozen to usage tile modifiers" />
     <MESSAGE value="Increase thickness of modifier background" />
-    <option name="LAST_COMMIT_MESSAGE" value="Increase thickness of modifier background" />
+    <MESSAGE value="Add hover effects to GUI" />
+    <MESSAGE value="Add hotkeys to board modifiers" />
+    <MESSAGE value="Improve board focus state visuals and add scale animation" />
+    <MESSAGE value="Add modifier hotkeys" />
+    <MESSAGE value="Add tooltip to modifier instructions" />
+    <MESSAGE value="Add hover to modifier instructions" />
+    <MESSAGE value="Add fonts" />
+    <MESSAGE value="Change font" />
+    <MESSAGE value="Remove unused imports" />
+    <MESSAGE value="Update screenshot" />
+    <MESSAGE value="Fix font size for multithreading" />
+    <MESSAGE value="Fix and update screenshots" />
+    <MESSAGE value="Update modifier hotkey tooltip message" />
+    <MESSAGE value="Update version" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update version" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
