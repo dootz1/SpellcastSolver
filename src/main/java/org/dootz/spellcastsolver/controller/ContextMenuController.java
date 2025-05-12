@@ -2,6 +2,7 @@ package org.dootz.spellcastsolver.controller;
 
 import javafx.beans.binding.Bindings;
 import javafx.collections.ObservableSet;
+import javafx.collections.SetChangeListener;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
 import javafx.scene.control.Slider;
@@ -16,6 +17,7 @@ import org.dootz.spellcastsolver.utils.TileModifier;
 
 public class ContextMenuController {
     private DataModel model;
+    private SetChangeListener<TileModifier> modifierSyncListener = null;
     private Popup contextMenu;
     @FXML
     private Label tileIndex;
@@ -54,10 +56,44 @@ public class ContextMenuController {
 
         contextMenu.setOnHidden(e -> contextMenuModel.shownProperty().set(false));
         contextMenuModel.shownProperty().addListener((obs, wasShown, nowShown) -> {
+            TileModel tileModel = contextMenuModel.getTileModel();
             if (nowShown) {
                 contextMenu.show(contextMenuModel.ownerProperty().get(),
                         contextMenuModel.screenXProperty().get(),
                         contextMenuModel.screenYProperty().get());
+
+                // Remove previous listener if already added
+                if (modifierSyncListener != null) {
+                    tileModel.getModifiers().removeListener(modifierSyncListener);
+                }
+
+                modifierSyncListener = change -> {
+                    TileModifier mod = change.getElementAdded();
+                    if (mod != null) {
+                        switch (mod) {
+                            case GEM -> contextMenuModel.setHasGem(true);
+                            case FROZEN -> contextMenuModel.setIsFrozen(true);
+                            case DOUBLE_LETTER -> contextMenuModel.setLetterMultiplier(2);
+                            case TRIPLE_LETTER -> contextMenuModel.setLetterMultiplier(3);
+                            case DOUBLE_WORD -> contextMenuModel.setWordMultiplier(2);
+                            case TRIPLE_WORD -> contextMenuModel.setWordMultiplier(3);
+                        }
+                    }
+
+                    mod = change.getElementRemoved();
+                    if (mod != null) {
+                        switch (mod) {
+                            case GEM -> contextMenuModel.setHasGem(false);
+                            case FROZEN -> contextMenuModel.setIsFrozen(false);
+                            case DOUBLE_LETTER, TRIPLE_LETTER -> contextMenuModel.setLetterMultiplier(1);
+                            case DOUBLE_WORD, TRIPLE_WORD -> contextMenuModel.setWordMultiplier(1);
+                        }
+                    }
+                };
+
+                tileModel.getModifiers().addListener(modifierSyncListener);
+            } else {
+                tileModel.getModifiers().removeListener(modifierSyncListener); // prevent tile quantum entanglement
             }
         });
 
@@ -65,19 +101,33 @@ public class ContextMenuController {
         contextMenuModel.letterMultiplierProperty().addListener((obs, oldVal, newVal) -> {
             TileModel tile = contextMenuModel.getTileModel();
             ObservableSet<TileModifier> mods = tile.getModifiers();
-            mods.remove(TileModifier.DOUBLE_LETTER);
-            mods.remove(TileModifier.TRIPLE_LETTER);
-            if (newVal.intValue() == 2) mods.add(TileModifier.DOUBLE_LETTER);
-            else if (newVal.intValue() == 3) mods.add(TileModifier.TRIPLE_LETTER);
+
+            if (newVal.intValue() == 2) {
+                mods.remove(TileModifier.TRIPLE_LETTER);
+                mods.add(TileModifier.DOUBLE_LETTER);
+            } else if (newVal.intValue() == 3) {
+                mods.remove(TileModifier.DOUBLE_LETTER);
+                mods.add(TileModifier.TRIPLE_LETTER);
+            } else {
+                mods.remove(TileModifier.DOUBLE_LETTER);
+                mods.remove(TileModifier.TRIPLE_LETTER);
+            }
         });
 
         contextMenuModel.wordMultiplierProperty().addListener((obs, oldVal, newVal) -> {
             TileModel tile = contextMenuModel.getTileModel();
             ObservableSet<TileModifier> mods = tile.getModifiers();
-            mods.remove(TileModifier.DOUBLE_WORD);
-            mods.remove(TileModifier.TRIPLE_WORD);
-            if (newVal.intValue() == 2) mods.add(TileModifier.DOUBLE_WORD);
-            else if (newVal.intValue() == 3) mods.add(TileModifier.TRIPLE_WORD);
+
+            if (newVal.intValue() == 2) {
+                mods.remove(TileModifier.TRIPLE_WORD);
+                mods.add(TileModifier.DOUBLE_WORD);
+            } else if (newVal.intValue() == 3) {
+                mods.remove(TileModifier.DOUBLE_WORD);
+                mods.add(TileModifier.TRIPLE_WORD);
+            } else {
+                mods.remove(TileModifier.DOUBLE_WORD);
+                mods.remove(TileModifier.TRIPLE_WORD);
+            }
         });
 
         contextMenuModel.hasGemProperty().addListener((obs, oldVal, newVal) -> {

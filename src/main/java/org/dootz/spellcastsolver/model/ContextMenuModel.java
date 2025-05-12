@@ -29,15 +29,49 @@ public class ContextMenuModel {
     public IntegerProperty letterMultiplierProperty() {
         return letterMultiplier;
     }
+
+    public int getLetterMultiplier() {
+        return letterMultiplier.get();
+    }
+
+    public void setLetterMultiplier(int letterMultiplier) {
+        this.letterMultiplier.set(letterMultiplier);
+    }
+
     public IntegerProperty wordMultiplierProperty() {
         return wordMultiplier;
     }
+
+    public int getWordMultiplier() {
+        return wordMultiplier.get();
+    }
+
+    public void setWordMultiplier(int wordMultiplier) {
+        this.wordMultiplier.set(wordMultiplier);
+    }
+
     public BooleanProperty hasGemProperty() {
         return hasGem;
     }
 
+    public boolean hasGem() {
+        return hasGem.get();
+    }
+
+    public void setHasGem(boolean hasGem) {
+        this.hasGem.set(hasGem);
+    }
+
     public BooleanProperty isFrozenProperty() {
         return isFrozen;
+    }
+
+    public boolean isFrozen() {
+        return isFrozen.get();
+    }
+
+    public void setIsFrozen(boolean isFrozen) {
+        this.isFrozen.set(isFrozen);
     }
 
     public TileModel getTileModel() {
@@ -55,12 +89,41 @@ public class ContextMenuModel {
     public DoubleProperty screenXProperty() {
         return screenX;
     }
+
+    public double getScreenX() {
+        return screenX.get();
+    }
+
+    public void setScreenX(double screenX) {
+        this.screenX.set(screenX);
+    }
+
     public DoubleProperty screenYProperty() {
         return screenY;
     }
 
+    public double getScreenY() {
+        return screenY.get();
+    }
+
+    public void setScreenY(double screenY) {
+        this.screenY.set(screenY);
+    }
+
     public BooleanProperty shownProperty() {
         return isShown;
+    }
+
+    public boolean isShown() {
+        return isShown.get();
+    }
+
+    public BooleanProperty isShownProperty() {
+        return isShown;
+    }
+
+    public void setIsShown(boolean isShown) {
+        this.isShown.set(isShown);
     }
 
     public ObjectProperty<Node> ownerProperty() {

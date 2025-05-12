@@ -16,6 +16,7 @@ import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import javafx.scene.control.TextFormatter;
+import javafx.scene.input.KeyCode;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.Pane;
 import javafx.scene.layout.StackPane;
@@ -33,6 +34,7 @@ import org.dootz.spellcastsolver.model.DataModel;
 import org.dootz.spellcastsolver.model.TileModel;
 import org.dootz.spellcastsolver.utils.*;
 
+import java.awt.event.KeyEvent;
 import java.util.Set;
 
 public class BoardController {
@@ -255,13 +257,50 @@ public class BoardController {
                 tileModel.getModifiers()
         ));
 
+        tileInput.setOnKeyTyped(event -> {
+            Set<TileModifier> modifiers = tileModel.getModifiers();
+            String character = event.getCharacter();
+
+            switch (character) {
+                case "1" -> toggle(modifiers, TileModifier.GEM);
+                case "!" -> toggle(modifiers, TileModifier.FROZEN);
+                case "2" -> {
+                    modifiers.remove(TileModifier.TRIPLE_LETTER);
+                    toggle(modifiers, TileModifier.DOUBLE_LETTER);
+                }
+                case "3" -> {
+                    modifiers.remove(TileModifier.DOUBLE_LETTER);
+                    toggle(modifiers, TileModifier.TRIPLE_LETTER);
+                }
+                case "@" -> {
+                    modifiers.remove(TileModifier.TRIPLE_WORD);
+                    toggle(modifiers, TileModifier.DOUBLE_WORD);
+                }
+                case "#" -> {
+                    modifiers.remove(TileModifier.DOUBLE_WORD);
+                    toggle(modifiers, TileModifier.TRIPLE_WORD);
+                }
+                case "0" -> modifiers.clear();
+            }
+        });
+
         bindTileModifiers(tileModel, tileContainer);
         bindTileSelection(tileModel, tileContainer);
+    }
+
+    private void toggle(Set<TileModifier> modifiers, TileModifier modifier) {
+        if (modifiers.contains(modifier)) {
+            modifiers.remove(modifier);
+        } else {
+            modifiers.add(modifier);
+        }
     }
 
     private void setupContextMenu(TileModel tileModel, TextField tileInput,
                                   ContextMenuModel contextMenuModel) {
         tileInput.setOnContextMenuRequested(event -> {
+            tileInput.requestFocus();
+
             ObservableSet<TileModifier> modifiers = tileModel.getModifiers();
             contextMenuModel.setTileModel(tileModel);
 
@@ -355,6 +394,7 @@ public class BoardController {
     private void bindTileSelection(TileModel tileModel, StackPane container) {
         Pane bar = (Pane) container.getChildren().get(TILE_SELECTION_LINE_INDEX);
         tileModel.selectedProperty().addListener((obs, wasSelected, isSelected) -> {
+            bar.setVisible(isSelected);
             if (isSelected) {
                 container.getStyleClass().add("tile-selected");
                 bar.setVisible(true);
