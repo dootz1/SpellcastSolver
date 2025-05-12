@@ -34,9 +34,9 @@
                <children>
                   <HBox alignment="CENTER_LEFT" layoutX="488.0" layoutY="63.0" prefHeight="21.0" prefWidth="62.0" spacing="2.0">
                      <children>
-                        <Label styleClass="primary-text-accent" text="+" />
+                        <Label styleClass="text-strong" text="+" />
                         <Polygon fill="DODGERBLUE" mouseTransparent="true" points="-8.125, -10.5, -2.625, -15.0, -2.625, -27.25, -8.125, -31.75, -13.625, -27.25, -13.625, -15.0" stroke="BLACK" strokeType="INSIDE" styleClass="gem" />
-                        <Label fx:id="gemsEarnedLabel" styleClass="primary-text-accent" text="x0" />
+                        <Label fx:id="gemsEarnedLabel" styleClass="text-strong" text="x0" />
                      </children>
                   </HBox>
                   <StackPane layoutX="82.0" layoutY="18.0" maxWidth="400.0" prefHeight="64.0" prefWidth="400.0" styleClass="selected-move-container">
@@ -44,7 +44,7 @@
                         <Label fx:id="currentWordLabel" text="ABCDE +34">
                            <styleClass>
                               <String fx:value="selected-move-text" />
-                              <String fx:value="primary-text-accent" />
+                              <String fx:value="text-strong" />
                            </styleClass>
                         </Label>
                      </children>
@@ -56,12 +56,12 @@
                         </DropShadow>
                      </effect>
                   </StackPane>
-                  <Label fx:id="longWordBonusStatusLabel" layoutX="488.0" layoutY="45.0" styleClass="primary-text-accent" text="+10 LWB" />
+                  <Label fx:id="longWordBonusStatusLabel" layoutX="488.0" layoutY="45.0" styleClass="text-strong" text="+10 LWB" />
                </children>
             </AnchorPane>
             <StackPane alignment="TOP_LEFT" maxHeight="512.0" maxWidth="512.0" prefHeight="512.0" prefWidth="512.0">
                <children>
-                  <GridPane fx:id="inputGrid" alignment="CENTER" maxHeight="512.0" maxWidth="512.0" prefHeight="512.0" prefWidth="512.0" styleClass="board-grid">
+                  <GridPane fx:id="inputGrid" alignment="CENTER" maxHeight="512.0" maxWidth="512.0" prefHeight="512.0" prefWidth="512.0">
                      <columnConstraints>
                         <ColumnConstraints hgrow="SOMETIMES" maxWidth="96.0" prefWidth="96.0" />
                         <ColumnConstraints hgrow="SOMETIMES" maxWidth="96.0" prefWidth="96.0" />
@@ -103,7 +103,7 @@
                                           <String fx:value="double-letter-modifier" />
                                        </styleClass>
                                     </Circle>
-                                    <Label styleClass="primary-text-accent" text="DL" />
+                                    <Label styleClass="text-strong" text="DL" />
                                  </children>
                                  <StackPane.margin>
                                     <Insets left="-4.0" top="-4.0" />
@@ -117,7 +117,7 @@
                                           <String fx:value="double-move-modifier" />
                                        </styleClass>
                                     </Circle>
-                                    <Label styleClass="primary-text-accent" text="2X" />
+                                    <Label styleClass="text-strong" text="2X" />
                                  </children>
                                  <StackPane.margin>
                                     <Insets right="-4.0" top="-4.0" />
@@ -157,7 +157,7 @@
                                           <String fx:value="double-letter-modifier" />
                                        </styleClass>
                                     </Circle>
-                                    <Label styleClass="primary-text-accent" text="DL" />
+                                    <Label styleClass="text-strong" text="DL" />
                                  </children>
                                  <StackPane.margin>
                                     <Insets left="-4.0" top="-4.0" />
@@ -171,7 +171,7 @@
                                           <String fx:value="double-move-modifier" />
                                        </styleClass>
                                     </Circle>
-                                    <Label styleClass="primary-text-accent" text="2X" />
+                                    <Label styleClass="text-strong" text="2X" />
                                  </children>
                                  <StackPane.margin>
                                     <Insets right="-4.0" top="-4.0" />
@@ -211,7 +211,7 @@
                                           <String fx:value="double-letter-modifier" />
                                        </styleClass>
                                     </Circle>
-                                    <Label styleClass="primary-text-accent" text="DL" />
+                                    <Label styleClass="text-strong" text="DL" />
                                  </children>
                                  <StackPane.margin>
                                     <Insets left="-4.0" top="-4.0" />
@@ -225,7 +225,7 @@
                                           <String fx:value="double-move-modifier" />
                                        </styleClass>
                                     </Circle>
-                                    <Label styleClass="primary-text-accent" text="2X" />
+                                    <Label styleClass="text-strong" text="2X" />
                                  </children>
                                  <StackPane.margin>
                                     <Insets right="-4.0" top="-4.0" />
@@ -265,7 +265,7 @@
                                           <String fx:value="double-letter-modifier" />
                                        </styleClass>
                                     </Circle>
-                                    <Label styleClass="primary-text-accent" text="DL" />
+                                    <Label styleClass="text-strong" text="DL" />
                                  </children>
                                  <StackPane.margin>
                                     <Insets left="-4.0" top="-4.0" />
@@ -279,7 +279,7 @@
                                           <String fx:value="double-move-modifier" />
                                        </styleClass>
                                     </Circle>
-                                    <Label styleClass="primary-text-accent" text="2X" />
+                                    <Label styleClass="text-strong" text="2X" />
                                  </children>
                                  <StackPane.margin>
                                     <Insets right="-4.0" top="-4.0" />
@@ -319,7 +319,7 @@
                                           <String fx:value="double-letter-modifier" />
                                        </styleClass>
                                     </Circle>
-                                    <Label styleClass="primary-text-accent" text="DL" />
+                                    <Label styleClass="text-strong" text="DL" />
                                  </children>
                                  <StackPane.margin>
                                     <Insets left="-4.0" top="-4.0" />
@@ -333,7 +333,7 @@
                                           <String fx:value="double-move-modifier" />
                                        </styleClass>
                                     </Circle>
-                                    <Label styleClass="primary-text-accent" text="2X" />
+                                    <Label styleClass="text-strong" text="2X" />
                                  </children>
                                  <StackPane.margin>
                                     <Insets right="-4.0" top="-4.0" />
@@ -373,7 +373,7 @@
                                           <String fx:value="double-letter-modifier" />
                                        </styleClass>
                                     </Circle>
-                                    <Label styleClass="primary-text-accent" text="DL" />
+                                    <Label styleClass="text-strong" text="DL" />
                                  </children>
                                  <StackPane.margin>
                                     <Insets left="-4.0" top="-4.0" />
@@ -387,7 +387,7 @@
                                           <String fx:value="double-move-modifier" />
                                        </styleClass>
                                     </Circle>
-                                    <Label styleClass="primary-text-accent" text="2X" />
+                                    <Label styleClass="text-strong" text="2X" />
                                  </children>
                                  <StackPane.margin>
                                     <Insets right="-4.0" top="-4.0" />
@@ -427,7 +427,7 @@
                                           <String fx:value="double-letter-modifier" />
                                        </styleClass>
                                     </Circle>
-                                    <Label styleClass="primary-text-accent" text="DL" />
+                                    <Label styleClass="text-strong" text="DL" />
                                  </children>
                                  <StackPane.margin>
                                     <Insets left="-4.0" top="-4.0" />
@@ -441,7 +441,7 @@
                                           <String fx:value="double-move-modifier" />
                                        </styleClass>
                                     </Circle>
-                                    <Label styleClass="primary-text-accent" text="2X" />
+                                    <Label styleClass="text-strong" text="2X" />
                                  </children>
                                  <StackPane.margin>
                                     <Insets right="-4.0" top="-4.0" />
@@ -481,7 +481,7 @@
                                           <String fx:value="double-letter-modifier" />
                                        </styleClass>
                                     </Circle>
-                                    <Label styleClass="primary-text-accent" text="DL" />
+                                    <Label styleClass="text-strong" text="DL" />
                                  </children>
                                  <StackPane.margin>
                                     <Insets left="-4.0" top="-4.0" />
@@ -495,7 +495,7 @@
                                           <String fx:value="double-move-modifier" />
                                        </styleClass>
                                     </Circle>
-                                    <Label styleClass="primary-text-accent" text="2X" />
+                                    <Label styleClass="text-strong" text="2X" />
                                  </children>
                                  <StackPane.margin>
                                     <Insets right="-4.0" top="-4.0" />
@@ -535,7 +535,7 @@
                                           <String fx:value="double-letter-modifier" />
                                        </styleClass>
                                     </Circle>
-                                    <Label styleClass="primary-text-accent" text="DL" />
+                                    <Label styleClass="text-strong" text="DL" />
                                  </children>
                                  <StackPane.margin>
                                     <Insets left="-4.0" top="-4.0" />
@@ -549,7 +549,7 @@
                                           <String fx:value="double-move-modifier" />
                                        </styleClass>
                                     </Circle>
-                                    <Label styleClass="primary-text-accent" text="2X" />
+                                    <Label styleClass="text-strong" text="2X" />
                                  </children>
                                  <StackPane.margin>
                                     <Insets right="-4.0" top="-4.0" />
@@ -589,7 +589,7 @@
                                           <String fx:value="double-letter-modifier" />
                                        </styleClass>
                                     </Circle>
-                                    <Label styleClass="primary-text-accent" text="DL" />
+                                    <Label styleClass="text-strong" text="DL" />
                                  </children>
                                  <StackPane.margin>
                                     <Insets left="-4.0" top="-4.0" />
@@ -603,7 +603,7 @@
                                           <String fx:value="double-move-modifier" />
                                        </styleClass>
                                     </Circle>
-                                    <Label styleClass="primary-text-accent" text="2X" />
+                                    <Label styleClass="text-strong" text="2X" />
                                  </children>
                                  <StackPane.margin>
                                     <Insets right="-4.0" top="-4.0" />
@@ -643,7 +643,7 @@
                                           <String fx:value="double-letter-modifier" />
                                        </styleClass>
                                     </Circle>
-                                    <Label styleClass="primary-text-accent" text="DL" />
+                                    <Label styleClass="text-strong" text="DL" />
                                  </children>
                                  <StackPane.margin>
                                     <Insets left="-4.0" top="-4.0" />
@@ -657,7 +657,7 @@
                                           <String fx:value="double-move-modifier" />
                                        </styleClass>
                                     </Circle>
-                                    <Label styleClass="primary-text-accent" text="2X" />
+                                    <Label styleClass="text-strong" text="2X" />
                                  </children>
                                  <StackPane.margin>
                                     <Insets right="-4.0" top="-4.0" />
@@ -697,7 +697,7 @@
                                           <String fx:value="double-letter-modifier" />
                                        </styleClass>
                                     </Circle>
-                                    <Label styleClass="primary-text-accent" text="DL" />
+                                    <Label styleClass="text-strong" text="DL" />
                                  </children>
                                  <StackPane.margin>
                                     <Insets left="-4.0" top="-4.0" />
@@ -711,7 +711,7 @@
                                           <String fx:value="double-move-modifier" />
                                        </styleClass>
                                     </Circle>
-                                    <Label styleClass="primary-text-accent" text="2X" />
+                                    <Label styleClass="text-strong" text="2X" />
                                  </children>
                                  <StackPane.margin>
                                     <Insets right="-4.0" top="-4.0" />
@@ -751,7 +751,7 @@
                                           <String fx:value="double-letter-modifier" />
                                        </styleClass>
                                     </Circle>
-                                    <Label styleClass="primary-text-accent" text="DL" />
+                                    <Label styleClass="text-strong" text="DL" />
                                  </children>
                                  <StackPane.margin>
                                     <Insets left="-4.0" top="-4.0" />
@@ -765,7 +765,7 @@
                                           <String fx:value="double-move-modifier" />
                                        </styleClass>
                                     </Circle>
-                                    <Label styleClass="primary-text-accent" text="2X" />
+                                    <Label styleClass="text-strong" text="2X" />
                                  </children>
                                  <StackPane.margin>
                                     <Insets right="-4.0" top="-4.0" />
@@ -805,7 +805,7 @@
                                           <String fx:value="double-letter-modifier" />
                                        </styleClass>
                                     </Circle>
-                                    <Label styleClass="primary-text-accent" text="DL" />
+                                    <Label styleClass="text-strong" text="DL" />
                                  </children>
                                  <StackPane.margin>
                                     <Insets left="-4.0" top="-4.0" />
@@ -819,7 +819,7 @@
                                           <String fx:value="double-move-modifier" />
                                        </styleClass>
                                     </Circle>
-                                    <Label styleClass="primary-text-accent" text="2X" />
+                                    <Label styleClass="text-strong" text="2X" />
                                  </children>
                                  <StackPane.margin>
                                     <Insets right="-4.0" top="-4.0" />
@@ -859,7 +859,7 @@
                                           <String fx:value="double-letter-modifier" />
                                        </styleClass>
                                     </Circle>
-                                    <Label styleClass="primary-text-accent" text="DL" />
+                                    <Label styleClass="text-strong" text="DL" />
                                  </children>
                                  <StackPane.margin>
                                     <Insets left="-4.0" top="-4.0" />
@@ -873,7 +873,7 @@
                                           <String fx:value="double-move-modifier" />
                                        </styleClass>
                                     </Circle>
-                                    <Label styleClass="primary-text-accent" text="2X" />
+                                    <Label styleClass="text-strong" text="2X" />
                                  </children>
                                  <StackPane.margin>
                                     <Insets right="-4.0" top="-4.0" />
@@ -913,7 +913,7 @@
                                           <String fx:value="double-letter-modifier" />
                                        </styleClass>
                                     </Circle>
-                                    <Label styleClass="primary-text-accent" text="DL" />
+                                    <Label styleClass="text-strong" text="DL" />
                                  </children>
                                  <StackPane.margin>
                                     <Insets left="-4.0" top="-4.0" />
@@ -927,7 +927,7 @@
                                           <String fx:value="double-move-modifier" />
                                        </styleClass>
                                     </Circle>
-                                    <Label styleClass="primary-text-accent" text="2X" />
+                                    <Label styleClass="text-strong" text="2X" />
                                  </children>
                                  <StackPane.margin>
                                     <Insets right="-4.0" top="-4.0" />
@@ -967,7 +967,7 @@
                                           <String fx:value="double-letter-modifier" />
                                        </styleClass>
                                     </Circle>
-                                    <Label styleClass="primary-text-accent" text="DL" />
+                                    <Label styleClass="text-strong" text="DL" />
                                  </children>
                                  <StackPane.margin>
                                     <Insets left="-4.0" top="-4.0" />
@@ -981,7 +981,7 @@
                                           <String fx:value="double-move-modifier" />
                                        </styleClass>
                                     </Circle>
-                                    <Label styleClass="primary-text-accent" text="2X" />
+                                    <Label styleClass="text-strong" text="2X" />
                                  </children>
                                  <StackPane.margin>
                                     <Insets right="-4.0" top="-4.0" />
@@ -1021,7 +1021,7 @@
                                           <String fx:value="double-letter-modifier" />
                                        </styleClass>
                                     </Circle>
-                                    <Label styleClass="primary-text-accent" text="DL" />
+                                    <Label styleClass="text-strong" text="DL" />
                                  </children>
                                  <StackPane.margin>
                                     <Insets left="-4.0" top="-4.0" />
@@ -1035,7 +1035,7 @@
                                           <String fx:value="double-move-modifier" />
                                        </styleClass>
                                     </Circle>
-                                    <Label styleClass="primary-text-accent" text="2X" />
+                                    <Label styleClass="text-strong" text="2X" />
                                  </children>
                                  <StackPane.margin>
                                     <Insets right="-4.0" top="-4.0" />
@@ -1075,7 +1075,7 @@
                                           <String fx:value="double-letter-modifier" />
                                        </styleClass>
                                     </Circle>
-                                    <Label styleClass="primary-text-accent" text="DL" />
+                                    <Label styleClass="text-strong" text="DL" />
                                  </children>
                                  <StackPane.margin>
                                     <Insets left="-4.0" top="-4.0" />
@@ -1089,7 +1089,7 @@
                                           <String fx:value="double-move-modifier" />
                                        </styleClass>
                                     </Circle>
-                                    <Label styleClass="primary-text-accent" text="2X" />
+                                    <Label styleClass="text-strong" text="2X" />
                                  </children>
                                  <StackPane.margin>
                                     <Insets right="-4.0" top="-4.0" />
@@ -1129,7 +1129,7 @@
                                           <String fx:value="double-letter-modifier" />
                                        </styleClass>
                                     </Circle>
-                                    <Label styleClass="primary-text-accent" text="DL" />
+                                    <Label styleClass="text-strong" text="DL" />
                                  </children>
                                  <StackPane.margin>
                                     <Insets left="-4.0" top="-4.0" />
@@ -1143,7 +1143,7 @@
                                           <String fx:value="double-move-modifier" />
                                        </styleClass>
                                     </Circle>
-                                    <Label styleClass="primary-text-accent" text="2X" />
+                                    <Label styleClass="text-strong" text="2X" />
                                  </children>
                                  <StackPane.margin>
                                     <Insets right="-4.0" top="-4.0" />
@@ -1183,7 +1183,7 @@
                                           <String fx:value="double-letter-modifier" />
                                        </styleClass>
                                     </Circle>
-                                    <Label styleClass="primary-text-accent" text="DL" />
+                                    <Label styleClass="text-strong" text="DL" />
                                  </children>
                                  <StackPane.margin>
                                     <Insets left="-4.0" top="-4.0" />
@@ -1197,7 +1197,7 @@
                                           <String fx:value="double-move-modifier" />
                                        </styleClass>
                                     </Circle>
-                                    <Label styleClass="primary-text-accent" text="2X" />
+                                    <Label styleClass="text-strong" text="2X" />
                                  </children>
                                  <StackPane.margin>
                                     <Insets right="-4.0" top="-4.0" />
@@ -1237,7 +1237,7 @@
                                           <String fx:value="double-letter-modifier" />
                                        </styleClass>
                                     </Circle>
-                                    <Label styleClass="primary-text-accent" text="DL" />
+                                    <Label styleClass="text-strong" text="DL" />
                                  </children>
                                  <StackPane.margin>
                                     <Insets left="-4.0" top="-4.0" />
@@ -1251,7 +1251,7 @@
                                           <String fx:value="double-move-modifier" />
                                        </styleClass>
                                     </Circle>
-                                    <Label styleClass="primary-text-accent" text="2X" />
+                                    <Label styleClass="text-strong" text="2X" />
                                  </children>
                                  <StackPane.margin>
                                     <Insets right="-4.0" top="-4.0" />
@@ -1291,7 +1291,7 @@
                                           <String fx:value="double-letter-modifier" />
                                        </styleClass>
                                     </Circle>
-                                    <Label styleClass="primary-text-accent" text="DL" />
+                                    <Label styleClass="text-strong" text="DL" />
                                  </children>
                                  <StackPane.margin>
                                     <Insets left="-4.0" top="-4.0" />
@@ -1305,7 +1305,7 @@
                                           <String fx:value="double-move-modifier" />
                                        </styleClass>
                                     </Circle>
-                                    <Label styleClass="primary-text-accent" text="2X" />
+                                    <Label styleClass="text-strong" text="2X" />
                                  </children>
                                  <StackPane.margin>
                                     <Insets right="-4.0" top="-4.0" />
@@ -1345,7 +1345,7 @@
                                           <String fx:value="double-letter-modifier" />
                                        </styleClass>
                                     </Circle>
-                                    <Label styleClass="primary-text-accent" text="DL" />
+                                    <Label styleClass="text-strong" text="DL" />
                                  </children>
                                  <StackPane.margin>
                                     <Insets left="-4.0" top="-4.0" />
@@ -1359,7 +1359,7 @@
                                           <String fx:value="double-move-modifier" />
                                        </styleClass>
                                     </Circle>
-                                    <Label styleClass="primary-text-accent" text="2X" />
+                                    <Label styleClass="text-strong" text="2X" />
                                  </children>
                                  <StackPane.margin>
                                     <Insets right="-4.0" top="-4.0" />
@@ -1399,7 +1399,7 @@
                                           <String fx:value="double-letter-modifier" />
                                        </styleClass>
                                     </Circle>
-                                    <Label styleClass="primary-text-accent" text="DL" />
+                                    <Label styleClass="text-strong" text="DL" />
                                  </children>
                                  <StackPane.margin>
                                     <Insets left="-4.0" top="-4.0" />
@@ -1413,7 +1413,7 @@
                                           <String fx:value="double-move-modifier" />
                                        </styleClass>
                                     </Circle>
-                                    <Label styleClass="primary-text-accent" text="2X" />
+                                    <Label styleClass="text-strong" text="2X" />
                                  </children>
                                  <StackPane.margin>
                                     <Insets right="-4.0" top="-4.0" />
@@ -1428,9 +1428,13 @@
                            </children>
                         </StackPane>
                      </children>
+                     <styleClass>
+                        <String fx:value="board-grid" />
+                        <String fx:value="text-strong" />
+                     </styleClass>
                   </GridPane>
                   <Pane fx:id="canvas" prefHeight="512.0" prefWidth="512.0" styleClass="canvas" visible="false" />
-                  <GridPane fx:id="solvedGrid" alignment="CENTER" disable="true" maxHeight="512.0" maxWidth="512.0" prefHeight="512.0" prefWidth="512.0" styleClass="board-grid" visible="false">
+                  <GridPane fx:id="solvedGrid" alignment="CENTER" disable="true" maxHeight="512.0" maxWidth="512.0" prefHeight="512.0" prefWidth="512.0" visible="false">
                      <columnConstraints>
                         <ColumnConstraints hgrow="SOMETIMES" maxWidth="96.0" prefWidth="96.0" />
                         <ColumnConstraints hgrow="SOMETIMES" maxWidth="96.0" prefWidth="96.0" />
@@ -1472,7 +1476,7 @@
                                           <String fx:value="double-letter-modifier" />
                                        </styleClass>
                                     </Circle>
-                                    <Label styleClass="primary-text-accent" text="DL" />
+                                    <Label styleClass="text-strong" text="DL" />
                                  </children>
                                  <StackPane.margin>
                                     <Insets left="-4.0" top="-4.0" />
@@ -1486,7 +1490,7 @@
                                           <String fx:value="double-move-modifier" />
                                        </styleClass>
                                     </Circle>
-                                    <Label styleClass="primary-text-accent" text="2X" />
+                                    <Label styleClass="text-strong" text="2X" />
                                  </children>
                                  <StackPane.margin>
                                     <Insets right="-4.0" top="-4.0" />
@@ -1526,7 +1530,7 @@
                                           <String fx:value="double-letter-modifier" />
                                        </styleClass>
                                     </Circle>
-                                    <Label styleClass="primary-text-accent" text="DL" />
+                                    <Label styleClass="text-strong" text="DL" />
                                  </children>
                                  <StackPane.margin>
                                     <Insets left="-4.0" top="-4.0" />
@@ -1540,7 +1544,7 @@
                                           <String fx:value="double-move-modifier" />
                                        </styleClass>
                                     </Circle>
-                                    <Label styleClass="primary-text-accent" text="2X" />
+                                    <Label styleClass="text-strong" text="2X" />
                                  </children>
                                  <StackPane.margin>
                                     <Insets right="-4.0" top="-4.0" />
@@ -1580,7 +1584,7 @@
                                           <String fx:value="double-letter-modifier" />
                                        </styleClass>
                                     </Circle>
-                                    <Label styleClass="primary-text-accent" text="DL" />
+                                    <Label styleClass="text-strong" text="DL" />
                                  </children>
                                  <StackPane.margin>
                                     <Insets left="-4.0" top="-4.0" />
@@ -1594,7 +1598,7 @@
                                           <String fx:value="double-move-modifier" />
                                        </styleClass>
                                     </Circle>
-                                    <Label styleClass="primary-text-accent" text="2X" />
+                                    <Label styleClass="text-strong" text="2X" />
                                  </children>
                                  <StackPane.margin>
                                     <Insets right="-4.0" top="-4.0" />
@@ -1634,7 +1638,7 @@
                                           <String fx:value="double-letter-modifier" />
                                        </styleClass>
                                     </Circle>
-                                    <Label styleClass="primary-text-accent" text="DL" />
+                                    <Label styleClass="text-strong" text="DL" />
                                  </children>
                                  <StackPane.margin>
                                     <Insets left="-4.0" top="-4.0" />
@@ -1648,7 +1652,7 @@
                                           <String fx:value="double-move-modifier" />
                                        </styleClass>
                                     </Circle>
-                                    <Label styleClass="primary-text-accent" text="2X" />
+                                    <Label styleClass="text-strong" text="2X" />
                                  </children>
                                  <StackPane.margin>
                                     <Insets right="-4.0" top="-4.0" />
@@ -1688,7 +1692,7 @@
                                           <String fx:value="double-letter-modifier" />
                                        </styleClass>
                                     </Circle>
-                                    <Label styleClass="primary-text-accent" text="DL" />
+                                    <Label styleClass="text-strong" text="DL" />
                                  </children>
                                  <StackPane.margin>
                                     <Insets left="-4.0" top="-4.0" />
@@ -1702,7 +1706,7 @@
                                           <String fx:value="double-move-modifier" />
                                        </styleClass>
                                     </Circle>
-                                    <Label styleClass="primary-text-accent" text="2X" />
+                                    <Label styleClass="text-strong" text="2X" />
                                  </children>
                                  <StackPane.margin>
                                     <Insets right="-4.0" top="-4.0" />
@@ -1742,7 +1746,7 @@
                                           <String fx:value="double-letter-modifier" />
                                        </styleClass>
                                     </Circle>
-                                    <Label styleClass="primary-text-accent" text="DL" />
+                                    <Label styleClass="text-strong" text="DL" />
                                  </children>
                                  <StackPane.margin>
                                     <Insets left="-4.0" top="-4.0" />
@@ -1756,7 +1760,7 @@
                                           <String fx:value="double-move-modifier" />
                                        </styleClass>
                                     </Circle>
-                                    <Label styleClass="primary-text-accent" text="2X" />
+                                    <Label styleClass="text-strong" text="2X" />
                                  </children>
                                  <StackPane.margin>
                                     <Insets right="-4.0" top="-4.0" />
@@ -1796,7 +1800,7 @@
                                           <String fx:value="double-letter-modifier" />
                                        </styleClass>
                                     </Circle>
-                                    <Label styleClass="primary-text-accent" text="DL" />
+                                    <Label styleClass="text-strong" text="DL" />
                                  </children>
                                  <StackPane.margin>
                                     <Insets left="-4.0" top="-4.0" />
@@ -1810,7 +1814,7 @@
                                           <String fx:value="double-move-modifier" />
                                        </styleClass>
                                     </Circle>
-                                    <Label styleClass="primary-text-accent" text="2X" />
+                                    <Label styleClass="text-strong" text="2X" />
                                  </children>
                                  <StackPane.margin>
                                     <Insets right="-4.0" top="-4.0" />
@@ -1850,7 +1854,7 @@
                                           <String fx:value="double-letter-modifier" />
                                        </styleClass>
                                     </Circle>
-                                    <Label styleClass="primary-text-accent" text="DL" />
+                                    <Label styleClass="text-strong" text="DL" />
                                  </children>
                                  <StackPane.margin>
                                     <Insets left="-4.0" top="-4.0" />
@@ -1864,7 +1868,7 @@
                                           <String fx:value="double-move-modifier" />
                                        </styleClass>
                                     </Circle>
-                                    <Label styleClass="primary-text-accent" text="2X" />
+                                    <Label styleClass="text-strong" text="2X" />
                                  </children>
                                  <StackPane.margin>
                                     <Insets right="-4.0" top="-4.0" />
@@ -1904,7 +1908,7 @@
                                           <String fx:value="double-letter-modifier" />
                                        </styleClass>
                                     </Circle>
-                                    <Label styleClass="primary-text-accent" text="DL" />
+                                    <Label styleClass="text-strong" text="DL" />
                                  </children>
                                  <StackPane.margin>
                                     <Insets left="-4.0" top="-4.0" />
@@ -1918,7 +1922,7 @@
                                           <String fx:value="double-move-modifier" />
                                        </styleClass>
                                     </Circle>
-                                    <Label styleClass="primary-text-accent" text="2X" />
+                                    <Label styleClass="text-strong" text="2X" />
                                  </children>
                                  <StackPane.margin>
                                     <Insets right="-4.0" top="-4.0" />
@@ -1958,7 +1962,7 @@
                                           <String fx:value="double-letter-modifier" />
                                        </styleClass>
                                     </Circle>
-                                    <Label styleClass="primary-text-accent" text="DL" />
+                                    <Label styleClass="text-strong" text="DL" />
                                  </children>
                                  <StackPane.margin>
                                     <Insets left="-4.0" top="-4.0" />
@@ -1972,7 +1976,7 @@
                                           <String fx:value="double-move-modifier" />
                                        </styleClass>
                                     </Circle>
-                                    <Label styleClass="primary-text-accent" text="2X" />
+                                    <Label styleClass="text-strong" text="2X" />
                                  </children>
                                  <StackPane.margin>
                                     <Insets right="-4.0" top="-4.0" />
@@ -2012,7 +2016,7 @@
                                           <String fx:value="double-letter-modifier" />
                                        </styleClass>
                                     </Circle>
-                                    <Label styleClass="primary-text-accent" text="DL" />
+                                    <Label styleClass="text-strong" text="DL" />
                                  </children>
                                  <StackPane.margin>
                                     <Insets left="-4.0" top="-4.0" />
@@ -2026,7 +2030,7 @@
                                           <String fx:value="double-move-modifier" />
                                        </styleClass>
                                     </Circle>
-                                    <Label styleClass="primary-text-accent" text="2X" />
+                                    <Label styleClass="text-strong" text="2X" />
                                  </children>
                                  <StackPane.margin>
                                     <Insets right="-4.0" top="-4.0" />
@@ -2066,7 +2070,7 @@
                                           <String fx:value="double-letter-modifier" />
                                        </styleClass>
                                     </Circle>
-                                    <Label styleClass="primary-text-accent" text="DL" />
+                                    <Label styleClass="text-strong" text="DL" />
                                  </children>
                                  <StackPane.margin>
                                     <Insets left="-4.0" top="-4.0" />
@@ -2080,7 +2084,7 @@
                                           <String fx:value="double-move-modifier" />
                                        </styleClass>
                                     </Circle>
-                                    <Label styleClass="primary-text-accent" text="2X" />
+                                    <Label styleClass="text-strong" text="2X" />
                                  </children>
                                  <StackPane.margin>
                                     <Insets right="-4.0" top="-4.0" />
@@ -2120,7 +2124,7 @@
                                           <String fx:value="double-letter-modifier" />
                                        </styleClass>
                                     </Circle>
-                                    <Label styleClass="primary-text-accent" text="DL" />
+                                    <Label styleClass="text-strong" text="DL" />
                                  </children>
                                  <StackPane.margin>
                                     <Insets left="-4.0" top="-4.0" />
@@ -2134,7 +2138,7 @@
                                           <String fx:value="double-move-modifier" />
                                        </styleClass>
                                     </Circle>
-                                    <Label styleClass="primary-text-accent" text="2X" />
+                                    <Label styleClass="text-strong" text="2X" />
                                  </children>
                                  <StackPane.margin>
                                     <Insets right="-4.0" top="-4.0" />
@@ -2174,7 +2178,7 @@
                                           <String fx:value="double-letter-modifier" />
                                        </styleClass>
                                     </Circle>
-                                    <Label styleClass="primary-text-accent" text="DL" />
+                                    <Label styleClass="text-strong" text="DL" />
                                  </children>
                                  <StackPane.margin>
                                     <Insets left="-4.0" top="-4.0" />
@@ -2188,7 +2192,7 @@
                                           <String fx:value="double-move-modifier" />
                                        </styleClass>
                                     </Circle>
-                                    <Label styleClass="primary-text-accent" text="2X" />
+                                    <Label styleClass="text-strong" text="2X" />
                                  </children>
                                  <StackPane.margin>
                                     <Insets right="-4.0" top="-4.0" />
@@ -2228,7 +2232,7 @@
                                           <String fx:value="double-letter-modifier" />
                                        </styleClass>
                                     </Circle>
-                                    <Label styleClass="primary-text-accent" text="DL" />
+                                    <Label styleClass="text-strong" text="DL" />
                                  </children>
                                  <StackPane.margin>
                                     <Insets left="-4.0" top="-4.0" />
@@ -2242,7 +2246,7 @@
                                           <String fx:value="double-move-modifier" />
                                        </styleClass>
                                     </Circle>
-                                    <Label styleClass="primary-text-accent" text="2X" />
+                                    <Label styleClass="text-strong" text="2X" />
                                  </children>
                                  <StackPane.margin>
                                     <Insets right="-4.0" top="-4.0" />
@@ -2282,7 +2286,7 @@
                                           <String fx:value="double-letter-modifier" />
                                        </styleClass>
                                     </Circle>
-                                    <Label styleClass="primary-text-accent" text="DL" />
+                                    <Label styleClass="text-strong" text="DL" />
                                  </children>
                                  <StackPane.margin>
                                     <Insets left="-4.0" top="-4.0" />
@@ -2296,7 +2300,7 @@
                                           <String fx:value="double-move-modifier" />
                                        </styleClass>
                                     </Circle>
-                                    <Label styleClass="primary-text-accent" text="2X" />
+                                    <Label styleClass="text-strong" text="2X" />
                                  </children>
                                  <StackPane.margin>
                                     <Insets right="-4.0" top="-4.0" />
@@ -2336,7 +2340,7 @@
                                           <String fx:value="double-letter-modifier" />
                                        </styleClass>
                                     </Circle>
-                                    <Label styleClass="primary-text-accent" text="DL" />
+                                    <Label styleClass="text-strong" text="DL" />
                                  </children>
                                  <StackPane.margin>
                                     <Insets left="-4.0" top="-4.0" />
@@ -2350,7 +2354,7 @@
                                           <String fx:value="double-move-modifier" />
                                        </styleClass>
                                     </Circle>
-                                    <Label styleClass="primary-text-accent" text="2X" />
+                                    <Label styleClass="text-strong" text="2X" />
                                  </children>
                                  <StackPane.margin>
                                     <Insets right="-4.0" top="-4.0" />
@@ -2390,7 +2394,7 @@
                                           <String fx:value="double-letter-modifier" />
                                        </styleClass>
                                     </Circle>
-                                    <Label styleClass="primary-text-accent" text="DL" />
+                                    <Label styleClass="text-strong" text="DL" />
                                  </children>
                                  <StackPane.margin>
                                     <Insets left="-4.0" top="-4.0" />
@@ -2404,7 +2408,7 @@
                                           <String fx:value="double-move-modifier" />
                                        </styleClass>
                                     </Circle>
-                                    <Label styleClass="primary-text-accent" text="2X" />
+                                    <Label styleClass="text-strong" text="2X" />
                                  </children>
                                  <StackPane.margin>
                                     <Insets right="-4.0" top="-4.0" />
@@ -2444,7 +2448,7 @@
                                           <String fx:value="double-letter-modifier" />
                                        </styleClass>
                                     </Circle>
-                                    <Label styleClass="primary-text-accent" text="DL" />
+                                    <Label styleClass="text-strong" text="DL" />
                                  </children>
                                  <StackPane.margin>
                                     <Insets left="-4.0" top="-4.0" />
@@ -2458,7 +2462,7 @@
                                           <String fx:value="double-move-modifier" />
                                        </styleClass>
                                     </Circle>
-                                    <Label styleClass="primary-text-accent" text="2X" />
+                                    <Label styleClass="text-strong" text="2X" />
                                  </children>
                                  <StackPane.margin>
                                     <Insets right="-4.0" top="-4.0" />
@@ -2498,7 +2502,7 @@
                                           <String fx:value="double-letter-modifier" />
                                        </styleClass>
                                     </Circle>
-                                    <Label styleClass="primary-text-accent" text="DL" />
+                                    <Label styleClass="text-strong" text="DL" />
                                  </children>
                                  <StackPane.margin>
                                     <Insets left="-4.0" top="-4.0" />
@@ -2512,7 +2516,7 @@
                                           <String fx:value="double-move-modifier" />
                                        </styleClass>
                                     </Circle>
-                                    <Label styleClass="primary-text-accent" text="2X" />
+                                    <Label styleClass="text-strong" text="2X" />
                                  </children>
                                  <StackPane.margin>
                                     <Insets right="-4.0" top="-4.0" />
@@ -2552,7 +2556,7 @@
                                           <String fx:value="double-letter-modifier" />
                                        </styleClass>
                                     </Circle>
-                                    <Label styleClass="primary-text-accent" text="DL" />
+                                    <Label styleClass="text-strong" text="DL" />
                                  </children>
                                  <StackPane.margin>
                                     <Insets left="-4.0" top="-4.0" />
@@ -2566,7 +2570,7 @@
                                           <String fx:value="double-move-modifier" />
                                        </styleClass>
                                     </Circle>
-                                    <Label styleClass="primary-text-accent" text="2X" />
+                                    <Label styleClass="text-strong" text="2X" />
                                  </children>
                                  <StackPane.margin>
                                     <Insets right="-4.0" top="-4.0" />
@@ -2606,7 +2610,7 @@
                                           <String fx:value="double-letter-modifier" />
                                        </styleClass>
                                     </Circle>
-                                    <Label styleClass="primary-text-accent" text="DL" />
+                                    <Label styleClass="text-strong" text="DL" />
                                  </children>
                                  <StackPane.margin>
                                     <Insets left="-4.0" top="-4.0" />
@@ -2620,7 +2624,7 @@
                                           <String fx:value="double-move-modifier" />
                                        </styleClass>
                                     </Circle>
-                                    <Label styleClass="primary-text-accent" text="2X" />
+                                    <Label styleClass="text-strong" text="2X" />
                                  </children>
                                  <StackPane.margin>
                                     <Insets right="-4.0" top="-4.0" />
@@ -2660,7 +2664,7 @@
                                           <String fx:value="double-letter-modifier" />
                                        </styleClass>
                                     </Circle>
-                                    <Label styleClass="primary-text-accent" text="DL" />
+                                    <Label styleClass="text-strong" text="DL" />
                                  </children>
                                  <StackPane.margin>
                                     <Insets left="-4.0" top="-4.0" />
@@ -2674,7 +2678,7 @@
                                           <String fx:value="double-move-modifier" />
                                        </styleClass>
                                     </Circle>
-                                    <Label styleClass="primary-text-accent" text="2X" />
+                                    <Label styleClass="text-strong" text="2X" />
                                  </children>
                                  <StackPane.margin>
                                     <Insets right="-4.0" top="-4.0" />
@@ -2714,7 +2718,7 @@
                                           <String fx:value="double-letter-modifier" />
                                        </styleClass>
                                     </Circle>
-                                    <Label styleClass="primary-text-accent" text="DL" />
+                                    <Label styleClass="text-strong" text="DL" />
                                  </children>
                                  <StackPane.margin>
                                     <Insets left="-4.0" top="-4.0" />
@@ -2728,7 +2732,7 @@
                                           <String fx:value="double-move-modifier" />
                                        </styleClass>
                                     </Circle>
-                                    <Label styleClass="primary-text-accent" text="2X" />
+                                    <Label styleClass="text-strong" text="2X" />
                                  </children>
                                  <StackPane.margin>
                                     <Insets right="-4.0" top="-4.0" />
@@ -2768,7 +2772,7 @@
                                           <String fx:value="double-letter-modifier" />
                                        </styleClass>
                                     </Circle>
-                                    <Label styleClass="primary-text-accent" text="DL" />
+                                    <Label styleClass="text-strong" text="DL" />
                                  </children>
                                  <StackPane.margin>
                                     <Insets left="-4.0" top="-4.0" />
@@ -2782,7 +2786,7 @@
                                           <String fx:value="double-move-modifier" />
                                        </styleClass>
                                     </Circle>
-                                    <Label styleClass="primary-text-accent" text="2X" />
+                                    <Label styleClass="text-strong" text="2X" />
                                  </children>
                                  <StackPane.margin>
                                     <Insets right="-4.0" top="-4.0" />
@@ -2797,10 +2801,14 @@
                            </children>
                         </StackPane>
                      </children>
+                     <styleClass>
+                        <String fx:value="board-grid" />
+                        <String fx:value="text-strong" />
+                     </styleClass>
                   </GridPane>
                </children>
             </StackPane>
-            <Label fx:id="modifierInstructions" alignment="CENTER" prefHeight="17.0" prefWidth="402.0" styleClass="primary-text" text="right-click on tile to apply tile modifiers (or hover here for hotkeys)" textFill="WHITE">
+            <Label fx:id="modifierInstructions" alignment="CENTER" prefHeight="17.0" prefWidth="402.0" styleClass="text-italic" text="right-click on tile to apply tile modifiers (or hover here for hotkeys)" textFill="WHITE">
                <font>
                   <Font name="Arial Italic" size="13.0" />
                </font>

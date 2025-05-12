@@ -4,7 +4,7 @@
     -fx-background-radius: 8px;
 }
 
-.primary-text-accent {
+.text-strong {
     -fx-text-fill: white;
     -fx-font-weight: 800;
 }
@@ -12,7 +12,7 @@
 .solve-button {
     -fx-background-color: #141124;
     -fx-border-color: linear-gradient(to right, #5A31F4, #8A66FF);
-    -fx-font-size: 18px;
+    -fx-font-size: 16px;
     -fx-font-weight: 800;
 
     -fx-scale-x: 1;

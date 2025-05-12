@@ -16,10 +16,10 @@
    <children>
       <BorderPane prefHeight="16.0" prefWidth="476.0">
          <left>
-            <Label styleClass="primary-text" text="Settings" textFill="WHITE" BorderPane.alignment="CENTER" />
+            <Label styleClass="text-base" text="Settings" textFill="WHITE" BorderPane.alignment="CENTER" />
          </left>
          <right>
-            <Label fx:id="invalidBoardWarning" styleClass="error-text" text="Invalid Board State" textFill="WHITE" BorderPane.alignment="CENTER" />
+            <Label fx:id="invalidBoardWarning" styleClass="text-error" text="Invalid Board State" textFill="WHITE" BorderPane.alignment="CENTER" />
          </right>
       </BorderPane>
       <HBox prefHeight="86.0" prefWidth="476.0" spacing="24.0" styleClass="settings-container">
@@ -32,7 +32,7 @@
                      </VBox.margin>
                      <styleClass>
                         <String fx:value="solve-button" />
-                        <String fx:value="primary-text-accent" />
+                        <String fx:value="text-strong" />
                      </styleClass>
                   </Button>
                   <ProgressBar fx:id="solveProgress" prefHeight="7.0" prefWidth="100.0" progress="0.0" />
@@ -43,9 +43,9 @@
             </VBox>
             <VBox prefHeight="86.0" prefWidth="41.0" styleClass="setting-container">
                <children>
-                  <Label styleClass="primary-text-accent" text="Multithreading" textFill="WHITE">
+                  <Label styleClass="text-strong" text="Multithreading" textFill="WHITE">
                      <font>
-                        <Font name="System Bold" size="12.0" />
+                        <Font name="System Bold" size="10.0" />
                      </font>
                   </Label>
                   <ToggleSwitch fx:id="multithreadingToggle" prefHeight="20.0" prefWidth="19.0" />
@@ -53,13 +53,13 @@
             </VBox>
             <VBox prefHeight="200.0" prefWidth="100.0" styleClass="setting-container">
                <children>
-                  <Label styleClass="primary-text-accent" text="Gems" />
+                  <Label styleClass="text-strong" text="Gems" />
                   <Spinner fx:id="playerGems" editable="true" />
                </children>
             </VBox>
             <VBox prefHeight="200.0" prefWidth="100.0" styleClass="setting-container">
                <children>
-                  <Label styleClass="primary-text-accent" text="Round" />
+                  <Label styleClass="text-strong" text="Round" />
                   <Spinner fx:id="gameRound" editable="true" />
                </children>
             </VBox>

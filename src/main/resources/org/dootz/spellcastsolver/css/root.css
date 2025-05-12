@@ -1,19 +1,48 @@
+@font-face {
+    font-family: "Satoshi Light";
+    src: url("../fonts/Satoshi-Light.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Satoshi Medium Italic";
+    src: url("../fonts/Satoshi-MediumItalic.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Satoshi Medium";
+    src: url("../fonts/Satoshi-Medium.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Satoshi Black";
+    src: url("../fonts/Satoshi-Black.otf") format("opentype");
+}
+
 #root {
+    -fx-font-family: "Satoshi Medium";
+    -fx-font-size: 12px;
     -fx-background-color:  rgb(3, 2, 7);
     -fx-background-radius: 16px;
 }
 
-.primary-text {
+.text-base {
+    -fx-font-family: "Satoshi Medium";
     -fx-text-fill: white;
 }
 
-.primary-text-accent {
+.text-strong {
+    -fx-font-family: "Satoshi Black";
     -fx-text-fill: white;
-    -fx-font-weight: 800;
 }
 
-.error-text {
+.text-error {
+    -fx-font-family: "Satoshi Medium";
     -fx-text-fill: #ff5c5c;
+}
+
+.text-italic {
+    -fx-font-family: "Satoshi Medium Italic";
+    -fx-text-fill: white;
 }
 
 .main {

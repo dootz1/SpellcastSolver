@@ -14,10 +14,10 @@
          <children>
             <BorderPane prefHeight="23.0" prefWidth="149.0">
                <left>
-                  <Label styleClass="primary-text-accent" text="Max Swaps" BorderPane.alignment="CENTER" />
+                  <Label styleClass="text-strong" text="Max Swaps" BorderPane.alignment="CENTER" />
                </left>
                <right>
-                  <Label fx:id="maxSwapsLabel" styleClass="primary-text-accent" text="0" BorderPane.alignment="CENTER" />
+                  <Label fx:id="maxSwapsLabel" styleClass="text-strong" text="0" BorderPane.alignment="CENTER" />
                </right>
                <VBox.margin>
                   <Insets left="8.0" right="8.0" />

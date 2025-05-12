@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import java.lang.String?>
+<?import java.net.URL?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.Slider?>
 <?import javafx.scene.effect.ColorAdjust?>
@@ -11,7 +13,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import org.controlsfx.control.ToggleSwitch?>
 
-<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="240.0" prefWidth="180.0" styleClass="menu-container" stylesheets="@../css/context-menu.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.dootz.spellcastsolver.controller.ContextMenuController">
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="240.0" prefWidth="180.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.dootz.spellcastsolver.controller.ContextMenuController">
    <children>
       <HBox prefHeight="20.0" prefWidth="148.0" spacing="4.0">
          <children>
@@ -76,4 +78,12 @@
    <effect>
       <DropShadow blurType="GAUSSIAN" height="30.0" radius="14.5" width="30.0" />
    </effect>
+   <stylesheets>
+      <URL value="@../css/context-menu.css" />
+      <URL value="@../css/root.css" />
+   </stylesheets>
+   <styleClass>
+      <String fx:value="menu-container" />
+      <String fx:value="text-base" />
+   </styleClass>
 </VBox>

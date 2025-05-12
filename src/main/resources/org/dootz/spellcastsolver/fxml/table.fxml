@@ -17,10 +17,10 @@
    <children>
       <BorderPane prefHeight="25.0" prefWidth="476.0">
          <left>
-            <Label styleClass="primary-text" text="Results" BorderPane.alignment="CENTER" />
+            <Label styleClass="text-base" text="Results" BorderPane.alignment="CENTER" />
          </left>
          <right>
-            <Label fx:id="resultsSummary" alignment="CENTER_RIGHT" prefHeight="17.0" prefWidth="306.0" styleClass="primary-text" text="12,345 Results (0.45 seconds)" BorderPane.alignment="CENTER" />
+            <Label fx:id="resultsSummary" alignment="CENTER_RIGHT" prefHeight="17.0" prefWidth="306.0" styleClass="text-base" text="12,345 Results (0.45 seconds)" BorderPane.alignment="CENTER" />
          </right>
       </BorderPane>
       <BorderPane prefHeight="35.0" prefWidth="476.0" styleClass="table-search-container">
@@ -57,7 +57,7 @@
       </BorderPane>
       <TableView fx:id="resultsTable" prefHeight="487.0" prefWidth="476.0" styleClass="results-table">
          <columns>
-            <TableColumn fx:id="wordsColumn" editable="false" maxWidth="160.0" prefWidth="160.0" styleClass="primary-text-accent" text="Word" />
+            <TableColumn fx:id="wordsColumn" editable="false" maxWidth="160.0" prefWidth="160.0" styleClass="text-strong" text="Word" />
             <TableColumn fx:id="evaluationColumn" editable="false" maxWidth="80.0" resizable="false" text="Evalulation" />
             <TableColumn fx:id="pointsColumn" editable="false" maxWidth="72.0" prefWidth="72.0" text="Points" />
             <TableColumn fx:id="gemsColumn" editable="false" maxWidth="72.0" prefWidth="72.0" text="Gems" />

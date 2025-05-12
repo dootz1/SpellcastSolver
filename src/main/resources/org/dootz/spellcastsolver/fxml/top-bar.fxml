@@ -17,7 +17,7 @@
       <Label layoutX="77.0" layoutY="26.0" prefHeight="46.0" prefWidth="181.0" text="SpellcastSolver">
          <styleClass>
             <String fx:value="title-label" />
-            <String fx:value="primary-text" />
+            <String fx:value="text-base" />
          </styleClass>
       </Label>
       <Circle fx:id="closeApp" fill="DODGERBLUE" layoutX="1336.0" layoutY="17.0" radius="9.0" stroke="BLACK" strokeType="INSIDE" styleClass="close-app" />
