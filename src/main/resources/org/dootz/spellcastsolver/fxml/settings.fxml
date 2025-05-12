@@ -43,7 +43,7 @@
             </VBox>
             <VBox prefHeight="86.0" prefWidth="41.0" styleClass="setting-container">
                <children>
-                  <Label styleClass="text-strong" text="Multithreading" textFill="WHITE">
+                  <Label style="-fx-font-size: 10;" styleClass="text-strong" text="Multithreading" textFill="WHITE">
                      <font>
                         <Font name="System Bold" size="10.0" />
                      </font>
