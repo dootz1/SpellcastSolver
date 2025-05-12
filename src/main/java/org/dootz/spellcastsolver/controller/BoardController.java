@@ -12,10 +12,7 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.geometry.Bounds;
 import javafx.scene.Node;
-import javafx.scene.control.Button;
-import javafx.scene.control.Label;
-import javafx.scene.control.TextField;
-import javafx.scene.control.TextFormatter;
+import javafx.scene.control.*;
 import javafx.scene.input.KeyCode;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.Pane;
@@ -66,12 +63,27 @@ public class BoardController {
     private Button clearTileModifiers;
     @FXML
     private Button generateRandomBoard;
+    @FXML
+    private Label modifierInstructions;
 
     public void initialize() {
         for (int i = 0; i < Constants.BOARD_TILES; i++) {
             setupTile(getTileFromGrid(inputGrid, i));
             setupTile(getTileFromGrid(solvedGrid, i));
         }
+
+        Tooltip tooltip = new Tooltip(
+                """
+                Modifier Hotkeys:
+                1    – 💎 Gem
+                !    – ❄️ Frozen
+                2/3  – 🔠 Double / Triple Letter
+                @/#  – 🔤 Double / Triple Word
+                0    – ♻️ Clear All Modifiers
+                """
+        );
+        tooltip.setStyle("-fx-font-family: 'monospaced'; -fx-padding: 5;");
+        Tooltip.install(modifierInstructions, tooltip);
     }
 
     private StackPane getTileFromGrid(GridPane grid, int index) {
