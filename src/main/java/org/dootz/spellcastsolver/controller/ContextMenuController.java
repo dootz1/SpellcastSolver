@@ -35,8 +35,8 @@ public class ContextMenuController {
     private ToggleSwitch frozenToggle;
 
     public void initialize() {
-        SliderUtils.applySliderProgressGradient(letterMultiplierSlider, "-letter-multiplier-track-color", Color.rgb(155, 7, 255), Color.rgb(40, 40, 40));
-        SliderUtils.applySliderProgressGradient(wordMultiplierSlider, "-word-multiplier-track-color", Color.rgb(155, 7, 255), Color.rgb(40, 40, 40));
+        SliderUtils.applySliderProgressGradient(letterMultiplierSlider, "-letter-multiplier-track-color", Color.valueOf("#1E90FF"), Color.rgb(40, 40, 40));
+        SliderUtils.applySliderProgressGradient(wordMultiplierSlider, "-word-multiplier-track-color", Color.valueOf("#1E90FF"), Color.rgb(40, 40, 40));
     }
     public void setPopup(Popup contextMenu) {
         this.contextMenu = contextMenu;

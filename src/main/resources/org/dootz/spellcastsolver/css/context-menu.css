@@ -28,7 +28,7 @@
 }
 
 .toggle-switch:selected .thumb-area {
-    -fx-background-color: rgb(155, 7, 255);
+    -fx-background-color: #1E90FF;
 }
 
 .toggle-switch:hover {
@@ -59,7 +59,7 @@
 }
 
 .slider .thumb {
-    -fx-background-color: rgb(155, 7, 255);
+    -fx-background-color: #1E90FF;
     -fx-pref-height: 20px;
     -fx-pref-width: 20px;
     -fx-border-color: rgb(26, 26, 26);

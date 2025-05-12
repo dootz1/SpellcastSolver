@@ -1,9 +1,11 @@
 .selected-move-container {
     -fx-background-color: rgb(26, 23, 42);
-    -fx-border-color:  linear-gradient(to right, #5A31F4, #8A66FF);
+    -fx-border-color:  linear-gradient(to right, #00BFFF, #1E90FF);
     -fx-border-width: 4px;
     -fx-background-radius: 8px;
     -fx-border-radius: 6px;
+
+    -fx-effect: dropshadow(gaussian, #00a0d3, 10, 0, 0, 0);
 }
 
 .selected-move-text {
@@ -148,7 +150,7 @@
 
 .button {
     -fx-background-color: #161324;
-    -fx-border-color: #A288FF;
+    -fx-border-color: #00BFFF;
     -fx-border-radius: 4px;
     -fx-background-radius: 4px;
     -fx-max-width: 28px;
@@ -164,9 +166,9 @@
 }
 
 .button:hover {
-    -fx-background-color: #A288FF;
+    -fx-background-color: #00BFFF;
     -fx-cursor: hand;
-    -fx-effect: dropshadow(gaussian, #8A66FF, 10, 0, 0, 0);
+    -fx-effect: dropshadow(gaussian, #00a0d3, 10, 0, 0, 0);
 
     -fx-scale-x: 1.05;
     -fx-scale-y: 1.05;
