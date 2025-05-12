@@ -137,7 +137,7 @@
 }
 
 .canvas {
-    -fx-background-color: rgb(26, 23, 42);
+    -fx-background-color: transparent;
     -fx-max-height: 512px;
     -fx-max-width: 512px;
 }
