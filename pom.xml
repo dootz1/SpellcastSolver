@@ -6,7 +6,7 @@
 
   <groupId>org.dootz</groupId>
   <artifactId>SpellcastSolver</artifactId>
-  <version>1.0.0</version>
+  <version>1.2.0</version>
   <name>SpellcastSolver</name>
 
   <properties>
