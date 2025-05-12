@@ -72,6 +72,9 @@
     -fx-alignment: center;
     -fx-padding: -2px;
     -fx-background-color: transparent;
+    -fx-display-caret: false;
+    -fx-highlight-fill: transparent;
+    -fx-highlight-text-fill: -fx-text-fill;
 }
 
 .tile-modifier-container {

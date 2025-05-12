@@ -284,6 +284,16 @@ public class BoardController {
             }
         });
 
+        tileInput.focusedProperty().addListener((obs, wasSelected, isSelected) -> {
+            Node parent = tileInput.getParent();
+            if (parent != null) {
+                ScaleTransition scaleTransition = new ScaleTransition(Duration.millis(150), parent);
+                scaleTransition.setToX(isSelected ? 1.1 : 1.0);
+                scaleTransition.setToY(isSelected ? 1.1 : 1.0);
+                scaleTransition.play();
+            }
+        });
+
         bindTileModifiers(tileModel, tileContainer);
         bindTileSelection(tileModel, tileContainer);
     }
