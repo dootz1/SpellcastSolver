@@ -21,7 +21,6 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.paint.Color?>
 <?import javafx.scene.shape.Circle?>
-<?import javafx.scene.shape.Line?>
 <?import javafx.scene.shape.Polygon?>
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
@@ -67,9 +66,8 @@
                <children>
                   <StackPane maxHeight="520.0" maxWidth="520.0" prefHeight="520.0" prefWidth="520.0">
                      <children>
+                        <Pane prefHeight="512.0" prefWidth="512.0" styleClass="board-border" />
                         <Pane fx:id="canvas" prefHeight="512.0" prefWidth="512.0" styleClass="canvas" visible="false" />
-                        <Pane prefHeight="512.0" prefWidth="512.0" styleClass="outer-border" />
-                        <Pane prefHeight="512.0" prefWidth="512.0" styleClass="inner-border" />
                         <GridPane fx:id="inputGrid" alignment="CENTER" maxHeight="512.0" maxWidth="512.0" prefHeight="512.0" prefWidth="512.0">
                            <columnConstraints>
                               <ColumnConstraints hgrow="SOMETIMES" maxWidth="96.0" prefWidth="96.0" />
@@ -89,12 +87,6 @@
                               <StackPane styleClass="tile-container" GridPane.columnIndex="0" GridPane.rowIndex="0">
                                  <children>
                                     <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-modifier-background" />
-                                    <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-background" />
-                                    <Pane maxHeight="80.0" maxWidth="80.0" prefHeight="80.0" prefWidth="80.0" visible="false">
-                                       <children>
-                                          <Line endX="80.0" startY="80.0" styleClass="bar" />
-                                       </children>
-                                    </Pane>
                                     <TextField styleClass="tile-input" />
                                     <Label alignment="CENTER" text="1" textAlignment="CENTER" StackPane.alignment="BOTTOM_RIGHT">
                                        <StackPane.margin>
@@ -143,12 +135,6 @@
                               <StackPane styleClass="tile-container" GridPane.columnIndex="1">
                                  <children>
                                     <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-modifier-background" />
-                                    <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-background" />
-                                    <Pane maxHeight="80.0" maxWidth="80.0" prefHeight="80.0" prefWidth="80.0" visible="false">
-                                       <children>
-                                          <Line endX="80.0" startY="80.0" styleClass="bar" />
-                                       </children>
-                                    </Pane>
                                     <TextField styleClass="tile-input" />
                                     <Label alignment="CENTER" text="1" textAlignment="CENTER" StackPane.alignment="BOTTOM_RIGHT">
                                        <StackPane.margin>
@@ -191,18 +177,12 @@
                                           <Insets bottom="16.0" left="18.0" />
                                        </StackPane.margin>
                                     </Polygon>
-                                    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
+                                    <Rectangle fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
                                  </children>
                               </StackPane>
                               <StackPane styleClass="tile-container" GridPane.columnIndex="2">
                                  <children>
                                     <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-modifier-background" />
-                                    <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-background" />
-                                    <Pane maxHeight="80.0" maxWidth="80.0" prefHeight="80.0" prefWidth="80.0" visible="false">
-                                       <children>
-                                          <Line endX="80.0" startY="80.0" styleClass="bar" />
-                                       </children>
-                                    </Pane>
                                     <TextField styleClass="tile-input" />
                                     <Label alignment="CENTER" text="1" textAlignment="CENTER" StackPane.alignment="BOTTOM_RIGHT">
                                        <StackPane.margin>
@@ -245,18 +225,12 @@
                                           <Insets bottom="16.0" left="18.0" />
                                        </StackPane.margin>
                                     </Polygon>
-                                    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
+                                    <Rectangle fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
                                  </children>
                               </StackPane>
                               <StackPane styleClass="tile-container" GridPane.columnIndex="3">
                                  <children>
                                     <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-modifier-background" />
-                                    <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-background" />
-                                    <Pane maxHeight="80.0" maxWidth="80.0" prefHeight="80.0" prefWidth="80.0" visible="false">
-                                       <children>
-                                          <Line endX="80.0" startY="80.0" styleClass="bar" />
-                                       </children>
-                                    </Pane>
                                     <TextField styleClass="tile-input" />
                                     <Label alignment="CENTER" text="1" textAlignment="CENTER" StackPane.alignment="BOTTOM_RIGHT">
                                        <StackPane.margin>
@@ -299,18 +273,12 @@
                                           <Insets bottom="16.0" left="18.0" />
                                        </StackPane.margin>
                                     </Polygon>
-                                    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
+                                    <Rectangle fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
                                  </children>
                               </StackPane>
                               <StackPane styleClass="tile-container" GridPane.columnIndex="4">
                                  <children>
                                     <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-modifier-background" />
-                                    <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-background" />
-                                    <Pane maxHeight="80.0" maxWidth="80.0" prefHeight="80.0" prefWidth="80.0" visible="false">
-                                       <children>
-                                          <Line endX="80.0" startY="80.0" styleClass="bar" />
-                                       </children>
-                                    </Pane>
                                     <TextField styleClass="tile-input" />
                                     <Label alignment="CENTER" text="1" textAlignment="CENTER" StackPane.alignment="BOTTOM_RIGHT">
                                        <StackPane.margin>
@@ -353,18 +321,12 @@
                                           <Insets bottom="16.0" left="18.0" />
                                        </StackPane.margin>
                                     </Polygon>
-                                    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
+                                    <Rectangle fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
                                  </children>
                               </StackPane>
                               <StackPane styleClass="tile-container" GridPane.rowIndex="1">
                                  <children>
                                     <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-modifier-background" />
-                                    <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-background" />
-                                    <Pane maxHeight="80.0" maxWidth="80.0" prefHeight="80.0" prefWidth="80.0" visible="false">
-                                       <children>
-                                          <Line endX="80.0" startY="80.0" styleClass="bar" />
-                                       </children>
-                                    </Pane>
                                     <TextField styleClass="tile-input" />
                                     <Label alignment="CENTER" text="1" textAlignment="CENTER" StackPane.alignment="BOTTOM_RIGHT">
                                        <StackPane.margin>
@@ -407,18 +369,12 @@
                                           <Insets bottom="16.0" left="18.0" />
                                        </StackPane.margin>
                                     </Polygon>
-                                    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
+                                    <Rectangle fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
                                  </children>
                               </StackPane>
                               <StackPane styleClass="tile-container" GridPane.columnIndex="1" GridPane.rowIndex="1">
                                  <children>
                                     <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-modifier-background" />
-                                    <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-background" />
-                                    <Pane maxHeight="80.0" maxWidth="80.0" prefHeight="80.0" prefWidth="80.0" visible="false">
-                                       <children>
-                                          <Line endX="80.0" startY="80.0" styleClass="bar" />
-                                       </children>
-                                    </Pane>
                                     <TextField styleClass="tile-input" />
                                     <Label alignment="CENTER" text="1" textAlignment="CENTER" StackPane.alignment="BOTTOM_RIGHT">
                                        <StackPane.margin>
@@ -461,18 +417,12 @@
                                           <Insets bottom="16.0" left="18.0" />
                                        </StackPane.margin>
                                     </Polygon>
-                                    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
+                                    <Rectangle fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
                                  </children>
                               </StackPane>
                               <StackPane styleClass="tile-container" GridPane.columnIndex="2" GridPane.rowIndex="1">
                                  <children>
                                     <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-modifier-background" />
-                                    <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-background" />
-                                    <Pane maxHeight="80.0" maxWidth="80.0" prefHeight="80.0" prefWidth="80.0" visible="false">
-                                       <children>
-                                          <Line endX="80.0" startY="80.0" styleClass="bar" />
-                                       </children>
-                                    </Pane>
                                     <TextField styleClass="tile-input" />
                                     <Label alignment="CENTER" text="1" textAlignment="CENTER" StackPane.alignment="BOTTOM_RIGHT">
                                        <StackPane.margin>
@@ -515,18 +465,12 @@
                                           <Insets bottom="16.0" left="18.0" />
                                        </StackPane.margin>
                                     </Polygon>
-                                    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
+                                    <Rectangle fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
                                  </children>
                               </StackPane>
                               <StackPane styleClass="tile-container" GridPane.columnIndex="3" GridPane.rowIndex="1">
                                  <children>
                                     <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-modifier-background" />
-                                    <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-background" />
-                                    <Pane maxHeight="80.0" maxWidth="80.0" prefHeight="80.0" prefWidth="80.0" visible="false">
-                                       <children>
-                                          <Line endX="80.0" startY="80.0" styleClass="bar" />
-                                       </children>
-                                    </Pane>
                                     <TextField styleClass="tile-input" />
                                     <Label alignment="CENTER" text="1" textAlignment="CENTER" StackPane.alignment="BOTTOM_RIGHT">
                                        <StackPane.margin>
@@ -569,18 +513,12 @@
                                           <Insets bottom="16.0" left="18.0" />
                                        </StackPane.margin>
                                     </Polygon>
-                                    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
+                                    <Rectangle fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
                                  </children>
                               </StackPane>
                               <StackPane styleClass="tile-container" GridPane.columnIndex="4" GridPane.rowIndex="1">
                                  <children>
                                     <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-modifier-background" />
-                                    <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-background" />
-                                    <Pane maxHeight="80.0" maxWidth="80.0" prefHeight="80.0" prefWidth="80.0" visible="false">
-                                       <children>
-                                          <Line endX="80.0" startY="80.0" styleClass="bar" />
-                                       </children>
-                                    </Pane>
                                     <TextField styleClass="tile-input" />
                                     <Label alignment="CENTER" text="1" textAlignment="CENTER" StackPane.alignment="BOTTOM_RIGHT">
                                        <StackPane.margin>
@@ -623,18 +561,12 @@
                                           <Insets bottom="16.0" left="18.0" />
                                        </StackPane.margin>
                                     </Polygon>
-                                    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
+                                    <Rectangle fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
                                  </children>
                               </StackPane>
                               <StackPane styleClass="tile-container" GridPane.rowIndex="2">
                                  <children>
                                     <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-modifier-background" />
-                                    <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-background" />
-                                    <Pane maxHeight="80.0" maxWidth="80.0" prefHeight="80.0" prefWidth="80.0" visible="false">
-                                       <children>
-                                          <Line endX="80.0" startY="80.0" styleClass="bar" />
-                                       </children>
-                                    </Pane>
                                     <TextField styleClass="tile-input" />
                                     <Label alignment="CENTER" text="1" textAlignment="CENTER" StackPane.alignment="BOTTOM_RIGHT">
                                        <StackPane.margin>
@@ -677,18 +609,12 @@
                                           <Insets bottom="16.0" left="18.0" />
                                        </StackPane.margin>
                                     </Polygon>
-                                    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
+                                    <Rectangle fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
                                  </children>
                               </StackPane>
                               <StackPane styleClass="tile-container" GridPane.columnIndex="1" GridPane.rowIndex="2">
                                  <children>
                                     <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-modifier-background" />
-                                    <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-background" />
-                                    <Pane maxHeight="80.0" maxWidth="80.0" prefHeight="80.0" prefWidth="80.0" visible="false">
-                                       <children>
-                                          <Line endX="80.0" startY="80.0" styleClass="bar" />
-                                       </children>
-                                    </Pane>
                                     <TextField styleClass="tile-input" />
                                     <Label alignment="CENTER" text="1" textAlignment="CENTER" StackPane.alignment="BOTTOM_RIGHT">
                                        <StackPane.margin>
@@ -731,18 +657,12 @@
                                           <Insets bottom="16.0" left="18.0" />
                                        </StackPane.margin>
                                     </Polygon>
-                                    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
+                                    <Rectangle fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
                                  </children>
                               </StackPane>
                               <StackPane styleClass="tile-container" GridPane.columnIndex="2" GridPane.rowIndex="2">
                                  <children>
                                     <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-modifier-background" />
-                                    <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-background" />
-                                    <Pane maxHeight="80.0" maxWidth="80.0" prefHeight="80.0" prefWidth="80.0" visible="false">
-                                       <children>
-                                          <Line endX="80.0" startY="80.0" styleClass="bar" />
-                                       </children>
-                                    </Pane>
                                     <TextField styleClass="tile-input" />
                                     <Label alignment="CENTER" text="1" textAlignment="CENTER" StackPane.alignment="BOTTOM_RIGHT">
                                        <StackPane.margin>
@@ -785,18 +705,12 @@
                                           <Insets bottom="16.0" left="18.0" />
                                        </StackPane.margin>
                                     </Polygon>
-                                    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
+                                    <Rectangle fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
                                  </children>
                               </StackPane>
                               <StackPane styleClass="tile-container" GridPane.columnIndex="3" GridPane.rowIndex="2">
                                  <children>
                                     <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-modifier-background" />
-                                    <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-background" />
-                                    <Pane maxHeight="80.0" maxWidth="80.0" prefHeight="80.0" prefWidth="80.0" visible="false">
-                                       <children>
-                                          <Line endX="80.0" startY="80.0" styleClass="bar" />
-                                       </children>
-                                    </Pane>
                                     <TextField styleClass="tile-input" />
                                     <Label alignment="CENTER" text="1" textAlignment="CENTER" StackPane.alignment="BOTTOM_RIGHT">
                                        <StackPane.margin>
@@ -839,18 +753,12 @@
                                           <Insets bottom="16.0" left="18.0" />
                                        </StackPane.margin>
                                     </Polygon>
-                                    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
+                                    <Rectangle fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
                                  </children>
                               </StackPane>
                               <StackPane styleClass="tile-container" GridPane.columnIndex="4" GridPane.rowIndex="2">
                                  <children>
                                     <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-modifier-background" />
-                                    <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-background" />
-                                    <Pane maxHeight="80.0" maxWidth="80.0" prefHeight="80.0" prefWidth="80.0" visible="false">
-                                       <children>
-                                          <Line endX="80.0" startY="80.0" styleClass="bar" />
-                                       </children>
-                                    </Pane>
                                     <TextField styleClass="tile-input" />
                                     <Label alignment="CENTER" text="1" textAlignment="CENTER" StackPane.alignment="BOTTOM_RIGHT">
                                        <StackPane.margin>
@@ -893,18 +801,12 @@
                                           <Insets bottom="16.0" left="18.0" />
                                        </StackPane.margin>
                                     </Polygon>
-                                    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
+                                    <Rectangle fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
                                  </children>
                               </StackPane>
                               <StackPane styleClass="tile-container" GridPane.rowIndex="3">
                                  <children>
                                     <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-modifier-background" />
-                                    <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-background" />
-                                    <Pane maxHeight="80.0" maxWidth="80.0" prefHeight="80.0" prefWidth="80.0" visible="false">
-                                       <children>
-                                          <Line endX="80.0" startY="80.0" styleClass="bar" />
-                                       </children>
-                                    </Pane>
                                     <TextField styleClass="tile-input" />
                                     <Label alignment="CENTER" text="1" textAlignment="CENTER" StackPane.alignment="BOTTOM_RIGHT">
                                        <StackPane.margin>
@@ -947,18 +849,12 @@
                                           <Insets bottom="16.0" left="18.0" />
                                        </StackPane.margin>
                                     </Polygon>
-                                    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
+                                    <Rectangle fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
                                  </children>
                               </StackPane>
                               <StackPane styleClass="tile-container" GridPane.columnIndex="1" GridPane.rowIndex="3">
                                  <children>
                                     <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-modifier-background" />
-                                    <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-background" />
-                                    <Pane maxHeight="80.0" maxWidth="80.0" prefHeight="80.0" prefWidth="80.0" visible="false">
-                                       <children>
-                                          <Line endX="80.0" startY="80.0" styleClass="bar" />
-                                       </children>
-                                    </Pane>
                                     <TextField styleClass="tile-input" />
                                     <Label alignment="CENTER" text="1" textAlignment="CENTER" StackPane.alignment="BOTTOM_RIGHT">
                                        <StackPane.margin>
@@ -1001,18 +897,12 @@
                                           <Insets bottom="16.0" left="18.0" />
                                        </StackPane.margin>
                                     </Polygon>
-                                    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
+                                    <Rectangle fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
                                  </children>
                               </StackPane>
                               <StackPane styleClass="tile-container" GridPane.columnIndex="2" GridPane.rowIndex="3">
                                  <children>
                                     <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-modifier-background" />
-                                    <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-background" />
-                                    <Pane maxHeight="80.0" maxWidth="80.0" prefHeight="80.0" prefWidth="80.0" visible="false">
-                                       <children>
-                                          <Line endX="80.0" startY="80.0" styleClass="bar" />
-                                       </children>
-                                    </Pane>
                                     <TextField styleClass="tile-input" />
                                     <Label alignment="CENTER" text="1" textAlignment="CENTER" StackPane.alignment="BOTTOM_RIGHT">
                                        <StackPane.margin>
@@ -1055,18 +945,12 @@
                                           <Insets bottom="16.0" left="18.0" />
                                        </StackPane.margin>
                                     </Polygon>
-                                    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
+                                    <Rectangle fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
                                  </children>
                               </StackPane>
                               <StackPane styleClass="tile-container" GridPane.columnIndex="3" GridPane.rowIndex="3">
                                  <children>
                                     <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-modifier-background" />
-                                    <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-background" />
-                                    <Pane maxHeight="80.0" maxWidth="80.0" prefHeight="80.0" prefWidth="80.0" visible="false">
-                                       <children>
-                                          <Line endX="80.0" startY="80.0" styleClass="bar" />
-                                       </children>
-                                    </Pane>
                                     <TextField styleClass="tile-input" />
                                     <Label alignment="CENTER" text="1" textAlignment="CENTER" StackPane.alignment="BOTTOM_RIGHT">
                                        <StackPane.margin>
@@ -1109,18 +993,12 @@
                                           <Insets bottom="16.0" left="18.0" />
                                        </StackPane.margin>
                                     </Polygon>
-                                    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
+                                    <Rectangle fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
                                  </children>
                               </StackPane>
                               <StackPane styleClass="tile-container" GridPane.columnIndex="4" GridPane.rowIndex="3">
                                  <children>
                                     <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-modifier-background" />
-                                    <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-background" />
-                                    <Pane maxHeight="80.0" maxWidth="80.0" prefHeight="80.0" prefWidth="80.0" visible="false">
-                                       <children>
-                                          <Line endX="80.0" startY="80.0" styleClass="bar" />
-                                       </children>
-                                    </Pane>
                                     <TextField styleClass="tile-input" />
                                     <Label alignment="CENTER" text="1" textAlignment="CENTER" StackPane.alignment="BOTTOM_RIGHT">
                                        <StackPane.margin>
@@ -1163,18 +1041,12 @@
                                           <Insets bottom="16.0" left="18.0" />
                                        </StackPane.margin>
                                     </Polygon>
-                                    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
+                                    <Rectangle fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
                                  </children>
                               </StackPane>
                               <StackPane styleClass="tile-container" GridPane.rowIndex="4">
                                  <children>
                                     <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-modifier-background" />
-                                    <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-background" />
-                                    <Pane maxHeight="80.0" maxWidth="80.0" prefHeight="80.0" prefWidth="80.0" visible="false">
-                                       <children>
-                                          <Line endX="80.0" startY="80.0" styleClass="bar" />
-                                       </children>
-                                    </Pane>
                                     <TextField styleClass="tile-input" />
                                     <Label alignment="CENTER" text="1" textAlignment="CENTER" StackPane.alignment="BOTTOM_RIGHT">
                                        <StackPane.margin>
@@ -1217,18 +1089,12 @@
                                           <Insets bottom="16.0" left="18.0" />
                                        </StackPane.margin>
                                     </Polygon>
-                                    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
+                                    <Rectangle fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
                                  </children>
                               </StackPane>
                               <StackPane styleClass="tile-container" GridPane.columnIndex="1" GridPane.rowIndex="4">
                                  <children>
                                     <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-modifier-background" />
-                                    <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-background" />
-                                    <Pane maxHeight="80.0" maxWidth="80.0" prefHeight="80.0" prefWidth="80.0" visible="false">
-                                       <children>
-                                          <Line endX="80.0" startY="80.0" styleClass="bar" />
-                                       </children>
-                                    </Pane>
                                     <TextField styleClass="tile-input" />
                                     <Label alignment="CENTER" text="1" textAlignment="CENTER" StackPane.alignment="BOTTOM_RIGHT">
                                        <StackPane.margin>
@@ -1271,18 +1137,12 @@
                                           <Insets bottom="16.0" left="18.0" />
                                        </StackPane.margin>
                                     </Polygon>
-                                    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
+                                    <Rectangle fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
                                  </children>
                               </StackPane>
                               <StackPane styleClass="tile-container" GridPane.columnIndex="2" GridPane.rowIndex="4">
                                  <children>
                                     <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-modifier-background" />
-                                    <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-background" />
-                                    <Pane maxHeight="80.0" maxWidth="80.0" prefHeight="80.0" prefWidth="80.0" visible="false">
-                                       <children>
-                                          <Line endX="80.0" startY="80.0" styleClass="bar" />
-                                       </children>
-                                    </Pane>
                                     <TextField styleClass="tile-input" />
                                     <Label alignment="CENTER" text="1" textAlignment="CENTER" StackPane.alignment="BOTTOM_RIGHT">
                                        <StackPane.margin>
@@ -1325,18 +1185,12 @@
                                           <Insets bottom="16.0" left="18.0" />
                                        </StackPane.margin>
                                     </Polygon>
-                                    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
+                                    <Rectangle fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
                                  </children>
                               </StackPane>
                               <StackPane styleClass="tile-container" GridPane.columnIndex="3" GridPane.rowIndex="4">
                                  <children>
                                     <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-modifier-background" />
-                                    <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-background" />
-                                    <Pane maxHeight="80.0" maxWidth="80.0" prefHeight="80.0" prefWidth="80.0" visible="false">
-                                       <children>
-                                          <Line endX="80.0" startY="80.0" styleClass="bar" />
-                                       </children>
-                                    </Pane>
                                     <TextField styleClass="tile-input" />
                                     <Label alignment="CENTER" text="1" textAlignment="CENTER" StackPane.alignment="BOTTOM_RIGHT">
                                        <StackPane.margin>
@@ -1379,18 +1233,12 @@
                                           <Insets bottom="16.0" left="18.0" />
                                        </StackPane.margin>
                                     </Polygon>
-                                    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
+                                    <Rectangle fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
                                  </children>
                               </StackPane>
                               <StackPane styleClass="tile-container" GridPane.columnIndex="4" GridPane.rowIndex="4">
                                  <children>
                                     <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-modifier-background" />
-                                    <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-background" />
-                                    <Pane maxHeight="80.0" maxWidth="80.0" prefHeight="80.0" prefWidth="80.0" visible="false">
-                                       <children>
-                                          <Line endX="80.0" startY="80.0" styleClass="bar" />
-                                       </children>
-                                    </Pane>
                                     <TextField styleClass="tile-input" />
                                     <Label alignment="CENTER" text="1" textAlignment="CENTER" StackPane.alignment="BOTTOM_RIGHT">
                                        <StackPane.margin>
@@ -1433,7 +1281,7 @@
                                           <Insets bottom="16.0" left="18.0" />
                                        </StackPane.margin>
                                     </Polygon>
-                                    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
+                                    <Rectangle fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
                                  </children>
                               </StackPane>
                            </children>
@@ -1461,12 +1309,6 @@
                               <StackPane styleClass="tile-container" GridPane.columnIndex="0" GridPane.rowIndex="0">
                                  <children>
                                     <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-modifier-background" />
-                                    <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-background" />
-                                    <Pane maxHeight="80.0" maxWidth="80.0" prefHeight="80.0" prefWidth="80.0" visible="false">
-                                       <children>
-                                          <Line endX="80.0" startY="80.0" styleClass="bar" />
-                                       </children>
-                                    </Pane>
                                     <TextField styleClass="tile-input" />
                                     <Label alignment="CENTER" text="1" textAlignment="CENTER" StackPane.alignment="BOTTOM_RIGHT">
                                        <StackPane.margin>
@@ -1509,18 +1351,12 @@
                                           <Insets bottom="16.0" left="18.0" />
                                        </StackPane.margin>
                                     </Polygon>
-                                    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
+                                    <Rectangle fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
                                  </children>
                               </StackPane>
                               <StackPane styleClass="tile-container" GridPane.columnIndex="1">
                                  <children>
                                     <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-modifier-background" />
-                                    <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-background" />
-                                    <Pane maxHeight="80.0" maxWidth="80.0" prefHeight="80.0" prefWidth="80.0" visible="false">
-                                       <children>
-                                          <Line endX="80.0" startY="80.0" styleClass="bar" />
-                                       </children>
-                                    </Pane>
                                     <TextField styleClass="tile-input" />
                                     <Label alignment="CENTER" text="1" textAlignment="CENTER" StackPane.alignment="BOTTOM_RIGHT">
                                        <StackPane.margin>
@@ -1563,18 +1399,12 @@
                                           <Insets bottom="16.0" left="18.0" />
                                        </StackPane.margin>
                                     </Polygon>
-                                    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
+                                    <Rectangle fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
                                  </children>
                               </StackPane>
                               <StackPane styleClass="tile-container" GridPane.columnIndex="2">
                                  <children>
                                     <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-modifier-background" />
-                                    <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-background" />
-                                    <Pane maxHeight="80.0" maxWidth="80.0" prefHeight="80.0" prefWidth="80.0" visible="false">
-                                       <children>
-                                          <Line endX="80.0" startY="80.0" styleClass="bar" />
-                                       </children>
-                                    </Pane>
                                     <TextField styleClass="tile-input" />
                                     <Label alignment="CENTER" text="1" textAlignment="CENTER" StackPane.alignment="BOTTOM_RIGHT">
                                        <StackPane.margin>
@@ -1617,18 +1447,12 @@
                                           <Insets bottom="16.0" left="18.0" />
                                        </StackPane.margin>
                                     </Polygon>
-                                    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
+                                    <Rectangle fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
                                  </children>
                               </StackPane>
                               <StackPane styleClass="tile-container" GridPane.columnIndex="3">
                                  <children>
                                     <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-modifier-background" />
-                                    <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-background" />
-                                    <Pane maxHeight="80.0" maxWidth="80.0" prefHeight="80.0" prefWidth="80.0" visible="false">
-                                       <children>
-                                          <Line endX="80.0" startY="80.0" styleClass="bar" />
-                                       </children>
-                                    </Pane>
                                     <TextField styleClass="tile-input" />
                                     <Label alignment="CENTER" text="1" textAlignment="CENTER" StackPane.alignment="BOTTOM_RIGHT">
                                        <StackPane.margin>
@@ -1671,18 +1495,12 @@
                                           <Insets bottom="16.0" left="18.0" />
                                        </StackPane.margin>
                                     </Polygon>
-                                    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
+                                    <Rectangle fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
                                  </children>
                               </StackPane>
                               <StackPane styleClass="tile-container" GridPane.columnIndex="4">
                                  <children>
                                     <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-modifier-background" />
-                                    <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-background" />
-                                    <Pane maxHeight="80.0" maxWidth="80.0" prefHeight="80.0" prefWidth="80.0" visible="false">
-                                       <children>
-                                          <Line endX="80.0" startY="80.0" styleClass="bar" />
-                                       </children>
-                                    </Pane>
                                     <TextField styleClass="tile-input" />
                                     <Label alignment="CENTER" text="1" textAlignment="CENTER" StackPane.alignment="BOTTOM_RIGHT">
                                        <StackPane.margin>
@@ -1725,18 +1543,12 @@
                                           <Insets bottom="16.0" left="18.0" />
                                        </StackPane.margin>
                                     </Polygon>
-                                    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
+                                    <Rectangle fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
                                  </children>
                               </StackPane>
                               <StackPane styleClass="tile-container" GridPane.rowIndex="1">
                                  <children>
                                     <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-modifier-background" />
-                                    <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-background" />
-                                    <Pane maxHeight="80.0" maxWidth="80.0" prefHeight="80.0" prefWidth="80.0" visible="false">
-                                       <children>
-                                          <Line endX="80.0" startY="80.0" styleClass="bar" />
-                                       </children>
-                                    </Pane>
                                     <TextField styleClass="tile-input" />
                                     <Label alignment="CENTER" text="1" textAlignment="CENTER" StackPane.alignment="BOTTOM_RIGHT">
                                        <StackPane.margin>
@@ -1779,18 +1591,12 @@
                                           <Insets bottom="16.0" left="18.0" />
                                        </StackPane.margin>
                                     </Polygon>
-                                    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
+                                    <Rectangle fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
                                  </children>
                               </StackPane>
                               <StackPane styleClass="tile-container" GridPane.columnIndex="1" GridPane.rowIndex="1">
                                  <children>
                                     <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-modifier-background" />
-                                    <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-background" />
-                                    <Pane maxHeight="80.0" maxWidth="80.0" prefHeight="80.0" prefWidth="80.0" visible="false">
-                                       <children>
-                                          <Line endX="80.0" startY="80.0" styleClass="bar" />
-                                       </children>
-                                    </Pane>
                                     <TextField styleClass="tile-input" />
                                     <Label alignment="CENTER" text="1" textAlignment="CENTER" StackPane.alignment="BOTTOM_RIGHT">
                                        <StackPane.margin>
@@ -1833,18 +1639,12 @@
                                           <Insets bottom="16.0" left="18.0" />
                                        </StackPane.margin>
                                     </Polygon>
-                                    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
+                                    <Rectangle fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
                                  </children>
                               </StackPane>
                               <StackPane styleClass="tile-container" GridPane.columnIndex="2" GridPane.rowIndex="1">
                                  <children>
                                     <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-modifier-background" />
-                                    <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-background" />
-                                    <Pane maxHeight="80.0" maxWidth="80.0" prefHeight="80.0" prefWidth="80.0" visible="false">
-                                       <children>
-                                          <Line endX="80.0" startY="80.0" styleClass="bar" />
-                                       </children>
-                                    </Pane>
                                     <TextField styleClass="tile-input" />
                                     <Label alignment="CENTER" text="1" textAlignment="CENTER" StackPane.alignment="BOTTOM_RIGHT">
                                        <StackPane.margin>
@@ -1887,18 +1687,12 @@
                                           <Insets bottom="16.0" left="18.0" />
                                        </StackPane.margin>
                                     </Polygon>
-                                    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
+                                    <Rectangle fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
                                  </children>
                               </StackPane>
                               <StackPane styleClass="tile-container" GridPane.columnIndex="3" GridPane.rowIndex="1">
                                  <children>
                                     <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-modifier-background" />
-                                    <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-background" />
-                                    <Pane maxHeight="80.0" maxWidth="80.0" prefHeight="80.0" prefWidth="80.0" visible="false">
-                                       <children>
-                                          <Line endX="80.0" startY="80.0" styleClass="bar" />
-                                       </children>
-                                    </Pane>
                                     <TextField styleClass="tile-input" />
                                     <Label alignment="CENTER" text="1" textAlignment="CENTER" StackPane.alignment="BOTTOM_RIGHT">
                                        <StackPane.margin>
@@ -1941,18 +1735,12 @@
                                           <Insets bottom="16.0" left="18.0" />
                                        </StackPane.margin>
                                     </Polygon>
-                                    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
+                                    <Rectangle fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
                                  </children>
                               </StackPane>
                               <StackPane styleClass="tile-container" GridPane.columnIndex="4" GridPane.rowIndex="1">
                                  <children>
                                     <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-modifier-background" />
-                                    <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-background" />
-                                    <Pane maxHeight="80.0" maxWidth="80.0" prefHeight="80.0" prefWidth="80.0" visible="false">
-                                       <children>
-                                          <Line endX="80.0" startY="80.0" styleClass="bar" />
-                                       </children>
-                                    </Pane>
                                     <TextField styleClass="tile-input" />
                                     <Label alignment="CENTER" text="1" textAlignment="CENTER" StackPane.alignment="BOTTOM_RIGHT">
                                        <StackPane.margin>
@@ -1995,18 +1783,12 @@
                                           <Insets bottom="16.0" left="18.0" />
                                        </StackPane.margin>
                                     </Polygon>
-                                    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
+                                    <Rectangle fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
                                  </children>
                               </StackPane>
                               <StackPane styleClass="tile-container" GridPane.rowIndex="2">
                                  <children>
                                     <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-modifier-background" />
-                                    <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-background" />
-                                    <Pane maxHeight="80.0" maxWidth="80.0" prefHeight="80.0" prefWidth="80.0" visible="false">
-                                       <children>
-                                          <Line endX="80.0" startY="80.0" styleClass="bar" />
-                                       </children>
-                                    </Pane>
                                     <TextField styleClass="tile-input" />
                                     <Label alignment="CENTER" text="1" textAlignment="CENTER" StackPane.alignment="BOTTOM_RIGHT">
                                        <StackPane.margin>
@@ -2049,18 +1831,12 @@
                                           <Insets bottom="16.0" left="18.0" />
                                        </StackPane.margin>
                                     </Polygon>
-                                    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
+                                    <Rectangle fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
                                  </children>
                               </StackPane>
                               <StackPane styleClass="tile-container" GridPane.columnIndex="1" GridPane.rowIndex="2">
                                  <children>
                                     <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-modifier-background" />
-                                    <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-background" />
-                                    <Pane maxHeight="80.0" maxWidth="80.0" prefHeight="80.0" prefWidth="80.0" visible="false">
-                                       <children>
-                                          <Line endX="80.0" startY="80.0" styleClass="bar" />
-                                       </children>
-                                    </Pane>
                                     <TextField styleClass="tile-input" />
                                     <Label alignment="CENTER" text="1" textAlignment="CENTER" StackPane.alignment="BOTTOM_RIGHT">
                                        <StackPane.margin>
@@ -2103,18 +1879,12 @@
                                           <Insets bottom="16.0" left="18.0" />
                                        </StackPane.margin>
                                     </Polygon>
-                                    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
+                                    <Rectangle fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
                                  </children>
                               </StackPane>
                               <StackPane styleClass="tile-container" GridPane.columnIndex="2" GridPane.rowIndex="2">
                                  <children>
                                     <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-modifier-background" />
-                                    <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-background" />
-                                    <Pane maxHeight="80.0" maxWidth="80.0" prefHeight="80.0" prefWidth="80.0" visible="false">
-                                       <children>
-                                          <Line endX="80.0" startY="80.0" styleClass="bar" />
-                                       </children>
-                                    </Pane>
                                     <TextField styleClass="tile-input" />
                                     <Label alignment="CENTER" text="1" textAlignment="CENTER" StackPane.alignment="BOTTOM_RIGHT">
                                        <StackPane.margin>
@@ -2157,18 +1927,12 @@
                                           <Insets bottom="16.0" left="18.0" />
                                        </StackPane.margin>
                                     </Polygon>
-                                    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
+                                    <Rectangle fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
                                  </children>
                               </StackPane>
                               <StackPane styleClass="tile-container" GridPane.columnIndex="3" GridPane.rowIndex="2">
                                  <children>
                                     <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-modifier-background" />
-                                    <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-background" />
-                                    <Pane maxHeight="80.0" maxWidth="80.0" prefHeight="80.0" prefWidth="80.0" visible="false">
-                                       <children>
-                                          <Line endX="80.0" startY="80.0" styleClass="bar" />
-                                       </children>
-                                    </Pane>
                                     <TextField styleClass="tile-input" />
                                     <Label alignment="CENTER" text="1" textAlignment="CENTER" StackPane.alignment="BOTTOM_RIGHT">
                                        <StackPane.margin>
@@ -2211,18 +1975,12 @@
                                           <Insets bottom="16.0" left="18.0" />
                                        </StackPane.margin>
                                     </Polygon>
-                                    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
+                                    <Rectangle fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
                                  </children>
                               </StackPane>
                               <StackPane styleClass="tile-container" GridPane.columnIndex="4" GridPane.rowIndex="2">
                                  <children>
                                     <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-modifier-background" />
-                                    <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-background" />
-                                    <Pane maxHeight="80.0" maxWidth="80.0" prefHeight="80.0" prefWidth="80.0" visible="false">
-                                       <children>
-                                          <Line endX="80.0" startY="80.0" styleClass="bar" />
-                                       </children>
-                                    </Pane>
                                     <TextField styleClass="tile-input" />
                                     <Label alignment="CENTER" text="1" textAlignment="CENTER" StackPane.alignment="BOTTOM_RIGHT">
                                        <StackPane.margin>
@@ -2265,18 +2023,12 @@
                                           <Insets bottom="16.0" left="18.0" />
                                        </StackPane.margin>
                                     </Polygon>
-                                    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
+                                    <Rectangle fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
                                  </children>
                               </StackPane>
                               <StackPane styleClass="tile-container" GridPane.rowIndex="3">
                                  <children>
                                     <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-modifier-background" />
-                                    <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-background" />
-                                    <Pane maxHeight="80.0" maxWidth="80.0" prefHeight="80.0" prefWidth="80.0" visible="false">
-                                       <children>
-                                          <Line endX="80.0" startY="80.0" styleClass="bar" />
-                                       </children>
-                                    </Pane>
                                     <TextField styleClass="tile-input" />
                                     <Label alignment="CENTER" text="1" textAlignment="CENTER" StackPane.alignment="BOTTOM_RIGHT">
                                        <StackPane.margin>
@@ -2319,18 +2071,12 @@
                                           <Insets bottom="16.0" left="18.0" />
                                        </StackPane.margin>
                                     </Polygon>
-                                    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
+                                    <Rectangle fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
                                  </children>
                               </StackPane>
                               <StackPane styleClass="tile-container" GridPane.columnIndex="1" GridPane.rowIndex="3">
                                  <children>
                                     <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-modifier-background" />
-                                    <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-background" />
-                                    <Pane maxHeight="80.0" maxWidth="80.0" prefHeight="80.0" prefWidth="80.0" visible="false">
-                                       <children>
-                                          <Line endX="80.0" startY="80.0" styleClass="bar" />
-                                       </children>
-                                    </Pane>
                                     <TextField styleClass="tile-input" />
                                     <Label alignment="CENTER" text="1" textAlignment="CENTER" StackPane.alignment="BOTTOM_RIGHT">
                                        <StackPane.margin>
@@ -2373,18 +2119,12 @@
                                           <Insets bottom="16.0" left="18.0" />
                                        </StackPane.margin>
                                     </Polygon>
-                                    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
+                                    <Rectangle fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
                                  </children>
                               </StackPane>
                               <StackPane styleClass="tile-container" GridPane.columnIndex="2" GridPane.rowIndex="3">
                                  <children>
                                     <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-modifier-background" />
-                                    <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-background" />
-                                    <Pane maxHeight="80.0" maxWidth="80.0" prefHeight="80.0" prefWidth="80.0" visible="false">
-                                       <children>
-                                          <Line endX="80.0" startY="80.0" styleClass="bar" />
-                                       </children>
-                                    </Pane>
                                     <TextField styleClass="tile-input" />
                                     <Label alignment="CENTER" text="1" textAlignment="CENTER" StackPane.alignment="BOTTOM_RIGHT">
                                        <StackPane.margin>
@@ -2427,18 +2167,12 @@
                                           <Insets bottom="16.0" left="18.0" />
                                        </StackPane.margin>
                                     </Polygon>
-                                    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
+                                    <Rectangle fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
                                  </children>
                               </StackPane>
                               <StackPane styleClass="tile-container" GridPane.columnIndex="3" GridPane.rowIndex="3">
                                  <children>
                                     <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-modifier-background" />
-                                    <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-background" />
-                                    <Pane maxHeight="80.0" maxWidth="80.0" prefHeight="80.0" prefWidth="80.0" visible="false">
-                                       <children>
-                                          <Line endX="80.0" startY="80.0" styleClass="bar" />
-                                       </children>
-                                    </Pane>
                                     <TextField styleClass="tile-input" />
                                     <Label alignment="CENTER" text="1" textAlignment="CENTER" StackPane.alignment="BOTTOM_RIGHT">
                                        <StackPane.margin>
@@ -2481,18 +2215,12 @@
                                           <Insets bottom="16.0" left="18.0" />
                                        </StackPane.margin>
                                     </Polygon>
-                                    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
+                                    <Rectangle fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
                                  </children>
                               </StackPane>
                               <StackPane styleClass="tile-container" GridPane.columnIndex="4" GridPane.rowIndex="3">
                                  <children>
                                     <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-modifier-background" />
-                                    <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-background" />
-                                    <Pane maxHeight="80.0" maxWidth="80.0" prefHeight="80.0" prefWidth="80.0" visible="false">
-                                       <children>
-                                          <Line endX="80.0" startY="80.0" styleClass="bar" />
-                                       </children>
-                                    </Pane>
                                     <TextField styleClass="tile-input" />
                                     <Label alignment="CENTER" text="1" textAlignment="CENTER" StackPane.alignment="BOTTOM_RIGHT">
                                        <StackPane.margin>
@@ -2535,18 +2263,12 @@
                                           <Insets bottom="16.0" left="18.0" />
                                        </StackPane.margin>
                                     </Polygon>
-                                    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
+                                    <Rectangle fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
                                  </children>
                               </StackPane>
                               <StackPane styleClass="tile-container" GridPane.rowIndex="4">
                                  <children>
                                     <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-modifier-background" />
-                                    <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-background" />
-                                    <Pane maxHeight="80.0" maxWidth="80.0" prefHeight="80.0" prefWidth="80.0" visible="false">
-                                       <children>
-                                          <Line endX="80.0" startY="80.0" styleClass="bar" />
-                                       </children>
-                                    </Pane>
                                     <TextField styleClass="tile-input" />
                                     <Label alignment="CENTER" text="1" textAlignment="CENTER" StackPane.alignment="BOTTOM_RIGHT">
                                        <StackPane.margin>
@@ -2589,18 +2311,12 @@
                                           <Insets bottom="16.0" left="18.0" />
                                        </StackPane.margin>
                                     </Polygon>
-                                    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
+                                    <Rectangle fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
                                  </children>
                               </StackPane>
                               <StackPane styleClass="tile-container" GridPane.columnIndex="1" GridPane.rowIndex="4">
                                  <children>
                                     <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-modifier-background" />
-                                    <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-background" />
-                                    <Pane maxHeight="80.0" maxWidth="80.0" prefHeight="80.0" prefWidth="80.0" visible="false">
-                                       <children>
-                                          <Line endX="80.0" startY="80.0" styleClass="bar" />
-                                       </children>
-                                    </Pane>
                                     <TextField styleClass="tile-input" />
                                     <Label alignment="CENTER" text="1" textAlignment="CENTER" StackPane.alignment="BOTTOM_RIGHT">
                                        <StackPane.margin>
@@ -2643,18 +2359,12 @@
                                           <Insets bottom="16.0" left="18.0" />
                                        </StackPane.margin>
                                     </Polygon>
-                                    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
+                                    <Rectangle fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
                                  </children>
                               </StackPane>
                               <StackPane styleClass="tile-container" GridPane.columnIndex="2" GridPane.rowIndex="4">
                                  <children>
                                     <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-modifier-background" />
-                                    <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-background" />
-                                    <Pane maxHeight="80.0" maxWidth="80.0" prefHeight="80.0" prefWidth="80.0" visible="false">
-                                       <children>
-                                          <Line endX="80.0" startY="80.0" styleClass="bar" />
-                                       </children>
-                                    </Pane>
                                     <TextField styleClass="tile-input" />
                                     <Label alignment="CENTER" text="1" textAlignment="CENTER" StackPane.alignment="BOTTOM_RIGHT">
                                        <StackPane.margin>
@@ -2697,18 +2407,12 @@
                                           <Insets bottom="16.0" left="18.0" />
                                        </StackPane.margin>
                                     </Polygon>
-                                    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
+                                    <Rectangle fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
                                  </children>
                               </StackPane>
                               <StackPane styleClass="tile-container" GridPane.columnIndex="3" GridPane.rowIndex="4">
                                  <children>
                                     <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-modifier-background" />
-                                    <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-background" />
-                                    <Pane maxHeight="80.0" maxWidth="80.0" prefHeight="80.0" prefWidth="80.0" visible="false">
-                                       <children>
-                                          <Line endX="80.0" startY="80.0" styleClass="bar" />
-                                       </children>
-                                    </Pane>
                                     <TextField styleClass="tile-input" />
                                     <Label alignment="CENTER" text="1" textAlignment="CENTER" StackPane.alignment="BOTTOM_RIGHT">
                                        <StackPane.margin>
@@ -2751,18 +2455,12 @@
                                           <Insets bottom="16.0" left="18.0" />
                                        </StackPane.margin>
                                     </Polygon>
-                                    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
+                                    <Rectangle fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
                                  </children>
                               </StackPane>
                               <StackPane styleClass="tile-container" GridPane.columnIndex="4" GridPane.rowIndex="4">
                                  <children>
                                     <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-modifier-background" />
-                                    <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tile-background" />
-                                    <Pane maxHeight="80.0" maxWidth="80.0" prefHeight="80.0" prefWidth="80.0" visible="false">
-                                       <children>
-                                          <Line endX="80.0" startY="80.0" styleClass="bar" />
-                                       </children>
-                                    </Pane>
                                     <TextField styleClass="tile-input" />
                                     <Label alignment="CENTER" text="1" textAlignment="CENTER" StackPane.alignment="BOTTOM_RIGHT">
                                        <StackPane.margin>
@@ -2805,7 +2503,7 @@
                                           <Insets bottom="16.0" left="18.0" />
                                        </StackPane.margin>
                                     </Polygon>
-                                    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
+                                    <Rectangle fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
                                  </children>
                               </StackPane>
                            </children>

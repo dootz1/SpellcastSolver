@@ -16,20 +16,13 @@
     -fx-background-radius: 8px;
 }
 
-.outer-border {
+.board-border {
     -fx-max-height: 520px;
     -fx-max-width: 520px;
-    -fx-border-color: rgb(62, 194, 219);
-    -fx-border-width: 6px;
-    -fx-border-radius: 16px;
-}
 
-.inner-border {
-    -fx-max-height: 508px;
-    -fx-max-width: 508px;
-    -fx-border-color: rgb(0, 79, 131);
-    -fx-border-width: 6px;
-    -fx-border-radius: 12px;
+    -fx-background-color: rgb(62, 194, 219), rgb(0, 79, 131), rgb(26, 23, 42);
+    -fx-background-insets: 0, 6, 12;
+    -fx-background-radius: 20, 16, 12;
 }
 
 .board-grid {
@@ -48,18 +41,10 @@
     -fx-max-height: 96px;
 }
 
-.board-grid .tile-background,
-.board-grid .tile-input {
-    -fx-max-height: 78px;
-    -fx-max-width: 78px;
-    -fx-pref-height: 78px;
-    -fx-pref-width: 78px;
-}
-
 .tile-modifier-background {
     -fx-max-height: 86px;
     -fx-max-width: 86px;
-    -fx-background-radius: 20px;
+    -fx-background-radius: 24px;
 }
 
 .tile-modifier-background.double-word-modifier{
@@ -70,14 +55,6 @@
     -fx-background-color: rgb(115, 233, 64);
 }
 
-.board-grid .tile-background {
-    -fx-background-color: white;
-    -fx-border-radius: 16px;
-    -fx-background-radius: 20px;
-    -fx-border-width: 6px;
-    -fx-border-color: linear-gradient(rgb(255, 242, 227), rgb(253, 221, 200));
-}
-
 .board-grid .tile-input {
     -fx-max-height: 78px;
     -fx-max-width: 78px;
@@ -86,10 +63,15 @@
     -fx-font-size: 36px;
     -fx-alignment: center;
     -fx-padding: -2px;
-    -fx-background-color: transparent;
     -fx-display-caret: false;
     -fx-highlight-fill: transparent;
     -fx-highlight-text-fill: -fx-text-fill;
+
+    -fx-background-color:
+            linear-gradient(rgb(255, 242, 227), rgb(253, 221, 200)),
+            white;
+    -fx-background-insets: 0, 6;
+    -fx-background-radius: 20, 16;
 }
 
 .tile-modifier-container {
@@ -138,16 +120,11 @@
 
 .tile-selected .tile-input {
     -fx-text-fill: white;
-}
-
-.tile-selected .tile-background {
-    -fx-background-color: rgb(53, 181, 222);
-    -fx-border-color: rgb(11, 77, 161);
-}
-
-.bar {
-    -fx-stroke: rgba(134, 250, 237, 0.5);
-    -fx-stroke-width: 28;
+    -fx-background-color:
+            linear-gradient(to bottom right, #004ea2 40%, #0079db 40%, #0079db 62%, #004ea2 62%),
+            linear-gradient(to bottom right, #00b5de 38%, #00d6e4 38%, #00d6e4 64%, #00b5de 64%);
+    -fx-background-insets: 0, 6;
+    -fx-background-radius: 20, 16;
 }
 
 .tile-selected > .label {

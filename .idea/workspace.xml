@@ -9,8 +9,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="607948f6-3af1-4ecc-85b1-1e4263d2b890" name="Changes" comment="Add border to grid and update modifier size">
+    <list default="true" id="607948f6-3af1-4ecc-85b1-1e4263d2b890" name="Changes" comment="Increase frozen border radius">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/dootz/spellcastsolver/controller/BoardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dootz/spellcastsolver/controller/BoardController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/org/dootz/spellcastsolver/css/board.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/dootz/spellcastsolver/css/board.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/org/dootz/spellcastsolver/fxml/board.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/dootz/spellcastsolver/fxml/board.fxml" afterDir="false" />
     </list>
@@ -68,42 +70,43 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Application.Benchmark.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BoardSimulator.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ClipTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GameSimulator.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HelloApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SpellcastSolver.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.SpellcastSolver [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.SpellcastSolver [deploy].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.SpellcastSolver [install].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.SpellcastSolver [org.apache.maven.plugins:maven-resources-plugin:3.2.0:copy-resources].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.SpellcastSolver [org.apache.maven.plugins:maven-resources-plugin:3.2.0:resources].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.SpellcastSolver [org.codehaus.mojo:exec-maven-plugin:3.5.0:exec].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.SpellcastSolver [org.panteleyev:jpackage-maven-plugin:1.6.6:help].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.SpellcastSolver [org.panteleyev:jpackage-maven-plugin:1.6.6:jpackage].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.SpellcastSolver [package].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/stanleygu/Stanley/Programming/SpellcastSolver/src/main/resources/org/dootz/spellcastsolver/fonts&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15039062&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.35097814&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.Benchmark.executor": "Run",
+    "Application.BoardSimulator.executor": "Run",
+    "Application.ClipTest.executor": "Run",
+    "Application.GameSimulator.executor": "Run",
+    "Application.HelloApplication.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.SpellcastSolver.executor": "Run",
+    "Maven.SpellcastSolver [clean].executor": "Run",
+    "Maven.SpellcastSolver [deploy].executor": "Run",
+    "Maven.SpellcastSolver [install].executor": "Run",
+    "Maven.SpellcastSolver [org.apache.maven.plugins:maven-resources-plugin:3.2.0:copy-resources].executor": "Run",
+    "Maven.SpellcastSolver [org.apache.maven.plugins:maven-resources-plugin:3.2.0:resources].executor": "Run",
+    "Maven.SpellcastSolver [org.codehaus.mojo:exec-maven-plugin:3.5.0:exec].executor": "Run",
+    "Maven.SpellcastSolver [org.panteleyev:jpackage-maven-plugin:1.6.6:help].executor": "Run",
+    "Maven.SpellcastSolver [org.panteleyev:jpackage-maven-plugin:1.6.6:jpackage].executor": "Run",
+    "Maven.SpellcastSolver [package].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/stanleygu/Stanley/Programming/SpellcastSolver/src/main/resources/org/dootz/spellcastsolver/fonts",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15039062",
+    "project.structure.side.proportion": "0.35097814",
+    "settings.editor.selected.configurable": "terminal",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources/org/dootz/spellcastsolver/fonts" />
@@ -160,6 +163,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.dootz.spellcastsolver.Main" />
+      <module name="SpellcastSolver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.dootz.spellcastsolver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpellcastSolver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.dootz.spellcastsolver.SpellcastSolver" />
       <module name="SpellcastSolver" />
@@ -176,6 +192,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.SpellcastSolver" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.ClipTest" />
         <item itemvalue="Application.GameSimulator" />
         <item itemvalue="Application.BoardSimulator" />
@@ -213,15 +230,7 @@
       <workItem from="1747017731410" duration="48000" />
       <workItem from="1747018943853" duration="27000" />
       <workItem from="1747020039028" duration="674000" />
-      <workItem from="1747081784293" duration="3587000" />
-    </task>
-    <task id="LOCAL-00015" summary="Add build script workflows">
-      <option name="closed" value="true" />
-      <created>1746685080886</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1746685080886</updated>
+      <workItem from="1747081784293" duration="6937000" />
     </task>
     <task id="LOCAL-00016" summary="Fix pom.xml versioning">
       <option name="closed" value="true" />
@@ -607,7 +616,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747084975611</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="Increase frozen border radius">
+      <option name="closed" value="true" />
+      <created>1747086005328</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1747086005328</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -615,7 +632,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Reformat tile input setup" />
     <MESSAGE value="Update board UI" />
     <MESSAGE value="Add animation to selected tiles" />
     <MESSAGE value="Shrink button icons" />
@@ -640,7 +656,8 @@
     <MESSAGE value="Update modifier hotkey tooltip message" />
     <MESSAGE value="Update version" />
     <MESSAGE value="Add border to grid and update modifier size" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add border to grid and update modifier size" />
+    <MESSAGE value="Increase frozen border radius" />
+    <option name="LAST_COMMIT_MESSAGE" value="Increase frozen border radius" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

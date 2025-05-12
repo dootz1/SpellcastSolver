@@ -36,14 +36,12 @@ import java.util.Set;
 
 public class BoardController {
     private static final int TILE_MODIFIER_BACKGROUND_INDEX = 0;
-    private static final int TILE_BACKGROUND_INDEX = 1;
-    private static final int TILE_SELECTION_LINE_INDEX = 2;
-    private static final int TILE_INPUT_FIELD_INDEX = 3;
-    private static final int TILE_POINTS_LABEL_INDEX = 4;
-    private static final int LETTER_MODIFIER_CONTAINER_INDEX = 5;
-    private static final int WORD_MODIFIER_CONTAINER_INDEX = 6;
-    private static final int GEM_POLYGON_INDEX = 7;
-    private static final int FROZEN_RECTANGLE_INDEX = 8;
+    private static final int TILE_INPUT_FIELD_INDEX = 1;
+    private static final int TILE_POINTS_LABEL_INDEX = 2;
+    private static final int LETTER_MODIFIER_CONTAINER_INDEX = 3;
+    private static final int WORD_MODIFIER_CONTAINER_INDEX = 4;
+    private static final int GEM_POLYGON_INDEX = 5;
+    private static final int FROZEN_RECTANGLE_INDEX = 6;
     private DataModel model;
     @FXML
     private Label currentWordLabel;
@@ -113,11 +111,6 @@ public class BoardController {
             nextInput.requestFocus();
         });
 
-        Rectangle clip = new Rectangle(80, 80);
-        clip.setArcWidth(40);
-        clip.setArcHeight(40);
-        Pane bar = (Pane) tileContainer.getChildren().get(TILE_SELECTION_LINE_INDEX);
-        bar.setClip(clip);
     }
 
     public void initModel(DataModel model) {
@@ -408,15 +401,11 @@ public class BoardController {
     }
 
     private void bindTileSelection(TileModel tileModel, StackPane container) {
-        Pane bar = (Pane) container.getChildren().get(TILE_SELECTION_LINE_INDEX);
         tileModel.selectedProperty().addListener((obs, wasSelected, isSelected) -> {
-            bar.setVisible(isSelected);
             if (isSelected) {
                 container.getStyleClass().add("tile-selected");
-                bar.setVisible(true);
             } else {
                 container.getStyleClass().remove("tile-selected");
-                bar.setVisible(false);
             }
 
             ScaleTransition scaleTransition = new ScaleTransition(Duration.millis(150), container);
