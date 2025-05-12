@@ -129,8 +129,10 @@
 
 .frozen {
     -fx-stroke-width: 0;
-    -fx-arc-height: 16px;
-    -fx-arc-width: 16px;
+    -fx-arc-height: 44px;
+    -fx-arc-width: 44px;
+    -fx-fill-width: 80px;
+    -fx-fill-height: 80px;
     -fx-fill: linear-gradient(to bottom right, rgba(205, 205, 205, 1), rgba(205, 205, 205, 0.3));
 }
 

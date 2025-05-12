@@ -137,7 +137,7 @@
                                           <Insets bottom="16.0" left="18.0" />
                                        </StackPane.margin>
                                     </Polygon>
-                                    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
+                                    <Rectangle fill="DODGERBLUE" height="96.0" mouseTransparent="true" stroke="BLACK" strokeType="INSIDE" styleClass="frozen" visible="false" width="96.0" />
                                  </children>
                               </StackPane>
                               <StackPane styleClass="tile-container" GridPane.columnIndex="1">

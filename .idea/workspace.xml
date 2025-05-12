@@ -9,9 +9,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="607948f6-3af1-4ecc-85b1-1e4263d2b890" name="Changes" comment="Update version">
+    <list default="true" id="607948f6-3af1-4ecc-85b1-1e4263d2b890" name="Changes" comment="Add border to grid and update modifier size">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/dootz/spellcastsolver/controller/BoardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dootz/spellcastsolver/controller/BoardController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/org/dootz/spellcastsolver/css/board.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/dootz/spellcastsolver/css/board.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/org/dootz/spellcastsolver/fxml/board.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/dootz/spellcastsolver/fxml/board.fxml" afterDir="false" />
     </list>
@@ -214,15 +213,7 @@
       <workItem from="1747017731410" duration="48000" />
       <workItem from="1747018943853" duration="27000" />
       <workItem from="1747020039028" duration="674000" />
-      <workItem from="1747081784293" duration="3095000" />
-    </task>
-    <task id="LOCAL-00014" summary="Add build script workflows">
-      <option name="closed" value="true" />
-      <created>1746684380580</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1746684380580</updated>
+      <workItem from="1747081784293" duration="3587000" />
     </task>
     <task id="LOCAL-00015" summary="Add build script workflows">
       <option name="closed" value="true" />
@@ -608,7 +599,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747020365587</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="Add border to grid and update modifier size">
+      <option name="closed" value="true" />
+      <created>1747084975611</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1747084975611</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -616,7 +615,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Allow typing over current letter for tiles" />
     <MESSAGE value="Reformat tile input setup" />
     <MESSAGE value="Update board UI" />
     <MESSAGE value="Add animation to selected tiles" />
@@ -641,7 +639,8 @@
     <MESSAGE value="Fix and update screenshots" />
     <MESSAGE value="Update modifier hotkey tooltip message" />
     <MESSAGE value="Update version" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update version" />
+    <MESSAGE value="Add border to grid and update modifier size" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add border to grid and update modifier size" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
