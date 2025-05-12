@@ -126,7 +126,7 @@ Right-click on any tile to apply special modifiers. You can also use keyboard sh
 | 🔤 **Word Bonus**      | Double / Triple Word   | `@` / `#` |
 | ♻️ **Clear Modifiers** | Removes all modifiers  | `0`       |
 
->💡 **Tip:** Hover over a tile to see a tooltip with available modifier hotkeys.
+>💡 **Tip:** Hover over the informational message at the bottom of the board to see a tooltip with available modifier hotkeys.
 
 3. **Set game context**  
    Enter the current **round number** and configure your **gem inventory**.
