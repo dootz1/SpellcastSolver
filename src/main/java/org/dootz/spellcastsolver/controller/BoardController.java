@@ -1,6 +1,5 @@
 package org.dootz.spellcastsolver.controller;
 
-import javafx.animation.Interpolator;
 import javafx.animation.ScaleTransition;
 import javafx.beans.binding.Bindings;
 import javafx.beans.value.ChangeListener;
@@ -13,7 +12,6 @@ import javafx.fxml.FXML;
 import javafx.geometry.Bounds;
 import javafx.scene.Node;
 import javafx.scene.control.*;
-import javafx.scene.input.KeyCode;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.Pane;
 import javafx.scene.layout.StackPane;
@@ -29,9 +27,11 @@ import org.dootz.spellcastsolver.model.BoardModel;
 import org.dootz.spellcastsolver.model.ContextMenuModel;
 import org.dootz.spellcastsolver.model.DataModel;
 import org.dootz.spellcastsolver.model.TileModel;
-import org.dootz.spellcastsolver.utils.*;
+import org.dootz.spellcastsolver.utils.BoardUtils;
+import org.dootz.spellcastsolver.utils.Constants;
+import org.dootz.spellcastsolver.utils.TileModifier;
+import org.dootz.spellcastsolver.utils.TileUtils;
 
-import java.awt.event.KeyEvent;
 import java.util.Set;
 
 public class BoardController {
@@ -57,12 +57,6 @@ public class BoardController {
     private GridPane inputGrid;
     @FXML
     private GridPane solvedGrid;
-    @FXML
-    private Button clearTileLetters;
-    @FXML
-    private Button clearTileModifiers;
-    @FXML
-    private Button generateRandomBoard;
     @FXML
     private Label modifierInstructions;
 
