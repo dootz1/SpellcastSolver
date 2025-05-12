@@ -115,12 +115,18 @@ words if they yield more gems for future moves with swaps.
 1. **Input the board state**  
    Type in the letters to match the current game board.
 
-2. **Add tile modifiers**  
-   Right-click on any tile to add modifiers such as:
-    - 💎 Gems
-    - 🔠 Double/Triple Letter (DL/TL)
-    - 🔤 Double/Triple Word (DW/TW)
-    - ❄️ Frozen 
+### 2. **Add Tile Modifiers**
+Right-click on any tile to apply special modifiers. You can also use keyboard shortcuts for quick access:
+
+| Modifier               | Description            | Hotkey    |
+|------------------------|------------------------|-----------|
+| 💎 **Gem**             | Adds gem status        | `1`       |
+| ❄️ **Frozen**          | Freezes the tile       | `!`       |
+| 🔠 **Letter Bonus**    | Double / Triple Letter | `2` / `3` |
+| 🔤 **Word Bonus**      | Double / Triple Word   | `@` / `#` |
+| ♻️ **Clear Modifiers** | Removes all modifiers  | `0`       |
+
+>💡 **Tip:** Hover over a tile to see a tooltip with available modifier hotkeys.
 
 3. **Set game context**  
    Enter the current **round number** and configure your **gem inventory**.
