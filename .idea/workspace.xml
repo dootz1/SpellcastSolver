@@ -9,15 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="607948f6-3af1-4ecc-85b1-1e4263d2b890" name="Changes" comment="Change board UI color scheme">
+    <list default="true" id="607948f6-3af1-4ecc-85b1-1e4263d2b890" name="Changes" comment="Add recommend shuffle feature">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/dootz/spellcastsolver/controller/SettingsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dootz/spellcastsolver/controller/SettingsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/dootz/spellcastsolver/controller/TableController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dootz/spellcastsolver/controller/TableController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/dootz/spellcastsolver/model/TableModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dootz/spellcastsolver/model/TableModel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/dootz/spellcastsolver/solver/Evaluator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dootz/spellcastsolver/solver/Evaluator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/org/dootz/spellcastsolver/css/root.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/dootz/spellcastsolver/css/root.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/org/dootz/spellcastsolver/fxml/table.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/dootz/spellcastsolver/fxml/table.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -233,15 +227,7 @@
       <workItem from="1747017731410" duration="48000" />
       <workItem from="1747018943853" duration="27000" />
       <workItem from="1747020039028" duration="674000" />
-      <workItem from="1747081784293" duration="21212000" />
-    </task>
-    <task id="LOCAL-00020" summary="Debug yml">
-      <option name="closed" value="true" />
-      <created>1746688706080</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1746688706080</updated>
+      <workItem from="1747081784293" duration="25510000" />
     </task>
     <task id="LOCAL-00021" summary="Debug yml">
       <option name="closed" value="true" />
@@ -627,7 +613,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747089995529</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="Add recommend shuffle feature">
+      <option name="closed" value="true" />
+      <created>1747116512077</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1747116512077</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -635,7 +629,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Add play button" />
     <MESSAGE value="Remove redundant gem profit" />
     <MESSAGE value="Update clear/play move description" />
     <MESSAGE value="Add frozen to usage tile modifiers" />
@@ -660,7 +653,8 @@
     <MESSAGE value="Fix canvas transparency" />
     <MESSAGE value="Board UI changes" />
     <MESSAGE value="Change board UI color scheme" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change board UI color scheme" />
+    <MESSAGE value="Add recommend shuffle feature" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add recommend shuffle feature" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

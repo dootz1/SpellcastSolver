@@ -52,6 +52,7 @@ public class Evaluator {
         // Estimate the score gain from this round
         int swapTier = Math.min(3, (int) (remainingGems / 3));
         double thisRoundScore = AVERAGE_PROJECTED_SCORES[swapTier];
+        if (round == 1) thisRoundScore *= 0.5; // first round doesn't have 2x word multiplier
         simulatedScore += thisRoundScore;
 
         // Estimate net gem change after this round
@@ -68,9 +69,9 @@ public class Evaluator {
         // Evaluate opportunity cost of spending a gem
         double spentGemValue = estimatedGemValue(gems) - estimatedGemValue(gems - 1);
 
-        System.out.println("Added extra: " + spentGemValue);
-        System.out.printf("EvalScore+e: %.2f, ShuffleScore: %.2f, Difference: %.2f\n",
-                topMove.getEvaluationScore() + spentGemValue, simulatedScore,  topMove.getEvaluationScore() + spentGemValue - simulatedScore);
+//        System.out.println("Added extra: " + spentGemValue);
+//        System.out.printf("EvalScore+e: %.2f, ShuffleScore: %.2f, Difference: %.2f\n",
+//                topMove.getEvaluationScore() + spentGemValue, simulatedScore,  topMove.getEvaluationScore() + spentGemValue - simulatedScore);
         // Compare shuffle vs. best move + saved gem
         return topMove.getEvaluationScore() + spentGemValue - simulatedScore;
     }
