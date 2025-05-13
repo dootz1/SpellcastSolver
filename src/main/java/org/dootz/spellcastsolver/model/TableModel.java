@@ -12,6 +12,7 @@ public class TableModel {
     private final StringProperty query;
     private final ObservableList<Evaluator.EvaluatedMove> moves;
     private final ObjectProperty<Evaluator.EvaluatedMove> selectedWord;
+    private final BooleanProperty shuffleRecommendedVisible;
 
     public TableModel() {
         this.resultWordCount = new SimpleIntegerProperty(0);
@@ -19,6 +20,7 @@ public class TableModel {
         this.query = new SimpleStringProperty();
         this.moves = FXCollections.observableArrayList();
         this.selectedWord = new SimpleObjectProperty<>();
+        this.shuffleRecommendedVisible = new SimpleBooleanProperty(false);
     }
 
     public int getResultWordCount() {
@@ -71,6 +73,18 @@ public class TableModel {
 
     public void setSelectedWord(Evaluator.EvaluatedMove selectedMove) {
         this.selectedWord.set(selectedMove);
+    }
+
+    public boolean isShuffleRecommendedVisible() {
+        return shuffleRecommendedVisible.get();
+    }
+
+    public BooleanProperty shuffleRecommendedVisibleProperty() {
+        return shuffleRecommendedVisible;
+    }
+
+    public void setShuffleRecommendedVisible(boolean shuffleRecommendedVisible) {
+        this.shuffleRecommendedVisible.set(shuffleRecommendedVisible);
     }
 
     @Override

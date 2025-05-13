@@ -41,6 +41,8 @@ public class TableController {
     private Button clearSelection;
     @FXML
     private Button playSelection;
+    @FXML
+    private Label shuffleRecommended;
 
     public void initialize() {
         wordsColumn.setCellValueFactory(cellData -> new ReadOnlyStringWrapper(cellData.getValue().toString()));
@@ -112,6 +114,7 @@ public class TableController {
 
         clearSelection.disableProperty().bind(tableModel.selectedWordProperty().isNull());
         playSelection.disableProperty().bind(tableModel.selectedWordProperty().isNull());
+        shuffleRecommended.visibleProperty().bind(tableModel.shuffleRecommendedVisibleProperty());
     }
 
     private void updateBoardSelection(BoardModel board, Evaluator.EvaluatedMove newMove) {
@@ -179,5 +182,6 @@ public class TableController {
 
         table.setSelectedWord(null);
         table.getWords().clear();
+        table.setShuffleRecommendedVisible(false);
     }
 }

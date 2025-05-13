@@ -16,12 +16,17 @@
 <VBox prefHeight="542.0" prefWidth="476.0" spacing="4.0" stylesheets="@../css/table.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.dootz.spellcastsolver.controller.TableController">
    <children>
       <BorderPane prefHeight="25.0" prefWidth="476.0">
-         <left>
-            <Label styleClass="text-base" text="Results" BorderPane.alignment="CENTER" />
-         </left>
          <right>
-            <Label fx:id="resultsSummary" alignment="CENTER_RIGHT" prefHeight="17.0" prefWidth="306.0" styleClass="text-base" text="12,345 Results (0.45 seconds)" BorderPane.alignment="CENTER" />
+            <Label fx:id="resultsSummary" alignment="CENTER_RIGHT" prefHeight="17.0" prefWidth="246.0" styleClass="text-base" text="12,345 Results (0.45 seconds)" BorderPane.alignment="CENTER" />
          </right>
+         <left>
+            <HBox alignment="CENTER_LEFT" prefHeight="21.0" prefWidth="223.0" spacing="8.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Label styleClass="text-base" text="Results" />
+                  <Label fx:id="shuffleRecommended" prefHeight="17.0" prefWidth="163.0" styleClass="text-warning" text="[Shuffle Recommended]" />
+               </children>
+            </HBox>
+         </left>
       </BorderPane>
       <BorderPane prefHeight="35.0" prefWidth="476.0" styleClass="table-search-container">
          <padding>

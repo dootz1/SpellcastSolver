@@ -40,6 +40,11 @@
     -fx-text-fill: #ff5c5c;
 }
 
+.text-warning {
+    -fx-font-family: "Satoshi Black";
+    -fx-text-fill: #ffcb5c;
+}
+
 .text-italic {
     -fx-font-family: "Satoshi Medium Italic";
     -fx-text-fill: white;

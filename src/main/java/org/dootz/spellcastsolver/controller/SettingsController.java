@@ -17,6 +17,7 @@ import org.dootz.spellcastsolver.solver.dictionary.Dictionary;
 import org.dootz.spellcastsolver.solver.multithreading.SolverTask;
 import org.dootz.spellcastsolver.utils.Constants;
 
+import java.util.Comparator;
 import java.util.List;
 import java.util.function.UnaryOperator;
 
@@ -154,6 +155,20 @@ public class SettingsController {
             List<Move> moves = solver.getMovesAsList();
             Evaluator evaluator = new Evaluator();
             List<Evaluator.EvaluatedMove> evaluatedMoves = evaluator.evaluateMoves(moves, round, gems);
+
+            // Use orElse with a fallback value
+            Evaluator.EvaluatedMove bestMove = evaluatedMoves.stream()
+                    .max(Comparator.comparingDouble(Evaluator.EvaluatedMove::getEvaluationScore))
+                    .orElse(null); // Handle empty list
+
+            double difference;
+            if (bestMove != null) {
+                difference = evaluator.evaluateShuffle(bestMove, round, gems);
+                tableModel.setShuffleRecommendedVisible(difference < 0);
+            } else {
+                tableModel.setShuffleRecommendedVisible(false); // nothing to recommend
+            }
+
             tableModel.setResultTimeMs(System.currentTimeMillis() - settingsModel.getTimeStartedSolving()); // algorithm ends here
             tableModel.setResultWordCount(evaluatedMoves.size());
 
