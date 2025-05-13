@@ -10,6 +10,8 @@ import javafx.collections.transformation.SortedList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.*;
+import javafx.scene.effect.DropShadow;
+import javafx.scene.paint.Color;
 import org.controlsfx.control.textfield.CustomTextField;
 import org.dootz.spellcastsolver.model.BoardModel;
 import org.dootz.spellcastsolver.model.DataModel;
@@ -18,6 +20,7 @@ import org.dootz.spellcastsolver.model.TableModel;
 import org.dootz.spellcastsolver.game.board.Tile;
 import org.dootz.spellcastsolver.solver.Evaluator;
 import org.dootz.spellcastsolver.utils.Constants;
+import org.dootz.spellcastsolver.view.GradientText;
 
 public class TableController {
     private DataModel model;
@@ -51,13 +54,16 @@ public class TableController {
         swapsColumn.setCellValueFactory(cellData -> new ReadOnlyIntegerWrapper(cellData.getValue().getMove().getTotalSwaps()));
         evaluationColumn.setCellValueFactory(cellData -> new ReadOnlyDoubleWrapper(cellData.getValue().getEvaluationScore()));
         evaluationColumn.setCellFactory(column -> new TableCell<>() {
+            private final GradientText gradientText = new GradientText("");
             @Override
             protected void updateItem(Number item, boolean empty) {
                 super.updateItem(item, empty);
                 if (empty || item == null) {
-                    setText(null);
+                    setGraphic(null);
                 } else {
-                    setText(String.format("%.2f", item.doubleValue()));
+                    gradientText.setText(String.format("%.1f", item.doubleValue()));
+                    gradientText.getStyleClass().add("glowing-text");
+                    setGraphic(gradientText);
                 }
             }
         });

@@ -9,9 +9,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="607948f6-3af1-4ecc-85b1-1e4263d2b890" name="Changes" comment="Add recommend shuffle feature">
+    <list default="true" id="607948f6-3af1-4ecc-85b1-1e4263d2b890" name="Changes" comment="Modify average this round score by 0.5x for first round for evaluate shuffle since no 2x word multiplier">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/dootz/spellcastsolver/view/GradientText.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/dootz/spellcastsolver/solver/Evaluator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dootz/spellcastsolver/solver/Evaluator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/dootz/spellcastsolver/controller/TableController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dootz/spellcastsolver/controller/TableController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/org/dootz/spellcastsolver/css/table.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/dootz/spellcastsolver/css/table.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -227,15 +229,7 @@
       <workItem from="1747017731410" duration="48000" />
       <workItem from="1747018943853" duration="27000" />
       <workItem from="1747020039028" duration="674000" />
-      <workItem from="1747081784293" duration="25510000" />
-    </task>
-    <task id="LOCAL-00021" summary="Debug yml">
-      <option name="closed" value="true" />
-      <created>1746838812387</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1746838812387</updated>
+      <workItem from="1747081784293" duration="27181000" />
     </task>
     <task id="LOCAL-00022" summary="Debug yml">
       <option name="closed" value="true" />
@@ -621,7 +615,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747116512077</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="Modify average this round score by 0.5x for first round for evaluate shuffle since no 2x word multiplier">
+      <option name="closed" value="true" />
+      <created>1747177941438</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1747177941438</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -629,7 +631,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Remove redundant gem profit" />
     <MESSAGE value="Update clear/play move description" />
     <MESSAGE value="Add frozen to usage tile modifiers" />
     <MESSAGE value="Increase thickness of modifier background" />
@@ -654,7 +655,8 @@
     <MESSAGE value="Board UI changes" />
     <MESSAGE value="Change board UI color scheme" />
     <MESSAGE value="Add recommend shuffle feature" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add recommend shuffle feature" />
+    <MESSAGE value="Modify average this round score by 0.5x for first round for evaluate shuffle since no 2x word multiplier" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modify average this round score by 0.5x for first round for evaluate shuffle since no 2x word multiplier" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
