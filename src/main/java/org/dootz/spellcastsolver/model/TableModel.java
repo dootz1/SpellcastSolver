@@ -3,7 +3,6 @@ package org.dootz.spellcastsolver.model;
 import javafx.beans.property.*;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
-import org.dootz.spellcastsolver.game.board.Move;
 import org.dootz.spellcastsolver.solver.Evaluator;
 
 public class TableModel {

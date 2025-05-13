@@ -26,9 +26,7 @@ public class GradientText extends Text {
     }
 
     private void bindGradient() {
-        offset.addListener((obs, oldVal, newVal) -> {
-            setFill(createRainbowGradient(newVal.doubleValue()));
-        });
+        offset.addListener((obs, oldVal, newVal) -> setFill(createRainbowGradient(newVal.doubleValue())));
         setFill(createRainbowGradient(0));
     }
 
