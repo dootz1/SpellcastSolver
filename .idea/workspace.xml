@@ -9,11 +9,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="607948f6-3af1-4ecc-85b1-1e4263d2b890" name="Changes" comment="Modify average this round score by 0.5x for first round for evaluate shuffle since no 2x word multiplier">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/dootz/spellcastsolver/view/GradientText.java" afterDir="false" />
+    <list default="true" id="607948f6-3af1-4ecc-85b1-1e4263d2b890" name="Changes" comment="Optimize imports">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/dootz/spellcastsolver/controller/TableController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dootz/spellcastsolver/controller/TableController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/org/dootz/spellcastsolver/css/table.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/dootz/spellcastsolver/css/table.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/dootz/spellcastsolver/controller/BoardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dootz/spellcastsolver/controller/BoardController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -229,23 +228,7 @@
       <workItem from="1747017731410" duration="48000" />
       <workItem from="1747018943853" duration="27000" />
       <workItem from="1747020039028" duration="674000" />
-      <workItem from="1747081784293" duration="27181000" />
-    </task>
-    <task id="LOCAL-00022" summary="Debug yml">
-      <option name="closed" value="true" />
-      <created>1746839232148</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1746839232148</updated>
-    </task>
-    <task id="LOCAL-00023" summary="Add runtime image">
-      <option name="closed" value="true" />
-      <created>1746840048103</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1746840048103</updated>
+      <workItem from="1747081784293" duration="28216000" />
     </task>
     <task id="LOCAL-00024" summary="Fix pom.xml linux config">
       <option name="closed" value="true" />
@@ -623,7 +606,23 @@
       <option name="project" value="LOCAL" />
       <updated>1747177941438</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="Add animation to table for evaluation score">
+      <option name="closed" value="true" />
+      <created>1747179589092</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1747179589092</updated>
+    </task>
+    <task id="LOCAL-00072" summary="Optimize imports">
+      <option name="closed" value="true" />
+      <created>1747179642622</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1747179642622</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -631,8 +630,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Update clear/play move description" />
-    <MESSAGE value="Add frozen to usage tile modifiers" />
     <MESSAGE value="Increase thickness of modifier background" />
     <MESSAGE value="Add hover effects to GUI" />
     <MESSAGE value="Add hotkeys to board modifiers" />
@@ -656,7 +653,9 @@
     <MESSAGE value="Change board UI color scheme" />
     <MESSAGE value="Add recommend shuffle feature" />
     <MESSAGE value="Modify average this round score by 0.5x for first round for evaluate shuffle since no 2x word multiplier" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modify average this round score by 0.5x for first round for evaluate shuffle since no 2x word multiplier" />
+    <MESSAGE value="Add animation to table for evaluation score" />
+    <MESSAGE value="Optimize imports" />
+    <option name="LAST_COMMIT_MESSAGE" value="Optimize imports" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

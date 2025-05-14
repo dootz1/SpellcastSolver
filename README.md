@@ -52,10 +52,13 @@ words if they yield more gems for future moves with swaps.
     - 💎 **Gem count**
     - 🔄 **Swap usage**
 
-- ✅ **Strategic Scoring System**
-
+- ✅ **Strategic Scoring System**  
   Words are ranked not just by immediate points, but also by gems gained—favoring long-term advantage 
   through swaps over short-term score.
+- ✅ **Board Shuffle Recommendation**  
+  When the current board has a low score or evaluation, the engine will suggest spending 
+  **1 gem** to shuffle the board. This can improve letter positioning and increase your 
+  potential to score more points.
 
 ## 📈Solver Performance
 
