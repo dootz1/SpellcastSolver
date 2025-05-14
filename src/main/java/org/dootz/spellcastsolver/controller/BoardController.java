@@ -99,6 +99,8 @@ public class BoardController {
             return null; // Reject invalid input
         }));
 
+        tileInput.setOnMouseClicked(event -> tileInput.selectAll());
+
         tileInput.textProperty().addListener((obs, oldText, newText) -> {
             if (newText.isEmpty()) return;
 
