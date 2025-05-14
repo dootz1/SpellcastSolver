@@ -9,10 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="607948f6-3af1-4ecc-85b1-1e4263d2b890" name="Changes" comment="Optimize imports">
+    <list default="true" id="607948f6-3af1-4ecc-85b1-1e4263d2b890" name="Changes" comment="Update README.md">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/dootz/spellcastsolver/controller/BoardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dootz/spellcastsolver/controller/BoardController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -228,23 +227,9 @@
       <workItem from="1747017731410" duration="48000" />
       <workItem from="1747018943853" duration="27000" />
       <workItem from="1747020039028" duration="674000" />
-      <workItem from="1747081784293" duration="28216000" />
-    </task>
-    <task id="LOCAL-00024" summary="Fix pom.xml linux config">
-      <option name="closed" value="true" />
-      <created>1746840373377</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1746840373377</updated>
-    </task>
-    <task id="LOCAL-00025" summary="Fix pom.xml windows config">
-      <option name="closed" value="true" />
-      <created>1746840723114</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1746840723114</updated>
+      <workItem from="1747081784293" duration="28449000" />
+      <workItem from="1747184650372" duration="25000" />
+      <workItem from="1747185079270" duration="6000" />
     </task>
     <task id="LOCAL-00026" summary="Fix pom.xml windows config">
       <option name="closed" value="true" />
@@ -622,7 +607,23 @@
       <option name="project" value="LOCAL" />
       <updated>1747179642622</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="Make deletion consistent when tile is selected">
+      <option name="closed" value="true" />
+      <created>1747184558913</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1747184558913</updated>
+    </task>
+    <task id="LOCAL-00074" summary="Update README.md">
+      <option name="closed" value="true" />
+      <created>1747184569409</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1747184569409</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -630,8 +631,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Increase thickness of modifier background" />
-    <MESSAGE value="Add hover effects to GUI" />
     <MESSAGE value="Add hotkeys to board modifiers" />
     <MESSAGE value="Improve board focus state visuals and add scale animation" />
     <MESSAGE value="Add modifier hotkeys" />
@@ -655,7 +654,9 @@
     <MESSAGE value="Modify average this round score by 0.5x for first round for evaluate shuffle since no 2x word multiplier" />
     <MESSAGE value="Add animation to table for evaluation score" />
     <MESSAGE value="Optimize imports" />
-    <option name="LAST_COMMIT_MESSAGE" value="Optimize imports" />
+    <MESSAGE value="Make deletion consistent when tile is selected" />
+    <MESSAGE value="Update README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update README.md" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
