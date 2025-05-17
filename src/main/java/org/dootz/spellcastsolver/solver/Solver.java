@@ -46,9 +46,6 @@ public class Solver {
         return result;
     }
 
-    public void clearResult() {
-        result.clear();
-    }
     public List<Move> getMovesAsList() {
         return new ArrayList<>(result.values());
     }
