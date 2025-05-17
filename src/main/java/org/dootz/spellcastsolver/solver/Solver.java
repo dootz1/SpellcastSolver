@@ -81,19 +81,24 @@ public class Solver {
 
         if (swaps > 0) {
             tile.setWildcard(true);
-            for (char wildcardLetter = 'A'; wildcardLetter <= 'Z'; wildcardLetter++) {
-                if (letter == wildcardLetter) continue;
 
-                DictionaryNode wildcardChild = root.getChild(wildcardLetter);
-                if (wildcardChild != null) {
-                    tile.setWildcardLetter(wildcardLetter);
-                    move.appendTile(tile);
-                    findValidMoves(board, visited, move, wildcardChild, row, col, swaps - 1);
-                    move.popTile();
-                }
-                onProgress.accept(1);
-                progressUnits++;
-                if (Thread.interrupted()) throw new InterruptedException(); // when cancelled
+            int mask = root.getChildMask(); // all viable letters
+            mask &= ~(1 << (letter - 'A')); // exclude original letter
+            int increment = 25 / Integer.bitCount(mask);
+
+            while (mask != 0) { // only use characters that are valid (instead of going through every character)
+                int bit = Integer.numberOfTrailingZeros(mask);
+                mask &= mask - 1; // clear processed bit
+                char wildcardLetter = (char) ('A' + bit);
+
+                tile.setWildcardLetter(wildcardLetter);
+                DictionaryNode wildcardChild = root.getChildByIndex(bit);
+                move.appendTile(tile);
+                findValidMoves(board, visited, move, wildcardChild, row, col, swaps - 1);
+                move.popTile();
+
+                onProgress.accept(increment);
+                progressUnits += increment;
             }
             tile.setWildcard(false);
             tile.setWildcardLetter(letter);
@@ -138,16 +143,20 @@ public class Solver {
             // Swap move
             if (swaps > 0) {
                 tile.setWildcard(true);
-                for (char wildcardLetter = 'A'; wildcardLetter <= 'Z'; wildcardLetter++) {
-                    if (wildcardLetter == letter) continue;
 
-                    DictionaryNode wildcardChild = node.getChild(wildcardLetter);
-                    if (wildcardChild != null) {
-                        tile.setWildcardLetter(wildcardLetter);
-                        move.appendTile(tile);
-                        findValidMoves(board, visited, move, wildcardChild, newRow, newCol, swaps - 1);
-                        move.popTile();
-                    }
+                int mask = node.getChildMask(); // all viable letters
+                mask &= ~(1 << (letter - 'A')); // exclude original letter
+
+                while (mask != 0) { // only use characters that are valid (instead of going through every character)
+                    int bit = Integer.numberOfTrailingZeros(mask);
+                    mask &= mask - 1; // clear processed bit
+                    char wildcardLetter = (char) ('A' + bit);
+
+                    tile.setWildcardLetter(wildcardLetter);
+                    DictionaryNode wildcardChild = node.getChildByIndex(bit);
+                    move.appendTile(tile);
+                    findValidMoves(board, visited, move, wildcardChild, newRow, newCol, swaps - 1);
+                    move.popTile();
                 }
                 tile.setWildcard(false);
                 tile.setWildcardLetter(letter);

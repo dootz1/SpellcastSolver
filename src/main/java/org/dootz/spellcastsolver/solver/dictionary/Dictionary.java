@@ -22,10 +22,11 @@ public class Dictionary {
         DictionaryNode node = root;
         for (char ch : key.toUpperCase().toCharArray()) {
             int index = ch - 'A';
-            if (node.getChildren()[index] == null) {
-                node.getChildren()[index] = new DictionaryNode();
+            if (node.getChildByIndex(index) == null) {
+                node.addChildByIndex(index);
+                node.addChildMask(index);
             }
-            node = node.getChildren()[index];
+            node = node.getChildByIndex(index);
         }
         node.setWord(true);
     }
