@@ -63,16 +63,20 @@ words if they yield more gems for future moves with swaps.
 
 ## 📈Solver Performance
 
-- 📊 Boards played on round 3.
-- 🖥️ Benchmarking was done with 100 boards on an M2 MacBook Air.
+### 🎮 Real‑Game
+- **360‑point** single‑player high score.
 
-| Gems [Swaps] | Avg Words Found | Avg Points/Word | Avg Eval Score/Word | Time/Board (Multithreading) | Time/Board (Single threaded) |
-|--------------|-----------------|-----------------|---------------------|-----------------------------|------------------------------|
-| 0 [0]        | 121             | 34              | 91.41               | 1.48 ms                     | 0.43 ms                      |
-| 3 [1]        | 2,374           | 59              | 122.76              | 5.41 ms                     | 8.84 ms                      |
-| 6 [2]        | 14,288          | 74              | 143.37              | 59.17ms                     | 206.45ms                     |
-| 9 [3]        | 46,601          | 86              | 160.00              | 828.19 ms                   | 4516.78 ms                   |
+### 🧪Benchmarking
 
+- **Round 3** boards, 100 runs
+- Tested on an **M2 Macbook Air**
+
+|  Gems [Swaps] |  Avg Words |  Avg Pts/Word |  Avg Eval Score/Word |  Time/Board (⚡Multi-thread) |  Time/Board (⏳Single-thread) |
+|--------------:|-----------:|--------------:|---------------------:|----------------------------:|-----------------------------:|
+|         0 [0] |        121 |            34 |                91.41 |                     1.48 ms |                      0.43 ms |
+|         3 [1] |      2,374 |            59 |               122.76 |                     5.41 ms |                      8.84 ms |
+|         6 [2] |     14,288 |            74 |               143.37 |                     59.17ms |                     206.45ms |
+|         9 [3] |     46,601 |            86 |               160.00 |                   828.19 ms |                   4516.78 ms |
 
 ## 🛠️Installation
 
