@@ -20,7 +20,6 @@ import static org.dootz.spellcastsolver.utils.BenchmarkUtils.solveBoardSequentia
 
 public class BoardSimulator {
     private static final int BOARD_COUNT = 100;
-
     private static final boolean ENABLE_MULTITHREADING = true; // toggle threading
     private static final int[] SWAP_COUNTS = {0, 3, 6, 9}; // try all swap amounts
     private static final int GEMS = SWAP_COUNTS[3];
