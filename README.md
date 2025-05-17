@@ -16,7 +16,8 @@ A fast and efficient engine designed to find the best possible word in Discord's
 
 **SpellcastSolver** is a high-performance word solver for the **Spellcast** game, 
 utilizing a **Trie** for fast word lookups by passing the **TrieNode** directly, and a **hashmap**
-to store the best version of each word. It leverages **multithreading** for parallel processing,
+to store the best version of each word. By using trie‑letter **bitmaps** for valid child nodes, 
+the solver speeds up 2–3‑swap searches by up ~25%. It also leverages **multithreading** for parallel processing,
 and uses a scoring system that prioritizes long-term value, sometimes selecting lower-point 
 words if they yield more gems for future moves with swaps.
 
@@ -69,8 +70,8 @@ words if they yield more gems for future moves with swaps.
 |--------------|-----------------|-----------------|---------------------|-----------------------------|------------------------------|
 | 0 [0]        | 121             | 34              | 91.41               | 1.48 ms                     | 0.43 ms                      |
 | 3 [1]        | 2,374           | 59              | 122.76              | 5.41 ms                     | 8.84 ms                      |
-| 6 [2]        | 14,288          | 74              | 143.37              | 66.96 ms                    | 250.29 ms                    |
-| 9 [3]        | 46,601          | 86              | 160.00              | 1,092.39 ms                 | 4,188.90 ms                  |
+| 6 [2]        | 14,288          | 74              | 143.37              | 59.17ms                     | 206.45ms                     |
+| 9 [3]        | 46,601          | 86              | 160.00              | 828.19 ms                   | 4516.78 ms                   |
 
 
 ## 🛠️Installation
