@@ -8,10 +8,13 @@ import javafx.collections.ObservableList;
 import javafx.collections.ObservableSet;
 import javafx.collections.SetChangeListener;
 import javafx.event.ActionEvent;
+import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.geometry.Bounds;
 import javafx.scene.Node;
 import javafx.scene.control.*;
+import javafx.scene.input.KeyCode;
+import javafx.scene.input.KeyEvent;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.Pane;
 import javafx.scene.layout.StackPane;
@@ -99,8 +102,6 @@ public class BoardController {
             return null; // Reject invalid input
         }));
 
-        tileInput.setOnMouseClicked(event -> tileInput.selectAll());
-
         tileInput.textProperty().addListener((obs, oldText, newText) -> {
             if (newText.isEmpty()) return;
 
@@ -113,6 +114,30 @@ public class BoardController {
             nextInput.requestFocus();
         });
 
+        EventHandler<KeyEvent> navHandler = event -> {
+            GridPane parentGrid = (GridPane) tileContainer.getParent();
+            int currentIndex = parentGrid.getChildren().indexOf(tileContainer);
+
+            int row = BoardUtils.indexToRow(currentIndex);
+            int col = BoardUtils.indexToColumn(currentIndex);
+
+            switch (event.getCode()) {
+                case UP, KP_UP       -> row = Math.max(0, row - 1);
+                case DOWN, KP_DOWN   -> row = Math.min(Constants.BOARD_SIZE - 1, row + 1);
+                case LEFT, KP_LEFT   -> col = Math.max(0, col - 1);
+                case RIGHT, KP_RIGHT -> col = Math.min(Constants.BOARD_SIZE - 1, col + 1);
+                default              -> { return; }
+            }
+
+            StackPane target = (StackPane) parentGrid.getChildren().get(row * Constants.BOARD_SIZE + col);
+            TextField nextField = (TextField) target.getChildren().get(TILE_INPUT_FIELD_INDEX);
+
+            nextField.requestFocus();
+            event.consume(); // stop the caret‑move
+        };
+
+        // attach without overwriting other handlers
+        tileInput.addEventHandler(KeyEvent.KEY_PRESSED, navHandler);
     }
 
     public void initModel(DataModel model) {
@@ -282,6 +307,12 @@ public class BoardController {
                     toggle(modifiers, TileModifier.TRIPLE_WORD);
                 }
                 case "0" -> modifiers.clear();
+            }
+        });
+
+        tileInput.setOnKeyPressed(event -> {
+            if (event.getCode() == KeyCode.BACK_SPACE || event.getCode() == KeyCode.DELETE) {
+                tileModel.setLetter("");
             }
         });
 
