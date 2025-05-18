@@ -1,4809 +1,4809 @@
 === Game 1 ===
 Round 1:
-CJ!B!L!%F
-BF!ZH!W
-SJY!P@D
-MAAVB!
-GD!JV!M!
+YV!$R!EU
+PNI!DB!
+IMB!LI!
+FR!IS!U!
+RDJX@L!
 
-Move: PYJAMAS | Points: 56 | Gems: 2 | EvalScore: 105.23 | Swaps: 1 | Gems Before: 3 | After: 2
+Move: VIBRIOS | Points: 52 | Gems: 5 | EvalScore: 120.50 | Swaps: 1 | Gems Before: 3 | After: 5
 
 Round 2:
-CJ!B!L!%F
-BF!ZH!W
-WKW!RD@
-M!TFVB!
-GFJV!M!
+YBR!EU!
+P@NH!DB!
+IM!GL!I!
+FL!ZP%U!
+RDJPL!
 
-Move:  | Points: 0 | Gems: 0 | EvalScore: 0.00 | Swaps: 0 | Gems Before: 2 | After: 2
+Move: PLUMPING | Points: 76 | Gems: 3 | EvalScore: 144.50 | Swaps: 1 | Gems Before: 5 | After: 5
 
 Round 3:
-CJ!B!L!%F
-BF!ZH!W
-WKW!RD@
-M!TFVB!
-GFJV!M!
+YBR!EU!
+ANHD!B!@
+CXDMI!
+F%L!ZPU!
+RD!JP!L!
 
-Move:  | Points: 0 | Gems: 0 | EvalScore: 0.00 | Swaps: 0 | Gems Before: 2 | After: 2
+Move: PLUMBUM | Points: 64 | Gems: 6 | EvalScore: 146.00 | Swaps: 1 | Gems Before: 5 | After: 8
 
 Round 4:
-CJ!B!L!%F
-BF!ZH!W
-WKW!RD@
-M!TFVB!
-GFJV!M!
+YBR!EJ
+ANH!FS!
+CX!DQI!
+F!@%L!ZPO
+R!D!JTG!
 
-Move:  | Points: 0 | Gems: 0 | EvalScore: 0.00 | Swaps: 0 | Gems Before: 2 | After: 2
+Move: FLEXURES | Points: 80 | Gems: 6 | EvalScore: 154.00 | Swaps: 2 | Gems Before: 8 | After: 8
 
 Round 5:
-CJ!B!L!%F
-BF!ZH!W
-WKW!RD@
-M!TFVB!
-GFJV!M!
+YBJ!ZJ
+ANZFV
+R!QD!QI!
+QS!ZPO!
+R!D!J@%T!G!
 
-Move:  | Points: 0 | Gems: 0 | EvalScore: 0.00 | Swaps: 0 | Gems Before: 2 | After: 2
+Move: POTZERS | Points: 82 | Gems: 5 | EvalScore: 87.00 | Swaps: 2 | Gems Before: 8 | After: 7
 
-Game 1 Score: 58 | Gems left: 2
+Game 1 Score: 361 | Gems left: 7
 
 === Game 2 ===
 Round 1:
-XX!R!J!Z
-F!WHJ!W
-NGM!@WC
-UJ!XDO
-FA!F!KL!$
+MRK!@U!B
+VW$U!HB!
+R!DCI!V
+YF!Q!IM
+EKC!BO!
 
-Move: LOWDOWN | Points: 56 | Gems: 2 | EvalScore: 105.23 | Swaps: 1 | Gems Before: 3 | After: 2
+Move: CHIBOUK | Points: 60 | Gems: 5 | EvalScore: 128.50 | Swaps: 1 | Gems Before: 3 | After: 5
 
 Round 2:
-XX!@R!J!Z
-F!XHJ!W!
-CG%SJC
-U!J!XDX
-FA!F!KR
+MRM!O!B
+V!W$UV!C
+R!DH@UV
+YF!Q!I!M
+EKC!BO!
 
-Move: FAUGH | Points: 23 | Gems: 3 | EvalScore: 91.50 | Swaps: 0 | Gems Before: 2 | After: 5
+Move: WHICKER | Points: 68 | Gems: 4 | EvalScore: 142.00 | Swaps: 1 | Gems Before: 5 | After: 6
 
 Round 3:
-XX!@R!J!Z
-F!XTJ!W!
-C!B$SJC
-YJ!XDX!
-FRNKR!
+M!RM!O!B!
+V!$MUV!C
+SD!@WUV
+YUQ!NM
+ER!HBO!
 
-Move: BOX | Points: 32 | Gems: 2 | EvalScore: 95.00 | Swaps: 1 | Gems Before: 5 | After: 4
+Move: MOCUDDUM | Points: 74 | Gems: 6 | EvalScore: 148.00 | Swaps: 2 | Gems Before: 6 | After: 6
 
 Round 4:
-XZR!J!Z
-UXTJ!@W!
-C!QS!JC
-YJ!XD!%X!
-FRNKR!
+ZRLK!B!
+EMUV!W!
+SOWWV@
+YUWN!M!
+E!%R!HB!O!
 
-Move: JUDS | Points: 44 | Gems: 3 | EvalScore: 101.50 | Swaps: 1 | Gems Before: 4 | After: 4
+Move: MUKLUK | Points: 64 | Gems: 3 | EvalScore: 121.50 | Swaps: 2 | Gems Before: 6 | After: 3
 
 Round 5:
-XZ!R!$J!Z
-UXTDW!
-C!QNJ!H
-YJ!X!GX!
-FRNK@R!
+ZR!P!PB!
+EMIPW!
+SOWWK
+YU!W@N!Y
+E!%R!HB!O!
 
-Move: KRANTZ | Points: 52 | Gems: 2 | EvalScore: 54.00 | Swaps: 1 | Gems Before: 4 | After: 3
+Move: BONJOUR | Points: 52 | Gems: 5 | EvalScore: 57.00 | Swaps: 1 | Gems Before: 3 | After: 5
 
-Game 2 Score: 210 | Gems left: 3
+Game 2 Score: 323 | Gems left: 5
 
 === Game 3 ===
 Round 1:
-CLYNC!
-HEX!CL
-U!VV!@W!W
-Y!YSJD!
-A!I$Z!I!A
+T%J!KJX!
+P!TT!RV
+ZDGF!@R!
+NICL!Q!
+DYP!EW!
 
-Move: CHIVVY | Points: 58 | Gems: 2 | EvalScore: 107.23 | Swaps: 1 | Gems Before: 3 | After: 2
+Move: FLECKY | Points: 58 | Gems: 3 | EvalScore: 115.50 | Swaps: 1 | Gems Before: 3 | After: 3
 
 Round 2:
-Q@LYNC!
-Y!VX!CL
-U!AQW!W
-PY!SJD!
-A!I$Z!I!A
+T%J!K!JX!
+P!@TT!RV
+ZDGL!R!
+NIZ!OQ!
+DKKNW!
 
-Move: QASIDA | Points: 26 | Gems: 2 | EvalScore: 89.00 | Swaps: 0 | Gems Before: 2 | After: 4
+Move: PODZOL | Points: 50 | Gems: 3 | EvalScore: 107.50 | Swaps: 1 | Gems Before: 3 | After: 3
 
 Round 3:
-Q!@LYNC!
-Y!VX!C!L
-U!ZKW!W
-PY!EJI
-A!I$Z!OZ
+T%J!K!JX!
+TET!RV
+ZJ!GGR!
+NI!Z!AQ!
+DK@KNW!
 
-Move: WICKYUP | Points: 39 | Gems: 5 | EvalScore: 113.00 | Swaps: 1 | Gems Before: 4 | After: 6
+Move: WANZING | Points: 54 | Gems: 3 | EvalScore: 111.50 | Swaps: 1 | Gems Before: 3 | After: 3
 
 Round 4:
-Q!@LYNC!
-Y!VPEL
-FZIVW!
-WOE!JI!
-A!I!$Z!OZ!
+T%J!K!J!X!
+TET!R@V
+ZJ!GG!R!
+RKA!SQ!
+DDKKB
 
-Move: PYROLYZE | Points: 64 | Gems: 3 | EvalScore: 121.50 | Swaps: 2 | Gems Before: 6 | After: 3
+Move: TRIJET | Points: 48 | Gems: 3 | EvalScore: 105.50 | Swaps: 1 | Gems Before: 3 | After: 3
 
 Round 5:
-PY@DNC!
-ZRNEL!
-FJIV!W!
-WOUJ!I!
-A!I!$Z!OZ!
+BYGJ!X!
+TMTV@V!
+ZJ!GG!$R!
+RK!A!S!Q!
+DDKKB
 
-Move: FRIZZY | Points: 66 | Gems: 0 | EvalScore: 66.00 | Swaps: 1 | Gems Before: 3 | After: 0
+Move: JAGGERS | Points: 54 | Gems: 5 | EvalScore: 59.00 | Swaps: 1 | Gems Before: 3 | After: 5
 
-Game 3 Score: 253 | Gems left: 0
+Game 3 Score: 269 | Gems left: 5
 
 === Game 4 ===
 Round 1:
-XU!B@N!J
-B!$QBPB
-F!P!A!B!W!
-V!RXTW
-ODLNJ!
+AZQ!Y!E
+KTTLQ!
+XJT!T!R
+U!Q!%S!X@F
+MKH!QA!
 
-Move: BUBBAS | Points: 56 | Gems: 4 | EvalScore: 119.00 | Swaps: 1 | Gems Before: 3 | After: 4
+Move: SQUATLY | Points: 50 | Gems: 5 | EvalScore: 118.50 | Swaps: 1 | Gems Before: 3 | After: 5
 
 Round 2:
-XI!K!N!J!
-JQP%PB
-F!P!V!CW!
-V!RX@TW
-ODLNJ!
+A!$ZQ!OE
+K!TTZQ!
+XONT!R
+G!KQX@F!
+MK!H!QA!
 
-Move: KIPPED | Points: 64 | Gems: 3 | EvalScore: 127.00 | Swaps: 1 | Gems Before: 4 | After: 4
+Move: AFRONT | Points: 36 | Gems: 3 | EvalScore: 104.50 | Swaps: 1 | Gems Before: 5 | After: 5
 
 Round 3:
-XALN!J!
-JQE@P!B
-F!OV!CW!
-V!R!RTW
-OIL!$NJ!
+A!$ZQ!OE
+K!@TTZQ!
+X!OR!YM
+G!KQ!ZT
+MK!H!QA
 
-Move: PERFORCE | Points: 52 | Gems: 4 | EvalScore: 120.50 | Swaps: 1 | Gems Before: 4 | After: 5
+Move: KGOTLA | Points: 44 | Gems: 4 | EvalScore: 118.00 | Swaps: 1 | Gems Before: 5 | After: 6
 
 Round 4:
-XALN!J!
-JQFVB
-T!Z!P!YW!
-V!K!STW
-OI@L!$NJ!
+LZQ!%OE
+SG!@T!ZQ!
+X!PR!Y!M
+F!KQ!ZT
+MSH!QA
 
-Move: VAKILS | Points: 52 | Gems: 4 | EvalScore: 126.00 | Swaps: 1 | Gems Before: 5 | After: 6
+Move: QUARTZY | Points: 100 | Gems: 5 | EvalScore: 157.50 | Swaps: 2 | Gems Before: 6 | After: 5
 
 Round 5:
-XALN!J!
-JQ!FVB
-O!%Z!P!YW!
-CCVT!W
-O!MSN@J!
+L@ZI!OE$
+STG!NQ!
+X!DCB!M!
+F!KQ!Z!T
+MSH!QA
 
-Move: OCCUPANTS | Points: 66 | Gems: 4 | EvalScore: 70.00 | Swaps: 2 | Gems Before: 6 | After: 4
+Move: ZINGELS | Points: 50 | Gems: 2 | EvalScore: 52.00 | Swaps: 1 | Gems Before: 5 | After: 4
 
-Game 4 Score: 294 | Gems left: 4
+Game 4 Score: 284 | Gems left: 4
 
 === Game 5 ===
 Round 1:
-A!ZD@SX!%
-CT!BDB!
-BVF!AM
-C!CE!C!P
-E!EHF!N
+NZVR!M!
+J!F!G!R$V
+JH!BYM!
+R!QYCK@
+URX!J!J
 
-Move: CATFACE | Points: 30 | Gems: 5 | EvalScore: 112.00 | Swaps: 0 | Gems Before: 3 | After: 8
+Move: BRICKY | Points: 58 | Gems: 1 | EvalScore: 98.97 | Swaps: 1 | Gems Before: 3 | After: 1
 
 Round 2:
-ZZD@SX!%
-RXBD!B!
-B!VBY!M
-C!CK!IP
-E!EH!F!N
+NZVR!M!
+J!F!G!$LV
+J!H!RDA
+R!QY@JP
+URX!J!J
 
-Move: BODYCHECK | Points: 76 | Gems: 4 | EvalScore: 150.00 | Swaps: 2 | Gems Before: 8 | After: 6
+Move: GLADY | Points: 34 | Gems: 1 | EvalScore: 83.23 | Swaps: 0 | Gems Before: 1 | After: 2
 
 Round 3:
-ZZ!RSX!%
-R!XRLB!@
-B!VB!CM
-C!MTYP
-E!ZS!F!N
+NZV$R!M!
+J!F!Z!JV
+J!H!RSK
+R!QKJ@P
+URX!J!J
 
-Move: CYBERSEX | Points: 90 | Gems: 3 | EvalScore: 147.50 | Swaps: 2 | Gems Before: 6 | After: 3
+Move: UR | Points: 6 | Gems: 1 | EvalScore: 63.50 | Swaps: 0 | Gems Before: 2 | After: 3
 
 Round 4:
-ZZ!%OZA!
-R!KRL!K
-B!VZH!M
-C!MTBP
-E!@ZS!F!N
+NZV$R!M!
+J!F!Z!JV
+J!H!RSK
+BQ!KJ@P
+ZRX!J!J
 
-Move: EMBRYO | Points: 58 | Gems: 4 | EvalScore: 115.50 | Swaps: 1 | Gems Before: 3 | After: 4
+Move: FRIZZ | Points: 24 | Gems: 3 | EvalScore: 81.50 | Swaps: 1 | Gems Before: 3 | After: 3
 
 Round 5:
-ZR!D@ZA!
-G!K!RL!K
-Y!VZH!M
-C!%PTBP
-KZS!F!N
+NU!V$R!M!
+J!TQJV!
+J!K!HSK
+BQ!KJ@P
+ZRX!J!J
 
-Move: DRACK | Points: 54 | Gems: 1 | EvalScore: 55.00 | Swaps: 1 | Gems Before: 4 | After: 2
+Move: HAJJ | Points: 38 | Gems: 1 | EvalScore: 39.00 | Swaps: 1 | Gems Before: 3 | After: 1
 
-Game 5 Score: 310 | Gems left: 2
+Game 5 Score: 161 | Gems left: 1
 
 === Game 6 ===
 Round 1:
-RTKIW!
-WM!U!Q!@W
-L!N!SGY
-YI!UF!N
-SOI!PA!%
+U!V@R!U!H
+NQM!SE!
+S!C!XJM
+KTS!AG
+LN!TT$S!
 
-Move: QUALMS | Points: 54 | Gems: 5 | EvalScore: 122.50 | Swaps: 1 | Gems Before: 3 | After: 5
+Move: QUORUMS | Points: 60 | Gems: 4 | EvalScore: 123.00 | Swaps: 1 | Gems Before: 3 | After: 4
 
 Round 2:
-R@TKIW!
-WYW!FW!
-N!ESG!Y
-YI!UF!N!
-SOI!PA!%
+Q!BEUH
+NPMBE!
+S!C!XJM
+KTS!A@G!
+LN!T!T!$S!
 
-Move: WRYNECK | Points: 60 | Gems: 2 | EvalScore: 123.00 | Swaps: 1 | Gems Before: 5 | After: 4
+Move: MATTOCKS | Points: 60 | Gems: 5 | EvalScore: 134.00 | Swaps: 1 | Gems Before: 4 | After: 6
 
 Round 3:
-E!TKIW!
-OYX!FW!
-KQSG!Y
-YI!UF!@N!
-SOI!PA!%
+Q!B!EUH
+NP%MBE!
+L!QXJH
+D!@TM!MG!
+L!N!JKS!
 
-Move: SQUIFF | Points: 80 | Gems: 3 | EvalScore: 143.00 | Swaps: 1 | Gems Before: 4 | After: 4
+Move: BEPLUMED | Points: 74 | Gems: 5 | EvalScore: 142.50 | Swaps: 2 | Gems Before: 6 | After: 5
 
 Round 4:
-E!T$K!IW!
-OYX!FW!
-KD!@XG!Y
-YI!GJN!
-SOB!PS
+Q!WDUH
+NIMBE!
+GZ!X!J%H!
+XTV!M@G!
+L!NJK!S!
 
-Move: BIGGED | Points: 40 | Gems: 5 | EvalScore: 114.00 | Swaps: 1 | Gems Before: 4 | After: 6
+Move: MUXING | Points: 68 | Gems: 1 | EvalScore: 125.50 | Swaps: 1 | Gems Before: 5 | After: 3
 
 Round 5:
-E!T$K!IW!
-OY!T!FW!
-K!G!XQY
-YVRJN!
-SOJ@P!S
+Q!WDUH
+J%LMBE!
+XZ!XGH!
+XT!V!TG!
+L!NJK!S!@
 
-Move: JOYSTICK | Points: 66 | Gems: 3 | EvalScore: 69.00 | Swaps: 2 | Gems Before: 6 | After: 3
+Move: HUMBUGS | Points: 60 | Gems: 3 | EvalScore: 63.00 | Swaps: 1 | Gems Before: 3 | After: 3
 
-Game 6 Score: 303 | Gems left: 3
+Game 6 Score: 325 | Gems left: 3
 
 === Game 7 ===
 Round 1:
-V!F!E!S@Z
-UV!TQL
-W!YY!Z!N
-TG$W!AA
-EE!V!CU
+TYICJ
+F!FFCC
+D!U!LO@Z!%
+A!B!HIS!
+WAI!C!C!
 
-Move: VEGETIVES | Points: 58 | Gems: 5 | EvalScore: 126.50 | Swaps: 1 | Gems Before: 3 | After: 5
+Move: SCHIZO | Points: 84 | Gems: 3 | EvalScore: 158.00 | Swaps: 0 | Gems Before: 3 | After: 6
 
 Round 2:
-V!F!A!XZ
-UL!TQL
-R!@YY!Z!N
-QYW!%A!A
-GQAC!U
+T!YICJ!
+F!FFC!C@
+D!U!%LGZ
+A!B!ZCI
+WAI!VC!
 
-Move: FLYAWAYS | Points: 80 | Gems: 6 | EvalScore: 162.00 | Swaps: 1 | Gems Before: 5 | After: 8
+Move: COLUMBIC | Points: 80 | Gems: 5 | EvalScore: 148.50 | Swaps: 2 | Gems Before: 6 | After: 5
 
 Round 3:
-V!ZA!X@Z
-U!S!T!QL!%
-TYCZ!N
-QGDC!A
-GQ!TC!U
+T!Y%ICJ!@
+F!FFZT
+D!ZQ!GZ
+S!K!Z!N!I
+WAYVC!
 
-Move: ZLOTYCH | Points: 76 | Gems: 4 | EvalScore: 150.00 | Swaps: 2 | Gems Before: 8 | After: 6
+Move: JAZZING | Points: 70 | Gems: 2 | EvalScore: 133.00 | Swaps: 1 | Gems Before: 5 | After: 4
 
 Round 4:
-V!$ZA!OZ
-U!HDQI
-T!AIE!N
-Q@G!DC!A!
-GQ!TC!U
+T!Y%ICI
+F!FFAM
+D!Z!Q!AK
+S!K!Z!CO
+WAY@V!C!
 
-Move: QUAGGY | Points: 72 | Gems: 3 | EvalScore: 129.50 | Swaps: 2 | Gems Before: 6 | After: 3
+Move: SKYJACK | Points: 72 | Gems: 3 | EvalScore: 129.50 | Swaps: 1 | Gems Before: 4 | After: 4
 
 Round 5:
-WZA!OZ
-IHD!QI
-T!QI%E!N!
-F!BDC!A!
-EQ!@TC!U
+T!Y%ICI
+F!F!FA!M
+D!@Z!Q!YX!
+XSZSO
+WAGV!C!
 
-Move: DECIBEL | Points: 50 | Gems: 4 | EvalScore: 54.00 | Swaps: 1 | Gems Before: 3 | After: 4
+Move: FUFFY | Points: 62 | Gems: 3 | EvalScore: 65.00 | Swaps: 1 | Gems Before: 4 | After: 4
 
-Game 7 Score: 340 | Gems left: 4
+Game 7 Score: 372 | Gems left: 4
 
 === Game 8 ===
 Round 1:
-GMO!D!Q!%
-K!KHT!A
-YMDGJ!
-HW!F!W!R
-XD!FBI@
+JFS!FS
+XYP!BN!
+NP!J!XL!
+U!$KBOZ
+AHI!@P!I!
 
-Move: KHODJA | Points: 46 | Gems: 3 | EvalScore: 103.50 | Swaps: 1 | Gems Before: 3 | After: 3
+Move: PICKUP | Points: 66 | Gems: 4 | EvalScore: 129.00 | Swaps: 1 | Gems Before: 3 | After: 4
 
 Round 2:
-GMEMV
-K!FXT!O!
-YMDGJ!$
-HW!F!W!R!
-X!D!FBI@
+JFS!F!S
+XY!P!BN!
+N!YJ!@XL!
+NUL!OZ%
+AHMRI!
 
-Move: BAJRI | Points: 44 | Gems: 3 | EvalScore: 101.50 | Swaps: 1 | Gems Before: 3 | After: 3
+Move: ZLOTYS | Points: 82 | Gems: 4 | EvalScore: 150.50 | Swaps: 1 | Gems Before: 4 | After: 5
 
 Round 3:
-GMEMV
-K!F!XT!O!
-YM!D@GY
-HW!F!$DB
-X!D!F!ZR
+JFE!F!$S!
+X!ZP!BN!
+N!YTXJ
+NUL!@DO
+AHMR!I!
 
-Move: DUMKY | Points: 50 | Gems: 3 | EvalScore: 107.50 | Swaps: 1 | Gems Before: 3 | After: 3
+Move: KLUTZY | Points: 64 | Gems: 2 | EvalScore: 127.00 | Swaps: 1 | Gems Before: 5 | After: 4
 
 Round 4:
-GMEMV
-QF!XT!O!
-YKQGY
-HW!Y!DB!
-X!D!@%F!ZR!
+JFE!F!$S!
+X!AP!BN!
+N!W@DXJ
+NCU!DO
+AHMO!I!
 
-Move: ZYGOTE | Points: 80 | Gems: 4 | EvalScore: 137.50 | Swaps: 1 | Gems Before: 3 | After: 4
+Move: PAXWAX | Points: 60 | Gems: 3 | EvalScore: 117.50 | Swaps: 1 | Gems Before: 4 | After: 4
 
 Round 5:
-G@MOMV%
-QF!X!MW
-Y!KQC!Y
-HW!GDB!
-X!A!F!ZR!
+J!F!E!F!$S!
+OPEB!N!
+N!RDJJ
+NCQDO
+AHMO!I!@
 
-Move: WHACKY | Points: 35 | Gems: 3 | EvalScore: 38.00 | Swaps: 1 | Gems Before: 4 | After: 4
+Move: CYMOID | Points: 46 | Gems: 2 | EvalScore: 48.00 | Swaps: 1 | Gems Before: 4 | After: 3
 
-Game 8 Score: 259 | Gems left: 4
+Game 8 Score: 321 | Gems left: 3
 
 === Game 9 ===
 Round 1:
-GKCMY!
-D!Z!QHZ!
-AIB!YW!
-HERZ!@W!
-L$PU!S!H
+UQM!DD!
+GM!@XUT
+Z!VI!H!W
+O!F$C!MQ
+DVV!DA!
 
-Move: PUZZEL | Points: 72 | Gems: 3 | EvalScore: 129.50 | Swaps: 1 | Gems Before: 3 | After: 3
+Move: CHUMMING | Points: 64 | Gems: 5 | EvalScore: 132.50 | Swaps: 1 | Gems Before: 3 | After: 5
 
 Round 2:
-GKCMY!
-D!Z!QHZ!
-A!ILY!W!
-HJ@RY!W!
-ZC$XS!H
+UQWDD!@
+JP!X!ET
+Z!HVM!W
+O!F$JMQ!
+DV!V!DA!
 
-Move: JAZZILY | Points: 74 | Gems: 4 | EvalScore: 137.00 | Swaps: 1 | Gems Before: 3 | After: 4
+Move: WHAMMED | Points: 54 | Gems: 4 | EvalScore: 128.00 | Swaps: 1 | Gems Before: 5 | After: 6
 
 Round 3:
-G!KCMY!
-ET!QHZ!
-G@BO!IW!
-H!GRY!W!
-ZC$XS!H
+U!QW!DH
+JP!X!AT
+Z!H!VVK
+O!F$JB!Y
+DV!V!D@H
 
-Move: CROTCH | Points: 58 | Gems: 3 | EvalScore: 121.00 | Swaps: 1 | Gems Before: 4 | After: 4
+Move: UPHEAVED | Points: 56 | Gems: 5 | EvalScore: 124.50 | Swaps: 2 | Gems Before: 6 | After: 5
 
 Round 4:
-G!KCM$Y!
-ERQHZ!
-AB!BI!W!
-VGJY!W!
-ZA@X!S!H
+N!@QW!DH!
+JT!JQT
+Z!YVXK
+O!F$J!ZY
+DV!V!YH!
 
-Move: NAVARCHY | Points: 58 | Gems: 2 | EvalScore: 115.50 | Swaps: 1 | Gems Before: 4 | After: 3
+Move: DOZEN | Points: 30 | Gems: 4 | EvalScore: 104.00 | Swaps: 1 | Gems Before: 5 | After: 6
 
 Round 5:
-G!KYM$W
-EKQAZ!
-BB!BI!W!@
-XGJ!Y!W!
-ZBXS!H!
+C!QW!@DH!
+JNJQT
+OYVXK!
+V!F$J!Z!Y
+AV!V!YH!
 
-Move: MAZILY | Points: 60 | Gems: 4 | EvalScore: 64.00 | Swaps: 1 | Gems Before: 3 | After: 4
+Move: FORWHY | Points: 62 | Gems: 1 | EvalScore: 63.00 | Swaps: 2 | Gems Before: 6 | After: 1
 
-Game 9 Score: 326 | Gems left: 4
+Game 9 Score: 267 | Gems left: 1
 
 === Game 10 ===
 Round 1:
-UZS!BL
-D!M!S$G!K
-WG!HH!S
-V!U!VAT
-BUU!QK!@
+C!ISQ@Q
+NX!H!ZI!
+RL!P!B!K
+ABR!AO
+C%A!ARS!
 
-Move: BUGSHAS | Points: 54 | Gems: 4 | EvalScore: 117.00 | Swaps: 1 | Gems Before: 3 | After: 4
+Move: CARABIDS | Points: 68 | Gems: 4 | EvalScore: 131.00 | Swaps: 1 | Gems Before: 3 | After: 4
 
 Round 2:
-UZS!BL
-D!M!HG!K%
-WNHKS
-V!P!V!JT!
-Q!UU!QX@
+C!IO!PQ
+NX!H!Z!@%J
+RL!P!YK
+AB!HAO
+VS!ARS!
 
-Move: MUZHIKS | Points: 51 | Gems: 2 | EvalScore: 108.50 | Swaps: 1 | Gems Before: 4 | After: 3
+Move: HYPOXIC | Points: 78 | Gems: 5 | EvalScore: 152.00 | Swaps: 1 | Gems Before: 4 | After: 6
 
 Round 3:
-UKS!BL
-D!SRR!S
-WNH$KJ
-V!P!V!JT!
-Q!UU!Q!X@
+JXHOQ!
+NQQWJ!
+R!L!P!YK
+A$B!HAO!
+VS!A!@RS!
 
-Move: UPHAND | Points: 32 | Gems: 4 | EvalScore: 95.00 | Swaps: 1 | Gems Before: 3 | After: 4
+Move: SPLASHBACK | Points: 76 | Gems: 5 | EvalScore: 144.50 | Swaps: 2 | Gems Before: 6 | After: 5
 
 Round 4:
-UKS!B!L
-GS$RR!S
-W!YDK!J
-V!KNJ!T!
-Q!USQ!X@
+JX@HOQ!
+NT!QW!$J!
+R!I!A!YU
+YSJMO!
+VM!HRS!
 
-Move: KUNKURS | Points: 38 | Gems: 2 | EvalScore: 95.50 | Swaps: 1 | Gems Before: 4 | After: 3
+Move: RINGTAW | Points: 52 | Gems: 5 | EvalScore: 126.00 | Swaps: 1 | Gems Before: 5 | After: 7
 
 Round 5:
-UKS!B!L
-G%QL!BS
-W!YD!CJ
-V!TZJ!T!
-Q!RSQ!X@
+JL!%HOQ!
+CUQT!J!
+VTGY!U
+YSJMO!
+V!M!@HR!S!
 
-Move: KLUTZY | Points: 37 | Gems: 2 | EvalScore: 39.00 | Swaps: 1 | Gems Before: 3 | After: 2
+Move: JUGUMS | Points: 86 | Gems: 2 | EvalScore: 88.00 | Swaps: 2 | Gems Before: 7 | After: 3
 
-Game 10 Score: 214 | Gems left: 2
+Game 10 Score: 363 | Gems left: 3
 
 === Game 11 ===
 Round 1:
-K!T!YQ!D!
-OLFB!$Z!
-M!X!V!NV
-YG@EGG
-K!OYJC
+K@KG!R!R!
+J!QCRB
+F!AJ!T!I%
+V!GGBD
+LC!F!PK
 
-Move: LOXYGEN | Points: 52 | Gems: 1 | EvalScore: 115.00 | Swaps: 0 | Gems Before: 3 | After: 4
+Move: JACKER | Points: 32 | Gems: 3 | EvalScore: 89.50 | Swaps: 1 | Gems Before: 3 | After: 3
 
 Round 2:
-K!T!Y!Q!D!
-JAFB!$Z!
-M!FV!Z@V
-UZQGG
-K!OYJC
+K@IL!ZR!
+EQ!KRB
+F!KJ!T!I%
+V!GG!BD
+LC!F!PK
 
-Move: ZZZ | Points: 64 | Gems: 2 | EvalScore: 121.50 | Swaps: 1 | Gems Before: 4 | After: 3
+Move: BRICKLIKE | Points: 72 | Gems: 2 | EvalScore: 121.23 | Swaps: 1 | Gems Before: 3 | After: 2
 
 Round 3:
-K!T!Y!$Q!D!
-JAFOT@
-M!F!V!WV
-UZQGG
-K!O!YJC
+GZQZR!
+GQ!EC!P
+F!KJ!@FE
+V!GG!BD!
+LC!F!PK$
 
-Move: MATZOT | Points: 62 | Gems: 3 | EvalScore: 119.50 | Swaps: 1 | Gems Before: 3 | After: 3
+Move: JEFE | Points: 28 | Gems: 1 | EvalScore: 85.50 | Swaps: 0 | Gems Before: 2 | After: 3
 
 Round 4:
-K!A%RQ!D!
-JZFL!Z
-JF!V!WV
-U!ZQ@GG
-K!O!YJC!
+GZQZR!
+GQ!ZC!P
+F!K!XRI
+V!@GG!BD!
+LC!F!PK$
 
-Move: FROUZY | Points: 58 | Gems: 3 | EvalScore: 115.50 | Swaps: 1 | Gems Before: 3 | After: 3
+Move: VUGG | Points: 30 | Gems: 3 | EvalScore: 87.50 | Swaps: 1 | Gems Before: 3 | After: 3
 
 Round 5:
-K!A%RQ!D!
-JZ!FL!Z!
-JUV!WV!
-DETGG
-K!@EDJC!
+GZ!QZR!
+GQ!ZC!P@
+OK!X!RI
+QV!XBD!
+LC!F!PK$
 
-Move: JUNKETED | Points: 62 | Gems: 1 | EvalScore: 63.00 | Swaps: 1 | Gems Before: 3 | After: 1
+Move: PZAZZ | Points: 58 | Gems: 2 | EvalScore: 60.00 | Swaps: 1 | Gems Before: 3 | After: 2
 
-Game 11 Score: 299 | Gems left: 1
+Game 11 Score: 222 | Gems left: 2
 
 === Game 12 ===
 Round 1:
-JC!ZKG%
-D!OZD!I
-M!N!H!N@V
-G!BH!SL
-KRQU!I!
+OF!HAQ!
+LDXIM!
+L!Y!KV!C
+CTH@Z!%J!
+TBUH!V!
 
-Move: SCHNOZZ | Points: 70 | Gems: 2 | EvalScore: 119.23 | Swaps: 1 | Gems Before: 3 | After: 2
+Move: HUZZY | Points: 88 | Gems: 3 | EvalScore: 145.50 | Swaps: 1 | Gems Before: 3 | After: 3
 
 Round 2:
-JC!UKG%
-D!Y!CD!I
-M!YH!TV!
-G!BOTL
-KRQ@U!I!
+OF!HAQ!
+LD!XIM!
+L!BKV!C
+CT$QJJ!
+T!B!Q@ZV!
 
-Move: QUITTOR | Points: 50 | Gems: 2 | EvalScore: 113.00 | Swaps: 0 | Gems Before: 2 | After: 4
+Move: SIXFOLD | Points: 32 | Gems: 3 | EvalScore: 89.50 | Swaps: 1 | Gems Before: 3 | After: 3
 
 Round 3:
-J!C!UKG%
-D!@Y!CD!I
-M!YH!M!V!
-G!BZLL
-KRSXN
+AZ!HAN
+ZJALM!
+L!BKV!C
+CT$Q!JJ!
+T!B!Q!@ZV!
 
-Move: CHYMIC | Points: 56 | Gems: 5 | EvalScore: 130.00 | Swaps: 1 | Gems Before: 4 | After: 6
+Move: QABALAH | Points: 56 | Gems: 1 | EvalScore: 96.97 | Swaps: 1 | Gems Before: 3 | After: 1
 
 Round 4:
-J!LUKG%
-GLPD!I!
-K!Y@LM!V!
-G!B!ZL!L
-KRS!XN
+AZ!I@QN
+ZJDDM!
+L!JKV!C
+COQ!JJ!
+T!B!Q!Z$V!
 
-Move: MIZZLY | Points: 98 | Gems: 3 | EvalScore: 155.50 | Swaps: 2 | Gems Before: 6 | After: 3
+Move: JIZZ | Points: 48 | Gems: 1 | EvalScore: 80.70 | Swaps: 0 | Gems Before: 1 | After: 2
 
 Round 5:
-J!LUKI
-GL@PDR!
-K!HRQV!
-G!B!%ZL!L
-KR!S!XN!
+AVBQN!
+EGDDM!
+L!JKV!C
+COQ!J@J!
+T!B!Q!Z$V!
 
-Move: UPHURL | Points: 68 | Gems: 1 | EvalScore: 69.00 | Swaps: 1 | Gems Before: 3 | After: 1
+Move: GAVEL | Points: 13 | Gems: 1 | EvalScore: 14.00 | Swaps: 0 | Gems Before: 2 | After: 3
 
-Game 12 Score: 343 | Gems left: 1
+Game 12 Score: 240 | Gems left: 3
 
 === Game 13 ===
 Round 1:
-NBI!X!H
-B!Q!D!XM!
-Q!W!W$P@N
-S!U!BBU
-LHFQX
+X!YF!XX
+H@H%FJ!X
+L!OE!N!P
+NH!M!M!I
+BMO!NB
 
-Move: BUPKUS | Points: 70 | Gems: 2 | EvalScore: 119.23 | Swaps: 1 | Gems Before: 3 | After: 2
+Move: HYPHEN | Points: 64 | Gems: 3 | EvalScore: 121.50 | Swaps: 1 | Gems Before: 3 | After: 3
 
 Round 2:
-N@BI!X!H$
-B!Q!D!XM!
-Q!W!V!FN!
-BNBHJ
-LHFQX
+X!YJ!XX
+JSFJ!X%
+L!O!SZP
+N!H!M!M!I
+BM@O!NB
 
-Move: QI | Points: 9 | Gems: 2 | EvalScore: 72.00 | Swaps: 0 | Gems Before: 2 | After: 4
+Move: HOMMOS | Points: 42 | Gems: 4 | EvalScore: 120.00 | Swaps: 0 | Gems Before: 3 | After: 7
 
 Round 3:
-N@BBX!H!$
-B!QD!XM!
-Q!W!V!FN!
-BNBHJ
-LH!FQX
+X!Y!J!@XX
+JEFJ!X%
+L!ESZP
+N!XE!M!I!
+BTEN!B
 
-Move: HYMN | Points: 18 | Gems: 4 | EvalScore: 86.50 | Swaps: 1 | Gems Before: 4 | After: 5
+Move: JAZZMEN | Points: 104 | Gems: 5 | EvalScore: 178.00 | Swaps: 2 | Gems Before: 7 | After: 6
 
 Round 4:
-N@BBVZ
-B!Q!D!XB
-Q!W!V!FT!
-BNB!HJ
-LH!FQ$X!
+X!Y!G!X@X$
+JEFV!Q
+L!ES!YP
+N!X!KVI!
+B!TEOB
 
-Move: BAWD | Points: 13 | Gems: 4 | EvalScore: 87.00 | Swaps: 1 | Gems Before: 5 | After: 6
+Move: SYZYGY | Points: 60 | Gems: 4 | EvalScore: 117.50 | Swaps: 2 | Gems Before: 6 | After: 4
 
 Round 5:
-N@BBVZ
-UZVXB!
-Q!GV!FT!
-B!N!B!HJ
-LH!FQ!$X!
+X!XZOX!$
+JEFN!Q!
+L!E@K!OP
+N!X!KVI!
+B!TEOB
 
-Move: BUZZING | Points: 70 | Gems: 2 | EvalScore: 72.00 | Swaps: 2 | Gems Before: 6 | After: 2
+Move: POKEFUL | Points: 58 | Gems: 2 | EvalScore: 60.00 | Swaps: 1 | Gems Before: 4 | After: 3
 
-Game 13 Score: 182 | Gems left: 2
+Game 13 Score: 331 | Gems left: 3
 
 === Game 14 ===
 Round 1:
-I!REMR!
-PS!@G!EI
-SLU!LE!%
-FPTAK
-WK!P!X!Z!
+V!%A!W!KV!
+K!KW!YH
+CNPRL
+D!@K!H!KY
+EWR!CS
 
-Move: KLUGES | Points: 72 | Gems: 4 | EvalScore: 135.00 | Swaps: 1 | Gems Before: 3 | After: 4
+Move: VACKED | Points: 72 | Gems: 4 | EvalScore: 135.00 | Swaps: 1 | Gems Before: 3 | After: 4
 
 Round 2:
-I!R!RMR!
-PIFE!I%
-SLC!FP
-FPTAK!
-WK!P!@X!Z!
+SA!W!KV!@
+TK!W!Y!H
+XNPRL!%
+GDH!KY
+Q!WR!CS
 
-Move: PAPERCLIPS | Points: 64 | Gems: 3 | EvalScore: 127.00 | Swaps: 1 | Gems Before: 4 | After: 4
+Move: VALKYR | Points: 64 | Gems: 3 | EvalScore: 127.00 | Swaps: 1 | Gems Before: 4 | After: 4
 
 Round 3:
-I!R!R!MR!
-LBFMI!%
-YNKZA
-F!PTCK!
-WK!RX!@Z!
+SA!W!KH
+TK!W!DH
+X!NPSZ!@
+G!DH!M%Z
+Q!WR!CS
 
-Move: ZACK | Points: 40 | Gems: 3 | EvalScore: 103.00 | Swaps: 1 | Gems Before: 4 | After: 4
+Move: ZZZS | Points: 84 | Gems: 1 | EvalScore: 133.23 | Swaps: 1 | Gems Before: 4 | After: 2
 
 Round 4:
-I!R!R!M!R!
-LBF!MI!%
-YNKZA
-F!PTOW
-W!K!RNX@
+SA!W!KH
+TK!@W!DH$
+X!NP!DH
+G!DH!GY
+Q!WR!CS
 
-Move: FURRILY | Points: 31 | Gems: 5 | EvalScore: 105.00 | Swaps: 1 | Gems Before: 4 | After: 6
+Move: SKAW | Points: 28 | Gems: 3 | EvalScore: 85.50 | Swaps: 0 | Gems Before: 2 | After: 5
 
 Round 5:
-DNH!T!R!
-PBK!MI!%
-DN!KZA
-F!PTOW!
-W!K!RNX@
+QTMK!H
+TXW!DH$
+X!NP!D!H
+G!DH!G!@Y
+Q!WR!CS
 
-Move: JAWBOX | Points: 88 | Gems: 2 | EvalScore: 90.00 | Swaps: 2 | Gems Before: 6 | After: 2
+Move: SCHROD | Points: 44 | Gems: 4 | EvalScore: 48.00 | Swaps: 1 | Gems Before: 5 | After: 6
 
-Game 14 Score: 297 | Gems left: 2
+Game 14 Score: 298 | Gems left: 6
 
 === Game 15 ===
 Round 1:
-M!IU!OX
-DL!WK!Q
-VQY!E!$P@
-EWJ!UV!
-LX!LTC!
+A!YJC!J
+MLTCU!
+N!$R!VC!I!
+OX!LD@C
+U!IGM!X
 
-Move: WICKYUP | Points: 68 | Gems: 3 | EvalScore: 125.50 | Swaps: 1 | Gems Before: 3 | After: 3
+Move: COCCID | Points: 50 | Gems: 4 | EvalScore: 113.00 | Swaps: 1 | Gems Before: 3 | After: 4
 
 Round 2:
-M!EBOX
-DL!AN!Q
-VQI@E!$I!
-E!WJ!XV!
-LX!LTC!
+A!YJAJ
+ML!T!HS
+N!$R!VYG!
+O@X!LOC
+U!IGM!X!
 
-Move: INEXPIABLE | Points: 62 | Gems: 5 | EvalScore: 130.50 | Swaps: 1 | Gems Before: 3 | After: 5
+Move: NORMALCY | Points: 58 | Gems: 5 | EvalScore: 132.00 | Swaps: 1 | Gems Before: 4 | After: 6
 
 Round 3:
-M!SZOX
-DSTXQ
-V!Q!%RBJ
-E!WW!E@V!
-L!X!LT!C!
+PL!JAJ
+D!PGH!S
+T@JV!YG!
+ZX!L$OC
+U!IG!M!X!
 
-Move: JERQUE | Points: 88 | Gems: 3 | EvalScore: 156.50 | Swaps: 1 | Gems Before: 5 | After: 5
+Move: GLITZILY | Points: 66 | Gems: 2 | EvalScore: 134.50 | Swaps: 1 | Gems Before: 6 | After: 5
 
 Round 4:
-M!S!ZOX
-DSTXQ
-AXK%B!V!
-U@WW!OV!
-L!X!LT!C!
+PTJAJ
+T!P!QH!S
+WJV!%R@G!
+TX!NOC
+U!BG!M!X!
 
-Move: BOWLFUL | Points: 60 | Gems: 4 | EvalScore: 134.00 | Swaps: 1 | Gems Before: 5 | After: 6
+Move: SHROVING | Points: 70 | Gems: 4 | EvalScore: 144.00 | Swaps: 1 | Gems Before: 5 | After: 6
 
 Round 5:
-M!S!Z!O!X!
-DSTXQ
-AXK%KV!
-C@W!VNV!
-GRFT!C!
+PTJ!A%J
+T!P!@QOE
+WJB!P!G!
+TIYYC
+U!B!EM!X!
 
-Move: DAWCOCKS | Points: 90 | Gems: 1 | EvalScore: 91.00 | Swaps: 2 | Gems Before: 6 | After: 1
+Move: JAZZBO | Points: 72 | Gems: 3 | EvalScore: 75.00 | Swaps: 2 | Gems Before: 6 | After: 3
 
-Game 15 Score: 369 | Gems left: 1
+Game 15 Score: 319 | Gems left: 3
 
 === Game 16 ===
 Round 1:
-D!BK!H!R@
-XB!YT!Z
-T!%M!KDL
-L!LCZ!B
-M!QFWL
+CMJ!G!A
+VZ$IB!B
+LDWO!S
+H!A!H!F!@F
+F!ZTQ!P
 
-Move: RHYMED | Points: 46 | Gems: 4 | EvalScore: 109.00 | Swaps: 1 | Gems Before: 3 | After: 4
+Move: SHOWBIZ | Points: 76 | Gems: 4 | EvalScore: 139.00 | Swaps: 1 | Gems Before: 3 | After: 4
 
 Round 2:
-SBK!QM
-XKYT!Z
-T!%K!KDL
-L!LCZ!B!@
-M!QFW!L!
+CM!J!@G!A
+VN!ICB
+LDY!QS
+H!$A!IKF
+F!ZTQ!P!
 
-Move: BLOCKY | Points: 56 | Gems: 4 | EvalScore: 124.50 | Swaps: 1 | Gems Before: 4 | After: 5
+Move: GUNYAH | Points: 54 | Gems: 6 | EvalScore: 132.00 | Swaps: 1 | Gems Before: 4 | After: 7
 
 Round 3:
-SBK!QM!
-XKA!@T!Z
-T!%RKDL
-L!LUX!U!
-M!QFW!A
+CM!SEA
+VYIC!%B!
+LDW!QS
+K!ZIKF!
+F!ZT!Q!P!@
 
-Move: ROKKAKU | Points: 66 | Gems: 3 | EvalScore: 134.50 | Swaps: 1 | Gems Before: 5 | After: 5
+Move: WICKIUP | Points: 82 | Gems: 4 | EvalScore: 150.50 | Swaps: 2 | Gems Before: 7 | After: 5
 
 Round 4:
-SBUQM!
-XYA$T!Z
-FBA@D!L
-L!LDX!U!
-M!Q!F!W!A
+CM!S!EA
+VYW!%XB!
+LDK!Q!S
+K!ZDK@F!
+F!ZT!HJ
 
-Move: LUXATED | Points: 54 | Gems: 4 | EvalScore: 128.00 | Swaps: 1 | Gems Before: 5 | After: 6
+Move: WAKFS | Points: 58 | Gems: 3 | EvalScore: 115.50 | Swaps: 1 | Gems Before: 5 | After: 5
 
 Round 5:
-SBU!QM!
-X!YVR$Z
-FBSPD
-L!L!DBC!
-M!Q!F!W!A@
+CM!S!EA@
+VYLX!B!
+LDK!LA!
+K!ZD$DO
+F!Z!T!HJ
 
-Move: BACKFILLS | Points: 70 | Gems: 6 | EvalScore: 76.00 | Swaps: 2 | Gems Before: 6 | After: 6
+Move: BACKLOAD | Points: 58 | Gems: 4 | EvalScore: 62.00 | Swaps: 1 | Gems Before: 5 | After: 6
 
-Game 16 Score: 298 | Gems left: 6
+Game 16 Score: 334 | Gems left: 6
 
 === Game 17 ===
 Round 1:
-HJ!I!FE!
-RMFJ!Q
-R!Q!PAW@
-NCKZ!L!
-H!WH$EI!
+C!A!OUC
+K!BCPW!
+BXA!L%L
+Q!ZQE!X
+N!@TFV!E!
 
-Move: EQUALIZE | Points: 64 | Gems: 4 | EvalScore: 127.00 | Swaps: 1 | Gems Before: 3 | After: 4
+Move: BENZAL | Points: 60 | Gems: 3 | EvalScore: 117.50 | Swaps: 1 | Gems Before: 3 | After: 3
 
 Round 2:
-HJ!I!@F!V
-R!M!FJ!X
-R!Q!PMI
-NCKAR
-H!WH$F!R
+C!A!O!$UC
+K!BCPW!
+KXG@JL
+SSQ!E!X!
+PTFV!E!
 
-Move: JIMJAM | Points: 58 | Gems: 4 | EvalScore: 126.50 | Swaps: 1 | Gems Before: 4 | After: 5
+Move: BOUCHEE | Points: 52 | Gems: 3 | EvalScore: 109.50 | Swaps: 1 | Gems Before: 3 | After: 3
 
 Round 3:
-HLZF!V@
-R!YE!WX!
-R!Q!PAI!
-NCKAR
-H!W!H$F!R
+C!A!ZSC
+K!@XJP!%W!
+KXLJ!L
+SSQ!W!X!
+PTFV!J
 
-Move: CHAPELRY | Points: 38 | Gems: 2 | EvalScore: 116.00 | Swaps: 0 | Gems Before: 5 | After: 7
+Move: SLAPJACK | Points: 84 | Gems: 5 | EvalScore: 152.50 | Swaps: 1 | Gems Before: 3 | After: 5
 
 Round 4:
-HJZF!V@%
-WTOWX!
-R!Q!NAI!
-NAKUR!
-H!W!XF!R!
+GLZS!C!
+ZXOPW!
+KX!@ZN!L
+S!WQ!W!X!
+PTF%V!J
 
-Move: WAXCLOTH | Points: 86 | Gems: 2 | EvalScore: 143.50 | Swaps: 2 | Gems Before: 7 | After: 3
+Move: FOWLPOX | Points: 82 | Gems: 3 | EvalScore: 139.50 | Swaps: 1 | Gems Before: 5 | After: 5
 
 Round 5:
-YJZNT!@
-WIVQD!$
-R!Q!NEI!
-NAKUR!
-H!W!XF!R!
+G@LZ%S!C!
+ZX!DXW!
+KLZ!N!P
+S!WJTX!
+PTSV!J!
 
-Move: UNVEXT | Points: 66 | Gems: 2 | EvalScore: 68.00 | Swaps: 1 | Gems Before: 3 | After: 2
+Move: ZAG | Points: 56 | Gems: 1 | EvalScore: 57.00 | Swaps: 1 | Gems Before: 5 | After: 3
 
-Game 17 Score: 314 | Gems left: 2
+Game 17 Score: 337 | Gems left: 3
 
 === Game 18 ===
 Round 1:
-G!FWP%V
-WVOTO!
-R!DX!PU
-O!@PC!JK!
-ZJ!B!GG!
+X!Z!GVW
+A!P!PIE
+HBYDD
+Q!KE%I!K@
+M!O!V!KU!
 
-Move: OXFORD | Points: 48 | Gems: 3 | EvalScore: 105.50 | Swaps: 1 | Gems Before: 3 | After: 3
+Move: KURVEY | Points: 58 | Gems: 3 | EvalScore: 115.50 | Swaps: 1 | Gems Before: 3 | After: 3
 
 Round 2:
-G!FWP%V
-WVJTO!
-D!D!GPU!@
-UYC!JK!
-ZJ!B!GG!
+X!Z!GVW
+A!P!P!IE
+HBWD%D!@
+Q!KNEM
+M!O!NK!W
 
-Move: ZOUK | Points: 70 | Gems: 3 | EvalScore: 127.50 | Swaps: 1 | Gems Before: 3 | After: 3
+Move: MONKEYED | Points: 70 | Gems: 4 | EvalScore: 133.00 | Swaps: 1 | Gems Before: 3 | After: 4
 
 Round 3:
-G!FWAV
-W!VJTA
-D!D!GP!B
-UYC!J@E%
-ZJ!B!G!G!
+X!Z!GVW
+A!@P!P!IY
+HB!W!%TU
+Q!KKS!M!
+OUNHW
 
-Move: EGGCUP | Points: 54 | Gems: 4 | EvalScore: 117.00 | Swaps: 1 | Gems Before: 3 | After: 4
+Move: ZAPPIEST | Points: 60 | Gems: 6 | EvalScore: 138.00 | Swaps: 1 | Gems Before: 4 | After: 7
 
 Round 4:
-G!FWA@V
-W!V!J!TA
-D!D!GB!B!
-UYMJD
-ZJ!B!%HF
+X!B!GVW
+LL@F%L!Y!
+HB!NZU
+Q!K!KS!M!
+OUNH!W
 
-Move: VAWTED | Points: 44 | Gems: 2 | EvalScore: 101.50 | Swaps: 1 | Gems Before: 4 | After: 3
+Move: BLUFFLY | Points: 86 | Gems: 5 | EvalScore: 160.00 | Swaps: 2 | Gems Before: 7 | After: 6
 
 Round 5:
-G!@FYWE
-W!V!M!NA
-D!HGB!B!
-U!YMJD
-ZJ!B!%HF
+UJ%GVW
+LXX!K!K!
+H!R!NZ@U
+Q!K!KS!M!
+OUNH!W
 
-Move: BUGBANE | Points: 37 | Gems: 2 | EvalScore: 39.00 | Swaps: 1 | Gems Before: 3 | After: 2
+Move: JUGUMS | Points: 86 | Gems: 3 | EvalScore: 89.00 | Swaps: 2 | Gems Before: 6 | After: 3
 
-Game 18 Score: 255 | Gems left: 2
+Game 18 Score: 363 | Gems left: 3
 
 === Game 19 ===
 Round 1:
-G!B!Q%SN!
-F!IPDM!
-U!O!OVS@
-K!KFX!V
-GBW!OT
+RM!KSQ
+L!CNS!A!
+WT!P!T!V!
+P@ENDV$
+DKY!Q!T
 
-Move: BIGFOOTS | Points: 48 | Gems: 5 | EvalScore: 116.50 | Swaps: 1 | Gems Before: 3 | After: 5
+Move: PEPTALKS | Points: 56 | Gems: 4 | EvalScore: 119.00 | Swaps: 1 | Gems Before: 3 | After: 4
 
 Round 2:
-UTQ%SN!
-CBPDM!
-U!GN!@VS
-K!K!F!YV
-GB!W!OT!
+R!M!VX!Q
+L!C!N@VL
+W!T!LCV!
+DVNDV$
+DKY!Q!T
 
-Move: KONFYT | Points: 50 | Gems: 5 | EvalScore: 128.00 | Swaps: 1 | Gems Before: 5 | After: 7
+Move: CLUNKY | Points: 34 | Gems: 4 | EvalScore: 102.50 | Swaps: 1 | Gems Before: 4 | After: 5
 
 Round 3:
-UTQ%SN!
-CB!P!@DM!
-U!GDV!S!
-MVVR!V
-GB!W!OP
+R!M!VX!Q
+CQN@V!L!
+W!QLC!V!
+D!VJDV$
+DNXQ!T
 
-Move: SQUADS | Points: 82 | Gems: 3 | EvalScore: 145.00 | Swaps: 2 | Gems Before: 7 | After: 4
+Move: JYNX | Points: 40 | Gems: 2 | EvalScore: 103.00 | Swaps: 1 | Gems Before: 5 | After: 4
 
 Round 4:
-U@T!OTN!
-CB!$HO!M!
-U!GDPV!
-MVVR!V
-GB!W!OP
+R!M!VAQ@
+CQYV!L!
+W!QLT!V!
+D!VTDV$
+DNXQ!T!
 
-Move: CUBHOOD | Points: 62 | Gems: 2 | EvalScore: 136.00 | Swaps: 0 | Gems Before: 4 | After: 6
+Move: VAULTY | Points: 48 | Gems: 3 | EvalScore: 105.50 | Swaps: 1 | Gems Before: 4 | After: 4
 
 Round 5:
-XT!Z!T!N!
-IPDD$M!
-U!GGPV!
-MVV@R!V
-GB!W!OP
+R!M!VX!I
+CQQBZ
+W!QLIV!@
+D!VTDV!$
+DN!XQ!T!
 
-Move: UPGROWTH | Points: 60 | Gems: 4 | EvalScore: 64.00 | Swaps: 2 | Gems Before: 6 | After: 4
+Move: BIVVY | Points: 48 | Gems: 3 | EvalScore: 51.00 | Swaps: 1 | Gems Before: 4 | After: 4
 
-Game 19 Score: 306 | Gems left: 4
+Game 19 Score: 230 | Gems left: 4
 
 === Game 20 ===
 Round 1:
-RE!N!H!T
-K!WT!X!K!$
-LFCX@V
-RGK!NL
-HNE!O!P
+FTP@DN!
+GK!FW!A
+M!POT!E!
+PAI!F%C!
+X!A!PHT
 
-Move: KEKENO | Points: 56 | Gems: 4 | EvalScore: 119.00 | Swaps: 1 | Gems Before: 3 | After: 4
+Move: PETECHIA | Points: 48 | Gems: 6 | EvalScore: 122.00 | Swaps: 1 | Gems Before: 3 | After: 6
 
 Round 2:
-R!E!N!H!T!
-K!W!T!X!Z
-LF%CQV
-RG!S@TL
-HNHDP
+FTS!DN!
+GK!FBA
+M!P@OCZ!
+PAN!F!%J
+X!S!PQT!
 
-Move: SCULKER | Points: 72 | Gems: 3 | EvalScore: 135.00 | Swaps: 1 | Gems Before: 4 | After: 4
+Move: BACKPACKS | Points: 102 | Gems: 3 | EvalScore: 159.50 | Swaps: 2 | Gems Before: 6 | After: 3
 
 Round 3:
-QZN!H!T!
-RW!T!X!Z
-T!ABQ@V!$
-R!G!STL
-HNHDP
+FTF!DN!
+GCFPY
+M!AO@BZ!
+P!AN!OJ
+X!$S!HQ!T!
 
-Move: QINTAR | Points: 42 | Gems: 4 | EvalScore: 110.50 | Swaps: 1 | Gems Before: 4 | After: 5
+Move: OFFRAMPS | Points: 58 | Gems: 4 | EvalScore: 121.00 | Swaps: 1 | Gems Before: 3 | After: 4
 
 Round 4:
-QZY!H!T!
-RW!M!TZ
-T!VBQV!$
-PG!STL@
-H!NHD!P
+FTVDN!
+G@XO!P!Y
+OESBZ!
+NAN!OJ!
+X!$O!HQ!T!
 
-Move: THYMOL | Points: 46 | Gems: 4 | EvalScore: 120.00 | Swaps: 1 | Gems Before: 5 | After: 6
+Move: MONAXONS | Points: 64 | Gems: 3 | EvalScore: 121.50 | Swaps: 1 | Gems Before: 4 | After: 4
 
 Round 5:
-Q!ZVJM
-R!W!UTZ!
-T!VB!DV!@$
-PG!STO
-H!NHD!P
+FTV!DN!
+XXO!P!Y$
+QE!RBZ!
+HS!ZOJ!
+CVHQ!@T!
 
-Move: MITZVOTH | Points: 74 | Gems: 2 | EvalScore: 76.00 | Swaps: 1 | Gems Before: 6 | After: 5
+Move: SCHERZOS | Points: 60 | Gems: 3 | EvalScore: 63.00 | Swaps: 1 | Gems Before: 4 | After: 4
 
-Game 20 Score: 295 | Gems left: 5
+Game 20 Score: 336 | Gems left: 4
 
 === Game 21 ===
 Round 1:
-E!L!M!UN
-F!JVVM!
-N!OG!JM
-WBYCI!@%
-A!GCVI!
+O!W!@FA!Q
+GIX!HX!
+YTZT!Q
+J!$Z!H!HP
+RDZ!QO
 
-Move: MUMMICHOG | Points: 74 | Gems: 4 | EvalScore: 137.00 | Swaps: 1 | Gems Before: 3 | After: 4
+Move: WHIZZY | Points: 70 | Gems: 3 | EvalScore: 127.50 | Swaps: 1 | Gems Before: 3 | After: 3
 
 Round 2:
-E!$L!PHN
-F!JV!VP@
-N!SO!JZ!
-W!BLOD
-A!GCVI!
+O!WFA!Q
+G!G@EHX!
+MTBT!Q
+J!$TH!HP!
+RDZ!Q!O
 
-Move: PODZOLS | Points: 54 | Gems: 1 | EvalScore: 103.23 | Swaps: 1 | Gems Before: 4 | After: 2
+Move: THUGGO | Points: 44 | Gems: 4 | EvalScore: 107.00 | Swaps: 1 | Gems Before: 3 | After: 4
 
 Round 3:
-E!$L!PHN
-F!JV!VD!
-N!N@O!VZ
-W!BSNE
-A!GCVI!
+RWFA!Q
+T!PEHX!
+M!W!@BXQ
+J!$TMHP!
+RD!Z!Q!O
 
-Move: BAWNS | Points: 28 | Gems: 2 | EvalScore: 91.00 | Swaps: 0 | Gems Before: 2 | After: 4
+Move: DJEMBE | Points: 64 | Gems: 3 | EvalScore: 127.00 | Swaps: 1 | Gems Before: 4 | After: 4
 
 Round 4:
-E!$L!P!HN
-F!JV!VD!
-N!OO!V!@Z
-GCENE
-WGCVI!
+RWF!A!Q@
+T!PY!HX!
+M!LFXQ
+KTC$H!P!
+RWZ!Q!O
 
-Move: FLAVONE | Points: 46 | Gems: 5 | EvalScore: 120.00 | Swaps: 1 | Gems Before: 4 | After: 6
+Move: FLYPITCH | Points: 43 | Gems: 3 | EvalScore: 100.50 | Swaps: 1 | Gems Before: 4 | After: 4
 
 Round 5:
-E!$W!P!HN!
-GJDVD!
-N!@O!GWZ
-GCEYN!
-WG!CVI!
+RWF!A!Q!@
+T!BZH!X!
+KC!V$XQ
+KPFQP!
+RWZ!Q!O
 
-Move: COCCYX | Points: 64 | Gems: 3 | EvalScore: 67.00 | Swaps: 2 | Gems Before: 6 | After: 3
+Move: FAUX | Points: 34 | Gems: 4 | EvalScore: 38.00 | Swaps: 1 | Gems Before: 4 | After: 5
 
-Game 21 Score: 269 | Gems left: 3
+Game 21 Score: 260 | Gems left: 5
 
 === Game 22 ===
 Round 1:
-BJPF!E
-V!%NJ!Y!J
-Z!W!GWA
-FE@TPT!
-C!Y!FHI!
+WFHP!L
+YX!C!HW!
+S!TRQ!G!
+MP!H!AK
+A$C@XOK!
 
-Move: LECYTHI | Points: 50 | Gems: 4 | EvalScore: 113.00 | Swaps: 1 | Gems Before: 3 | After: 4
+Move: PACHAK | Points: 54 | Gems: 3 | EvalScore: 128.00 | Swaps: 0 | Gems Before: 3 | After: 6
 
 Round 2:
-BJPF!E
-V!%NJ!Y!J
-FW!GWA!
-FU!@GPT!
-FU!FZ!X
+WFHP!L
+Y!X!C!H@W!
+S!T!RQ!G!
+MBNM!$K
+JXXOR
 
-Move: GUFFAW | Points: 60 | Gems: 3 | EvalScore: 123.00 | Swaps: 1 | Gems Before: 4 | After: 4
+Move: PHLEGMONIC | Points: 74 | Gems: 6 | EvalScore: 148.00 | Swaps: 2 | Gems Before: 6 | After: 6
 
 Round 3:
-BJ!PF!E
-EN!J!Y!J
-FYGW!%A!
-YWZ@PT!
-FU!FZ!X
+WF!HSR!
+Y!X!MFD
+S!L!RQ!X
+M!B!EO!K
+J@XXWR%
 
-Move: FUZZY | Points: 90 | Gems: 3 | EvalScore: 153.00 | Swaps: 1 | Gems Before: 4 | After: 4
+Move: JUMBLY | Points: 62 | Gems: 4 | EvalScore: 140.00 | Swaps: 1 | Gems Before: 6 | After: 7
 
 Round 4:
-BJ!@PF!E
-EN!J!LJ
-F!YGRA!
-Y!WNP!T!$
-YEFZ!X
+WF!HSR!
+HX!M!FD!
+S!URQ!X
+HBEO!@K
+E!QXWR!%
 
-Move: JUNGLE | Points: 50 | Gems: 3 | EvalScore: 107.50 | Swaps: 1 | Gems Before: 4 | After: 4
+Move: SHAMROCK | Points: 80 | Gems: 5 | EvalScore: 154.00 | Swaps: 2 | Gems Before: 7 | After: 6
 
 Round 5:
-B!VPF!C!
-EGVBJ
-F!YM!RA!
-Y!WN@P!T!$
-YEFZ!X
+W!%WHSR!
+XX!EFD!
+QUCQ!X@
+HB!EX!M
+E!QX!WH!
 
-Move: NYMPHA | Points: 56 | Gems: 4 | EvalScore: 60.00 | Swaps: 1 | Gems Before: 4 | After: 5
+Move: EXHUMED | Points: 58 | Gems: 3 | EvalScore: 61.00 | Swaps: 2 | Gems Before: 6 | After: 3
 
-Game 22 Score: 311 | Gems left: 5
+Game 22 Score: 331 | Gems left: 3
 
 === Game 23 ===
 Round 1:
-P$V!KGT!
-GA!O!KP
-BJ!HZJ!
-V!IML!J
-U!G@PEZ!
+R!LDB!$I
+M!UEKJ
+WBFO!I
+H!D!E!RT!
+H!N@AAF!
 
-Move: GUBBAH | Points: 50 | Gems: 3 | EvalScore: 107.50 | Swaps: 1 | Gems Before: 3 | After: 3
+Move: DUMBFOUND | Points: 70 | Gems: 4 | EvalScore: 133.00 | Swaps: 1 | Gems Before: 3 | After: 4
 
 Round 2:
-P!$V!KGT!
-GOO!KP
-PJ!V!ZJ!
-LIM!L!J
-MLPEZ!@
+R!L@FB!$I
+UTEKJ
+WE!PFI
+H!SX!R!T!
+H!N!AAF!
 
-Move: JIMPLY | Points: 56 | Gems: 4 | EvalScore: 119.00 | Swaps: 1 | Gems Before: 3 | After: 4
+Move: HEARTFELT | Points: 52 | Gems: 5 | EvalScore: 126.00 | Swaps: 1 | Gems Before: 4 | After: 6
 
 Round 3:
-P!$V!KGT!
-GOO!KP!
-PVV!Z!J!
-LOVTJ
-ML!Z!ES@
+R!MFB!$I!
+UD!TKJ
+WLPDI!
+TSI!@C!C
+H!N!AAF!
 
-Move: ZEMSTVO | Points: 56 | Gems: 3 | EvalScore: 119.00 | Swaps: 1 | Gems Before: 4 | After: 4
+Move: JACINTHS | Points: 58 | Gems: 5 | EvalScore: 140.00 | Swaps: 1 | Gems Before: 6 | After: 8
 
 Round 4:
-P!$V!KGT!
-GOIKP!
-PVQZ!J!
-LOVX!R
-ML!@RO!M!
+R!MFB!$I!
+U!D!TKD
+W!LPD!N!@
+VULPC
+SJ!AAF!
 
-Move: VOLVOX | Points: 54 | Gems: 3 | EvalScore: 128.00 | Swaps: 0 | Gems Before: 4 | After: 7
+Move: DUMMKOPF | Points: 72 | Gems: 4 | EvalScore: 146.00 | Swaps: 2 | Gems Before: 8 | After: 6
 
 Round 5:
-P!$V!K!GT!
-GOI!KP!
-PSQZ!J!@
-LWVZR
-MN!RPM!
+R!UN!B!$I!
+F!HT!GD
+W!LPD!G
+VUL@BC
+SJ!AA!Q
 
-Move: QUIZZER | Points: 74 | Gems: 3 | EvalScore: 77.00 | Swaps: 2 | Gems Before: 7 | After: 4
+Move: SCULPTURING | Points: 74 | Gems: 4 | EvalScore: 78.00 | Swaps: 2 | Gems Before: 6 | After: 4
 
-Game 23 Score: 294 | Gems left: 4
+Game 23 Score: 330 | Gems left: 4
 
 === Game 24 ===
 Round 1:
-MYJW!$K
-FID!U!C!
-B!W!G!US!
-J!@TQDS
-LOCX!U
+Y!$PG!SE
+IJHIS!
+GA!CXS!
+OR!@B!BU!
+NU!PQT!
 
-Move: GWEDUCS | Points: 33 | Gems: 6 | EvalScore: 107.00 | Swaps: 1 | Gems Before: 3 | After: 6
+Move: SUBBRANCH | Points: 66 | Gems: 5 | EvalScore: 134.50 | Swaps: 1 | Gems Before: 3 | After: 5
 
 Round 2:
-MY!JW!$K
-FQD!IJ
-B!P!W!UT
-J!@TQDS
-LO!C!X!U
+Y!$PG!S!@E
+I!ST!IS!
+GBU!XY
+ONVPU
+NU!P!QT!
 
-Move: PAJOCKS | Points: 62 | Gems: 6 | EvalScore: 136.00 | Swaps: 2 | Gems Before: 6 | After: 6
+Move: STUBBY | Points: 58 | Gems: 5 | EvalScore: 136.00 | Swaps: 1 | Gems Before: 5 | After: 7
 
 Round 3:
-MY!@J!W!$K
-FQ!D!IJ
-A!HW!U!T
-PTQ!DI
-L!FMGU
+ZPG!CE
+FS@HIS!$
+G!RO!XY
+ON!VP!U
+N!U!P!QT!
 
-Move: WHYDUNIT | Points: 70 | Gems: 6 | EvalScore: 144.00 | Swaps: 2 | Gems Before: 6 | After: 6
+Move: PHONOGRAPHIES | Points: 74 | Gems: 6 | EvalScore: 152.00 | Swaps: 2 | Gems Before: 7 | After: 7
 
 Round 4:
-M!VEGK!
-FQ!FQ!J
-A!HK@DW%
-P!T!Q!DI
-L!F!MGU
+Z!BG!%CL
+FYYN!H!
+Y!WB@XY!
+ZNVLU
+N!U!Y!QT!
 
-Move: KUMQUAT | Points: 68 | Gems: 3 | EvalScore: 125.50 | Swaps: 2 | Gems Before: 6 | After: 3
+Move: UNBLUSHING | Points: 80 | Gems: 5 | EvalScore: 154.00 | Swaps: 2 | Gems Before: 7 | After: 6
 
 Round 5:
-M!V@EGK!
-F!Q!F!Q!J
-BOQDW%
-P!CJII
-L!F!AGU!
+Z!BKCL!
+FYYTS!
+Y!WYGI!
+Z!DVDW
+N!OY!Q!@%T!
 
-Move: COFF | Points: 32 | Gems: 1 | EvalScore: 33.00 | Swaps: 1 | Gems Before: 3 | After: 1
+Move: SQUIDGY | Points: 92 | Gems: 3 | EvalScore: 95.00 | Swaps: 2 | Gems Before: 6 | After: 3
 
-Game 24 Score: 266 | Gems left: 1
+Game 24 Score: 373 | Gems left: 3
 
 === Game 25 ===
 Round 1:
-TCULK
-B!P!F!JN
-OY!O!NJ!
-SYHW!Z!%
-HV!K!AR@
+R!I!HCL
+NZI!V!E!
+TC%A!SS!@
+KILP!W
+AV!VQ!K
 
-Move: HOWZAT | Points: 84 | Gems: 3 | EvalScore: 141.50 | Swaps: 1 | Gems Before: 3 | After: 3
+Move: CLAVICLES | Points: 82 | Gems: 5 | EvalScore: 164.00 | Swaps: 0 | Gems Before: 3 | After: 8
 
 Round 2:
-TC@ULK
-B!P!F!J!%N
-OY!Z!NJ!
-SY!BGL
-HV!K!SW
+R!I!H!N!F
+NZLJ!V!
+TOUSA
+KIYP!W@
+A!%V!VQ!K
 
-Move: CUPFUL | Points: 76 | Gems: 3 | EvalScore: 133.50 | Swaps: 1 | Gems Before: 3 | After: 3
+Move: CAPSULIZE | Points: 68 | Gems: 3 | EvalScore: 136.50 | Swaps: 2 | Gems Before: 8 | After: 5
 
 Round 3:
-TWC$G!K
-B!DXGN
-O@Y!Z!NJ!
-SY!BGL
-H!V!K!SW!
+QXH!N!F!
+NJD!J!@V!
+TOAKJ
+K!IYFY
+A!%V!VQ!K
 
-Move: BOMBYX | Points: 58 | Gems: 3 | EvalScore: 115.50 | Swaps: 1 | Gems Before: 3 | After: 3
+Move: JUDOKA | Points: 58 | Gems: 5 | EvalScore: 136.00 | Swaps: 1 | Gems Before: 5 | After: 7
 
 Round 4:
-TWC!$G!K
-ODRGN
-FUZ!NJ!
-S!@WIGL!
-H!V!K!SW!
+QX!GN!F!
+N!JZE!V!
+TVAK%J!
+H@IYFY
+KV!VQ!K!
 
-Move: CRUSHING | Points: 66 | Gems: 3 | EvalScore: 123.50 | Swaps: 1 | Gems Before: 3 | After: 3
+Move: THICKEN | Points: 76 | Gems: 2 | EvalScore: 150.00 | Swaps: 1 | Gems Before: 7 | After: 6
 
 Round 5:
-TWJG!K$
-ODYL!N
-F!HZ!WJ!
-I!WMGL!
-H!XK!@SW!
+QX!GH!F!
+N!J!ZWV!
+P@VPIJ!
+GYYFY
+KV!V%Q!K!
 
-Move: WHISKS | Points: 50 | Gems: 3 | EvalScore: 53.00 | Swaps: 1 | Gems Before: 3 | After: 3
+Move: SPIVVY | Points: 72 | Gems: 2 | EvalScore: 74.00 | Swaps: 2 | Gems Before: 6 | After: 2
 
-Game 25 Score: 337 | Gems left: 3
+Game 25 Score: 358 | Gems left: 2
 
 === Game 26 ===
 Round 1:
-V!MC!WQ!
-ZAMAF!
-T%BK!@N!C
-B!UJ!CA
-UMP!CG!
+U!HR%C!Q!
+FU!II!H
+W!K!@BUD
+IMBL!J
+A!G!HPJ
 
-Move: ZAMBUK | Points: 96 | Gems: 1 | EvalScore: 136.97 | Swaps: 1 | Gems Before: 3 | After: 1
+Move: DYBBUKIM | Points: 70 | Gems: 3 | EvalScore: 127.50 | Swaps: 1 | Gems Before: 3 | After: 3
 
 Round 2:
-V!MC!WQ!
-ZKHAF!
-RQ@HN!C
-B!UJ!CA!
-UMP!%CG!
+U!HR%C!Q!
+F!WII!H
+W!KQU!I
+J!LTUJ
+A!G!HP@J
 
-Move: CANCHA | Points: 28 | Gems: 2 | EvalScore: 85.50 | Swaps: 0 | Gems Before: 1 | After: 3
+Move: WICKIUP | Points: 62 | Gems: 2 | EvalScore: 111.23 | Swaps: 1 | Gems Before: 3 | After: 2
 
 Round 3:
-V!MC!WQ!
-Z!KHNF!
-RQ@QID
-B!U!J!UP
-UMP!%CG!
+U!HR%ZQ!
+F!CZN!H
+W!KQU!J
+J!LTJ!J
+A!G!HJ@J
 
-Move: CHERUP | Points: 66 | Gems: 3 | EvalScore: 123.50 | Swaps: 1 | Gems Before: 3 | After: 3
+Move: FUCK | Points: 20 | Gems: 2 | EvalScore: 83.00 | Swaps: 0 | Gems Before: 2 | After: 4
 
 Round 4:
-V!MEWQ!
-Z!$KO!NF!
-LUQ!@ID
-B!J!J!UP
-UMCCG!
+XHR!%ZQ!
+BBZN!H
+W!CQU!J
+J!LTJ!J
+A!G!HJ!@J
 
-Move: JUMBUCK | Points: 78 | Gems: 3 | EvalScore: 135.50 | Swaps: 1 | Gems Before: 3 | After: 3
+Move: NUTGALL | Points: 28 | Gems: 5 | EvalScore: 102.00 | Swaps: 1 | Gems Before: 4 | After: 6
 
 Round 5:
-V!MEWQ!
-Z!$H!O!NF!
-L!MSID
-MNJ!UP
-IC@CC!G!
+XH!R!%Z!Q!
+B!BZSH
+W!C!QNJ
+K!HAJ!J
+RTHJ!@J
 
-Move: CINCHONISM | Points: 64 | Gems: 3 | EvalScore: 67.00 | Swaps: 1 | Gems Before: 3 | After: 3
+Move: JACUZZIS | Points: 86 | Gems: 4 | EvalScore: 90.00 | Swaps: 2 | Gems Before: 6 | After: 4
 
-Game 26 Score: 335 | Gems left: 3
+Game 26 Score: 270 | Gems left: 4
 
 === Game 27 ===
 Round 1:
-G!DOUM!@
-D!CLZ!%H!
-ITTWX
-AQ!G!C!Z
-BOMY!V!
+COJXY!
+D!U!V!XW!
+WLIY!@%E!
+AMVEN!
+PFS!U!R
 
-Move: MUZZ | Points: 80 | Gems: 3 | EvalScore: 137.50 | Swaps: 1 | Gems Before: 3 | After: 3
+Move: COVYNES | Points: 66 | Gems: 4 | EvalScore: 144.00 | Swaps: 0 | Gems Before: 3 | After: 7
 
 Round 2:
-G!DO!P@C
-D!CLPR!
-ITTW!X
-AQ!$G!C!Z
-BOMY!V!
+IG!JXY!
+D!U!$CXW!
+WLIWE!
+AMVWK!
+PF!J@U!R!
 
-Move: COWPLOP | Points: 56 | Gems: 4 | EvalScore: 119.00 | Swaps: 1 | Gems Before: 3 | After: 4
+Move: JUKEBOX | Points: 70 | Gems: 5 | EvalScore: 144.00 | Swaps: 2 | Gems Before: 7 | After: 6
 
 Round 3:
-G!D@FJC
-D!CZT!R!
-I!TTY!X
-A!Q!$NLZ
-BOMY!V!
+I!G!JXW
+D!U!$CZ!L
+WLI@W!D
+AMVWO
+P!F!O!CR!
 
-Move: TZADDIQ | Points: 78 | Gems: 4 | EvalScore: 146.50 | Swaps: 1 | Gems Before: 4 | After: 5
+Move: FABULIZED | Points: 78 | Gems: 4 | EvalScore: 141.00 | Swaps: 2 | Gems Before: 6 | After: 4
 
 Round 4:
-G!GQJC
-ACG@WR!
-O!T!TY!X
-A!V%N!LZ!
-BOMY!V!
+I!G!JX!W
+D!XC!ML
+DXHP!O!
+LMVW@O$
+P!DO!CR!
 
-Move: GYTTJA | Points: 76 | Gems: 3 | EvalScore: 133.50 | Swaps: 1 | Gems Before: 5 | After: 5
+Move: COWPOX | Points: 70 | Gems: 3 | EvalScore: 127.50 | Swaps: 1 | Gems Before: 4 | After: 4
 
 Round 5:
-G!GQJC
-AC!TWR!
-O!ODR%X!
-V!@PN!LZ!
-BOMY!V!
+I!G!%JX!W
+D!X!C!ML
+DXHIH!
+LMVFE
+P!@DF!YR!
 
-Move: VOCODER | Points: 54 | Gems: 4 | EvalScore: 58.00 | Swaps: 1 | Gems Before: 5 | After: 6
+Move: PUFFERY | Points: 60 | Gems: 3 | EvalScore: 63.00 | Swaps: 1 | Gems Before: 4 | After: 4
 
-Game 27 Score: 350 | Gems left: 6
+Game 27 Score: 348 | Gems left: 4
 
 === Game 28 ===
 Round 1:
-O!ANY!E
-U!W!YBW
-JRMO!E!
-J!NG%P!@B!
-FT!CJN
+CFAWE!
+V!TS!@TU
+C!N!E!Y$E!
+C!SSDB!
+XT!IDJ
 
-Move: WEBLOG | Points: 56 | Gems: 4 | EvalScore: 119.00 | Swaps: 1 | Gems Before: 3 | After: 4
+Move: DISTINCTEST | Points: 56 | Gems: 6 | EvalScore: 130.00 | Swaps: 1 | Gems Before: 3 | After: 6
 
 Round 2:
-O!A!NY!E
-U!W!YBY
-JRMA@N
-J!NO!ER!
-FT!CJ!$N
+CFAWE!@
+V!OP!T!U
+DZFY$E!
+S!B!SYB!
+XTND!J!
 
-Move: WAYMARK | Points: 68 | Gems: 4 | EvalScore: 136.50 | Swaps: 1 | Gems Before: 4 | After: 5
+Move: BYPATH | Points: 56 | Gems: 4 | EvalScore: 134.00 | Swaps: 1 | Gems Before: 6 | After: 7
 
 Round 3:
-O!F!NY!E
-U!C!DBY
-JR%YDN!
-J!NO!ED
-FT!CY@N!
+CFU@WW
+V!O!COU%
+D!ZFYE!
+S!B!S!YN!
+XTND!J!
 
-Move: FOUREYED | Points: 60 | Gems: 4 | EvalScore: 134.00 | Swaps: 1 | Gems Before: 5 | After: 6
+Move: ZOUNDS | Points: 82 | Gems: 3 | EvalScore: 145.00 | Swaps: 2 | Gems Before: 7 | After: 4
 
 Round 4:
-JNN!Y!E
-NC!@DBY!
-JPYHN!
-J!N!YBD!
-FT!CG$N!
+CFRWW
+V!F!CBE
+I%Z!F!YE!
+LB!@S!YN!
+XTND!J!
 
-Move: CONJUNCT | Points: 66 | Gems: 4 | EvalScore: 123.50 | Swaps: 2 | Gems Before: 6 | After: 4
+Move: BLUFFS | Points: 72 | Gems: 4 | EvalScore: 129.50 | Swaps: 1 | Gems Before: 4 | After: 5
 
 Round 5:
-WN!N!Y!E
-P!M!DBY!
-PPYH!N!
-HUY@BD!
-FXGG$N!
+C!F$RW!W
+V!QCBE
+MZ!@T!YE!
+JVIY!N!
+XTND!J!
 
-Move: BLUGGY | Points: 58 | Gems: 0 | EvalScore: 58.00 | Swaps: 1 | Gems Before: 4 | After: 1
+Move: DIZZY | Points: 48 | Gems: 4 | EvalScore: 52.00 | Swaps: 1 | Gems Before: 5 | After: 6
 
-Game 28 Score: 309 | Gems left: 1
+Game 28 Score: 320 | Gems left: 6
 
 === Game 29 ===
 Round 1:
-DYMC!C
-Q!R!Z!ZU!@
-II!NCN!
-QX!HB!U
-MOEW!$T
+E!F!UDT!
+HU!U!P!C!
+FDLFW
+O!AU$BI
+KA!IL!E@
 
-Move: WHIZZY | Points: 80 | Gems: 4 | EvalScore: 143.00 | Swaps: 1 | Gems Before: 3 | After: 4
+Move: PLUMULE | Points: 64 | Gems: 3 | EvalScore: 121.50 | Swaps: 1 | Gems Before: 3 | After: 3
 
 Round 2:
-D!YMC!C
-Q!R!FRO!
-I!@O!NCN!
-QX!FB!U
-MOE%AT
+E!F!UDT!
+HRU!QC!
+F$XRFW!
+O!AJBI@
+K!A!IB!T
 
-Move: CONNEXION | Points: 58 | Gems: 7 | EvalScore: 140.00 | Swaps: 1 | Gems Before: 4 | After: 8
+Move: FRABBIT | Points: 58 | Gems: 1 | EvalScore: 98.97 | Swaps: 1 | Gems Before: 3 | After: 1
 
 Round 3:
-D!YMWC
-Q!R!F@RL
-VB!WC$G!
-QKFH!U!
-M!OZA!T!
+E!F!UDT!
+HFU!Q$C!
+UXB@FW!
+O!AJOH
+K!A!I!XS
 
-Move: CHAFFERY | Points: 74 | Gems: 4 | EvalScore: 148.00 | Swaps: 2 | Gems Before: 8 | After: 6
+Move: BUFFE | Points: 38 | Gems: 3 | EvalScore: 101.00 | Swaps: 0 | Gems Before: 1 | After: 4
 
 Round 4:
-D!EMW@C
-Q!P!QR!L
-VUWY!$G!
-QKEUU!
-M!O!ZJT!
+OHUDT!
+HW!HQ$C!
+UX!@M!FW!
+O!AJOH
+K!A!I!XS
 
-Move: JUGULUM | Points: 76 | Gems: 3 | EvalScore: 133.50 | Swaps: 2 | Gems Before: 6 | After: 3
+Move: JAMBOK | Points: 56 | Gems: 4 | EvalScore: 113.50 | Swaps: 1 | Gems Before: 4 | After: 5
 
 Round 5:
-D!EAYC
-Q!P!QR!Q
-VUWZ!%H!@
-QKEUV
-M!O!ZH!T!
+OHUDT!
+HW!HQ$C!
+U@G!GFW!
+ZTS!O!H
+RA!I!XS!
 
-Move: HUZZAED | Points: 100 | Gems: 4 | EvalScore: 104.00 | Swaps: 1 | Gems Before: 3 | After: 4
+Move: HUZZAS | Points: 64 | Gems: 3 | EvalScore: 67.00 | Swaps: 1 | Gems Before: 5 | After: 5
 
-Game 29 Score: 392 | Gems left: 4
+Game 29 Score: 285 | Gems left: 5
 
 === Game 30 ===
 Round 1:
-J!WN!V@L!
-L!VK!JW
-TSSHW!
-ZZDM%G
-O!SZ!X!S!
+A!JB!IC
+PP!ZM!K
+DZNA@S
+Y!EVPE
+L!G!O!Q!K!%
 
-Move: MEZZOS | Points: 42 | Gems: 3 | EvalScore: 99.50 | Swaps: 1 | Gems Before: 3 | After: 3
+Move: JAZZMAN | Points: 72 | Gems: 3 | EvalScore: 129.50 | Swaps: 1 | Gems Before: 3 | After: 3
 
 Round 2:
-J!W!N!V@L!
-L!VK!JW
-T!SS!HW!
-ZADUG%
-MTLOS!
+EZB!IC
+PP!HNK
+DZZN!S!
+Y!EVPE
+L!G!O!@Q!K!%
 
-Move: WANKSTAS | Points: 52 | Gems: 4 | EvalScore: 115.00 | Swaps: 1 | Gems Before: 3 | After: 4
+Move: POUKES | Points: 70 | Gems: 4 | EvalScore: 133.00 | Swaps: 1 | Gems Before: 3 | After: 4
 
 Round 3:
-J!W!ZM!L!
-L!VB@JW
-QHRHW!
-Z!B!DUG%
-MTL!OS!
+EZB!I!C
+PP!HN!K%
+DZZ!N!R@
+Y!EVQS
+L!G!A!TY
 
-Move: WARDOGS | Points: 56 | Gems: 2 | EvalScore: 113.50 | Swaps: 1 | Gems Before: 4 | After: 3
+Move: BICKERS | Points: 76 | Gems: 3 | EvalScore: 139.00 | Swaps: 1 | Gems Before: 4 | After: 4
 
 Round 4:
-J!BZM!L!
-L!V!EJW!
-QHWHW!
-Z!B!SUJ@
-MT%L!JL
+EZAA$J
+PP!HN!C!
+D!@ZZ!ZX
+Y!EVQZ
+L!G!A!TY!
 
-Move: JUST | Points: 38 | Gems: 0 | EvalScore: 95.50 | Swaps: 0 | Gems Before: 3 | After: 3
+Move: AGRYZED | Points: 54 | Gems: 5 | EvalScore: 128.00 | Swaps: 1 | Gems Before: 4 | After: 6
 
 Round 5:
-J!%BZM!L!
-L!V!E@JW!
-QHWHW!
-Z!B!QLJ
-MVL!JL
+EZA!A$J!
+PP!H!N!C!
+H@CZ!ZX
+H!OVQ!Z
+UGVTY!
 
-Move: JUVE | Points: 62 | Gems: 3 | EvalScore: 65.00 | Swaps: 1 | Gems Before: 3 | After: 3
+Move: CHUTZPAH | Points: 74 | Gems: 5 | EvalScore: 79.00 | Swaps: 2 | Gems Before: 6 | After: 5
 
-Game 30 Score: 253 | Gems left: 3
+Game 30 Score: 351 | Gems left: 5
 
 === Game 31 ===
 Round 1:
-LO$HO!I
-KUC!MR
-DD!DA!A
-E!F!P@BD
-W!F!N!TG!
+Z!K@DPZ
+TA!OQN!
+U!PQA!U!
+V!XG!A!K!
+PIT%FF
 
-Move: PUFFED | Points: 54 | Gems: 5 | EvalScore: 122.50 | Swaps: 1 | Gems Before: 3 | After: 5
+Move: KALPAK | Points: 52 | Gems: 4 | EvalScore: 115.00 | Swaps: 1 | Gems Before: 3 | After: 4
 
 Round 2:
-LO$H!O!I
-KU!C!MR
-DC!DA!A!
-G!WEBD
-W!KBT@G!
+Z!C!DPZ
+TL!OQN!
+U!UQTU!
+V!X!@ZA!Y
+PIT%F!F
 
-Move: WETBACK | Points: 70 | Gems: 2 | EvalScore: 133.00 | Swaps: 1 | Gems Before: 5 | After: 4
+Move: QUOTATIVE | Points: 68 | Gems: 3 | EvalScore: 131.00 | Swaps: 1 | Gems Before: 4 | After: 4
 
 Round 3:
-LBH!O!I
-K!U!VMR!
-DC!DHA!
-G!JH@UD
-W!$KBKG!
+Z!C!D!P!Z
+TL!IQN!
+U!CDAU!
+SJZPY
+PN!@JF!F$
 
-Move: KUCHCHA | Points: 68 | Gems: 4 | EvalScore: 136.50 | Swaps: 1 | Gems Before: 4 | After: 5
+Move: SNUFFY | Points: 64 | Gems: 2 | EvalScore: 121.50 | Swaps: 1 | Gems Before: 4 | After: 3
 
 Round 4:
-LBH!O!I
-Y!P@VMR!
-D!LJCB!
-G!JP!UD
-W!$KBKG!
+Z!C!D!%P!Z
+T!L!IQ!N!
+U!CDAU!
+SJUPZ
+P@JJQS
 
-Move: DIGLYPH | Points: 54 | Gems: 4 | EvalScore: 128.00 | Swaps: 1 | Gems Before: 5 | After: 6
+Move: SPAULD | Points: 56 | Gems: 3 | EvalScore: 113.50 | Swaps: 1 | Gems Before: 3 | After: 3
 
 Round 5:
-LBJO!I
-CRV!MR!
-TZJ@CB!
-CIP!UD
-W!$K!B!K!G!
+Z!C!I%P!Z
+T!TIQ!N!
+ICD@AU!
+QJ!UPZ
+IJJ!QS!
 
-Move: WICKYUPS | Points: 82 | Gems: 4 | EvalScore: 86.00 | Swaps: 2 | Gems Before: 6 | After: 4
+Move: DIAZEUCTIC | Points: 76 | Gems: 1 | EvalScore: 77.00 | Swaps: 1 | Gems Before: 3 | After: 1
 
-Game 31 Score: 332 | Gems left: 4
+Game 31 Score: 317 | Gems left: 1
 
 === Game 32 ===
 Round 1:
-DQ!I!FL
-D$Q!LM!G
-OTZA!V
-O!Q!HGP@
-B!P!INN!
+WMOU!C
+T!A!ZQ!I!
+SUEB!J
+VYBLV!
+OO!J@T!%J!
 
-Move: PALMTOP | Points: 48 | Gems: 4 | EvalScore: 111.00 | Swaps: 1 | Gems Before: 3 | After: 4
+Move: QUIBBLE | Points: 60 | Gems: 4 | EvalScore: 123.00 | Swaps: 1 | Gems Before: 3 | After: 4
 
 Round 2:
-DQ!I!@FL
-D$YA!M!G!
-OY!ZOV
-Y!Q!HGJ
-B!JINN!
+W!MOFC
+T!A!ZLD
+SUEWJ
+V!YE@Q!V!
+OO!L!T!%J!
 
-Move: MIZZY | Points: 50 | Gems: 4 | EvalScore: 118.50 | Swaps: 1 | Gems Before: 4 | After: 5
+Move: WEEKLY | Points: 74 | Gems: 2 | EvalScore: 131.50 | Swaps: 1 | Gems Before: 4 | After: 3
 
 Round 3:
-DQ!PFL
-D!$YKCG!
-O!RYOV
-Y!Q!@HG!J
-B!J!INN!
+W!MOFC
+T!%A!ZLD
+SU!RKJ!
+V!@XCQ!V!
+OO!RYJ!
 
-Move: BYWORD | Points: 54 | Gems: 5 | EvalScore: 132.00 | Swaps: 1 | Gems Before: 5 | After: 7
+Move: VOCULAR | Points: 64 | Gems: 5 | EvalScore: 132.50 | Swaps: 1 | Gems Before: 3 | After: 5
 
 Round 4:
-D!Q!@P!F!L
-Y%Y!KCG!
-FSYOV
-GLHG!J
-DJ!IN!N!
+W!MOF%C
+CO!Z!LD
+SZ!IKJ!
+KXB!Q!V!
+OV!@RYJ!
 
-Move: JOCKEYSHIP | Points: 96 | Gems: 2 | EvalScore: 153.50 | Swaps: 2 | Gems Before: 7 | After: 3
+Move: SOZZLIER | Points: 36 | Gems: 4 | EvalScore: 110.00 | Swaps: 1 | Gems Before: 5 | After: 6
 
 Round 5:
-D!PP!F!L!
-JY!LDG!@
-FDYN!V
-GLOQT
-DJ!MN!N!$
+W!M!OF%C
+C!EVN!D
+UUXKJ!
+KXB!RV!
+O!V!@UYJ!
 
-Move: FLYPING | Points: 54 | Gems: 5 | EvalScore: 59.00 | Swaps: 1 | Gems Before: 3 | After: 5
+Move: BUXOMLY | Points: 64 | Gems: 3 | EvalScore: 67.00 | Swaps: 2 | Gems Before: 6 | After: 3
 
-Game 32 Score: 307 | Gems left: 5
+Game 32 Score: 301 | Gems left: 3
 
 === Game 33 ===
 Round 1:
-H!UWVV
-EM!HS!W!
-H@AM$BM!
-NO!MO!X
-BUE!N!S!
+R!CE!X!W@
+T!MX!LH
+HJP!BC
+OJD!VV
+I%QI!V!H!
 
-Move: HUMHUMS | Points: 70 | Gems: 4 | EvalScore: 133.00 | Swaps: 1 | Gems Before: 3 | After: 4
+Move: TRIPLEX | Points: 30 | Gems: 5 | EvalScore: 98.50 | Swaps: 1 | Gems Before: 3 | After: 5
 
 Round 2:
-VPWV!%V!
-E!QHXW!@
-NA!XBM!
-NWMO!X
-BUE!N!S!
+HC!J!R!W@
+G!DX!OH
+HJBBC
+O!JD!VV
+I%QI!V!H!
 
-Move: NEPHEW | Points: 48 | Gems: 3 | EvalScore: 111.00 | Swaps: 1 | Gems Before: 4 | After: 4
+Move: CHOWRY | Points: 52 | Gems: 2 | EvalScore: 115.00 | Swaps: 1 | Gems Before: 5 | After: 4
 
 Round 3:
-VBWPV!
-DQFX!D
-JA!$XB!M!
-NW!M@O!X
-BUE!N!S!
+HC!J!DN
+G!DVCJ
+HJBBL!
+O!J!D!VV
+I@%QI!V!H!
 
-Move: JAMBONE | Points: 52 | Gems: 5 | EvalScore: 138.00 | Swaps: 0 | Gems Before: 4 | After: 9
+Move: KOJI | Points: 54 | Gems: 3 | EvalScore: 117.00 | Swaps: 1 | Gems Before: 4 | After: 4
 
 Round 4:
-VB!WP!V!
-DQF!X!D!
-YTX!GM!
-N@W!KN$X
-BUWSS!
+HC!J!DN
+G!D@VC!J
+HJBBL!
+U!LD!VV$
+Y!QZV!H!
 
-Move: DYBBUK | Points: 60 | Gems: 0 | EvalScore: 134.00 | Swaps: 1 | Gems Before: 9 | After: 6
+Move: HIGHLY | Points: 48 | Gems: 2 | EvalScore: 105.50 | Swaps: 1 | Gems Before: 4 | After: 3
 
 Round 5:
-VB!WP!V!
-UQF!X!D!
-JTX!GM!
-WW!@QN$X
-SYWSS!
+YC!J!DN!@
+QWVC!J
+Q!JBBL!
+U!XD!VV$
+GQZV!H!
 
-Move: WYSIWYG | Points: 66 | Gems: 1 | EvalScore: 67.00 | Swaps: 2 | Gems Before: 6 | After: 1
+Move: BENJ | Points: 28 | Gems: 2 | EvalScore: 30.00 | Swaps: 1 | Gems Before: 3 | After: 2
 
-Game 33 Score: 297 | Gems left: 1
+Game 33 Score: 214 | Gems left: 2
 
 === Game 34 ===
 Round 1:
-I!EO!M!H
-KYBE%G!
-H@Z!LCV
-SVI!C!M
-ZC!V!L!B
+HRWYM!
+GH!HJ!H
+SN%EX!@Y!
+SUC!GZ!
+M!B!J!XH
 
-Move: OBELIZES | Points: 56 | Gems: 3 | EvalScore: 113.50 | Swaps: 1 | Gems Before: 3 | After: 3
+Move: BUNCHY | Points: 64 | Gems: 4 | EvalScore: 127.00 | Swaps: 1 | Gems Before: 3 | After: 4
 
 Round 2:
-I!EJM!H
-K!YVN@G!
-AUZ!C!V
-J%VWC!M
-ZC!V!L!B
+H!$R!W!YM!
+GH!HJ!H@
+SYEAJ
+S!JBGZ!
+M!PJ!XH
 
-Move: YAKUZA | Points: 58 | Gems: 2 | EvalScore: 107.23 | Swaps: 1 | Gems Before: 3 | After: 2
+Move: HAJJAHS | Points: 62 | Gems: 3 | EvalScore: 125.00 | Swaps: 1 | Gems Before: 4 | After: 4
 
 Round 3:
-I!EJM!H!
-MQVMG!
-U!LOC!V
-J%VW@C!M
-ZC!V!L!B
+H!$R!M!YM!
+GRH!LQ!
+GYEDE
+S!J@BGZ!
+M!PJ!XH
 
-Move: COWL | Points: 28 | Gems: 2 | EvalScore: 91.00 | Swaps: 0 | Gems Before: 2 | After: 4
+Move: RHEUMS | Points: 44 | Gems: 4 | EvalScore: 112.50 | Swaps: 1 | Gems Before: 4 | After: 5
 
 Round 4:
-I!EJM!H!
-MQ!@VMG!
-U!LSYV
-J%VUC!M
-ZC!V!DB!
+H!@$V!M!YM!
+GRELQ!
+GYOD!E
+UV!BG!Z!
+SPJ!XH
 
-Move: JUMBIE | Points: 80 | Gems: 3 | EvalScore: 137.50 | Swaps: 1 | Gems Before: 4 | After: 4
+Move: RHYMED | Points: 54 | Gems: 4 | EvalScore: 128.00 | Swaps: 1 | Gems Before: 5 | After: 6
 
 Round 5:
-VOJ!$M!H!
-YWVMG!
-RLSY@V
-FVU!C!M
-Z!C!V!DB!
+ADPYM!@
+G!Q!R!LQ!
+GYOTE
+U!V!$BG!Z!
+SPJ!XH
 
-Move: SCUMMY | Points: 56 | Gems: 2 | EvalScore: 58.00 | Swaps: 1 | Gems Before: 4 | After: 3
+Move: VOLUMETRY | Points: 72 | Gems: 4 | EvalScore: 76.00 | Swaps: 2 | Gems Before: 6 | After: 4
 
-Game 34 Score: 281 | Gems left: 3
+Game 34 Score: 300 | Gems left: 4
 
 === Game 35 ===
 Round 1:
-XZMX!W!
-B!YV!TG
-OAW!F!T
-K!RD!%Z!U!
-OV@LVJ
+X!DC!UT!
+N%U@G!XL
+VV!UAP!
+E!KS!O!E
+QX!RCL
 
-Move: KUDZU | Points: 62 | Gems: 4 | EvalScore: 125.00 | Swaps: 1 | Gems Before: 3 | After: 4
+Move: CONVEX | Points: 60 | Gems: 4 | EvalScore: 123.00 | Swaps: 1 | Gems Before: 3 | After: 4
 
 Round 2:
-XZ!MX!W!$
-B!YV!TG
-OAW!F!T
-TR!UGS@
-OP!LVJ!
+X!DYUT!
+LYG!XL
+VM!UAP!
+L!KS!O!E
+Q!W@%R!CL
 
-Move: JUGSFUL | Points: 66 | Gems: 2 | EvalScore: 123.50 | Swaps: 1 | Gems Before: 4 | After: 3
+Move: WROUGHT | Points: 72 | Gems: 4 | EvalScore: 140.50 | Swaps: 1 | Gems Before: 4 | After: 5
 
 Round 3:
-XZ!M!X!W!$
-B!Y@V!TG
-OAW!AT
-TR!WDI
-OP!GF!H
+X!DY!MZ!
+LYF!X$L@
+VM!ZA!P!
+L!KS!RE
+Q!YMCL
 
-Move: PORTABLY | Points: 52 | Gems: 4 | EvalScore: 115.00 | Swaps: 1 | Gems Before: 3 | After: 4
+Move: PALMFUL | Points: 58 | Gems: 5 | EvalScore: 136.00 | Swaps: 1 | Gems Before: 5 | After: 7
 
 Round 4:
-XZM!X!W!$
-MC@V!T!G!
-OS!W!AT
-YAWDI
-Y!YGF!H
+X!DY!QZ!
+LYU!X$Q!
+VCZZZ!
+RKS!R@E
+Q!YM!C!L
 
-Move: CUTAWAYS | Points: 58 | Gems: 4 | EvalScore: 115.50 | Swaps: 1 | Gems Before: 4 | After: 5
+Move: QUIZZERS | Points: 94 | Gems: 4 | EvalScore: 151.50 | Swaps: 2 | Gems Before: 7 | After: 5
 
 Round 5:
-XZD!X!W!@$
-MD!V!S!G!
-OM!CQT
-HHWDI
-Y!YGF!H
+X!DAQZ!
+L!$YH!RQ!
+VCZZY
+RK@RD!R
+Q!YM!C!L!
 
-Move: WYCH | Points: 46 | Gems: 2 | EvalScore: 48.00 | Swaps: 1 | Gems Before: 5 | After: 4
+Move: CRICKY | Points: 56 | Gems: 1 | EvalScore: 57.00 | Swaps: 1 | Gems Before: 5 | After: 3
 
-Game 35 Score: 288 | Gems left: 4
+Game 35 Score: 343 | Gems left: 3
 
 === Game 36 ===
 Round 1:
-J!J!JOH
-MQ!JHS@
-R!K!YKS
-NL!Y!A!D
-YTS!U!%M
+I!GQ!O!G
+DI!C!VE
+WSRX!M$
+XR!ZVX
+N!CMS!E!@
 
-Move: SKYWAY | Points: 74 | Gems: 3 | EvalScore: 131.50 | Swaps: 1 | Gems Before: 3 | After: 3
+Move: CRUXES | Points: 52 | Gems: 4 | EvalScore: 115.00 | Swaps: 1 | Gems Before: 3 | After: 4
 
 Round 2:
-J!@J!JO!H
-MQ!JHQ
-R!K!I!AS
-NL!D!WD
-YTS!%JM
+I!@GQ!O!G
+DI!O!V!E
+WSHEM$
+X!R!ZV!L
+N!CMIH
 
-Move: JERKILY | Points: 58 | Gems: 6 | EvalScore: 132.00 | Swaps: 1 | Gems Before: 3 | After: 6
+Move: VOGUISH | Points: 50 | Gems: 4 | EvalScore: 118.50 | Swaps: 1 | Gems Before: 4 | After: 5
 
 Round 3:
-Y!J!JO!H
-MWJHQ
-F!YTAS
-N!E!D!WD!@
-FTS!%J!M
+KMQ!O!G
+DJAM!E
+W!E!YE!M$
+X!R!ZV!L
+N!C@MIH
 
-Move: ADJACENT | Points: 74 | Gems: 6 | EvalScore: 148.00 | Swaps: 2 | Gems Before: 6 | After: 6
+Move: CREAMERY | Points: 50 | Gems: 5 | EvalScore: 128.00 | Swaps: 1 | Gems Before: 5 | After: 7
 
 Round 4:
-Y!J!J!O!H
-MWJH!@Q
-F!YTF!$S
-XY!YWY
-F!DBU!M
+K!MQ!O!G
+DJGVE
+W!JZI!M!$
+X!H@ZKL!
+N!ZMI!H
 
-Move: SHUFTY | Points: 62 | Gems: 3 | EvalScore: 136.00 | Swaps: 1 | Gems Before: 6 | After: 6
+Move: MIZZEN | Points: 66 | Gems: 3 | EvalScore: 140.00 | Swaps: 1 | Gems Before: 7 | After: 7
 
 Round 5:
-Y!J!J!O!$H
-MWJGN
-F!Y!HWS!
-X!NYWY
-F!DBU!M@
+K!MQ!O!G
+DJGV!E
+W!JADE!
+X!@WRKL!
+I%ZMI!H!
 
-Move: MAHJONGGS | Points: 66 | Gems: 2 | EvalScore: 68.00 | Swaps: 2 | Gems Before: 6 | After: 2
+Move: JAZZ | Points: 80 | Gems: 1 | EvalScore: 81.00 | Swaps: 2 | Gems Before: 7 | After: 2
 
-Game 36 Score: 336 | Gems left: 2
+Game 36 Score: 300 | Gems left: 2
 
 === Game 37 ===
 Round 1:
-VV!UX!F!
-MU@SX!E
-FOSQ%J
-Z!L!P!Q!R
-LA!NAS!
+OZMMA!
+DSQ!YV@
+E!LP!IP!
+UBMK!%Y!
+AOA!M!N!
 
-Move: MUDFLAPS | Points: 62 | Gems: 3 | EvalScore: 119.50 | Swaps: 1 | Gems Before: 3 | After: 3
+Move: LIKABLE | Points: 72 | Gems: 3 | EvalScore: 129.50 | Swaps: 1 | Gems Before: 3 | After: 3
 
 Round 2:
-VV!U!X!F!
-V!GSX!E!
-EHFQ%J
-Z!WGQ!R
-LINA@S!
+OZMMA!
+DSQ!Y@P!
+T!IP!L!P!
+UP$MKY!
+AOLM!N!
 
-Move: QUINAS | Points: 78 | Gems: 1 | EvalScore: 118.97 | Swaps: 1 | Gems Before: 3 | After: 1
+Move: UPPISHLY | Points: 70 | Gems: 3 | EvalScore: 127.50 | Swaps: 1 | Gems Before: 3 | After: 3
 
 Round 3:
-VV!U!X!F!
-V!GSX!E!
-EH!@FTJ
-Z!WUQ!$R
-LJTZZ
+OZMM!A!
+DOJXP!
+T!A@ZTP!
+L!$EMKY!
+A!OLM!N!
 
-Move: VUGHS | Points: 36 | Gems: 3 | EvalScore: 99.00 | Swaps: 0 | Gems Before: 1 | After: 4
+Move: TEMAZEPAM | Points: 62 | Gems: 4 | EvalScore: 125.00 | Swaps: 1 | Gems Before: 3 | After: 4
 
 Round 4:
-VRZX!F!
-V!DSX!E!@
-E!SFT!J
-Z!WUQ!$R
-LJTZZ!
+OZM@BZ
+DOJ!PL
+AK!G!TP!
+L!$CZKY!
+A!OL!M!N!
 
-Move: QUARTE | Points: 62 | Gems: 3 | EvalScore: 119.50 | Swaps: 1 | Gems Before: 4 | After: 4
+Move: ACCOMPT | Points: 54 | Gems: 2 | EvalScore: 111.50 | Swaps: 1 | Gems Before: 4 | After: 3
 
 Round 5:
-V!RZX!F!
-V!DSX!A
-E!SFXJ
-Z!WN!XB
-LJ%T@E!Z!
+OZQB!Z
+DNJ!AL
+ADG!AP!
+L!$CZK!@Y!
+XOL!M!N!
 
-Move: JYNX | Points: 68 | Gems: 1 | EvalScore: 69.00 | Swaps: 1 | Gems Before: 4 | After: 2
+Move: MUZAKY | Points: 64 | Gems: 4 | EvalScore: 68.00 | Swaps: 1 | Gems Before: 3 | After: 4
 
-Game 37 Score: 308 | Gems left: 2
+Game 37 Score: 326 | Gems left: 4
 
 === Game 38 ===
 Round 1:
-Z!FMKG!
-D!U!CHJ
-TR!U!V!T@
-Z!MOC%S
-R!DE!RS
+FAE!AO!
+I@HB!N!J!
+M!LJZE
+JG!M!K!%L!
+QUCSE
 
-Move: HUMECTS | Points: 74 | Gems: 2 | EvalScore: 142.50 | Swaps: 0 | Gems Before: 3 | After: 5
+Move: ZABAJONE | Points: 60 | Gems: 5 | EvalScore: 128.50 | Swaps: 1 | Gems Before: 3 | After: 5
 
 Round 2:
-Z!FMKG!
-D!U!CXJ
-TR!J@V!P
-Z!S!OFD%
-R!D!MRS
+FWXH!J
+K!HYZ!Q
+M!L!JZE
+J!G!M!K!%L!
+Q@UCSE
 
-Move: FJORDS | Points: 62 | Gems: 0 | EvalScore: 130.50 | Swaps: 0 | Gems Before: 5 | After: 5
+Move: QUACKLES | Points: 94 | Gems: 3 | EvalScore: 162.50 | Swaps: 1 | Gems Before: 5 | After: 5
 
 Round 3:
-Z!FMKG!
-D!U!%CXJ
-TR!WV!P
-Z!S!RDG
-R!@D!MXB
+FWXH!J
+K!HYZ!Q
+M!L!JZ$E
+J!H!@M!XE
+O!MWBW!
 
-Move: RESTRUCK | Points: 74 | Gems: 5 | EvalScore: 152.00 | Swaps: 1 | Gems Before: 5 | After: 7
+Move: WHIZZY | Points: 86 | Gems: 3 | EvalScore: 154.50 | Swaps: 1 | Gems Before: 5 | After: 5
 
 Round 4:
-Z!FM!UG!
-D!BKXJ@%
-W!I!W!V!P
-XF!RDG
-XD!MXB
+FWX!@H!J
+K!HU!BQ
+M!L!J$D!E
+J!KCXE
+O!MHBW!
 
-Move: JUMBUCK | Points: 106 | Gems: 3 | EvalScore: 163.50 | Swaps: 2 | Gems Before: 7 | After: 4
+Move: CLUBBED | Points: 58 | Gems: 4 | EvalScore: 132.00 | Swaps: 1 | Gems Before: 5 | After: 6
 
 Round 5:
-Z!FOK!G!@
-D!%Q!SXL
-W!I!MSP
-XF!RDG!
-XD!MXB
+F!WKH!J!
+K!HKQQ
+M!TJ@$Y!U!
+J!KPXE
+O!MHBW!
 
-Move: FRISKY | Points: 50 | Gems: 4 | EvalScore: 54.00 | Swaps: 1 | Gems Before: 4 | After: 5
+Move: JAMBEUX | Points: 80 | Gems: 2 | EvalScore: 82.00 | Swaps: 2 | Gems Before: 6 | After: 2
 
-Game 38 Score: 371 | Gems left: 5
+Game 38 Score: 380 | Gems left: 2
 
 === Game 39 ===
 Round 1:
-I!CK!S!R
-IC@MG!Q
-G!WAD!R
-M!$H!HSO!
-HU!DHB
+BI!HDR
+Z!OQZL
+T!PL!BC!
+O!%PE!UA@
+ZE!B!H!A
 
-Move: BUSHWHACKS | Points: 84 | Gems: 4 | EvalScore: 147.00 | Swaps: 1 | Gems Before: 3 | After: 4
+Move: CACHEPOT | Points: 60 | Gems: 5 | EvalScore: 128.50 | Swaps: 1 | Gems Before: 3 | After: 5
 
 Round 2:
-I!CTDR
-IJMG!Q!@
-G!A!CD!R
-M!$XLL!D!
-HU!DHZ
+BI!HD!R
+Z!@O!Q$ZL
+NNL!BR
+MPR!UJ
+Z!E!B!B!P
 
-Move: MACALLUM | Points: 39 | Gems: 5 | EvalScore: 113.00 | Swaps: 1 | Gems Before: 4 | After: 6
+Move: ZIZZ | Points: 66 | Gems: 2 | EvalScore: 129.00 | Swaps: 1 | Gems Before: 5 | After: 4
 
 Round 3:
-I!CTDR!
-IJX!G!Q!@
-G!OONR!
-JX!PPD!
-H!GDH%Z
+BVHD!R!
+AO!@G!QL
+NNL!BR
+MPR!$UJ
+Z!E!B!B!P
 
-Move: PHARYNX | Points: 74 | Gems: 4 | EvalScore: 137.00 | Swaps: 2 | Gems Before: 6 | After: 4
+Move: CLUBBER | Points: 60 | Gems: 6 | EvalScore: 138.00 | Swaps: 1 | Gems Before: 4 | After: 7
 
 Round 4:
-I!CTDR!
-IJ$TG!R
-G!OOMM
-JX!N@PU
-H!G!D!U!Z!
+BVHD!%R!
+AA!G!@QL
+NNIBR
+M!PL!SJ
+Z!G!W!PP!
 
-Move: JOCUND | Points: 68 | Gems: 2 | EvalScore: 125.50 | Swaps: 1 | Gems Before: 4 | After: 3
+Move: WUZZLING | Points: 78 | Gems: 5 | EvalScore: 152.00 | Swaps: 2 | Gems Before: 7 | After: 6
 
 Round 5:
-I!CTDR!
-ICT$G!R
-G!OJMM
-JX!G!@HU
-H!G!IV!Z!
+BV!HD!%R!
+AA!DQL
+NC!BB@R
+M!NU!SJ
+P!NU!PP!
 
-Move: MUZHIK | Points: 64 | Gems: 2 | EvalScore: 66.00 | Swaps: 1 | Gems Before: 3 | After: 2
+Move: ZEBUBS | Points: 88 | Gems: 2 | EvalScore: 90.00 | Swaps: 2 | Gems Before: 6 | After: 2
 
-Game 39 Score: 331 | Gems left: 2
+Game 39 Score: 354 | Gems left: 2
 
 === Game 40 ===
 Round 1:
-V!JTF!K!
-K!D!LU!J
-QA%MRP
-RTPI!V
-R!O!L@B!I
+EGZ!RN
+XF!J!P!%E!
+HJ!BFJ
+VD!VC!Q
+UGQ!Z!R@
 
-Move: FUMAROLIC | Points: 66 | Gems: 5 | EvalScore: 134.50 | Swaps: 1 | Gems Before: 3 | After: 5
+Move: PREFER | Points: 56 | Gems: 3 | EvalScore: 113.50 | Swaps: 1 | Gems Before: 3 | After: 3
 
 Round 2:
-V!JTDK!
-K!D!LRJ!
-QNJR!$P!
-N!TPO!@V
-R!CHWI
+E!@G!Z!IN
+XF!J!RD%
+HJ!BHJ
+VD!VWQ
+UG!Q!Z!Q
 
-Move: PROPJET | Points: 56 | Gems: 4 | EvalScore: 130.00 | Swaps: 1 | Gems Before: 5 | After: 6
+Move: JIRBLE | Points: 46 | Gems: 3 | EvalScore: 103.50 | Swaps: 1 | Gems Before: 3 | After: 3
 
 Round 3:
-V!JLGK!
-K!D!L@RB
-QN!JKH
-N!%TW!VV!
-R!C!HWI
+OG!Z!TN
+X!Q@QHD%
+HJ!AHJ!
+VD!VWQ
+UG!Q!Z!Q!
 
-Move: KRANTZ | Points: 84 | Gems: 3 | EvalScore: 141.50 | Swaps: 2 | Gems Before: 6 | After: 3
+Move: ADJIGO | Points: 42 | Gems: 3 | EvalScore: 99.50 | Swaps: 1 | Gems Before: 3 | After: 3
 
 Round 4:
-V!JLGZ
-K!D!OSB%
-QUJK!H!
-R!JW!VV!
-R!C!HWI@
+ILZ!T!N
+X!@BQHD%
+H!XRHJ!
+VUVWQ!
+UG!Q!Z!Q!
 
-Move: KUDLIKS | Points: 35 | Gems: 3 | EvalScore: 92.50 | Swaps: 1 | Gems Before: 3 | After: 3
+Move: CHUG | Points: 32 | Gems: 3 | EvalScore: 89.50 | Swaps: 1 | Gems Before: 3 | After: 3
 
 Round 5:
-V!J!RGZ
-GFZNB%
-QBJYH!
-R!JW!VV!
-R!C!H!WI!@
+IL!Z!T!N
+CBQHD%
+SXRHJ!
+V!EVWQ!
+U@C!Q!Z!Q!
 
-Move: WIVING | Points: 44 | Gems: 3 | EvalScore: 47.00 | Swaps: 1 | Gems Before: 3 | After: 3
+Move: ACERBIC | Points: 48 | Gems: 1 | EvalScore: 49.00 | Swaps: 1 | Gems Before: 3 | After: 1
 
-Game 40 Score: 288 | Gems left: 3
+Game 40 Score: 225 | Gems left: 1
 
 === Game 41 ===
 Round 1:
-KA!VZQ
-P!Q@LD!P!
-XM!EQF!
-MWXZ!%Q!
-E!SFH!A
+X!G!W!$N@N
+JBS!MK
+SA!W!XN!
+QSAQJ!
+YX!X!OM
 
-Move: HAZELS | Points: 80 | Gems: 2 | EvalScore: 129.23 | Swaps: 1 | Gems Before: 3 | After: 2
+Move: KNOWNS | Points: 56 | Gems: 3 | EvalScore: 113.50 | Swaps: 1 | Gems Before: 3 | After: 3
 
 Round 2:
-K$A!VZQ
-P!R!HD!P!
-XM!HQF!
-MW!XPQ!@
-E!SFMC
+X!G!HRN
+J!B@XVX
+SA!W!XL
+Q!SAQJ!
+Y!%X!X!OM
 
-Move: PARK | Points: 19 | Gems: 3 | EvalScore: 87.50 | Swaps: 0 | Gems Before: 2 | After: 5
+Move: JAWBOX | Points: 60 | Gems: 5 | EvalScore: 128.50 | Swaps: 1 | Gems Before: 3 | After: 5
 
 Round 3:
-JJ!VZQ
-TWHD!P!
-XM!HQF!%
-M!W!X!PQ!@
-E!SFMC
+CTH!R@N
+UJX!V!X!
+S!KOXL
+Q!SAQJ!
+Y!%X!X!OM
 
-Move: FUM | Points: 46 | Gems: 2 | EvalScore: 109.00 | Swaps: 1 | Gems Before: 5 | After: 4
+Move: XYSTUS | Points: 39 | Gems: 3 | EvalScore: 107.50 | Swaps: 1 | Gems Before: 5 | After: 5
 
 Round 4:
-JJ!VZQ
-TWHD!P!
-XM!H!QU!
-M!W!X!PF@
-E!SFVC%
+CTH!R!@N
+KJX!V!X!
+L!POXL
+Q!KA%QJ!
+NB!X!OM
 
-Move: PUFF | Points: 56 | Gems: 2 | EvalScore: 113.50 | Swaps: 1 | Gems Before: 4 | After: 3
+Move: KALPAK | Points: 33 | Gems: 1 | EvalScore: 90.50 | Swaps: 1 | Gems Before: 5 | After: 3
 
 Round 5:
-JJ!VZQ
-TWHD!D
-XM!H!QH
-M!W!X!@PU!%
-E!SFV!F
+CTH!R!@%N
+WRX!V!X!
+C!MOXL
+Q!DMQJ!
+NB!X!OM
 
-Move: EMMEWS | Points: 44 | Gems: 5 | EvalScore: 49.00 | Swaps: 1 | Gems Before: 3 | After: 5
+Move: CHROMO | Points: 64 | Gems: 2 | EvalScore: 66.00 | Swaps: 1 | Gems Before: 3 | After: 2
 
-Game 41 Score: 250 | Gems left: 5
+Game 41 Score: 254 | Gems left: 2
 
 === Game 42 ===
 Round 1:
-LJ!H!BU
-GF!TT!B!
-DGVX!M@
-BGPF!Z!
-H$C!QJO!
+L!O!L%J!H@
+KWGH!V
+U!Y!QS!F
+MWWAZ
+H!H!O!IK
 
-Move: BATHTUB | Points: 31 | Gems: 4 | EvalScore: 94.00 | Swaps: 1 | Gems Before: 3 | After: 4
+Move: SHLOCKY | Points: 41 | Gems: 5 | EvalScore: 109.50 | Swaps: 1 | Gems Before: 3 | After: 5
 
 Round 2:
-LJ!A!WV
-GF!XJ!V
-DG!V!SM@
-BGPF!Z!
-H$C!QJO!
+ATJ!J!H@
+MWGQ!V
+U!B!QYF
+MWWA%Z!
+H!H!O!IK!
 
-Move: FOZY | Points: 36 | Gems: 3 | EvalScore: 99.00 | Swaps: 1 | Gems Before: 4 | After: 4
+Move: HAJJ | Points: 38 | Gems: 3 | EvalScore: 106.50 | Swaps: 1 | Gems Before: 5 | After: 5
 
 Round 3:
-LJ!A!WV
-G!F!X@J!V
-DG!V!SV!
-B!GPEP
-H$C!QJE
+A!TA@BP
+M!WGNV!
+U!B!QYF
+MWWA%Z!
+H!H!O!IK!
 
-Move: JAXIES | Points: 48 | Gems: 3 | EvalScore: 111.00 | Swaps: 1 | Gems Before: 4 | After: 4
+Move: ZYGOMATA | Points: 58 | Gems: 4 | EvalScore: 132.00 | Swaps: 1 | Gems Before: 5 | After: 6
 
 Round 4:
-LTXWV
-G!F!JJ!V
-DG!PAV!@
-B!G!P!AP!
-H$C!QJE
+BKIBP
+DWAN!V!
+U!D!Q!IF
+MWWA%I!
+H!H!O!I@K!
 
-Move: VAUCH | Points: 46 | Gems: 3 | EvalScore: 103.50 | Swaps: 1 | Gems Before: 4 | After: 4
+Move: HOWZIT | Points: 84 | Gems: 3 | EvalScore: 141.50 | Swaps: 2 | Gems Before: 6 | After: 3
 
 Round 5:
-L!TXWV
-G!F!$JJ!V
-DG!PAK
-B!G!M!OP!
-E!VQJE@
+B!KIBP
+D!W!AN!V!
+U!D!Q!@IF
+MW%CXR
+H!PJHK!
 
-Move: JAMPOT | Points: 48 | Gems: 2 | EvalScore: 50.00 | Swaps: 1 | Gems Before: 4 | After: 3
+Move: BAWDKINS | Points: 58 | Gems: 4 | EvalScore: 62.00 | Swaps: 1 | Gems Before: 3 | After: 4
 
-Game 42 Score: 212 | Gems left: 3
+Game 42 Score: 283 | Gems left: 4
 
 === Game 43 ===
 Round 1:
-G!@K!YTR!
-RTAAB%
-Z!MXLB!
-YOB!VG!
-YK!CQ!V!
+MH!B!XR
+OS!OYX
+OM!D!BB!
+YT!SJL@
+P!P!$IVO!
 
-Move: KOMATIK | Points: 52 | Gems: 3 | EvalScore: 109.50 | Swaps: 1 | Gems Before: 3 | After: 3
+Move: HOMOBLASTY | Points: 62 | Gems: 3 | EvalScore: 119.50 | Swaps: 1 | Gems Before: 3 | After: 3
 
 Round 2:
-YBYTR!@
-RMSA!B%
-Z!UXLB!
-YXB!VG!
-Y!DC!Q!V!
+MXB!XR
+MS!QYX!
+OX@D!GB!
+EHY!J!M
+P!P!$IAO!
 
-Move: BLABBY | Points: 66 | Gems: 4 | EvalScore: 129.00 | Swaps: 1 | Gems Before: 3 | After: 4
+Move: OXYPHIL | Points: 66 | Gems: 3 | EvalScore: 123.50 | Swaps: 1 | Gems Before: 3 | After: 3
 
 Round 3:
-YBYTA
-RM!S!C!$L
-Z!U!XWC@
-YXAVG!
-Y!DC!Q!V!
+MXB!XR!
+M!S!QYX!
+C@SD!%GB!
+EO!BUM
+P!DDAO!
 
-Move: MUSCLY | Points: 64 | Gems: 4 | EvalScore: 132.50 | Swaps: 1 | Gems Before: 4 | After: 5
+Move: MUDSCOW | Points: 70 | Gems: 4 | EvalScore: 133.00 | Swaps: 1 | Gems Before: 3 | After: 4
 
 Round 4:
-YBYT!A
-RNO!FB
-Z!@%RXW!M
-Y!XAVG!
-Y!DC!Q!V!
+MXB!XR!
+M!VQYX!
+HSQG!B!
+E!@XBE!T!
+A%DDAO!
 
-Move: BRONZY | Points: 84 | Gems: 4 | EvalScore: 158.00 | Swaps: 1 | Gems Before: 5 | After: 6
+Move: BESTADDE | Points: 44 | Gems: 5 | EvalScore: 118.00 | Swaps: 1 | Gems Before: 4 | After: 6
 
 Round 5:
-YB@YRA
-R!THF!E
-FR!XW!M
-EX$AV!G!
-Y!DC!Q!V!
+MXB!XR!
+M!VQYX!
+H@SQ!Q!O
+U!XB!E!Q
+A%WKAO!
 
-Move: BETHWACKED | Points: 86 | Gems: 3 | EvalScore: 89.00 | Swaps: 2 | Gems Before: 6 | After: 3
+Move: SQUAWKED | Points: 74 | Gems: 3 | EvalScore: 77.00 | Swaps: 2 | Gems Before: 6 | After: 3
 
-Game 43 Score: 355 | Gems left: 3
+Game 43 Score: 319 | Gems left: 3
 
 === Game 44 ===
 Round 1:
-QJLW!Z
-I!F!XR!W
-J!%XT!GR!
-ONRLL
-GKY!@V!G!
+FW!V!YQ
+E!ZH!JS
+N!@QTIO!
+E!G!GAC
+STX!W!$X
 
-Move: JOINTLY | Points: 78 | Gems: 3 | EvalScore: 135.50 | Swaps: 1 | Gems Before: 3 | After: 3
+Move: WHEENGES | Points: 48 | Gems: 6 | EvalScore: 122.00 | Swaps: 1 | Gems Before: 3 | After: 6
 
 Round 2:
-QJL!W!@Z
-I!F!XR!W%
-AIZGR!
-Y!K!RQL
-GKQV!G!
+F!SV!Y!Q
+BZ!EJS
+PJ!TIO!
+GZGAC@
+C!T!X!W!$X
 
-Move: WRAWL | Points: 52 | Gems: 4 | EvalScore: 115.00 | Swaps: 1 | Gems Before: 3 | After: 4
+Move: ZEUGMATIC | Points: 76 | Gems: 3 | EvalScore: 133.50 | Swaps: 2 | Gems Before: 6 | After: 3
 
 Round 3:
-QJLDZ
-I!%F!XSO
-AI!@ZGY
-Y!K!R!Q!L!
-GKQV!G!
+F!SV!Y!Q
+BD%KJS!
+PAB!GO!@
+GZBP!A
+C!T!X!BX
 
-Move: QUIRKY | Points: 76 | Gems: 5 | EvalScore: 150.00 | Swaps: 1 | Gems Before: 4 | After: 6
+Move: SOAPBARKS | Points: 64 | Gems: 4 | EvalScore: 127.00 | Swaps: 1 | Gems Before: 3 | After: 4
 
 Round 4:
-GJ!LD$Z
-B!F!XSO
-AT!ZGY
-MS@T!Q!L!
-G!KQV!G!
+F!AV!Y!Q
+B$LB!JT!
+P!UCGP
+GZBC!J
+C!T!X!@BX
 
-Move: FLYBACKS | Points: 70 | Gems: 3 | EvalScore: 127.50 | Swaps: 2 | Gems Before: 6 | After: 3
+Move: TABULA | Points: 40 | Gems: 2 | EvalScore: 97.50 | Swaps: 1 | Gems Before: 4 | After: 3
 
 Round 5:
-GML@D!$Z
-ZGXSO!
-DT!ZGY
-DCT!Q!L!
-G!Z!QV!G!
+F!IV!Y!Q
+B$HB!JT!
+P!@BCGP
+G!ZEC!J
+C!OYBX!
 
-Move: DOGSLED | Points: 48 | Gems: 2 | EvalScore: 50.00 | Swaps: 1 | Gems Before: 3 | After: 2
+Move: CHUBBY | Points: 60 | Gems: 3 | EvalScore: 63.00 | Swaps: 1 | Gems Before: 3 | After: 3
 
-Game 44 Score: 326 | Gems left: 2
+Game 44 Score: 291 | Gems left: 3
 
 === Game 45 ===
 Round 1:
-CN!LI!@P!
-LAIS%Y
-SW!Z!FY
-M!L!OC!X!
-OMX!TV
+LINY!D
+M!J!TFR!
+A!GFSK
+XE!VYD
+X!@I!CN!%L!
 
-Move: PIZZAS | Points: 90 | Gems: 3 | EvalScore: 147.50 | Swaps: 1 | Gems Before: 3 | After: 3
+Move: MAXIXE | Points: 52 | Gems: 5 | EvalScore: 134.00 | Swaps: 0 | Gems Before: 3 | After: 8
 
 Round 2:
-C!N!LAM
-LRIYY!@
-TW!IFY!
-M!L!OC!X!$
-OMX!TV
+LI!NY!@D!
+DJ!TFR!
+JGFSK!
+HG!VYD
+U!LCN!%L!
 
-Move: COMMODIFY | Points: 66 | Gems: 4 | EvalScore: 129.00 | Swaps: 1 | Gems Before: 3 | After: 4
+Move: FLUFFY | Points: 82 | Gems: 3 | EvalScore: 150.50 | Swaps: 2 | Gems Before: 8 | After: 5
 
 Round 3:
-C!N!LAM
-LRIY@I!
-TW!J!V!Y!
-W!IMMX!$
-BRX!TV
+LI!NTD!
+DJ!T!V%R!
+JGJSK!
+H!G!VJD
+U!LC!D@T
 
-Move: XYLYL | Points: 56 | Gems: 3 | EvalScore: 119.00 | Swaps: 1 | Gems Before: 4 | After: 4
+Move: HUGGED | Points: 46 | Gems: 3 | EvalScore: 114.50 | Swaps: 1 | Gems Before: 5 | After: 5
 
 Round 4:
-C!N!VAM!
-LRIHH
-T!W!J!V!L
-W!IMM%M
-B!R@X!TV
+LI!NT!D!
+DJ!T!V%R!
+JZJSK!
+K!VX@JD
+BLC!M!T
 
-Move: BRIMMER | Points: 62 | Gems: 2 | EvalScore: 119.50 | Swaps: 1 | Gems Before: 4 | After: 3
+Move: INVERT | Points: 33 | Gems: 4 | EvalScore: 107.00 | Swaps: 1 | Gems Before: 5 | After: 6
 
 Round 5:
-C!N!VAM!
-LEI!%HH
-T!W!KV!L
-W!N@LGM
-WGX!T!V
+LNLPJ
+D!J!T!HN!
+JZJSK!
+K!VX!@$JD
+BL!C!M!T
 
-Move: VINEWING | Points: 54 | Gems: 5 | EvalScore: 59.00 | Swaps: 1 | Gems Before: 3 | After: 5
+Move: MUZJIKS | Points: 82 | Gems: 3 | EvalScore: 85.00 | Swaps: 2 | Gems Before: 6 | After: 3
 
-Game 45 Score: 333 | Gems left: 5
+Game 45 Score: 298 | Gems left: 3
 
 === Game 46 ===
 Round 1:
-KTUVP!
-P!U!VFC!
-S!V!I@TE
-WA!KS!$I
-E!GU!PL
+O!GLJ!R
+LHNO!E!
+TE!DD!I
+T!$JBG!Q
+DWWV!@X!
 
-Move: PUSHUPS | Points: 62 | Gems: 5 | EvalScore: 130.50 | Swaps: 1 | Gems Before: 3 | After: 5
+Move: REDBUG | Points: 44 | Gems: 4 | EvalScore: 107.00 | Swaps: 1 | Gems Before: 3 | After: 4
 
 Round 2:
-K@TU!V!P!
-IS$VFC!
-YV!RT!E!
-WA!KHI!
-E!GOAL
+O!GLJ!J
+LHNO!@S!
+TE!D!J!I
+T!$JASQ
+D!WWYX!
 
-Move: SKIVVY | Points: 60 | Gems: 2 | EvalScore: 123.00 | Swaps: 1 | Gems Before: 5 | After: 4
+Move: LONGHEADS | Points: 50 | Gems: 3 | EvalScore: 128.00 | Swaps: 0 | Gems Before: 4 | After: 7
 
 Round 3:
-FTGV!P!
-K!VCFC!
-Y@RRT!E!
-WA!KHI!
-E!GO%A!L
+O!QPJ!J
+L@F!JLS!
+T!OA!J!I
+T!$JBDQ
+D!WWYX!
 
-Move: YACHTIE | Points: 66 | Gems: 4 | EvalScore: 134.50 | Swaps: 1 | Gems Before: 4 | After: 5
+Move: BOTTLEFULS | Points: 68 | Gems: 6 | EvalScore: 146.00 | Swaps: 2 | Gems Before: 7 | After: 7
 
 Round 4:
-F%TGV!P!
-K!VCF!C!
-RRRPH!
-WUKUX!@
-E!G!TA!L
+CQPJ!J
+G!RJ%XS
+B!KOJ!I!
+F!JIDQ
+D!@WW!Y!X!
 
-Move: CHUPPA | Points: 54 | Gems: 4 | EvalScore: 128.00 | Swaps: 1 | Gems Before: 5 | After: 6
+Move: JOUKED | Points: 82 | Gems: 2 | EvalScore: 139.50 | Swaps: 2 | Gems Before: 7 | After: 3
 
 Round 5:
-F%T!GV!P!
-K!VC@F!N
-RRRA!D
-WUKUW!
-E!G!T!JL
+CQPJ!J@
+G!VOXS
+B!AIJ!I!
+EJI!DQ
+OW!W!$Y!X!
 
-Move: KRANTZ | Points: 84 | Gems: 2 | EvalScore: 86.00 | Swaps: 2 | Gems Before: 6 | After: 2
+Move: WIDISH | Points: 52 | Gems: 3 | EvalScore: 55.00 | Swaps: 1 | Gems Before: 3 | After: 3
 
-Game 46 Score: 328 | Gems left: 2
+Game 46 Score: 299 | Gems left: 3
 
 === Game 47 ===
 Round 1:
-S!DRQ!Q
-V!MHCB!
-BMGJ!A%
-GHN!UK!
-P!UF!IE!@
+G!AB!@F!P!
+G!LR!Y!L
+LZOSA
+U!QW!M$N!
+WYVDL
 
-Move: FUCKING | Points: 62 | Gems: 4 | EvalScore: 125.00 | Swaps: 1 | Gems Before: 3 | After: 4
+Move: FLYBLOWN | Points: 74 | Gems: 4 | EvalScore: 137.00 | Swaps: 1 | Gems Before: 3 | After: 4
 
 Round 2:
-S!@DR!Q!Q
-V!MHCB!
-BMKJ!A%
-G!HW!TM
-P!U!ZMJ
+G!AZHP!
+G!SR!Y!P
+L!Z!ESA
+U!QW!D%O@
+WY!VDL
 
-Move: DRACHMS | Points: 52 | Gems: 3 | EvalScore: 115.00 | Swaps: 1 | Gems Before: 4 | After: 4
+Move: OBSEQUY | Points: 74 | Gems: 2 | EvalScore: 131.50 | Swaps: 1 | Gems Before: 4 | After: 3
 
 Round 3:
-JVQNQ
-V!UZR!B!
-BMKJ!A!%
-G!HW!T@M!
-P!U!ZMJ
+G!A!ZHP!
+G!S@%R!Y!P
+L!Z!W!JA
+BTW!CH
+WWVDL
 
-Move: MATCHUP | Points: 62 | Gems: 5 | EvalScore: 136.00 | Swaps: 1 | Gems Before: 4 | After: 6
+Move: RAZZ | Points: 70 | Gems: 3 | EvalScore: 127.50 | Swaps: 1 | Gems Before: 3 | After: 3
 
 Round 4:
-JVQN!Q!
-V!%U@ZR!B!
-BMK!J!V
-G!O!GL!T
-LPZMJ
+G!W!Z%HP!
+G!BD!Y!P
+L!HW!JA
+BTW!CH
+WWVD@L!
 
-Move: MUZJIK | Points: 86 | Gems: 4 | EvalScore: 143.50 | Swaps: 2 | Gems Before: 6 | After: 4
+Move: BLOWZY | Points: 51 | Gems: 4 | EvalScore: 108.50 | Swaps: 1 | Gems Before: 3 | After: 4
 
 Round 5:
-J!VQN!Q!
-YWP!XB!
-B!MAXV!@
-G!O!GL!T
-LP%ZMJ
+G!XEH!P!
+AMD!SP!
+OHW!%JA
+BTW!CH
+WW!VD!@L!
 
-Move: BELAMY | Points: 44 | Gems: 3 | EvalScore: 47.00 | Swaps: 1 | Gems Before: 4 | After: 4
+Move: DOWSED | Points: 60 | Gems: 4 | EvalScore: 64.00 | Swaps: 1 | Gems Before: 4 | After: 5
 
-Game 47 Score: 310 | Gems left: 4
+Game 47 Score: 334 | Gems left: 5
 
 === Game 48 ===
 Round 1:
-PJY!XR!@
-I!Q!T!FK
-L!RP!EW
-HOFC!%N!
-MH!VBZ
+V@V!E!XN!
+IAUKD!
+H!F!R!SB
+LMS!J$E
+SD!Q!HY
 
-Move: OPENWORK | Points: 54 | Gems: 3 | EvalScore: 111.50 | Swaps: 1 | Gems Before: 3 | After: 3
+Move: FAVOURS | Points: 50 | Gems: 4 | EvalScore: 113.00 | Swaps: 1 | Gems Before: 3 | After: 4
 
 Round 2:
-PJY!XA!
-I!Q!T!YO
-L!R!BMQ
-HSFC!%C
-MH!V!B@Z
+YME!XN!
+I@ZCKD!
+H!UWSB!
+L!MMJ$E
+S!D!Q!H!Y
 
-Move: BOMBYX | Points: 62 | Gems: 1 | EvalScore: 102.97 | Swaps: 1 | Gems Before: 3 | After: 1
+Move: ZYTHUMS | Points: 66 | Gems: 2 | EvalScore: 123.50 | Swaps: 1 | Gems Before: 4 | After: 3
 
 Round 3:
-PJY!UA!$
-I!Q!T!XO
-L!R!N@NQ
-HS!FVC
-MH!V!IZ
+MME!XN!
+SB@CKD!
+UOWSB!
+L!WMJ!$E
+W!D!Q!H!Y
 
-Move: PIRNS | Points: 22 | Gems: 3 | EvalScore: 85.00 | Swaps: 0 | Gems Before: 1 | After: 4
+Move: EMBOLUS | Points: 48 | Gems: 2 | EvalScore: 116.50 | Swaps: 0 | Gems Before: 3 | After: 5
 
 Round 4:
-RJY!UA!$
-HQ!T!XO
-L!S!G!NQ
-HSFVC@
-MH!V!IZ!
+MSFXN!
+RLCKD!
+OWWSB!
+XWM!J!$E
+W!D!Q!H!@Y!
 
-Move: CHOUTS | Points: 46 | Gems: 2 | EvalScore: 103.50 | Swaps: 1 | Gems Before: 4 | After: 3
+Move: JEHAD | Points: 46 | Gems: 4 | EvalScore: 120.00 | Swaps: 1 | Gems Before: 5 | After: 6
 
 Round 5:
-RJY!SA!$
-HQ!R!XE
-L!HG!UQ
-HSFV!@W
-MH!V!IZ!
+M!SF@XN!%
+R!LC!KD!
+O!WWSB!
+XWNGW
+W!VQ!UY!
 
-Move: QUEASY | Points: 52 | Gems: 3 | EvalScore: 55.00 | Swaps: 1 | Gems Before: 3 | After: 3
+Move: BACKFLOW | Points: 90 | Gems: 4 | EvalScore: 94.00 | Swaps: 2 | Gems Before: 6 | After: 4
 
-Game 48 Score: 239 | Gems left: 3
+Game 48 Score: 304 | Gems left: 4
 
 === Game 49 ===
 Round 1:
-D!LGVQ
-S!YEB!H!
-RKVJ!S
-J!AVR!I!
-D@X%I!M!P
+DK!MQZ
+C!@EI!F!P
+L!ZB!FR!
+L!GRC!F
+BO$S!PF
 
-Move: MIXED | Points: 60 | Gems: 3 | EvalScore: 117.50 | Swaps: 1 | Gems Before: 3 | After: 3
+Move: FIZZLED | Points: 68 | Gems: 4 | EvalScore: 131.00 | Swaps: 1 | Gems Before: 3 | After: 4
 
 Round 2:
-D!LGVQ
-S!YEB!H!
-R$KVJ!S!
-R!A!VR!I!@
-QOXLP
+OK!M!QZ
+O!JKGP
+QVB!FR!
+L!@GRC!F
+BO!$S!P!F
 
-Move: BAJRIS | Points: 44 | Gems: 6 | EvalScore: 118.00 | Swaps: 1 | Gems Before: 3 | After: 6
+Move: LOGBOOK | Points: 50 | Gems: 5 | EvalScore: 124.00 | Swaps: 1 | Gems Before: 4 | After: 6
 
 Round 3:
-D!LG!@VQ
-S!YE!WQ!
-R$KVA!C
-R!A!VNK
-QOXL!P!
+OWM!Q!Z
+LZK!GP!@
+QVZFR!
+QE$R!C!F
+BPS!P!F!
 
-Move: LYKEWALKS | Points: 72 | Gems: 4 | EvalScore: 135.00 | Swaps: 2 | Gems Before: 6 | After: 4
+Move: PZAZZES | Points: 76 | Gems: 4 | EvalScore: 139.00 | Swaps: 2 | Gems Before: 6 | After: 4
 
 Round 4:
-D!KXVQ
-RY!T@OQ!
-R$SV!SC
-R!A!L!NK
-QO!XL!P!
+OWM!XZ
+LR!TGB
+QVJF$R!
+QIR!C!F!
+B!PF!@P!F!
 
-Move: OVERROASTS | Points: 52 | Gems: 5 | EvalScore: 126.00 | Swaps: 1 | Gems Before: 4 | After: 6
+Move: FUFF | Points: 48 | Gems: 3 | EvalScore: 105.50 | Swaps: 1 | Gems Before: 4 | After: 4
 
 Round 5:
-D!KXVQ%
-RZ!HGQ!
-WDQ!D!C
-WZL!N!@K!
-QCXL!P!
+OWM!@XZ
+LR!T!$GB!
+QVJM!R!
+QIZC!H
+B!PPP!F!
 
-Move: QUONK | Points: 74 | Gems: 4 | EvalScore: 78.00 | Swaps: 2 | Gems Before: 6 | After: 4
+Move: CUTWORM | Points: 60 | Gems: 5 | EvalScore: 65.00 | Swaps: 1 | Gems Before: 4 | After: 6
 
-Game 49 Score: 306 | Gems left: 4
+Game 49 Score: 308 | Gems left: 6
 
 === Game 50 ===
 Round 1:
-L!@UD!XA!
-O!A!TXS
-POJR!Y
-LR!A!F!I$
-BVUN!Z
+E!R!U!C@J!
+R!JL!ZG
+W!TPNC
+K%DJ!NO
+AU!KNH!
 
-Move: UNARTFUL | Points: 56 | Gems: 5 | EvalScore: 124.50 | Swaps: 1 | Gems Before: 3 | After: 5
+Move: CURREJONG | Points: 64 | Gems: 5 | EvalScore: 132.50 | Swaps: 1 | Gems Before: 3 | After: 5
 
 Round 2:
-AC!OXA!
-O!@A!GXS
-P!O!JXY
-L!R!AF!I!$
-BVSQZ
+AI!QAJ!
+ILEZ!C!
+W!TP@KC!
+K!%DJ!NO
+AU!KNH!
 
-Move: COBLOAF | Points: 50 | Gems: 6 | EvalScore: 132.00 | Swaps: 1 | Gems Before: 5 | After: 8
+Move: PADAUK | Points: 72 | Gems: 3 | EvalScore: 140.50 | Swaps: 1 | Gems Before: 5 | After: 5
 
 Round 3:
-AQOXA!
-WA!@GX!S
-CUJX!Y
-KR!O!U!I!$
-B!VSQ!Z
+AI!QAJ!
+I$LEZ!C!
+W!TA!@KC!
+UTUN!O!
+QSKNH!
 
-Move: JACUZZI | Points: 80 | Gems: 4 | EvalScore: 154.00 | Swaps: 2 | Gems Before: 8 | After: 6
+Move: LANCEJACK | Points: 72 | Gems: 6 | EvalScore: 154.00 | Swaps: 1 | Gems Before: 5 | After: 8
 
 Round 4:
-AQOXA!
-W!OGX!S
-J@XBU!Y!
-KR!T$U!T!
-B!VSQ!Z
+AI!Q!RS
+I$CEA!T
+W!TAR!M
+U!T!UTO!@
+QS!KNH!
 
-Move: JUJUTSU | Points: 74 | Gems: 3 | EvalScore: 131.50 | Swaps: 2 | Gems Before: 6 | After: 3
+Move: HOMESTRETCH | Points: 74 | Gems: 4 | EvalScore: 148.00 | Swaps: 2 | Gems Before: 8 | After: 6
 
 Round 5:
-AQOXA!
-W!OG@X!S!%
-B!XFWY!
-KRHTT!
-B!VY!Q!Z
+A!$I!Q!RO
+VEV!WD
+W!TAKO
+U!T!U!TE@
+QS!KNF!
 
-Move: SWIFTY | Points: 56 | Gems: 2 | EvalScore: 58.00 | Swaps: 1 | Gems Before: 3 | After: 2
+Move: SQUAWKED | Points: 70 | Gems: 4 | EvalScore: 74.00 | Swaps: 2 | Gems Before: 6 | After: 4
 
-Game 50 Score: 318 | Gems left: 2
+Game 50 Score: 356 | Gems left: 4
 
 === Game 51 ===
 Round 1:
-BE!FR!Z
-IUZN!N!
-M!PW%E!A!
-VF!LLT
-ATW!I!@G
+WDZ!O!Z!
+O%DG!LN
+RUF!HL!
+TU!YD!O
+D!A@NJZ!
 
-Move: UPWELLING | Points: 82 | Gems: 2 | EvalScore: 131.23 | Swaps: 1 | Gems Before: 3 | After: 2
+Move: DANAZOL | Points: 48 | Gems: 4 | EvalScore: 111.00 | Swaps: 1 | Gems Before: 3 | After: 4
 
 Round 2:
-BE!FR!Z
-IG!Z!N!N!
-M!H@E%QA!
-VF!PJQ
-ATW!JY
+WD!Z!O!Z!
+O%DG!L!N
+RUF!HF!
+TU!YE!@O
+SEMJP
 
-Move: FEHM | Points: 32 | Gems: 2 | EvalScore: 95.00 | Swaps: 0 | Gems Before: 2 | After: 4
+Move: TUMEFY | Points: 50 | Gems: 3 | EvalScore: 128.00 | Swaps: 0 | Gems Before: 4 | After: 7
 
 Round 3:
-B@E!FR!Z
-I!G!Z!N!N!
-XW!Z$QA!
-VGPJQ
-ATW!JY
+WD!Z!O!Z!
+O%D!G!L!N!
+RURHF!@
+CNIOO!
+SEMJP
 
-Move: BUZZWIG | Points: 92 | Gems: 5 | EvalScore: 166.00 | Swaps: 1 | Gems Before: 4 | After: 6
+Move: FORFOUGHEN | Points: 70 | Gems: 5 | EvalScore: 144.00 | Swaps: 2 | Gems Before: 7 | After: 6
 
 Round 4:
-TBFR!Z!
-X!@CRN!N!
-X!KYQA!
-VGP!JQ!
-ATW!$JY
+WD!Z!O!Z!
+GBLZF!
+RFJH!W!
+C!N%IEO!
+S!EMJ@P
 
-Move: JANNOCKS | Points: 62 | Gems: 4 | EvalScore: 119.50 | Swaps: 2 | Gems Before: 6 | After: 4
+Move: JOHNNIES | Points: 58 | Gems: 3 | EvalScore: 132.00 | Swaps: 1 | Gems Before: 6 | After: 6
 
 Round 5:
-TBT!R!Z!
-SYR!WB
-X!NYQB
-V!GP!I@Q!
-AT!W!$JY
+WD!Z!O!Z!$
+GBLZF!
+RFJTW!
+C!T!T!EQ
+YGM!RP@
 
-Move: TWIRPY | Points: 56 | Gems: 3 | EvalScore: 59.00 | Swaps: 1 | Gems Before: 4 | After: 4
+Move: PZAZZ | Points: 74 | Gems: 2 | EvalScore: 76.00 | Swaps: 2 | Gems Before: 6 | After: 2
 
-Game 51 Score: 328 | Gems left: 4
+Game 51 Score: 302 | Gems left: 2
 
 === Game 52 ===
 Round 1:
-O@NDMS!
-X!KM!GX
-R!NB!Z!%E!
-KAJU!X!
-R!THXV
+NR!$M!ZZ@
+VGDQA!
+IGI!G!F
+Y!NQN!O
+DU!D!RV!
 
-Move: ZEX | Points: 32 | Gems: 3 | EvalScore: 106.00 | Swaps: 0 | Gems Before: 3 | After: 6
+Move: ZAGGING | Points: 52 | Gems: 4 | EvalScore: 115.00 | Swaps: 1 | Gems Before: 3 | After: 4
 
 Round 2:
-O@NDMS!
-X!KM!G!X
-R!N!B!VF!
-KAJU!A
-R!THXV$
+NR!$M!ZN
+VG!DQH
+IAHA!F
+Y!YQ!GO!
+DU!D!@RV!
 
-Move: OSNABURGS | Points: 52 | Gems: 7 | EvalScore: 130.00 | Swaps: 2 | Gems Before: 6 | After: 7
+Move: VAQUERO | Points: 54 | Gems: 4 | EvalScore: 122.50 | Swaps: 1 | Gems Before: 4 | After: 5
 
 Round 3:
-X@ND!MA
-A!KM!GX
-R!O!RVA
-KFJ!O!A
-R!T!H!XV$
+NR!$M!@ZN
+QG!DQ!H
+I!UHA!F!
+Y!Y!TGN
+DBKGV!
 
-Move: KOFTWORKS | Points: 70 | Gems: 4 | EvalScore: 138.50 | Swaps: 2 | Gems Before: 7 | After: 5
+Move: NUMDAH | Points: 54 | Gems: 3 | EvalScore: 122.50 | Swaps: 1 | Gems Before: 5 | After: 5
 
 Round 4:
-WND!MA
-A!O!M!G!X
-R!SOVA!
-R@NC!KA
-R!AH!XV$
+FAOZN
+Q!G!J!Q!Z
+I!UHZF!%
+Y!Y!T!GN
+DBKG@V!
 
-Move: CARROMS | Points: 44 | Gems: 4 | EvalScore: 130.00 | Swaps: 0 | Gems Before: 5 | After: 9
+Move: QUIGHTING | Points: 66 | Gems: 4 | EvalScore: 140.00 | Swaps: 1 | Gems Before: 5 | After: 6
 
 Round 5:
-W!ND!MA!
-A!IM!G!X
-A!EOVA!
-UNS@KA
-R!VH!XV$
+FAOZN!
+NX@J!Q!Z
+TBJFF!%
+Y!Y!VG!L
+D!BKY!V!
 
-Move: SOVKHOZY | Points: 88 | Gems: 1 | EvalScore: 89.00 | Swaps: 3 | Gems Before: 9 | After: 1
+Move: BLUFFLY | Points: 86 | Gems: 3 | EvalScore: 89.00 | Swaps: 2 | Gems Before: 6 | After: 3
 
-Game 52 Score: 287 | Gems left: 1
+Game 52 Score: 315 | Gems left: 3
 
 === Game 53 ===
 Round 1:
-I!@YB!LL
-H!XJ!RR
-D!CAF!Q
-AGL!P!%C
-L!C!XIZ
+CIR!%YO
+B!O!G!OB
+DFFG!L!
+A!Z!DL@R
+C!S!FXW
 
-Move: CACHEXY | Points: 64 | Gems: 3 | EvalScore: 121.50 | Swaps: 1 | Gems Before: 3 | After: 3
+Move: SCAFFOLD | Points: 60 | Gems: 4 | EvalScore: 123.00 | Swaps: 1 | Gems Before: 3 | After: 4
 
 Round 2:
-XN!B!LL
-N!YJ!RR@
-D!CAF!Q
-D!GL!P!%C
-L!QXIZ
+CIR!%Y!O@
+B!O!G!TB
+DZ!IG!D
+Z!Z!D!IR
+TTFXW
 
-Move: LAPFUL | Points: 66 | Gems: 3 | EvalScore: 123.50 | Swaps: 1 | Gems Before: 3 | After: 3
+Move: BOTRYOID | Points: 54 | Gems: 4 | EvalScore: 122.50 | Swaps: 1 | Gems Before: 4 | After: 5
 
 Round 3:
-XN!B!$VL
-N!YJ!R@O
-D!C!QZQ
-D!GYS!C
-L!QXIZ!
+CI!HGI
+B!O!OK$Q!
+DZ!NG!D
+Z!Z!NIR@
+TTFX!W!
 
-Move: BRINNY | Points: 48 | Gems: 4 | EvalScore: 111.00 | Swaps: 1 | Gems Before: 3 | After: 4
+Move: ZOOGRAFT | Points: 56 | Gems: 4 | EvalScore: 130.00 | Swaps: 1 | Gems Before: 5 | After: 6
 
 Round 4:
-XRCVL!
-G$ZJC!O
-D!C!QZ!Q
-D!G!YS!C
-L!@QXIZ!
+CI!HGI
+B!H!L!K!$Q!@
+DMNJD
+Z!Z!N!ID
+TPMMW!
 
-Move: ZYGAL | Points: 38 | Gems: 4 | EvalScore: 95.50 | Swaps: 1 | Gems Before: 4 | After: 5
+Move: BILKING | Points: 62 | Gems: 5 | EvalScore: 136.00 | Swaps: 1 | Gems Before: 6 | After: 8
 
 Round 5:
-XRCVL!
-G$Z!JC!O
-D!C!QK!Q
-LWKS!C!
-UQX!@IZ!
+CGHG!Z
+L!H!YDL
+D!MNJD!
+Z!$Z!N!@ID
+TPMM!W!
 
-Move: QUICKS | Points: 62 | Gems: 4 | EvalScore: 66.00 | Swaps: 1 | Gems Before: 5 | After: 6
+Move: CHAZZANIM | Points: 94 | Gems: 6 | EvalScore: 100.00 | Swaps: 2 | Gems Before: 8 | After: 8
 
-Game 53 Score: 284 | Gems left: 6
+Game 53 Score: 334 | Gems left: 8
 
 === Game 54 ===
 Round 1:
-CH!C!JF
-O!YU!E$L!
-TC!O!N!E
-VJ@IYY
-NN!E!YG
+YK!XE!P
+B@OJB!W!
+B!R!B!$DE
+L!UISA
+YFDS!S!
 
-Move: CHUCKIE | Points: 62 | Gems: 5 | EvalScore: 130.50 | Swaps: 1 | Gems Before: 3 | After: 5
+Move: BOBBLY | Points: 58 | Gems: 3 | EvalScore: 132.00 | Swaps: 0 | Gems Before: 3 | After: 6
 
 Round 2:
-C!L!VJF
-O!YQE$L!
-T!NO!N!E
-VYP!YY@
-NN!DYG!
+YK!XE!@P
+TSJ!B!W!$
+XR!CDE!
+RUI!SA
+ZFDS!S!
 
-Move: COMPONY | Points: 52 | Gems: 5 | EvalScore: 130.00 | Swaps: 1 | Gems Before: 5 | After: 7
+Move: ZEBECKS | Points: 80 | Gems: 6 | EvalScore: 154.00 | Swaps: 2 | Gems Before: 6 | After: 6
 
 Round 3:
-JL!VJF!
-LYQE!$L!
-T!KCIE
-V!Y!KYI
-N!N!D@YG!
+YEXDP!
+T@X!AT!S
+XR!C!DX
+R!U!I!$SA
+ZFDS!S!
 
-Move: FLECKED | Points: 60 | Gems: 4 | EvalScore: 142.00 | Swaps: 1 | Gems Before: 7 | After: 8
+Move: EXTRICATED | Points: 62 | Gems: 6 | EvalScore: 148.00 | Swaps: 1 | Gems Before: 6 | After: 9
 
 Round 4:
-J%L!VJ@M
-LYQ!FL
-T!K!MIE
-V!Y!KYI
-N!EV!Y!G!
+YZXBP!
+U!C@CLS
+X!U!WD!$X
+R!U!HSA
+ZF!DS!S!
 
-Move: JOLLITY | Points: 52 | Gems: 5 | EvalScore: 126.00 | Swaps: 2 | Gems Before: 8 | After: 7
+Move: CURFUFFLES | Points: 92 | Gems: 6 | EvalScore: 166.00 | Swaps: 3 | Gems Before: 9 | After: 6
 
 Round 5:
-J%QVNM
-W!Y!R!F!L
-CU@MIE
-V!I!KYI
-N!EV!Y!G!
+Y!ZX@BL
+U!KCYI!
+X!XU!V!X
+KAHS!A!
+Z%VDS!S!
 
-Move: ZYMURGY | Points: 100 | Gems: 2 | EvalScore: 102.00 | Swaps: 2 | Gems Before: 7 | After: 3
+Move: ZYZZYVAS | Points: 90 | Gems: 5 | EvalScore: 95.00 | Swaps: 2 | Gems Before: 6 | After: 5
 
-Game 54 Score: 329 | Gems left: 3
+Game 54 Score: 387 | Gems left: 5
 
 === Game 55 ===
 Round 1:
-WJ!D!GP!
-EV!DK!F$
-MG!SQ!Q
-MB!D@W!K
-J!EPCT
+BQ!XCC
+W!YVY!L
+CO!@K!R!V!%
+X!S!VTP
+DJMH!K
 
-Move: DJEMBES | Points: 54 | Gems: 3 | EvalScore: 111.50 | Swaps: 1 | Gems Before: 3 | After: 3
+Move: SKYBOX | Points: 58 | Gems: 5 | EvalScore: 126.50 | Swaps: 1 | Gems Before: 3 | After: 5
 
 Round 2:
-WO@TGP!
-SV!D!K!F!$
-TG!UQ!Q
-MDNW!K!
-J!EPCT
+BQ!XC!C
+HPVY!L
+CNXR!V!%
+O!@Q!VTP
+DJM!H!K!
 
-Move: MENUDOS | Points: 44 | Gems: 1 | EvalScore: 107.00 | Swaps: 0 | Gems Before: 3 | After: 4
+Move: CONVEX | Points: 52 | Gems: 2 | EvalScore: 115.00 | Swaps: 1 | Gems Before: 5 | After: 4
 
 Round 3:
-WXTGP!
-ZV!KK!F!$
-TG!A!Q!@Q
-MDNW!K!
-J!MPCT
+BE@IC!C!
+HPMY!L
+TJXR!V!%
+EQ!V!TP
+DJM!H!K!
 
-Move: WAQF | Points: 48 | Gems: 4 | EvalScore: 130.00 | Swaps: 0 | Gems Before: 4 | After: 8
+Move: HEMICYCLE | Points: 70 | Gems: 4 | EvalScore: 138.50 | Swaps: 1 | Gems Before: 4 | After: 5
 
 Round 4:
-W!XTGP!
-Z!V!KK!C
-TG!T!TQ
-MD@N!TK!$
-J!MPCT
+B!DUBZ
+WPWVE
+TJ!XR!$P
+EQ!V!T!P!
+DJM!H!K!@
 
-Move: GEDECKT | Points: 64 | Gems: 4 | EvalScore: 138.00 | Swaps: 2 | Gems Before: 8 | After: 6
+Move: KIPPER | Points: 50 | Gems: 4 | EvalScore: 124.00 | Swaps: 1 | Gems Before: 5 | After: 6
 
 Round 5:
-W!X!TGP!
-Z!V!KK!C
-TF!@RNQ
-MBAT!E
-J!$MPJ!T
+B!DUBZ!
+WP@W!VF!
+TJ!XH%G!
+EQ!V!DY
+DJM!H!E
 
-Move: JAMJARS | Points: 72 | Gems: 3 | EvalScore: 75.00 | Swaps: 2 | Gems Before: 6 | After: 3
+Move: WHUPPED | Points: 76 | Gems: 2 | EvalScore: 78.00 | Swaps: 2 | Gems Before: 6 | After: 2
 
-Game 55 Score: 285 | Gems left: 3
+Game 55 Score: 308 | Gems left: 2
 
 === Game 56 ===
 Round 1:
-G!U!G!LQ
-OS!UP@M
-IL!I!VP
-NTQ!TX
-OS!A$M!Y!
+C!Z!$KM!Q
+K!OA!L!V
+S@FR!PJ
+X!P!K!OK
+AJPHQ
 
-Move: PLUMOSITY | Points: 60 | Gems: 4 | EvalScore: 123.00 | Swaps: 1 | Gems Before: 3 | After: 4
+Move: CZAPKAS | Points: 80 | Gems: 5 | EvalScore: 148.50 | Swaps: 1 | Gems Before: 3 | After: 5
 
 Round 2:
-G!BG!IQ!
-PS!@BZM!
-IL!OV!P
-NTQ!QX
-OS!A$M!I
+RI!K!M!Q
+K!ONL!V
+FFR!AJ
+X!L!PO!K
+A!@JPHQ$
 
-Move: SUBPLOTS | Points: 54 | Gems: 4 | EvalScore: 122.50 | Swaps: 1 | Gems Before: 4 | After: 5
+Move: ALPHORN | Points: 44 | Gems: 4 | EvalScore: 130.00 | Swaps: 0 | Gems Before: 5 | After: 9
 
 Round 3:
-EUG!IQ!
-SYBZM!
-IIP@V!P
-NY!Q!Q!X!
-OO!A$M!I
+R@I!K!M!Q!
+K!OKL!V
+FFWAJ!
+X!UFP!K
+AJPXQ!$
 
-Move: MAYPOP | Points: 48 | Gems: 3 | EvalScore: 116.50 | Swaps: 1 | Gems Before: 5 | After: 5
+Move: QUILLWORK | Points: 92 | Gems: 5 | EvalScore: 160.50 | Swaps: 3 | Gems Before: 9 | After: 5
 
 Round 4:
-EUG!I!Q!
-SY$BZM!
-I!IV@CZ
-NYQ!Q!X!
-OO!BR!I
+P!I!K!M!Q!
+ENKL!V
+FFIK!C!
+X!$UFF@K!
+AJPXG
 
-Move: BIZZY | Points: 58 | Gems: 1 | EvalScore: 115.50 | Swaps: 1 | Gems Before: 5 | After: 3
+Move: HUFFKIN | Points: 72 | Gems: 2 | EvalScore: 129.50 | Swaps: 1 | Gems Before: 5 | After: 4
 
 Round 5:
-E$UG!QQ!
-S!XZK@M!
-I!IFCZ
-NYQ!Q!X!
-OO!BR!I
+P!I!K!@M!Q!
+ERKL!V
+F%FVGC!
+UVE!JK!
+AJP!XG
 
-Move: FUGUES | Points: 50 | Gems: 2 | EvalScore: 52.00 | Swaps: 1 | Gems Before: 3 | After: 2
+Move: EFFEIRS | Points: 64 | Gems: 3 | EvalScore: 67.00 | Swaps: 1 | Gems Before: 4 | After: 4
 
-Game 56 Score: 272 | Gems left: 2
+Game 56 Score: 356 | Gems left: 4
 
 === Game 57 ===
 Round 1:
-R!T@WEO
-BIUG!K
-X!U!$BTW
-A!S!YD!M
-QXS!I!F!
+VUA!FF
+VC!MFV!
+VU!Y@KV!
+G!YJ!%RK
+N!RRJ!K!
 
-Move: SUBTRIBES | Points: 62 | Gems: 5 | EvalScore: 130.50 | Swaps: 1 | Gems Before: 3 | After: 5
+Move: JUMBY | Points: 74 | Gems: 3 | EvalScore: 131.50 | Swaps: 1 | Gems Before: 3 | After: 3
 
 Round 2:
-PJWEO
-C!DUG!K
-X!R!P!@TW!
-A!WY!LM
-QXU$I!F!
+V!UA!FF
+VZBFV!
+V!HMK%V!
+G!Y!L@RK
+N!RRJ!K!
 
-Move: CRUMPLY | Points: 62 | Gems: 5 | EvalScore: 140.00 | Swaps: 1 | Gems Before: 5 | After: 7
+Move: KLANG | Points: 54 | Gems: 3 | EvalScore: 111.50 | Swaps: 1 | Gems Before: 3 | After: 3
 
 Round 3:
-PJWEO
-W!D!L!KK
-X!B!OTW!
-A!WDJM
-QX!U@$I!F!
+V!@U!A!F%F
+V!ZBFV!
+V!HMCV!
+XYE!RK
+YRRJ!K!
 
-Move: INJURABLE | Points: 68 | Gems: 6 | EvalScore: 146.00 | Swaps: 2 | Gems Before: 7 | After: 7
+Move: QUAFF | Points: 66 | Gems: 3 | EvalScore: 123.50 | Swaps: 1 | Gems Before: 3 | After: 3
 
 Round 4:
-P!JWC!%O
-W!D!PKK!
-X!EOTW!
-Z!WD!BM
-Q!ESH@G
+FG!JMU%
+V!@ZBFV!
+V!HMCV!
+XYE!R!K
+YRR!J!K!
 
-Move: KOKOBEH | Points: 80 | Gems: 2 | EvalScore: 137.50 | Swaps: 2 | Gems Before: 7 | After: 3
+Move: WHERRY | Points: 46 | Gems: 4 | EvalScore: 103.50 | Swaps: 1 | Gems Before: 3 | After: 4
 
 Round 5:
-P!JWCA
-W!D!PUK!
-X!EX$T!W!
-Z!WNSM
-Q!ESEG!@
+FG!J!M!U%
+WZBFV!
+V!KMC@V!
+XQVO!K
+Y!ROJ!K!
 
-Move: GEMSBUCK | Points: 76 | Gems: 2 | EvalScore: 78.00 | Swaps: 1 | Gems Before: 3 | After: 2
+Move: MUMMOCK | Points: 82 | Gems: 2 | EvalScore: 84.00 | Swaps: 1 | Gems Before: 4 | After: 3
 
-Game 57 Score: 350 | Gems left: 2
+Game 57 Score: 325 | Gems left: 3
 
 === Game 58 ===
 Round 1:
-ZADR!C!@
-O!KI!X!Z!
-IFE!BP
-ZJHCJ$
-U!UG!GO!
+LB!$GTK
+A!MF!R!Q!@
+X!W!GH!U
+I!XU!YQ
+VPWKL
 
-Move: SCRIECH | Points: 50 | Gems: 5 | EvalScore: 118.50 | Swaps: 1 | Gems Before: 3 | After: 5
+Move: TRUTHY | Points: 46 | Gems: 3 | EvalScore: 103.50 | Swaps: 1 | Gems Before: 3 | After: 3
 
 Round 2:
-Z!A!DB!F
-O!K!C!GZ!
-IFPB@P
-ZJHRJ$
-U!UG!GO!
+L!B!$G!ZK
+A!MF!ZX
+X!W!GWB
+I!XU!LQ!
+V@PWKL
 
-Move: JOCKO | Points: 54 | Gems: 3 | EvalScore: 122.50 | Swaps: 1 | Gems Before: 5 | After: 5
+Move: PAXWAX | Points: 60 | Gems: 3 | EvalScore: 117.50 | Swaps: 1 | Gems Before: 3 | After: 3
 
 Round 3:
-Z!A!DB!F!
-K@MGGZ!
-IFP%DP!
-Z!JHRC
-U!UG!GO!
+L!B!$G!ZK
+PMF!ZX
+V!K!GWB!
+I!YU!LQ!
+J@UWKL
 
-Move: GAZUMP | Points: 74 | Gems: 2 | EvalScore: 137.00 | Swaps: 1 | Gems Before: 5 | After: 4
+Move: KIKUYU | Points: 60 | Gems: 3 | EvalScore: 117.50 | Swaps: 1 | Gems Before: 3 | After: 3
 
 Round 4:
-IMD!B!F!
-X@QYGZ!
-I!FDDP!
-Z!JHR%C
-U!UG!GO!
+L!B!$G!ZK
+PM!F!ZX
+V!FGW!B!
+LSXLQ!
+WXWK!L@
 
-Move: PREFIX | Points: 58 | Gems: 2 | EvalScore: 115.50 | Swaps: 1 | Gems Before: 4 | After: 3
+Move: BLUFFS | Points: 37 | Gems: 4 | EvalScore: 94.50 | Swaps: 1 | Gems Before: 3 | After: 4
 
 Round 5:
-IMD!B!F!
-UQYG@Z!
-MYWD!M
-Z!JH!S$C
-U!UG!GO!
+HGG!ZK
+P!YSZ$X
+V!C!G!W!B!
+L!NXLQ!
+WXWK!L@
 
-Move: DIDYMIUM | Points: 58 | Gems: 2 | EvalScore: 60.00 | Swaps: 1 | Gems Before: 3 | After: 2
+Move: ZILL | Points: 46 | Gems: 1 | EvalScore: 47.00 | Swaps: 1 | Gems Before: 4 | After: 2
 
-Game 58 Score: 296 | Gems left: 2
+Game 58 Score: 251 | Gems left: 2
 
 === Game 59 ===
 Round 1:
-J!TBX!W
-K!J!W!HC
-G@D!COC!
-I$ZJF!O
-SU!I!BB
+KMZKI
+LHD!T!A!
+G!%P@DJH
+Z!EVV!A!
+S!UTH!V!
 
-Move: KUDZUS | Points: 64 | Gems: 3 | EvalScore: 121.50 | Swaps: 1 | Gems Before: 3 | After: 3
+Move: GLAZES | Points: 58 | Gems: 3 | EvalScore: 115.50 | Swaps: 1 | Gems Before: 3 | After: 3
 
 Round 2:
-J!TBX!W
-MJ!W!H!C
-Z@TC!OC!
-I$GJF!O
-ZVI!B!B
+KMZKI
+OH%D!T!A!
+AM!D!JH
+GC!VV!A!
+MUT@H!V!
 
-Move: CHOCTAW | Points: 33 | Gems: 5 | EvalScore: 101.50 | Swaps: 1 | Gems Before: 3 | After: 5
+Move: CUTCHA | Points: 52 | Gems: 4 | EvalScore: 115.00 | Swaps: 1 | Gems Before: 3 | After: 4
 
 Round 3:
-J!TBX!W!
-MNSCC
-Z@AQ!YL
-I$GJF!O
-Z!V!I!B!B!
+K!MZKI
+O!H%D!T!A!
+A!M!D!JH@
+GUVF!Y
+MXVXV!
 
-Move: VIZAMENTS | Points: 64 | Gems: 2 | EvalScore: 127.00 | Swaps: 1 | Gems Before: 5 | After: 4
+Move: MUDFLAT | Points: 54 | Gems: 5 | EvalScore: 128.00 | Swaps: 1 | Gems Before: 4 | After: 6
 
 Round 4:
-KWBX!W!
-TLGC!C
-BNQ!YL
-SG@JF!O
-Z!V!%I!B!B!
+K!MZKI
+O!H!%D!UA
+A!E!XJV!
+G!BVDY
+M@XV!XV!
 
-Move: FOBBING | Points: 58 | Gems: 5 | EvalScore: 132.00 | Swaps: 1 | Gems Before: 4 | After: 6
+Move: BEGAZED | Points: 84 | Gems: 5 | EvalScore: 141.50 | Swaps: 2 | Gems Before: 6 | After: 5
 
 Round 5:
-KWB@X!W!
-TLG!C!C
-BNQ!YL
-S!EJT!O!$
-Z!B!OYW
+K!MZKI
+O!QQ!U!A
+VE@XJV!
+GIVD!Y!
+V!$XV!XV!
 
-Move: WAXCLOTH | Points: 68 | Gems: 5 | EvalScore: 73.00 | Swaps: 2 | Gems Before: 6 | After: 5
+Move: VEXING | Points: 52 | Gems: 1 | EvalScore: 53.00 | Swaps: 1 | Gems Before: 5 | After: 3
 
-Game 59 Score: 292 | Gems left: 5
+Game 59 Score: 303 | Gems left: 3
 
 === Game 60 ===
 Round 1:
-WJQ!WQ
-O!S!WZ!W
-K!GY!SI$
-T!U!GSD!
-LKB!DN@
+BRWY!A
+MDF!GC!
+PD!S!C!J!
+O!OU$R!X
+KXY!Q@H
 
-Move: DIZYGOUS | Points: 37 | Gems: 6 | EvalScore: 111.00 | Swaps: 1 | Gems Before: 3 | After: 6
+Move: SCURFY | Points: 62 | Gems: 4 | EvalScore: 125.00 | Swaps: 1 | Gems Before: 3 | After: 4
 
 Round 2:
-WJQ!WQ
-UEWXW
-L!DES!F!
-T!U!GS!X!
-LKB!$D!N@
+BR!WY!$A
+MD!F!GC!
+P!@D!DZJ!
+O!OCAX
+KXR!QH
 
-Move: GUBBINSES | Points: 64 | Gems: 6 | EvalScore: 138.00 | Swaps: 2 | Gems Before: 6 | After: 6
+Move: MACROPOD | Points: 52 | Gems: 5 | EvalScore: 126.00 | Swaps: 1 | Gems Before: 4 | After: 6
 
 Round 3:
-W!@JQ!W!%Q
-UEWXW!
-L!DWLF!
-T!U!IFE!
-LKLU!R
+BR!WY!$A
+M!D!F!GC!
+AND!ZD
+M!CMC!X
+K@XIQH!
 
-Move: WERWOLF | Points: 74 | Gems: 5 | EvalScore: 142.50 | Swaps: 2 | Gems Before: 6 | After: 5
+Move: MINDFUCK | Points: 70 | Gems: 4 | EvalScore: 133.00 | Swaps: 2 | Gems Before: 6 | After: 4
 
 Round 4:
-VJ!DXQ$
-UZWX!X!
-L!DWGG
-T!U!I!@FE!
-LK!LU!R
+B!R!WY!$A!
+WWPGC!
+EZ!VZD@
+M!BMC!X
+WXI!QH!
 
-Move: KIDULT | Points: 48 | Gems: 5 | EvalScore: 134.00 | Swaps: 0 | Gems Before: 5 | After: 10
+Move: MICHED | Points: 46 | Gems: 3 | EvalScore: 103.50 | Swaps: 1 | Gems Before: 4 | After: 4
 
 Round 5:
-VJ!D!X!Q$
-UZWX!X!
-GEW!G!G@
-MQ!NFE!
-LOLU!R
+B!R!WY!$A!
+WW!PGC!
+EZ!V!Z!E
+M!BBIT
+WX@EQW
 
-Move: QUIVERFUL | Points: 92 | Gems: 4 | EvalScore: 96.00 | Swaps: 3 | Gems Before: 10 | After: 5
+Move: BEMBEX | Points: 52 | Gems: 2 | EvalScore: 54.00 | Swaps: 1 | Gems Before: 4 | After: 3
 
-Game 60 Score: 320 | Gems left: 5
+Game 60 Score: 285 | Gems left: 3
 
 === Game 61 ===
 Round 1:
-IKR!QA
-EGKWY!
-E!I!R!J!N
-EFE@N!Y
-Y!%XV!T!L
+X!I!NLG!%
+MSAZ!I
+RUVUH!
+IV!H!JJ@
+D!X!NJ!E
 
-Move: VERIFY | Points: 62 | Gems: 4 | EvalScore: 140.00 | Swaps: 0 | Gems Before: 3 | After: 7
+Move: JEJUNUM | Points: 68 | Gems: 2 | EvalScore: 117.23 | Swaps: 1 | Gems Before: 3 | After: 2
 
 Round 2:
-IKR!QA
-EG!KWY!
-E!OS!J!N!%
-EMT!N!Y
-PXYT!L@
+X!@I!NLG!%
+QSAZ!I
+RQV!WH!
+IV!DJL
+D!X!N!HO
 
-Move: XYLOTOMY | Points: 90 | Gems: 3 | EvalScore: 153.00 | Swaps: 2 | Gems Before: 7 | After: 4
+Move: XIS | Points: 20 | Gems: 2 | EvalScore: 83.00 | Swaps: 0 | Gems Before: 2 | After: 4
 
 Round 3:
-I!KR!QA$
-EG!KWY!
-E!YS!J!C
-EDJI!L
-P@XDT!Q!
+MF!NLG!%
+QWA!Z!I
+RQV!WH!
+IV!@DJL
+D!X!N!HO
 
-Move: TIDDLEYS | Points: 48 | Gems: 3 | EvalScore: 111.00 | Swaps: 1 | Gems Before: 4 | After: 4
+Move: DVANDVA | Points: 50 | Gems: 6 | EvalScore: 128.00 | Swaps: 1 | Gems Before: 4 | After: 7
 
 Round 4:
-I!KR!@QA!$
-EG!KW!Y!
-E!PEJ!C!
-CPJUL
-RXVYQ!
+MF!N!LG!%
+QWOZ!I!
+R!QEWH!
+ISK@J!L
+P!LKH!O
 
-Move: PARKWAY | Points: 58 | Gems: 5 | EvalScore: 132.00 | Swaps: 1 | Gems Before: 4 | After: 6
+Move: WHIZZERS | Points: 104 | Gems: 4 | EvalScore: 161.50 | Swaps: 2 | Gems Before: 7 | After: 5
 
 Round 5:
-I!KUQD
-EI!FA@T
-E!Q!EJ!C!
-CP!JUL!
-R!$XVYQ!
+MF!N!LU@
+QWOW!J
+R!Q!YSZ
+I!VO!J!L
+P!LK$H!O
 
-Move: JACUZZI | Points: 78 | Gems: 4 | EvalScore: 82.00 | Swaps: 2 | Gems Before: 6 | After: 4
+Move: JOYFUL | Points: 58 | Gems: 3 | EvalScore: 61.00 | Swaps: 1 | Gems Before: 5 | After: 5
 
-Game 61 Score: 340 | Gems left: 4
+Game 61 Score: 305 | Gems left: 5
 
 === Game 62 ===
 Round 1:
-J!Y!ZM!V!
-EA!YUR
-DNTFY@
-YFO!U!E
-F!T!AL$T!
+GTJ!WJ!
+V!LS!Z!T
+NZQ!H%M
+N!NAKO!
+WCH@N!N!
 
-Move: TAUTONYMY | Points: 58 | Gems: 3 | EvalScore: 115.50 | Swaps: 1 | Gems Before: 3 | After: 3
+Move: HOOKAHS | Points: 64 | Gems: 3 | EvalScore: 121.50 | Swaps: 1 | Gems Before: 3 | After: 3
 
 Round 2:
-J!Y!ZM!V!
-EA!WPR
-DL!GF!M
-YF!IOE
-F!ED@L$T!
+GTJ!WJ!
+V!L!YZ!T
+N!Z@Q!ZM
+N!NL%AT
+WCL!XN!
 
-Move: DEFFLY | Points: 52 | Gems: 3 | EvalScore: 126.00 | Swaps: 0 | Gems Before: 3 | After: 6
+Move: ZZZ | Points: 80 | Gems: 0 | EvalScore: 112.70 | Swaps: 1 | Gems Before: 3 | After: 0
 
 Round 3:
-J!Y!ZM!V!
-EA!WPR!
-DXGF!@M!
-SKIOE
-JHOL!$T!
+GTJ!WJ!
+V!L!@YZ!T
+N!N%Q!QM
+N!NUAT
+WCL!XN!
 
-Move: FETLOCKS | Points: 66 | Gems: 3 | EvalScore: 140.00 | Swaps: 1 | Gems Before: 6 | After: 6
+Move: VLY | Points: 24 | Gems: 2 | EvalScore: 73.23 | Swaps: 0 | Gems Before: 0 | After: 2
 
 Round 4:
-J!Y!ZM!V!$
-EA!WPR!
-D!X@J!DM!
-QV!IBG
-JHOHU
+G!@TJ!WJ!
+JEPZ!T
+N!N%Q!QM
+N!NUAT
+WCL!X!N!
 
-Move: JUMBOIZED | Points: 76 | Gems: 3 | EvalScore: 133.50 | Swaps: 2 | Gems Before: 6 | After: 3
+Move: UNPEG | Points: 36 | Gems: 1 | EvalScore: 93.50 | Swaps: 0 | Gems Before: 2 | After: 3
 
 Round 5:
-J!Y!ZM!V!$
-GA!WYR!
-REODB!
-QV!S!VG!
-JHA@HU
+WT!J!WJ!
+JMYZ!T@
+N!QQ!%QM
+N!NJAT
+WCL!X!N!
 
-Move: SAVOYARD | Points: 50 | Gems: 4 | EvalScore: 54.00 | Swaps: 1 | Gems Before: 3 | After: 4
+Move: QAT | Points: 54 | Gems: 2 | EvalScore: 56.00 | Swaps: 1 | Gems Before: 3 | After: 2
 
-Game 62 Score: 306 | Gems left: 4
+Game 62 Score: 260 | Gems left: 2
 
 === Game 63 ===
 Round 1:
-E!S!SNR
-AI!@H!TX!
-H!JQ!JH
-UQ!JN!F!
-WLL%RY
+NCFG!L!@
+BLNS!L!
+G!M!IV!I
+DF!$R!AJ
+ZXQ!ES
 
-Move: QUASHIE | Points: 52 | Gems: 6 | EvalScore: 126.00 | Swaps: 1 | Gems Before: 3 | After: 6
+Move: FRIVOLS | Points: 58 | Gems: 6 | EvalScore: 132.00 | Swaps: 1 | Gems Before: 3 | After: 6
 
 Round 2:
-PU!S!NR
-G@WPTX!
-KJQ!JH!
-UZ!JN!F!
-WL!L%RY!
+NC!FG!N!
+BLNG!Q
+G!M!BRI!
+D!WGA$J
+ZXQ!E!S@
 
-Move: MZUNGUS | Points: 80 | Gems: 3 | EvalScore: 137.50 | Swaps: 2 | Gems Before: 6 | After: 3
+Move: JIZZES | Points: 80 | Gems: 3 | EvalScore: 137.50 | Swaps: 2 | Gems Before: 6 | After: 3
 
 Round 3:
-PUINR
-OWP%TX!
-WJQ!JH!
-ALJ!@N!F!
-W!L!OR!Y!
+NC!FG!N!
+BLNG!Q
+G!M!BRX
+D!WGF@X
+Z!X!S!CO%
 
-Move: JOLLOP | Points: 64 | Gems: 3 | EvalScore: 121.50 | Swaps: 1 | Gems Before: 3 | After: 3
+Move: DOGFOX | Points: 54 | Gems: 2 | EvalScore: 103.23 | Swaps: 1 | Gems Before: 3 | After: 2
 
 Round 4:
-PUINR
-O!WNTX!
-WJWJ@H!
-A!$WHN!F!
-W!EY!R!Y!
+NC!FG!N!
+BLN@G!%Q
+G!MBRX
+RWP!AK!
+Z!X!S!CD
 
-Move: INJURY | Points: 50 | Gems: 3 | EvalScore: 107.50 | Swaps: 1 | Gems Before: 3 | After: 3
+Move: SPRACK | Points: 30 | Gems: 3 | EvalScore: 87.50 | Swaps: 0 | Gems Before: 2 | After: 5
 
 Round 5:
-PUANR
-O!WZ!TX!@
-WJ!W!DH!
-A!$WHN!R
-W!EY!OW
+NC!F!G!N!
+BLN@G!%Q
+G!M!BB!X
+RWPJZ
+Z!X!BED
 
-Move: AJOWANS | Points: 50 | Gems: 4 | EvalScore: 54.00 | Swaps: 1 | Gems Before: 3 | After: 4
+Move: GUMPED | Points: 60 | Gems: 2 | EvalScore: 62.00 | Swaps: 1 | Gems Before: 5 | After: 4
 
-Game 63 Score: 300 | Gems left: 4
+Game 63 Score: 286 | Gems left: 4
 
 === Game 64 ===
 Round 1:
-OUWKN!
-V!B!Z!%Q!K!
-ALESG!
-L!ILCE!
-YJ!NGS@
+ECVWH
+F!D!RUY!
+MKI!TX!%
+G!B!XKQ!
+T!HMUE!@
 
-Move: BUZZINGS | Points: 106 | Gems: 2 | EvalScore: 155.23 | Swaps: 1 | Gems Before: 3 | After: 2
+Move: CRITIQUE | Points: 62 | Gems: 4 | EvalScore: 125.00 | Swaps: 1 | Gems Before: 3 | After: 4
 
 Round 2:
-OWW$KN!
-V!D@C!Q!K!
-ALYSG!
-L!ZL!CE!
-YJ!HAT
+E!@LVWH!
+F!D!JUY!
+MKA%QP
+G!B!XK!F
+T!HM!NQ
 
-Move: VALLATE | Points: 26 | Gems: 3 | EvalScore: 94.50 | Swaps: 0 | Gems Before: 2 | After: 5
+Move: QUAFFED | Points: 68 | Gems: 3 | EvalScore: 131.00 | Swaps: 1 | Gems Before: 4 | After: 4
 
 Round 3:
-OWW$KN!
-R!D@C!Q!K!
-N!PYSG!
-L!ZHCI!
-YJ!HYJ
+U!LVW@H!
+W!%UJHY!
+MIAHP
+G!B!X!K!F
+T!HM!NQ
 
-Move: WORDPLAY | Points: 56 | Gems: 3 | EvalScore: 124.50 | Swaps: 1 | Gems Before: 5 | After: 5
+Move: QUIGHT | Points: 48 | Gems: 3 | EvalScore: 111.00 | Swaps: 1 | Gems Before: 4 | After: 4
 
 Round 4:
-SAW!$K!N!
-CFC!Q!K!
-N!WYSG!
-O@ZH!CI!
-CLHYJ
+U!LVW@H!
+SMJH!Y!
+MWA!HP
+R!B!X!K!F
+SWM!N$Q
 
-Move: SCHLOCKY | Points: 70 | Gems: 1 | EvalScore: 127.50 | Swaps: 1 | Gems Before: 5 | After: 3
+Move: WHAMMY | Points: 54 | Gems: 3 | EvalScore: 111.50 | Swaps: 1 | Gems Before: 4 | After: 4
 
 Round 5:
-SAW!$K!N!
-CFC!Q!@K!
-N!WBV!G!
-HOPNI!
-MKHYJ
+U!L!VZH!
+SSJB!Y!
+LW@A!HP
+R!UX!K!F
+SWM!N$Q
 
-Move: ACKNEW | Points: 60 | Gems: 5 | EvalScore: 65.00 | Swaps: 1 | Gems Before: 3 | After: 5
+Move: WUKKAS | Points: 58 | Gems: 3 | EvalScore: 61.00 | Swaps: 1 | Gems Before: 4 | After: 4
 
-Game 64 Score: 323 | Gems left: 5
+Game 64 Score: 294 | Gems left: 4
 
 === Game 65 ===
 Round 1:
-GMLKI!@
-ES!%UEY!
-K!B!DS!M
-J!S!M!ON
-HTU!QI
+F!DA!O!E
+IA!YVI
+E!VYWS
+HNT!@N!M
+H!U!B%T!F
 
-Move: SULKIES | Points: 56 | Gems: 3 | EvalScore: 130.00 | Swaps: 0 | Gems Before: 3 | After: 6
+Move: BUTTHEAD | Points: 68 | Gems: 4 | EvalScore: 131.00 | Swaps: 1 | Gems Before: 3 | After: 4
 
 Round 2:
-GM!%IM!J
-EWSMY!
-K!B!DHM
-J!S!M!ON
-H@TU!Q!I
+F!CA!O!E
+IV!YV!I
+QUY!WS
+LNZN!@M!
+H!SQT!%F
 
-Move: MUSHMOUTHS | Points: 88 | Gems: 4 | EvalScore: 166.00 | Swaps: 1 | Gems Before: 6 | After: 7
+Move: UNWIVE | Points: 62 | Gems: 3 | EvalScore: 125.00 | Swaps: 1 | Gems Before: 4 | After: 4
 
 Round 3:
-GV!LM!J
-EWF!MY!
-K!%B!D!@OM
-J!VYQN
-WPCQ!I!
+F!CA!O!$O
+IV!YSR
+QUY!YS
+LN@ZDM!
+H!SQ!V!F!
 
-Move: DYBBUK | Points: 84 | Gems: 4 | EvalScore: 152.50 | Swaps: 2 | Gems Before: 7 | After: 5
+Move: AVYZES | Points: 52 | Gems: 3 | EvalScore: 115.00 | Swaps: 1 | Gems Before: 4 | After: 4
 
 Round 4:
-G!V!LM!J
-E!E!O@MY!
-GKXOM
-J!VV$Q!N
-WPCQ!I!
+F!CDO!$O!
+I!PYSR
+QU!EYS
+LLLDM!
+H!Q@Q!V!F!
 
-Move: GEEKDOM | Points: 48 | Gems: 4 | EvalScore: 122.00 | Swaps: 1 | Gems Before: 5 | After: 6
+Move: QUELCH | Points: 60 | Gems: 2 | EvalScore: 117.50 | Swaps: 1 | Gems Before: 4 | After: 3
 
 Round 5:
-UV!LXJ!
-UXDMY!
-GLL!OM
-J!VV!$Q!@N
-WPC!Q!I!
+F!C!DO!$O!
+I!PYSR
+U!EMYS
+LLPDM!
+ZRQ!V!F!@
 
-Move: COLLOQUY | Points: 70 | Gems: 5 | EvalScore: 75.00 | Swaps: 2 | Gems Before: 6 | After: 5
+Move: FOSSOR | Points: 38 | Gems: 3 | EvalScore: 41.00 | Swaps: 1 | Gems Before: 3 | After: 3
 
-Game 65 Score: 351 | Gems left: 5
+Game 65 Score: 283 | Gems left: 3
 
 === Game 66 ===
 Round 1:
-M!IFE@%B
-W!ROSR
-AAP!X!T!
-T!F!XID
-F!O!RJG!
+YOPVH
+XR!PW!@Q
+IFLO!C!
+DE!L!$VH!
+N!VN!VV!
 
-Move: FARMWIFE | Points: 62 | Gems: 3 | EvalScore: 136.00 | Swaps: 0 | Gems Before: 3 | After: 6
+Move: ELFLOCK | Points: 64 | Gems: 5 | EvalScore: 132.50 | Swaps: 1 | Gems Before: 3 | After: 5
 
 Round 2:
-L!HXP@B
-ENOS$R
-VA!P!X!T!
-T!ZXI!D
-F!O!RJG!
+Y!OP!$V!H
+XR!@PUQ!
+IJWK!N
+DFQVH!
+N!VN!VV!
 
-Move: POSTIMPACT | Points: 66 | Gems: 6 | EvalScore: 140.00 | Swaps: 2 | Gems Before: 6 | After: 6
+Move: POPJOY | Points: 60 | Gems: 3 | EvalScore: 128.50 | Swaps: 1 | Gems Before: 5 | After: 5
 
 Round 3:
-L!HXPB!
-EN!HSR
-V!$DA!VL
-DNXP!D@
-F!O!RJ!G!
+WGP!V!H
+XTE$UQ!
+IJ!WK!N
+DF!Q@VH!
+N!VN!VV!
 
-Move: DVANDVA | Points: 60 | Gems: 3 | EvalScore: 134.00 | Swaps: 1 | Gems Before: 6 | After: 6
+Move: PUNKIN | Points: 48 | Gems: 3 | EvalScore: 116.50 | Swaps: 1 | Gems Before: 5 | After: 5
 
 Round 4:
-L!HX@PB!
-XWHS!R
-GHN!ML$
-DNX!P!B
-F!O!RJ!G!
+WGBV!H
+XTE$EQ!
+IJ!WEX
+D!F!D!VH!
+N!V!@IVV!
 
-Move: FOURPLEX | Points: 70 | Gems: 5 | EvalScore: 127.50 | Swaps: 2 | Gems Before: 6 | After: 5
+Move: KIDVID | Points: 48 | Gems: 4 | EvalScore: 122.00 | Swaps: 1 | Gems Before: 5 | After: 6
 
 Round 5:
-L!H@W!$PB!
-XWHCR!
-G!HN!MD
-D!NQHB
-UR!CJ!G!
+WGBV!H
+X@TE$EQ!
+G!CWEX
+DF!F!VH!
+N!M!S!VV!
 
-Move: WHUP | Points: 44 | Gems: 1 | EvalScore: 45.00 | Swaps: 1 | Gems Before: 5 | After: 3
+Move: CHUFFS | Points: 60 | Gems: 4 | EvalScore: 64.00 | Swaps: 2 | Gems Before: 6 | After: 4
 
-Game 66 Score: 305 | Gems left: 3
+Game 66 Score: 284 | Gems left: 4
 
 === Game 67 ===
 Round 1:
-Z!CBY!@X!
-UO!QKG
-Y!BH!D$M!
-I!JIW!Q
-PBLQ!B
+YES@Z!M!
+EJ!MA!L
+U!UTZA
+TK!V!R!D
+DA!R!$WI
 
-Move: BOMBYX | Points: 58 | Gems: 3 | EvalScore: 115.50 | Swaps: 1 | Gems Before: 3 | After: 3
+Move: MUKTUKS | Points: 66 | Gems: 3 | EvalScore: 123.50 | Swaps: 1 | Gems Before: 3 | After: 3
 
 Round 2:
-Z!DBLN
-UDQK!G
-Y!L!@H!D$M!
-I!JIW!Q
-P!BLQ!B
+YE@T!Z!M!
+EGLA!L
+EWTZA
+LTV!R!D!
+D!A!R!$WI
 
-Move: BAWDILY | Points: 58 | Gems: 4 | EvalScore: 121.00 | Swaps: 1 | Gems Before: 3 | After: 4
+Move: RAZZLE | Points: 60 | Gems: 3 | EvalScore: 117.50 | Swaps: 1 | Gems Before: 3 | After: 3
 
 Round 3:
-Z!DBLN
-UDQK!G@
-P!N$H!JM!
-I!JTXQ
-P!BL!A!C!
+Y@UT!Z!M!
+EGIA!L
+E!WTFA
+LTOR!D!
+D!$NM!W!I
 
-Move: CATJANG | Points: 52 | Gems: 3 | EvalScore: 115.00 | Swaps: 1 | Gems Before: 4 | After: 4
+Move: TUBEWORM | Points: 56 | Gems: 3 | EvalScore: 113.50 | Swaps: 1 | Gems Before: 3 | After: 3
 
 Round 4:
-Z!DBL@J!
-U!DQP!K
-P!N$H!BM!
-I!JQXQ
-P!BL!GL
+OT!PZ!M!
+MG@IA!L!
+E!CTFA
+LT!RMD!
+D!$NMW!I
 
-Move: PLUMB | Points: 38 | Gems: 2 | EvalScore: 95.50 | Swaps: 1 | Gems Before: 4 | After: 3
+Move: LAPHELD | Points: 54 | Gems: 4 | EvalScore: 111.50 | Swaps: 1 | Gems Before: 3 | After: 4
 
 Round 5:
-Z!DBGJ!
-U!DQTZ
-P!N@$H!DA!
-I!JQXQ
-P!BL!G!L
+OT!N!Z!M!
+MAI!PC
+ACTFA
+DT!R@$M!D!
+PNM!W!I
 
-Move: HUDDUP | Points: 62 | Gems: 3 | EvalScore: 65.00 | Swaps: 1 | Gems Before: 3 | After: 3
+Move: TINTACK | Points: 60 | Gems: 3 | EvalScore: 63.00 | Swaps: 1 | Gems Before: 4 | After: 4
 
-Game 67 Score: 271 | Gems left: 3
+Game 67 Score: 300 | Gems left: 4
 
 === Game 68 ===
 Round 1:
-N!T!P@QU
-ML!O!BC
-XCZ!LI
-WM!YBK!
-W!RR!GE!$
+R!U!UGD!
+ZAN%FU
+C!V!G@CX!
+E!SU!GS
+ACD!C!P
 
-Move: PLUMCOT | Points: 56 | Gems: 5 | EvalScore: 124.50 | Swaps: 1 | Gems Before: 3 | After: 5
+Move: MZUNGUS | Points: 72 | Gems: 3 | EvalScore: 129.50 | Swaps: 1 | Gems Before: 3 | After: 3
 
 Round 2:
-N!WDQ!U!
-MHU!B!C
-X!Q@LLI
-WDYBK!
-W!RR!GE!$
+LEUGD!
+T!AEF$U
+C!V!JC!X!
+E!LM!GS@
+ACD!C!P
 
-Move: QUAYLIKE | Points: 68 | Gems: 4 | EvalScore: 142.00 | Swaps: 1 | Gems Before: 5 | After: 6
+Move: SCUFFLE | Points: 70 | Gems: 2 | EvalScore: 119.23 | Swaps: 1 | Gems Before: 3 | After: 2
 
 Round 3:
-N!WD!A!U!
-MH@SB!C!$
-X!JLUY
-WDQBI
-W!RR!GK!
+LEU!GD!
+T!AE%QE
+C!V!N!G@X!
+OEM!GC
+ACD!C!P
 
-Move: BUSHWHACK | Points: 90 | Gems: 5 | EvalScore: 158.50 | Swaps: 2 | Gems Before: 6 | After: 5
+Move: AVENGED | Points: 46 | Gems: 3 | EvalScore: 114.50 | Swaps: 0 | Gems Before: 2 | After: 5
 
 Round 4:
-N!R!NZR
-MF@P%HH!
-X!JLJY!
-W!D!QBI
-W!RR!GK!
+LEU!GB!%
+T!EWQK!
+C!MK!P@X!
+OEM!GC
+ACD!C!P
 
-Move: FURPHY | Points: 72 | Gems: 3 | EvalScore: 129.50 | Swaps: 1 | Gems Before: 5 | After: 5
+Move: MIQUELET | Points: 58 | Gems: 3 | EvalScore: 115.50 | Swaps: 1 | Gems Before: 5 | After: 5
 
 Round 5:
-E@O!NZR
-MVV!PH!
-X!JLJY
-W!D!QBI
-W!%RR!G!K!
+GD!BG!B!%
+UMWPK!
+C!MK!T@X!
+OEUG!C
+ACD!C!P
 
-Move: WOLVE | Points: 50 | Gems: 2 | EvalScore: 52.00 | Swaps: 1 | Gems Before: 5 | After: 4
+Move: BITUMED | Points: 64 | Gems: 3 | EvalScore: 67.00 | Swaps: 1 | Gems Before: 5 | After: 5
 
-Game 68 Score: 340 | Gems left: 4
+Game 68 Score: 315 | Gems left: 5
 
 === Game 69 ===
 Round 1:
-JARFK!
-UY%NBZ!
-H!JC!ZJ
-YS!TB!I!
-F@W!EB!J!
+DF!IN!H
+M!ZMJ!Z!
+TU!YH!Q
+IO!V!C!G
+TKFE@L%
 
-Move: FLESHY | Points: 64 | Gems: 3 | EvalScore: 121.50 | Swaps: 1 | Gems Before: 3 | After: 3
+Move: KVETCHY | Points: 72 | Gems: 3 | EvalScore: 129.50 | Swaps: 1 | Gems Before: 3 | After: 3
 
 Round 2:
-JARFK!
-UG!NBZ!
-UJC!Z!J
-YWT!B!I!
-SEQB!@J!$
+DF!IN!H
+M!ZMJ!Z!
+TU!QWQ!$
+I@O!BK!G
+TQF!WO
 
-Move: JIBBING | Points: 68 | Gems: 6 | EvalScore: 142.00 | Swaps: 1 | Gems Before: 3 | After: 6
+Move: MEZQUIT | Points: 66 | Gems: 3 | EvalScore: 123.50 | Swaps: 1 | Gems Before: 3 | After: 3
 
 Round 3:
-JARFK!
-U!T!RB%Z!
-UJ!J@Z!J
-YW!T!N!A
-SEQ!HV
+D!DIN!H
+DU!MJ!Z!
+UNXWQ!@$
+NO!BK!G
+T!QF!WO
 
-Move: FRIZZANTE | Points: 102 | Gems: 3 | EvalScore: 159.50 | Swaps: 2 | Gems Before: 6 | After: 3
+Move: JAWBOX | Points: 62 | Gems: 3 | EvalScore: 119.50 | Swaps: 1 | Gems Before: 3 | After: 3
 
 Round 4:
-JAREK!
-U!%T!V!TZ!
-U!J!@F!NJ
-YW!RQQ
-SYQ!HV
+D!DIN!H
+D!$U!M!QZ!
+U!NUIN
+NAAK!G@
+T!QF!WO
 
-Move: JUJU | Points: 60 | Gems: 3 | EvalScore: 134.00 | Swaps: 0 | Gems Before: 3 | After: 6
+Move: UNQUAKING | Points: 72 | Gems: 3 | EvalScore: 129.50 | Swaps: 1 | Gems Before: 3 | After: 3
 
 Round 5:
-P!AREK!
-G!T!V!T@Z!
-N!%DF!NJ
-YW!RQQ
-SYQ!HV
+D!D!IN!H!
+D!$LRYZ!@
+U!NCT!K
+NAOET
+T!QF!WO
 
-Move: QUARTZ | Points: 92 | Gems: 3 | EvalScore: 95.00 | Swaps: 2 | Gems Before: 6 | After: 3
+Move: DULCETLY | Points: 66 | Gems: 4 | EvalScore: 70.00 | Swaps: 1 | Gems Before: 3 | After: 4
 
-Game 69 Score: 389 | Gems left: 3
+Game 69 Score: 342 | Gems left: 4
 
 === Game 70 ===
 Round 1:
-PH!P@NR
-AMOD!U
-EF!CO!Z!
-K%I!WZR!
-F!PS!ON!
+YDRT!M!
+JQ!ZPF!$
+RB!@G!HS!
+SU!JKM
+CJC!OJ!
 
-Move: PODZOLIC | Points: 62 | Gems: 4 | EvalScore: 125.00 | Swaps: 1 | Gems Before: 3 | After: 4
+Move: BUCKSHOT | Points: 68 | Gems: 6 | EvalScore: 142.00 | Swaps: 1 | Gems Before: 3 | After: 6
 
 Round 2:
-PH!ANR
-A!@MJCU!
-EF!Y!CC
-K%DH!ZR!
-F!PS!ON!
+Y!DR!B!M!
+JQ!Z!PU
+R@IG!EF!
+SBJAM!
+CJ$KOJ!
 
-Move: JAMPACKED | Points: 98 | Gems: 2 | EvalScore: 155.50 | Swaps: 1 | Gems Before: 4 | After: 3
+Move: MEZQUITS | Points: 70 | Gems: 4 | EvalScore: 133.00 | Swaps: 2 | Gems Before: 6 | After: 4
 
 Round 3:
-CH!UNR
-V!RZCU!$
-FSY!C!C@
-GHH!ZR!
-F!PS!ON!
+Y!D!R!B!M!@
+JGPPU
+NQRUF!
+GB!J!AC
+C!J$KOJ!
 
-Move: CRUNCHY | Points: 70 | Gems: 4 | EvalScore: 133.00 | Swaps: 1 | Gems Before: 3 | After: 4
+Move: CAJUPUT | Points: 64 | Gems: 2 | EvalScore: 121.50 | Swaps: 1 | Gems Before: 4 | After: 3
 
 Round 4:
-CH!U@NE
-V!RZBY!
-FS!S!%HB
-GHXZ!R!
-F!PS!ON!
+Y!D!R!B!B
+JG!P!QN
+NQRWF!
+GB!UCT
+C!J$KOJ!@
 
-Move: CHURCHY | Points: 86 | Gems: 3 | EvalScore: 143.50 | Swaps: 1 | Gems Before: 4 | After: 4
+Move: JOUKING | Points: 58 | Gems: 3 | EvalScore: 115.50 | Swaps: 1 | Gems Before: 3 | After: 3
 
 Round 5:
-BNDNE!
-V!@BZBJ!
-FS!LOB
-GHXZ!R!
-F!P%S!O!N!
+Y!D!R!B!B!@
+JJP!QN
+N!QRWF!
+GLJCT
+C!J$K!QJ
 
-Move: BANDBOX | Points: 54 | Gems: 1 | EvalScore: 55.00 | Swaps: 1 | Gems Before: 4 | After: 2
+Move: JIBB | Points: 32 | Gems: 3 | EvalScore: 35.00 | Swaps: 1 | Gems Before: 3 | After: 3
 
-Game 70 Score: 372 | Gems left: 2
+Game 70 Score: 295 | Gems left: 3
 
 === Game 71 ===
 Round 1:
-X!A!@NG!A
-S!ROQ!J
-JLFNO!
-QK%BP!C!
-MA!MH!Y
+M!$QYB!T
+XJU!S!R
+K!A@N!QW
+WN!MP!N!
+H!ORKS
 
-Move: HYPONOIAS | Points: 50 | Gems: 5 | EvalScore: 118.50 | Swaps: 1 | Gems Before: 3 | After: 5
+Move: SQUAWKY | Points: 70 | Gems: 4 | EvalScore: 133.00 | Swaps: 1 | Gems Before: 3 | After: 4
 
 Round 2:
-X!K!D@G!A
-NRPQ!J
-JL!F!KE
-QK%BJC!
-M!A!M!FK
+M!$Q!YB!T
+X!J!QDR
+AON!MW
+A@BMP!N!
+H!O!RKS
 
-Move: AMBLED | Points: 42 | Gems: 3 | EvalScore: 110.50 | Swaps: 1 | Gems Before: 5 | After: 5
+Move: JAWBOX | Points: 60 | Gems: 2 | EvalScore: 117.50 | Swaps: 1 | Gems Before: 4 | After: 3
 
 Round 3:
-X!K!DG!A
-NUPQ!J
-JV!F!KE
-Q!K%LJC!
-M!SMF!@K
+M!$Q!YB!T
+FAQ!DR
+DQ!N!MW
+BGMP!@N!
+H!O!RKS
 
-Move: KLICK | Points: 66 | Gems: 2 | EvalScore: 129.00 | Swaps: 1 | Gems Before: 5 | After: 4
+Move: PROGRAM | Points: 52 | Gems: 4 | EvalScore: 115.00 | Swaps: 1 | Gems Before: 3 | After: 4
 
 Round 4:
-X!K!DG!A
-NUPQ!J
-J!V!F!WE%
-Q!ONJX@
-M!SMPK!
+JQ!YB!@T%
+FCQ!D!R
+DSN!MW
+B!JMD!N!
+H!LX!KS
 
-Move: FLEX | Points: 36 | Gems: 2 | EvalScore: 93.50 | Swaps: 1 | Gems Before: 4 | After: 3
+Move: CYBRIDS | Points: 52 | Gems: 2 | EvalScore: 109.50 | Swaps: 1 | Gems Before: 4 | After: 3
 
 Round 5:
-X!K!D!G!A!
-NUPN$J
-J!V!FWD
-Q!ONJ@Q
-M!SMPK!
+JQ!HCT%
+FP!Q!D!Y
+DSN!ML
+B!JMGN!
+H!LX!K!G@
 
-Move: AJWANS | Points: 46 | Gems: 1 | EvalScore: 47.00 | Swaps: 1 | Gems Before: 3 | After: 1
+Move: CYMLING | Points: 54 | Gems: 1 | EvalScore: 55.00 | Swaps: 1 | Gems Before: 3 | After: 1
 
-Game 71 Score: 241 | Gems left: 1
+Game 71 Score: 289 | Gems left: 1
 
 === Game 72 ===
 Round 1:
-UM!QOB
-P!M!J!R!G
-UDX!CL!
-U!VV@JL
-E!$VVOO!
+H!I!XP!T!
+ALA!NI
+T!KR!EZ!
+Y!@UAVF
+URWS%A!
 
-Move: UPDOVE | Points: 48 | Gems: 2 | EvalScore: 97.23 | Swaps: 1 | Gems Before: 3 | After: 2
+Move: SEVERALTY | Points: 60 | Gems: 5 | EvalScore: 128.50 | Swaps: 1 | Gems Before: 3 | After: 5
 
 Round 2:
-MM!Q$OB
-QM!J!R!G!
-UJX!C!L!
-U!VW@JL
-EVVOO!
+H!I!X!P!@T!
+ATWNI
+A!K!DD$Z!
+L!UAEF
+UR!WCJ
 
-Move: CLOW | Points: 28 | Gems: 1 | EvalScore: 85.50 | Swaps: 0 | Gems Before: 2 | After: 3
+Move: PINXIT | Points: 44 | Gems: 3 | EvalScore: 126.00 | Swaps: 0 | Gems Before: 5 | After: 8
 
 Round 3:
-M@M!Q$OB
-Q!M!J!R!G!
-UJX!JL!
-U!VJJN
-EVVZO!
+H!YLBT!@
+A!IWFL
+A!K!DD!$Z!
+L!UAEF
+U!R!WCJ
 
-Move: MUMM | Points: 40 | Gems: 2 | EvalScore: 89.23 | Swaps: 1 | Gems Before: 3 | After: 2
+Move: RAZZLE | Points: 72 | Gems: 4 | EvalScore: 146.00 | Swaps: 2 | Gems Before: 8 | After: 6
 
 Round 4:
-ZKUOB!
-Q!LJ!R!G!
-UJ$X!JL!
-U!VJJ!@N
-EVVZO!
+H!Y@LBN
+A!IW!F!S
+A!K!D!JD
+L!UQEF
+U!MW!C$J
 
-Move: JUVE | Points: 24 | Gems: 1 | EvalScore: 81.50 | Swaps: 0 | Gems Before: 2 | After: 3
+Move: QUAKILY | Points: 64 | Gems: 2 | EvalScore: 138.00 | Swaps: 0 | Gems Before: 6 | After: 8
 
 Round 5:
-ZKUOB!
-Q!LJ!R!G!
-UEX!JL!
-VQJJ!@N$
-WV!VZO!
+H!CEBN
+A!AW!F!S
+O@AD!JD!
+L!ZSEF!
+U!MW!C$J
 
-Move: JUJU | Points: 44 | Gems: 3 | EvalScore: 47.00 | Swaps: 1 | Gems Before: 3 | After: 3
+Move: CUMULOUS | Points: 74 | Gems: 3 | EvalScore: 77.00 | Swaps: 2 | Gems Before: 8 | After: 5
 
-Game 72 Score: 187 | Gems left: 3
+Game 72 Score: 319 | Gems left: 5
 
 === Game 73 ===
 Round 1:
-ZZE@N!F
-S!$K!RTN!
-F!V!XW!I!
-AMRG!G
-EZSAT!
+G!Y!$XHI
+T!UH!PM!
+E!N!WBE
+PTTKS
+AP@B!S!U!
 
-Move: SKENNING | Points: 52 | Gems: 7 | EvalScore: 130.00 | Swaps: 1 | Gems Before: 3 | After: 7
+Move: PATENTLY | Points: 56 | Gems: 5 | EvalScore: 124.50 | Swaps: 1 | Gems Before: 3 | After: 5
 
 Round 2:
-ZZH!$GF
-XA!R!TQ
-F!@V!XM!A!
-A!MRCG
-EZSA!T!
+RE!XHI
+U!UH!P@M!
+T!TWB$E
+P!Q!TKS
+IBB!S!U!
 
-Move: RAZZMATAZZ | Points: 96 | Gems: 4 | EvalScore: 164.50 | Swaps: 2 | Gems Before: 7 | After: 5
+Move: EXPECTS | Points: 64 | Gems: 2 | EvalScore: 127.00 | Swaps: 1 | Gems Before: 5 | After: 4
 
 Round 3:
-WE!H!$GF
-XXR!TQ!
-UV!XM!A!
-XJVCG@
-E!AP!PT!
+R@ACHI
+U!UH!WM!
+T!TWNV!
+P!Q!RKS
+IBB!%K!U!
 
-Move: UPGATHER | Points: 60 | Gems: 5 | EvalScore: 138.00 | Swaps: 1 | Gems Before: 5 | After: 7
+Move: BITTUR | Points: 56 | Gems: 4 | EvalScore: 124.50 | Swaps: 1 | Gems Before: 4 | After: 5
 
 Round 4:
-WGTGF
-X@XYWQ!
-UV!XM!H!
-X!J!V!%C!F
-E!AKST!
+WACHI
+AU!H!WM!
+JL!W!NV!
+P!V@RKS
+I%BG!K!U!
 
-Move: CHIVVY | Points: 78 | Gems: 5 | EvalScore: 152.00 | Swaps: 2 | Gems Before: 7 | After: 6
+Move: BIVOUAC | Points: 56 | Gems: 2 | EvalScore: 113.50 | Swaps: 1 | Gems Before: 5 | After: 4
 
 Round 5:
-WGTG%F
-E!XY!WQ!
-U!RX!FG
-X!J!Y!OF
-E!AKS@T!
+WX@DHI
+AXH!WM!
+JXW!NV!
+P!LRK!S
+Y!$MG!K!U!
 
-Move: SKYJACKER | Points: 78 | Gems: 5 | EvalScore: 83.00 | Swaps: 2 | Gems Before: 6 | After: 5
+Move: PAXWAX | Points: 60 | Gems: 1 | EvalScore: 61.00 | Swaps: 1 | Gems Before: 4 | After: 2
 
-Game 73 Score: 369 | Gems left: 5
+Game 73 Score: 294 | Gems left: 2
 
 === Game 74 ===
 Round 1:
-C!OA!UA@
-EQ!RXU$
-BHMZ!Y
-B!A!U!LN!
-L!WR!FC
+NI!NY!I
+BJ!B!I!A!
+RS!VRQ
+Y!M!LMV!
+TJWP@H$
 
-Move: AUGURAL | Points: 54 | Gems: 5 | EvalScore: 122.50 | Swaps: 1 | Gems Before: 3 | After: 5
+Move: BRAINY | Points: 24 | Gems: 4 | EvalScore: 102.00 | Swaps: 0 | Gems Before: 3 | After: 7
 
 Round 2:
-C!OA!U@P
-EQ!$R!XK
-BH!MO!Y!
-B!YQLN!
-V!WNFC
+NI!DCI
+BJ!L!PW!
+RS!VVQ!
+Y!M!LMV!
+TJ!WP@H$
 
-Move: BUXOMLY | Points: 64 | Gems: 3 | EvalScore: 132.50 | Swaps: 1 | Gems Before: 5 | After: 5
+Move: QUALMY | Points: 58 | Gems: 4 | EvalScore: 126.50 | Swaps: 2 | Gems Before: 7 | After: 5
 
 Round 3:
-C!@O!XHP
-EQ!$R!T!K
-BH!FLO
-B!YQVN!
-V!WNFC!
+N!I!DC!I!
+B@J!L!PW!
+RS!VVT
+SDHMS
+TJ!WNH!$
 
-Move: TROCHE | Points: 48 | Gems: 5 | EvalScore: 126.00 | Swaps: 1 | Gems Before: 5 | After: 7
+Move: CLIMBS | Points: 48 | Gems: 5 | EvalScore: 126.00 | Swaps: 1 | Gems Before: 5 | After: 7
 
 Round 4:
-N$NXH@P
-E!RD!W!K
-BH!F!LO!
-B!YQVN!
-V!WNFC!
+N!LD!@PI!
+A!LDPW!
+R!GVVT
+SD!HM!S
+TJ!WNH!$
 
-Move: NOWHENCE | Points: 62 | Gems: 5 | EvalScore: 136.00 | Swaps: 2 | Gems Before: 7 | After: 6
+Move: WILDCARDS | Points: 60 | Gems: 6 | EvalScore: 134.00 | Swaps: 2 | Gems Before: 7 | After: 7
 
 Round 5:
-IXXDP!
-MRZL@K!
-BH!F!LW
-B!Y!QVA!%
-V!W!NFC!
+N!LDP!B
+I!XDVI
+XGV!V@T!
+DX!HM!S!
+TJ!WNH!$
 
-Move: CALFLICK | Points: 72 | Gems: 5 | EvalScore: 77.00 | Swaps: 2 | Gems Before: 6 | After: 5
+Move: LIXIVIUMS | Points: 66 | Gems: 5 | EvalScore: 71.00 | Swaps: 2 | Gems Before: 7 | After: 6
 
-Game 74 Score: 305 | Gems left: 5
+Game 74 Score: 262 | Gems left: 6
 
 === Game 75 ===
 Round 1:
-DU@L%JM
-TEZA!Y
-V!TY!IQ!
-B!ZJ!Q!J!
-CCV!L!R
+A!O!AXS
+NXT!LL
+PDP!S!$Z!
+T!J!UQN@
+GIWW!Y!
 
-Move: QUETZAL | Points: 76 | Gems: 1 | EvalScore: 116.97 | Swaps: 1 | Gems Before: 3 | After: 1
+Move: QUEYNS | Points: 56 | Gems: 3 | EvalScore: 113.50 | Swaps: 1 | Gems Before: 3 | After: 3
 
 Round 2:
-DRDJM
-QJA%PY
-V!GY!IQ!
-B!Z!@J!Q!J!
-CCV!L!R
+A!O!AXS
+NXT!L!L
+PDP!SZ!
+T!J!$UCE
+G@I!W!EA
 
-Move: ZYGA | Points: 36 | Gems: 2 | EvalScore: 93.50 | Swaps: 0 | Gems Before: 1 | After: 3
+Move: JUDOGI | Points: 62 | Gems: 3 | EvalScore: 119.50 | Swaps: 1 | Gems Before: 3 | After: 3
 
 Round 3:
-DR!D!JM
-Q@JNPY
-V!H%BIQ!
-B!NJ!Q!J!
-CCV!L!R
+A!O!AX%S
+NXT!L!L!@
+PNP!S!Z!
+RTHCE
+S!WW!EA
 
-Move: HARD | Points: 36 | Gems: 2 | EvalScore: 85.23 | Swaps: 1 | Gems Before: 3 | After: 2
+Move: WHIPSTALLS | Points: 64 | Gems: 6 | EvalScore: 138.00 | Swaps: 1 | Gems Before: 3 | After: 6
 
 Round 4:
-DOAJM
-FJ!NPY
-V!DBIQ!
-B!NJ!Q!J!@
-CC!V!$L!R
+A!O!KX%W!
+N!XUMH
+PA!MS!Z!
+RTYCE
+S!W!ME@A!
 
-Move: JIB | Points: 24 | Gems: 1 | EvalScore: 81.50 | Swaps: 0 | Gems Before: 2 | After: 3
+Move: MEMBRANOUS | Points: 60 | Gems: 6 | EvalScore: 134.00 | Swaps: 2 | Gems Before: 6 | After: 6
 
 Round 5:
-DOAJM
-F!J!NPY@
-V!DAYQ!
-B!NJ!Q!C
-CC!V!$L!R
+A!EKX!%W!
+RXJM!H@
+P!LMRZ!
+N!TYCE!
+S!WEX!N
 
-Move: TYMPANY | Points: 52 | Gems: 1 | EvalScore: 53.00 | Swaps: 1 | Gems Before: 3 | After: 1
+Move: EXCERPTS | Points: 86 | Gems: 3 | EvalScore: 89.00 | Swaps: 2 | Gems Before: 6 | After: 3
 
-Game 75 Score: 225 | Gems left: 1
+Game 75 Score: 331 | Gems left: 3
 
 === Game 76 ===
 Round 1:
-E!BMKR
-AH!T!D@Y!
-YU!Z!CG
-A!H!F!ES$
-ZYZ!YP
+R!RT!VP
+WK!ADZ!$
+I!R!PK!I
+BISN!D
+CH!@G!TK
 
-Move: FUZZY | Points: 58 | Gems: 4 | EvalScore: 121.00 | Swaps: 1 | Gems Before: 3 | After: 4
+Move: KINGSHIP | Points: 68 | Gems: 4 | EvalScore: 131.00 | Swaps: 1 | Gems Before: 3 | After: 4
 
 Round 2:
-E!@BMK!R
-A!H!T!BI
-YBNCG
-A!H!PES$
-ZY!Z!YP!
+R!RT!VP
+W!@K!ADR!
+I!R!TK!J
+BGKDD
+CSU!T!$K
 
-Move: ZABTIEH | Points: 52 | Gems: 4 | EvalScore: 120.50 | Swaps: 1 | Gems Before: 4 | After: 5
+Move: TUGRIKS | Points: 54 | Gems: 6 | EvalScore: 132.00 | Swaps: 1 | Gems Before: 4 | After: 7
 
 Round 3:
-FWMK!R
-A!R!QBI
-YLN!@C!G!
-FH!PES$
-AY!Z!YP!
+R!R@T!VP
+R!ZA!$D!R!
+LDTK!J
+BP!K!DD
+C!SRTK
 
-Move: SPECULAR | Points: 58 | Gems: 5 | EvalScore: 136.00 | Swaps: 1 | Gems Before: 5 | After: 7
+Move: CHUKKAR | Points: 68 | Gems: 5 | EvalScore: 142.00 | Swaps: 2 | Gems Before: 7 | After: 6
 
 Round 4:
-FWMK!R
-XJ!Q!B%I!
-YWYL!G!
-FH!PDT!
-A@Y!Z!YX
+R!T!T!VP
+R!ZR!D!R!
+L!DTHJ
+C!XS!@DD
+ESRT$K
 
-Move: HARPYLIKE | Points: 66 | Gems: 5 | EvalScore: 140.00 | Swaps: 2 | Gems Before: 7 | After: 6
+Move: CARDSHARP | Points: 58 | Gems: 6 | EvalScore: 132.00 | Swaps: 2 | Gems Before: 6 | After: 6
 
 Round 5:
-F@WMYR
-X!J!Q!CF
-YWJVG!
-F!AJ!D!T!
-O!$ZZ!YX
+R!T!T!VY
+BZ!R!P!G
+CHTI!J
+SX!W@DD
+ES!RT!$K
 
-Move: FLYWAY | Points: 62 | Gems: 2 | EvalScore: 64.00 | Swaps: 2 | Gems Before: 6 | After: 2
+Move: BUZZWIG | Points: 76 | Gems: 3 | EvalScore: 79.00 | Swaps: 2 | Gems Before: 6 | After: 3
 
-Game 76 Score: 298 | Gems left: 2
+Game 76 Score: 327 | Gems left: 3
 
 === Game 77 ===
 Round 1:
-VKDJV
-BK!FS!@J
-K!RPHV!
-Q!M!P!ZO!
-L!SIQ!X%
+S!J!I!KY!
+Y%J!@H!NV
+QA!L!BZ
+ZBHTF!
+MVSYM!
 
-Move: IMPROVS | Points: 48 | Gems: 6 | EvalScore: 122.00 | Swaps: 1 | Gems Before: 3 | After: 6
+Move: HIJABS | Points: 64 | Gems: 5 | EvalScore: 132.50 | Swaps: 1 | Gems Before: 3 | After: 5
 
 Round 2:
-VKDJV
-B!K!FNJ!
-K!R!P!HR
-Q!F!HZO
-L!S!C@HX%
+U!J!S%KY!
+CXVNV!
+QOL!B@Z!
+ZBHT!F!
+MVS!YM!
 
-Move: SCHNOZZ | Points: 102 | Gems: 1 | EvalScore: 142.97 | Swaps: 2 | Gems Before: 6 | After: 1
+Move: BLOCKS | Points: 60 | Gems: 2 | EvalScore: 123.00 | Swaps: 1 | Gems Before: 5 | After: 4
 
 Round 3:
-VK$DJV
-B!K!FNJ!
-K!R!P!TR
-Q!@F!U!EJ
-L!ORHB
+U!IOKY!
+TX!VNV!
+QV$BUZ!
+ZB!HT!F!
+MV@S!YM!
 
-Move: PERTURB | Points: 29 | Gems: 4 | EvalScore: 97.50 | Swaps: 0 | Gems Before: 1 | After: 5
+Move: TUBBISH | Points: 52 | Gems: 3 | EvalScore: 115.00 | Swaps: 1 | Gems Before: 4 | After: 4
 
 Round 4:
-VK!$DJ!V
-PK!FNJ!
-K!EK!GE!
-Q!@F!JXJ
-L!ORHB
+U!IO!KY!
+TX!VNV!
+QV!@$GYZ!
+ZKVQF!
+MI!BYM!
 
-Move: FLOCK | Points: 40 | Gems: 4 | EvalScore: 114.00 | Swaps: 1 | Gems Before: 5 | After: 6
+Move: MIZZ | Points: 58 | Gems: 2 | EvalScore: 115.50 | Swaps: 1 | Gems Before: 4 | After: 3
 
 Round 5:
-VK!$DJ!V
-P!K!FNJ!
-OEK!G!E!
-DQJXJ!
-K@CRH!B
+U!IO!K!Y!
+TX!VNV!
+QP!GYZ!
+GKVQ%F!
+CFBYM!@
 
-Move: KOPECK | Points: 68 | Gems: 3 | EvalScore: 71.00 | Swaps: 2 | Gems Before: 6 | After: 3
+Move: MAGNOX | Points: 50 | Gems: 3 | EvalScore: 53.00 | Swaps: 1 | Gems Before: 3 | After: 3
 
-Game 77 Score: 290 | Gems left: 3
+Game 77 Score: 287 | Gems left: 3
 
 === Game 78 ===
 Round 1:
-FDAD!I
-B!CCN@F!
-A!G!L!WW
-FT!B!FI
-LFP!I!%L
+KDR!S!F!
+WUV!XU!%
+O!YZIR
+H!RX!K!U
+WCFC!Q@
 
-Move: FULFIL | Points: 56 | Gems: 3 | EvalScore: 113.50 | Swaps: 1 | Gems Before: 3 | After: 3
+Move: QUIFFS | Points: 80 | Gems: 3 | EvalScore: 137.50 | Swaps: 1 | Gems Before: 3 | After: 3
 
 Round 2:
-F$D!AD!I!
-B!CCIY
-A!G!XW@W
-FT!B!WI
-LFP!VA!
+KD!R!DP
+WUV!XF
+O!%YZWR
+H!RX!K!K
+W!CF!C!E@
 
-Move: WINDBAG | Points: 48 | Gems: 4 | EvalScore: 111.00 | Swaps: 1 | Gems Before: 3 | After: 4
+Move: KECKSY | Points: 58 | Gems: 3 | EvalScore: 115.50 | Swaps: 1 | Gems Before: 3 | After: 3
 
 Round 3:
-F$R!AD!I!
-C!CCBY
-XYXIW
-F!T!B!WI
-L!FP!VA!@
+K!D!R!DP
+WUV!XF!
+O!%B!ZWR
+H!REDL
+W!@CF!VA
 
-Move: ATWIXT | Points: 46 | Gems: 2 | EvalScore: 103.50 | Swaps: 1 | Gems Before: 4 | After: 3
+Move: BUDWORM | Points: 60 | Gems: 4 | EvalScore: 123.00 | Swaps: 1 | Gems Before: 3 | After: 4
 
 Round 4:
-F$R!AD!@I!
-C!CCBY
-XYOAZ!
-F!EB!XI
-L!F!P!VP
+K!XR!DP
+EM!V!XF!
+LHZWR$
+H!DEDL!
+NC!F!@VA!
 
-Move: CRACKY | Points: 56 | Gems: 3 | EvalScore: 113.50 | Swaps: 1 | Gems Before: 3 | After: 3
+Move: FECUND | Points: 50 | Gems: 3 | EvalScore: 107.50 | Swaps: 1 | Gems Before: 4 | After: 4
 
 Round 5:
-F$OB!JI!
-DCWBW
-X!Y!OAZ!
-F!EB!XI@
-L!F!P!VP
+K!X!R!DP
+EM!@V!XF!
+LH!ZWR$
+QLVD!L!
+QSZVA!
 
-Move: JAWBOX | Points: 60 | Gems: 0 | EvalScore: 60.00 | Swaps: 1 | Gems Before: 3 | After: 0
+Move: VERMELLS | Points: 52 | Gems: 4 | EvalScore: 56.00 | Swaps: 1 | Gems Before: 4 | After: 5
 
-Game 78 Score: 266 | Gems left: 0
+Game 78 Score: 305 | Gems left: 5
 
 === Game 79 ===
 Round 1:
-JP!RVF
-E!MRE!C!%
-EMW!V!G
-OP!A@F!N
-ACD!FZ!
+G!AH!%Y!L
+JQRQ!H
+X!NDSL
+CUX@W!B!
+VAW!A!V!
 
-Move: CHAMPAC | Points: 78 | Gems: 3 | EvalScore: 135.50 | Swaps: 1 | Gems Before: 3 | After: 3
+Move: WAXABLE | Points: 54 | Gems: 4 | EvalScore: 117.00 | Swaps: 1 | Gems Before: 3 | After: 4
 
 Round 2:
-JP!%RV!F
-E!MRE!R!
-E@IW!OG
-OCIF!N
-S!LD!FZ!
+G!AH!%Y!L
+JQRKH
+X!NDS!D
+CU!CW!Y!@
+VZNN!V!
 
-Move: PERCIFORM | Points: 76 | Gems: 3 | EvalScore: 133.50 | Swaps: 1 | Gems Before: 3 | After: 3
+Move: JACKSY | Points: 80 | Gems: 3 | EvalScore: 143.00 | Swaps: 1 | Gems Before: 4 | After: 4
 
 Round 3:
-JZRV!F
-HMB!%E!R!
-OIW!ZG
-O!DL@YN
-S!L!D!FZ!
+G!CUY!L!
+UQRW$H
+X!NDSD
+CU!C!W!V
+VZ!@NN!V!
 
-Move: OVERBILLS | Points: 70 | Gems: 6 | EvalScore: 144.00 | Swaps: 1 | Gems Before: 3 | After: 6
+Move: SCUZZ | Points: 54 | Gems: 3 | EvalScore: 117.00 | Swaps: 1 | Gems Before: 4 | After: 4
 
 Round 4:
-JZA@NF!$
-HMHWF
-O!C!W!Z!G
-O!DZY!N!
-FZD!FZ!
+G!C!UY!L!
+U!QRW$H
+X!NDND
+CXNW!V
+V!@IWN!V!
 
-Move: ZYZZYVA | Points: 86 | Gems: 4 | EvalScore: 143.50 | Swaps: 2 | Gems Before: 6 | After: 4
+Move: VICARY | Points: 46 | Gems: 2 | EvalScore: 103.50 | Swaps: 1 | Gems Before: 4 | After: 3
 
 Round 5:
-J!ZSNF!$
-HSHWF
-O!AW!@HG!
-O!DJ!ZN!
-F!ZD!FR
+G!C!UTL!
+U!QFW$H
+X!QDND
+L!X@NW!V
+NH!WN!V!
 
-Move: FOODWAYS | Points: 54 | Gems: 4 | EvalScore: 58.00 | Swaps: 1 | Gems Before: 4 | After: 5
+Move: WAQF | Points: 38 | Gems: 0 | EvalScore: 38.00 | Swaps: 1 | Gems Before: 3 | After: 0
 
-Game 79 Score: 369 | Gems left: 5
+Game 79 Score: 272 | Gems left: 0
 
 === Game 80 ===
 Round 1:
-EK!M!FR
-MT!@AE!S
-E!XEYP!
-LONT!Q%
-ZWC!S!Z!
+E!FQ!BT!
+F!G@QKJ
+PW!I!YY!
+BI!T!P%I
+EP!JKI
 
-Move: COEXTENDS | Points: 58 | Gems: 5 | EvalScore: 126.50 | Swaps: 1 | Gems Before: 3 | After: 5
+Move: YPIGHT | Points: 62 | Gems: 4 | EvalScore: 125.00 | Swaps: 1 | Gems Before: 3 | After: 4
 
 Round 2:
-EK!M!FR
-MMAE!S!
-XFQ!YP!
-LT@HF!Q%
-Z!W!IAZ!
+E!FQ!B!T!
+F!RQK!J!
+P!VT@YT
+BI!RJI
+EP!J%KI
 
-Move: SPELTZ | Points: 50 | Gems: 5 | EvalScore: 128.00 | Swaps: 1 | Gems Before: 5 | After: 7
+Move: JINK | Points: 60 | Gems: 2 | EvalScore: 117.50 | Swaps: 1 | Gems Before: 4 | After: 3
 
 Round 3:
-EK!M!F!R
-M!MAQC!
-XF!CYM
-L@CHF!Q%
-Y!W!IAZ!
+E!FQ!B!T!
+F!RQMJ!@
+P!$VOY!T
+BYRJI
+EP!U!KI
 
-Move: QUICKLY | Points: 104 | Gems: 3 | EvalScore: 167.00 | Swaps: 2 | Gems Before: 7 | After: 4
+Move: UPRYST | Points: 46 | Gems: 5 | EvalScore: 114.50 | Swaps: 1 | Gems Before: 3 | After: 5
 
 Round 4:
-EK!M!F!R!
-M!M!AQC!
-X@D$CYM
-UMH!CL
-CW!NAZ!
+E!F!@Q!B!G
+F!RQ!MF
+P!$VOVT
+BYOJI
+EGU!K!I!
 
-Move: CAMMED | Points: 52 | Gems: 2 | EvalScore: 109.50 | Swaps: 1 | Gems Before: 4 | After: 3
+Move: BUFFER | Points: 60 | Gems: 4 | EvalScore: 134.00 | Swaps: 1 | Gems Before: 5 | After: 6
 
 Round 5:
-EK!@XF!R!
-M!NGQC!
-BJLY!M
-U$MH!CL
-C!W!NAZ!
+ZRQ!B!G$
+T!J!Q!MF
+XVOV!T!
+GYOJI
+EGU!K!I!@
 
-Move: MUJIK | Points: 52 | Gems: 2 | EvalScore: 54.00 | Swaps: 1 | Gems Before: 3 | After: 2
+Move: MUZJIK | Points: 70 | Gems: 4 | EvalScore: 74.00 | Swaps: 2 | Gems Before: 6 | After: 4
 
-Game 80 Score: 318 | Gems left: 2
+Game 80 Score: 302 | Gems left: 4
 
 === Game 81 ===
 Round 1:
-QRJE@A
-S%V!UM!D!
-Y!F!SNL
-J!NCM!J
-TA!B!JW!
+NIR!V!K
+PQ!J!UN!
+B!Q!R!MO%
+BRDIQ
+Y!D!KG@G
 
-Move: SYNFUELS | Points: 64 | Gems: 3 | EvalScore: 121.50 | Swaps: 1 | Gems Before: 3 | After: 3
+Move: GURJUN | Points: 54 | Gems: 3 | EvalScore: 111.50 | Swaps: 1 | Gems Before: 3 | After: 3
 
 Round 2:
-Q!RJJA
-HV!AQ$D!
-Y!U!Y@NL
-J!TCM!J
-TA!B!JW!
+NIR!V!K
+PQ!XOW
+B!Q!P!@MO%
+B!R!RIQ
+Y!D!KGG
 
-Move: ADJUVANCY | Points: 74 | Gems: 4 | EvalScore: 137.00 | Swaps: 1 | Gems Before: 3 | After: 4
+Move: DRIPPY | Points: 46 | Gems: 4 | EvalScore: 109.00 | Swaps: 1 | Gems Before: 3 | After: 4
 
 Round 3:
-Q!RJJA!
-H!SY@Q$D!
-Y!OF!K!L
-FKOM!J
-TZB!JW!
+NIR!V!K
+PQ!X!O@W
+B!Q!H!MO%
+B!X!PWQ
+ISKG!G
 
-Move: ZOMBIFY | Points: 64 | Gems: 3 | EvalScore: 127.00 | Swaps: 1 | Gems Before: 4 | After: 4
+Move: BOXROOM | Points: 54 | Gems: 4 | EvalScore: 122.50 | Swaps: 1 | Gems Before: 4 | After: 5
 
 Round 4:
-Q!RJJA!
-H!SQ!Q$D!
-Y!ORK!L!
-FPR!TJ
-TXJJ@W!
+N!IJ!V!%K
+P!VQKW!
+QQ!H!EB@
+B!X!PWQ
+ISKG!G
 
-Move: TWERPY | Points: 46 | Gems: 3 | EvalScore: 103.50 | Swaps: 1 | Gems Before: 4 | After: 4
+Move: VIBE | Points: 42 | Gems: 2 | EvalScore: 99.50 | Swaps: 1 | Gems Before: 5 | After: 4
 
 Round 5:
-Q!RJJA!
-H!S!Q!@Q$D!
-ZORK!L!
-FEEXJ
-T!XJ!SH
+N!IJ!LK
+P!VQ%KZ
+Q!Q!H!W!N
+B!X!PWQ
+I@SKG!G
 
-Move: JERQUES | Points: 60 | Gems: 3 | EvalScore: 63.00 | Swaps: 1 | Gems Before: 4 | After: 4
+Move: NIQABS | Points: 44 | Gems: 3 | EvalScore: 47.00 | Swaps: 1 | Gems Before: 4 | After: 4
 
-Game 81 Score: 312 | Gems left: 4
+Game 81 Score: 244 | Gems left: 4
 
 === Game 82 ===
 Round 1:
-VWHU!Z
-K!E!PIL
-BJ$P!A!G
-UX!X!@M!T!
-RRWHO!
+BW!M!NF
+A!Q!CYA!
+TOMUX
+ZX%NY!O@
+R!MF!G!V!
 
-Move: HEPATOMA | Points: 46 | Gems: 7 | EvalScore: 124.00 | Swaps: 1 | Gems Before: 3 | After: 7
+Move: ANCHOVY | Points: 54 | Gems: 3 | EvalScore: 111.50 | Swaps: 1 | Gems Before: 3 | After: 3
 
 Round 2:
-VWMU!Z
-K!MPI!L
-BJ!$TM!G
-UX!P!A@V!
-RRW!HF!
+B@W!M!XF
+A!Q!YYY!
+TOMNX
+Z!X!%NGF
+R!MF!G!L
 
-Move: HAWBUCK | Points: 78 | Gems: 4 | EvalScore: 146.50 | Swaps: 2 | Gems Before: 7 | After: 5
+Move: BATBOY | Points: 58 | Gems: 2 | EvalScore: 107.23 | Swaps: 1 | Gems Before: 3 | After: 2
 
 Round 3:
-VWM!U!Z
-DMPI!L
-B!PT!%M!G
-KFP!P@V!
-R!RPZF!
+XW!M!XF
+G$Q!LYY!
+STM!N!X
+Z!RNGF
+R!M@F!G!L
 
-Move: JIMP | Points: 60 | Gems: 3 | EvalScore: 128.50 | Swaps: 1 | Gems Before: 5 | After: 5
+Move: LYNX | Points: 16 | Gems: 1 | EvalScore: 73.50 | Swaps: 0 | Gems Before: 2 | After: 3
 
 Round 4:
-VW!M!U!Z
-DMPPL
-B!P!NBG
-KFP!%KV!
-R!RP!Z@F!
+X!W!M!XF
+G$Q!HRY!
+STM!UJ
+Z!RNGF
+R!M@F!G!L
 
-Move: ZURF | Points: 54 | Gems: 1 | EvalScore: 111.50 | Swaps: 1 | Gems Before: 5 | After: 3
+Move: MAGNUM | Points: 46 | Gems: 3 | EvalScore: 103.50 | Swaps: 1 | Gems Before: 3 | After: 3
 
 Round 5:
-VW!M!U!%Z
-DMPPL!
-B!@P!NBG
-KLPKV!
-R!FP!NF!
+X!W!M!XF!
+G$Q!HRY!
+STF!@GJ
+Z!RWGF
+R!WE!WL
 
-Move: PLUMMY | Points: 72 | Gems: 4 | EvalScore: 76.00 | Swaps: 1 | Gems Before: 3 | After: 4
+Move: FREIGHTS | Points: 50 | Gems: 2 | EvalScore: 52.00 | Swaps: 1 | Gems Before: 3 | After: 2
 
-Game 82 Score: 314 | Gems left: 4
+Game 82 Score: 226 | Gems left: 2
 
 === Game 83 ===
 Round 1:
-GL@TAW!
-PNB!%Y!F!
-IBSPB!
-Q!T!WGX!
-U!S!GES
+BYI!AX
+S!N!K!UC
+P!S!TY!%U!
+FLURN
+VFV@G!M!
 
-Move: PULPITS | Points: 66 | Gems: 3 | EvalScore: 123.50 | Swaps: 1 | Gems Before: 3 | After: 3
+Move: UNGUILTY | Points: 72 | Gems: 3 | EvalScore: 129.50 | Swaps: 1 | Gems Before: 3 | After: 3
 
 Round 2:
-G!RTA!W!%
-L!@NNY!F!
-RBSQB!
-Q!WWGX!
-U!NGES
+BYI!AX
+S!N!K!UC
+P!S!%J!VB
+F!QURH
+V!F@YXM!
 
-Move: WANNEL | Points: 58 | Gems: 4 | EvalScore: 121.00 | Swaps: 1 | Gems Before: 3 | After: 4
+Move: SNUFFY | Points: 70 | Gems: 4 | EvalScore: 133.00 | Swaps: 1 | Gems Before: 3 | After: 4
 
 Round 3:
-C!@RTF!F
-TWXY!F!
-RBSQ!B!
-Q!WWGX!
-U!N!GE$S
+BYI!AX!
+QRK!U!C
+P!IJ!VB
+RQUR!@H
+V!X!NXM!$
 
-Move: CRAFTY | Points: 48 | Gems: 3 | EvalScore: 111.00 | Swaps: 1 | Gems Before: 4 | After: 4
+Move: MOUJIK | Points: 64 | Gems: 4 | EvalScore: 132.50 | Swaps: 1 | Gems Before: 4 | After: 5
 
 Round 4:
-LKJ!HF!
-TWJHF!
-R!BSQ!B!
-Q!WWGX!
-U!N!GE$S@
+BYI!A!X!
+Q$RJU!C
+P!LYVB!
+RQ!X!FH
+V!X!N@XV
 
-Move: SQUEGS | Points: 52 | Gems: 2 | EvalScore: 109.50 | Swaps: 1 | Gems Before: 4 | After: 3
+Move: XYLAN | Points: 34 | Gems: 2 | EvalScore: 91.50 | Swaps: 1 | Gems Before: 5 | After: 4
 
 Round 5:
-L@KJ!HF!
-TWJ!HF!
-R!B$WFB!
-Q!W!WWZ
-U!N!GIK
+BYI!A!X!
+Q$RJU!C
+P!M@N!V!B!
+ROVFH
+V!X!MXV
 
-Move: BULK | Points: 42 | Gems: 0 | EvalScore: 42.00 | Swaps: 1 | Gems Before: 3 | After: 0
+Move: CAIRNGORM | Points: 52 | Gems: 3 | EvalScore: 55.00 | Swaps: 1 | Gems Before: 4 | After: 4
 
-Game 83 Score: 266 | Gems left: 0
+Game 83 Score: 296 | Gems left: 4
 
 === Game 84 ===
 Round 1:
-QF!OTS
-U!%QI!M!E
-GNOI!U@
-T!W!D!RI!
-YT!FBL
+MZ!%A!BR
+IX!NQR!
+VD!OT!S
+CT!V!@S!S
+VBP!ER
 
-Move: UNIQUEST | Points: 74 | Gems: 3 | EvalScore: 131.50 | Swaps: 1 | Gems Before: 3 | After: 3
+Move: ZANTES | Points: 74 | Gems: 5 | EvalScore: 142.50 | Swaps: 1 | Gems Before: 3 | After: 5
 
 Round 2:
-QF!OF!R
-UQK!XK@
-GTOI!J
-T!%W!D!RI!
-YT!F!BL
+MYDBR
+IX!IQR!%
+V@D!O!F!S
+CT!LG!S
+VB!P!E!R
 
-Move: FURKID | Points: 52 | Gems: 3 | EvalScore: 109.50 | Swaps: 1 | Gems Before: 3 | After: 3
+Move: DIVULGERS | Points: 58 | Gems: 4 | EvalScore: 132.00 | Swaps: 1 | Gems Before: 5 | After: 6
 
 Round 3:
-QF!OVI!@
-UQK!RB
-GT!OWJ!
-T!%W!WRI!
-YT!F!BL
+MY!DBR
+SX!IQ!R!%
+MAO!F!S
+C!LUA!@P
+VB!P!ZU
 
-Move: RIBWORK | Points: 52 | Gems: 3 | EvalScore: 109.50 | Swaps: 1 | Gems Before: 3 | After: 3
+Move: CALPACKS | Points: 88 | Gems: 5 | EvalScore: 156.50 | Swaps: 2 | Gems Before: 6 | After: 5
 
 Round 4:
-Q@F!OVD
-UQALI
-GE!AMJ!
-T!%W!WR!I!
-YT!F!B!L
+M!Y!DBR!
+SX!IQ!T!
+MVO!GP
+AHU!P!P
+VB!J%Z@U
 
-Move: QUETZAL | Points: 72 | Gems: 3 | EvalScore: 129.50 | Swaps: 1 | Gems Before: 3 | After: 3
+Move: ABUZZ | Points: 82 | Gems: 2 | EvalScore: 139.50 | Swaps: 1 | Gems Before: 5 | After: 4
 
 Round 5:
-EF!OVD
-WQAU!I
-G@B!OMJ!
-J%FWR!I!
-Y!T!F!B!L
+M!Y!D!B@R!
+SX!IQ!T!
+MVO!GP
+U!HEP!P
+VS$INU
 
-Move: JIFF | Points: 64 | Gems: 1 | EvalScore: 65.00 | Swaps: 1 | Gems Before: 3 | After: 1
+Move: BIOGENIC | Points: 56 | Gems: 1 | EvalScore: 57.00 | Swaps: 1 | Gems Before: 4 | After: 2
 
-Game 84 Score: 315 | Gems left: 1
+Game 84 Score: 360 | Gems left: 2
 
 === Game 85 ===
 Round 1:
-IM!E!DS
-FVEV!O!
-ZYB!F!K
-KOW!RZ
-U$K!WA!@W!
+JX!KZ!Q
+N!P!T!EG!
+K@CL!UX!
+X%GNCB!
+PIUM!N
 
-Move: FRAWZEY | Points: 62 | Gems: 4 | EvalScore: 125.00 | Swaps: 1 | Gems Before: 3 | After: 4
+Move: PUNCTULE | Points: 60 | Gems: 4 | EvalScore: 123.00 | Swaps: 1 | Gems Before: 3 | After: 4
 
 Round 2:
-I!M!E!DS
-FVZV!O!
-Z!S@GEK
-KOX!HZ
-U$K!WS!W!
+JX!KZ!Q!
+AYELG!@
+EZ!W!X!X!
+X%GNCB!
+PIUM!N
 
-Move: MEZZOS | Points: 58 | Gems: 3 | EvalScore: 121.00 | Swaps: 1 | Gems Before: 4 | After: 4
+Move: JAZZING | Points: 56 | Gems: 1 | EvalScore: 105.23 | Swaps: 1 | Gems Before: 4 | After: 2
 
 Round 3:
-I!RGDS
-F@WZV!O!
-XU!GE!K
-KK!X!HZ
-U$K!WS!W!
+Y!X!KZ!Q!
+FYELG!@
+EGW!%X!X!
+DFFCB!
+PQUM!N
 
-Move: FUZEES | Points: 52 | Gems: 4 | EvalScore: 120.50 | Swaps: 1 | Gems Before: 4 | After: 5
+Move: GLEYED | Points: 40 | Gems: 1 | EvalScore: 97.50 | Swaps: 0 | Gems Before: 2 | After: 3
 
 Round 4:
-I!RGD@S
-FWKV!O!
-X!CG!BK
-KK!G!HZ
-U!$K!WNW!
+Y!X!KZ!Q!
+F@RLDE!
+BGW!%X!X!
+UFFCB!
+PQUM!N
 
-Move: FIRKED | Points: 46 | Gems: 2 | EvalScore: 103.50 | Swaps: 1 | Gems Before: 5 | After: 4
+Move: BRUXED | Points: 39 | Gems: 3 | EvalScore: 96.50 | Swaps: 1 | Gems Before: 3 | After: 3
 
 Round 5:
-AKGBS
-A!WW@BO!
-X!CG!BK
-KK!G!HZ
-U!$K!W!NW!
+Y!X!K!Z!Q!
+F@ELRD!
+VGCKX!
+UFF!CB!
+PQU$M!N
 
-Move: BUCKU | Points: 54 | Gems: 2 | EvalScore: 56.00 | Swaps: 1 | Gems Before: 4 | After: 3
+Move: MUCKLES | Points: 68 | Gems: 1 | EvalScore: 69.00 | Swaps: 1 | Gems Before: 3 | After: 1
 
-Game 85 Score: 275 | Gems left: 3
+Game 85 Score: 264 | Gems left: 1
 
 === Game 86 ===
 Round 1:
-U!%RS!W!P!
-E!GNI!T
-PWMZC
-JT!UT!H!
-YJPF!@Y
+W@V!Z!CD
+GQG!B!J!
+N!Z!O!OM
+O!NHD%J
+P!HDDO
 
-Move: FUTZING | Points: 60 | Gems: 3 | EvalScore: 134.00 | Swaps: 0 | Gems Before: 3 | After: 6
+Move: GOHONZON | Points: 40 | Gems: 5 | EvalScore: 108.50 | Swaps: 1 | Gems Before: 3 | After: 5
 
 Round 2:
-U!%R!S!W!P!
-E!LCDT!
-P!WMSC
-JT!A@JH!
-YJPLY
+W@V!Z!C!D!
+GQ$XB!J!
+YUNAM
+G!EHQJ
+P!H!D!DO
 
-Move: PASTICHEURS | Points: 82 | Gems: 6 | EvalScore: 156.00 | Swaps: 2 | Gems Before: 6 | After: 6
+Move: WAUGHED | Points: 54 | Gems: 3 | EvalScore: 122.50 | Swaps: 1 | Gems Before: 5 | After: 5
 
 Round 3:
-LOPNP!
-JLU!D!H!
-P!MMHC
-J@$T!B!JH!
-YJAL!Y!
+OV!Z!C!D!
+GBX!B!J!
+Y!UNA@M
+Y!UH%QJ
+P!EGDO
 
-Move: JUMBLY | Points: 76 | Gems: 4 | EvalScore: 154.00 | Swaps: 1 | Gems Before: 6 | After: 7
+Move: JAZZBO | Points: 68 | Gems: 3 | EvalScore: 136.50 | Swaps: 1 | Gems Before: 5 | After: 5
 
 Round 4:
-LOP!NP!
-J$LU!D!H!
-SNMHC!
-CT!P!JH!
-Y!J@ADA
+IV!BC!D!
+GPFB!I!
+Y!UNDM!@
+Y!UH%QJ
+P!E!GDO
 
-Move: DUPLICITY | Points: 64 | Gems: 5 | EvalScore: 138.00 | Swaps: 2 | Gems Before: 7 | After: 6
+Move: MUNDIC | Points: 48 | Gems: 4 | EvalScore: 122.00 | Swaps: 1 | Gems Before: 5 | After: 6
 
 Round 5:
-LO!T@NP!
-J$YGCH!
-S!CMHC!
-JYP!JH!
-Y!TA!D!A
+I!V!BN!D!
+GPFYV
+Y!@UO!RL
+Y!UH!%QJ
+P!E!GDO
 
-Move: SKETCHPAD | Points: 78 | Gems: 5 | EvalScore: 83.00 | Swaps: 2 | Gems Before: 6 | After: 5
+Move: FUZZY | Points: 90 | Gems: 2 | EvalScore: 92.00 | Swaps: 2 | Gems Before: 6 | After: 2
 
-Game 86 Score: 365 | Gems left: 5
+Game 86 Score: 302 | Gems left: 2
 
 === Game 87 ===
 Round 1:
-DQVU!H!
-BRX!L!N
-ZD!RUT!
-RQ!CV!O!
-P@WN%I!K
+J!I!ZM!W
+CSHUW
+P!CL!Q!Y
+Z!TDT!R!$
+Q!DE@MU
 
-Move: PYRUVIC | Points: 60 | Gems: 3 | EvalScore: 117.50 | Swaps: 1 | Gems Before: 3 | After: 3
+Move: MULCTED | Points: 54 | Gems: 2 | EvalScore: 122.50 | Swaps: 0 | Gems Before: 3 | After: 5
 
 Round 2:
-D!QV!U!H!
-BRX!L!N
-ZD!ERT!
-RXBLO!@
-JWN%D!K
+J!I!ZRW
+CSHFW
+P!DYQ!Y
+Z!I@O!T!R!$
+Q!DF!MU
 
-Move: UNTROUBLED | Points: 62 | Gems: 5 | EvalScore: 130.50 | Swaps: 1 | Gems Before: 3 | After: 5
+Move: HISPIDITY | Points: 54 | Gems: 4 | EvalScore: 128.00 | Swaps: 1 | Gems Before: 5 | After: 6
 
 Round 3:
-D!QV!ZH!
-BR!X!L!C!
-ZGF!VK!
-RXH!TA
-J@WN%ZK
+J!QZ!RW
+CNN!FW!
+BMPQ!Y!
+Z!JSUR!$
+Q!DF!MU@
 
-Move: FLIGHT | Points: 28 | Gems: 4 | EvalScore: 102.00 | Swaps: 1 | Gems Before: 5 | After: 6
+Move: QUORUMS | Points: 64 | Gems: 3 | EvalScore: 138.00 | Swaps: 1 | Gems Before: 6 | After: 6
 
 Round 4:
-D!QV!ZH!
-BR!BQC!
-ZJRVK!
-R!XB!XA
-J@WN%Z!K!
+J!Q!Z!R!W
+CN$N!FW!@
+B!MPXG
+Z!JYNE
+Q!DF!FB
 
-Move: JIZZ | Points: 80 | Gems: 1 | EvalScore: 112.70 | Swaps: 2 | Gems Before: 6 | After: 1
+Move: FRUMPY | Points: 56 | Gems: 3 | EvalScore: 113.50 | Swaps: 2 | Gems Before: 6 | After: 3
 
 Round 5:
-D!$QV!ZH!
-BR!@BQC!
-ZJR!VK!
-R!GB!XA
-YWPTK!
+J!Q!Z!XW
+C!N$TFT
+B!LF!XG!
+Z!JLN@E
+Q!DF!FB
 
-Move: BRR | Points: 16 | Gems: 3 | EvalScore: 19.00 | Swaps: 0 | Gems Before: 1 | After: 4
+Move: EFFLUX | Points: 60 | Gems: 1 | EvalScore: 61.00 | Swaps: 1 | Gems Before: 3 | After: 1
 
-Game 87 Score: 250 | Gems left: 4
+Game 87 Score: 289 | Gems left: 1
 
 === Game 88 ===
 Round 1:
-EY!$N!FR!
-NFNAY!
-V!H!XV!@R
-DL!MVX
-JQ!YD!X
+T!S!S!FF!
+PXX!MD
+P!R!Z%R!S
+YS!SA!E
+WXIKN@
 
-Move: TYRANNY | Points: 52 | Gems: 5 | EvalScore: 120.50 | Swaps: 1 | Gems Before: 3 | After: 5
+Move: NAZIRS | Points: 74 | Gems: 4 | EvalScore: 137.00 | Swaps: 1 | Gems Before: 3 | After: 4
 
 Round 2:
-EXGFZ
-NFG!GV!
-V!H!X!OR
-DL!@$M!VX
-JQ!YD!X!
+T!S!S!FF!
+PXTM!D
+P!ZX$R!S
+YF!ST!E
+WX!IK@J
 
-Move: MOGHUL | Points: 54 | Gems: 5 | EvalScore: 132.00 | Swaps: 1 | Gems Before: 5 | After: 7
+Move: REJUSTIFY | Points: 66 | Gems: 3 | EvalScore: 129.00 | Swaps: 1 | Gems Before: 4 | After: 4
 
 Round 3:
-EX!$GFZ
-NFUGV!
-V!IR!RR
-D!@IVV!X
-J!Q!YD!X!
+T!S!S!FF!
+P!XTM!D!
+P!ZX!@$XS
+ATDPS
+WX!XTP
 
-Move: JURIDIC | Points: 70 | Gems: 4 | EvalScore: 138.50 | Swaps: 2 | Gems Before: 7 | After: 5
+Move: PAXWAX | Points: 74 | Gems: 3 | EvalScore: 137.00 | Swaps: 1 | Gems Before: 4 | After: 4
 
 Round 4:
-E!XGF!Z
-N!F@IGV!
-DIIRR
-W$DVV!X
-J!Q!Y!D!X!
+T!%S!S!FF!
+P!XTM!D!
+CZYXS
+V!ZD!P!S
+VL@XTP
 
-Move: MIDWIFE | Points: 60 | Gems: 2 | EvalScore: 117.50 | Swaps: 1 | Gems Before: 5 | After: 4
+Move: VELDTS | Points: 42 | Gems: 2 | EvalScore: 99.50 | Swaps: 1 | Gems Before: 4 | After: 3
 
 Round 5:
-U!XGF!Z
-N!WI!GV!
-DUNRR@
-CWVB%X
-J!Q!Y!D!X!
+T!%S!S!FF!
+P!XTM!D!@
+CZY!XS
+AEVP!X
+VJXQ!P
 
-Move: BURRING | Points: 62 | Gems: 1 | EvalScore: 63.00 | Swaps: 1 | Gems Before: 4 | After: 2
+Move: AZYMES | Points: 50 | Gems: 3 | EvalScore: 53.00 | Swaps: 1 | Gems Before: 3 | After: 3
 
-Game 88 Score: 300 | Gems left: 2
+Game 88 Score: 309 | Gems left: 3
 
 === Game 89 ===
 Round 1:
-UIW!TK
-F!N!WG!N
-TG!$ZP!C!
-N!APN!Y
-U!B@FMU
+HCVAV$
+V!J!LZ!J
+NI!U!SC@
+G!EA!C!M!
+UH!KDX
 
-Move: BUNTING | Points: 52 | Gems: 5 | EvalScore: 120.50 | Swaps: 1 | Gems Before: 3 | After: 5
+Move: ACCRUING | Points: 56 | Gems: 6 | EvalScore: 130.00 | Swaps: 1 | Gems Before: 3 | After: 6
 
 Round 2:
-U!IW!T!K!
-DVWG!N
-BSZP!$C!
-IAPN!Y@
-GG!F!MU
+HCVAV$
+V!J!L!O!@J!
+Z!CMSG!
+VE!HYM!
+UH!KDX
 
-Move: UNHAPPY | Points: 64 | Gems: 3 | EvalScore: 132.50 | Swaps: 1 | Gems Before: 5 | After: 5
+Move: JICKAJOGS | Points: 76 | Gems: 6 | EvalScore: 150.00 | Swaps: 2 | Gems Before: 6 | After: 6
 
 Round 3:
-U!@IW!T!K!
-D!V!WG!N
-BSZ$V!C!
-IGFAG
-GG!HMU
+HCVOV!$
+V!FLYM!
+KGMJC
+VE!@H!Y!M!
+UH!KD!X!
 
-Move: SWIVED | Points: 44 | Gems: 3 | EvalScore: 112.50 | Swaps: 1 | Gems Before: 5 | After: 5
+Move: HEMLOCK | Points: 70 | Gems: 4 | EvalScore: 133.00 | Swaps: 2 | Gems Before: 6 | After: 4
 
 Round 4:
-GBW!T!K!
-PARG!N
-BH!@Z$V!C!
-I!GFAG
-GG!H!MU
+H%CVG!X
+V!FNYH
+KG!AJC
+V!TH!Y!M!
+U@Y!KD!X!
 
-Move: MAZHBI | Points: 70 | Gems: 2 | EvalScore: 144.00 | Swaps: 0 | Gems Before: 5 | After: 7
+Move: YOUTHY | Points: 48 | Gems: 4 | EvalScore: 105.50 | Swaps: 1 | Gems Before: 4 | After: 5
 
 Round 5:
-G@BW!T!K!
-P!ARG!N
-FRHV!C!
-VGFGG!$
-GG!H!EU
+H%CVG!X
+V!FNY@H
+KG!AJ!C!
+IDP!Z!M!
+HDKD!X!
 
-Move: GARVOCK | Points: 68 | Gems: 4 | EvalScore: 72.00 | Swaps: 2 | Gems Before: 7 | After: 5
+Move: ANCHOVY | Points: 70 | Gems: 0 | EvalScore: 70.00 | Swaps: 1 | Gems Before: 5 | After: 2
 
-Game 89 Score: 303 | Gems left: 5
+Game 89 Score: 322 | Gems left: 2
 
 === Game 90 ===
 Round 1:
-R!ZO!@V!X!$
-T!OQ!CA
-DPTV!V
-ENZGH
-F!I!X!ZC
+OT!WK!M@
+PLSQ!O
+K!Q!B!C!C!
+P!GNAJ
+J%PPJZ!
 
-Move: ZOOTOXIN | Points: 56 | Gems: 3 | EvalScore: 113.50 | Swaps: 1 | Gems Before: 3 | After: 3
+Move: MOBCAP | Points: 48 | Gems: 3 | EvalScore: 105.50 | Swaps: 1 | Gems Before: 3 | After: 3
 
 Round 2:
-R!F!QV!X!@$
-T!TQ!CA
-DPNV!V
-EIZ!OH
-F!QHZ!C
+OT!W!K!R
+P!LSFO
+K!Q!GQ!C!@
+P!GNRJ
+J%PPJZ!
 
-Move: CONVEX | Points: 66 | Gems: 2 | EvalScore: 115.23 | Swaps: 1 | Gems Before: 3 | After: 2
+Move: RECORKS | Points: 48 | Gems: 3 | EvalScore: 105.50 | Swaps: 1 | Gems Before: 3 | After: 3
 
 Round 3:
-R!F!QV!T
-T!TQ!GA
-DP!HN!V
-EIZ!@YH
-F!QHZ!$C
+OT!W!WP!
+P!L!QFJ
+K!Q!GSZ
+P!@G!NCJ
+J%PPJZ!
 
-Move: FIZZY | Points: 68 | Gems: 3 | EvalScore: 136.50 | Swaps: 0 | Gems Before: 2 | After: 5
+Move: JAGGS | Points: 60 | Gems: 2 | EvalScore: 109.23 | Swaps: 1 | Gems Before: 3 | After: 2
 
 Round 4:
-R!%F!QV!T!
-T!TQ!GA
-DP!HN!V
-E!QUQH
-SQ@HY!C
+OT!W!WP!
+P!L!QFJ
+K!Q!K!S%Z
+YD@NCJ
+DPPJ!Z!
 
-Move: QUIGHT | Points: 54 | Gems: 1 | EvalScore: 111.50 | Swaps: 1 | Gems Before: 5 | After: 3
+Move: POLKS | Points: 20 | Gems: 3 | EvalScore: 77.50 | Swaps: 0 | Gems Before: 2 | After: 5
 
 Round 5:
-R!%F!QV!T!
-T!IQ!SA!
-DP!I@BV
-E!QDQH
-SCHY!C
+A!T!W!WP!
+KWQ!FJ
+K!Q!CL!Z
+YD@NCJ
+D%PPJ!Z!
 
-Move: TRIFFIDY | Points: 64 | Gems: 5 | EvalScore: 69.00 | Swaps: 1 | Gems Before: 3 | After: 5
+Move: CLODDY | Points: 60 | Gems: 1 | EvalScore: 61.00 | Swaps: 1 | Gems Before: 5 | After: 3
 
-Game 90 Score: 313 | Gems left: 5
+Game 90 Score: 239 | Gems left: 3
 
 === Game 91 ===
 Round 1:
-I!TOGX%
-N!K!TLW!
-J!GFES
-IUPX!Q!@
-D!Y!K!QB
+RGF!A!$N!
+IK@CP!S!
+ILV!N!Q!
+XMEPT!
+NQFVT!
 
-Move: KNITTLES | Points: 48 | Gems: 4 | EvalScore: 111.00 | Swaps: 1 | Gems Before: 3 | After: 4
+Move: AFFIXMENT | Points: 68 | Gems: 4 | EvalScore: 131.00 | Swaps: 1 | Gems Before: 3 | After: 4
 
 Round 2:
-KP!OGX!%
-GW!NZW!
-J!@GFES
-IUP!X!S
-D!Y!K!QB
+RGWFN!
+IGCP!@S!
+HLV!B!%Q!
+NN!DPQ
+N!QF!VT!
 
-Move: EXPUGN | Points: 52 | Gems: 3 | EvalScore: 115.00 | Swaps: 1 | Gems Before: 4 | After: 4
+Move: GILCUPS | Points: 70 | Gems: 3 | EvalScore: 133.00 | Swaps: 1 | Gems Before: 4 | After: 4
 
 Round 3:
-K!P!OGX!%
-GW!NZW!
-VXFIS
-I@A!F!HS
-D!Y!K!QB
+RZ@W!FN!
+ZGOJG
+H!MV!SQ!
+NN!DPQ%
+N!QF!V!T!
 
-Move: LADYFISH | Points: 56 | Gems: 4 | EvalScore: 124.50 | Swaps: 1 | Gems Before: 4 | After: 5
+Move: GOZZAN | Points: 56 | Gems: 2 | EvalScore: 113.50 | Swaps: 1 | Gems Before: 4 | After: 3
 
 Round 4:
-K!P!OG!@X!%
-GW!NZW!
-V!X!FYU
-TG!RKS
-UIK!QB
+RDW!FN!
+PK@FJG
+OMV!SQ!
+NSD!PQ!%
+N!QF!V!T!
 
-Move: ZAX | Points: 60 | Gems: 2 | EvalScore: 117.50 | Swaps: 1 | Gems Before: 5 | After: 4
+Move: QAT | Points: 27 | Gems: 3 | EvalScore: 84.50 | Swaps: 1 | Gems Before: 3 | After: 3
 
 Round 5:
-K!P!OSL
-G!@W!NLW!
-V!%X!FYU
-TG!RKS!
-UIK!QB
+RDW!F!N!
+PK@FJ!G
+OMV!SQ!
+NSD!P$E
+N!Q!F!UQ
 
-Move: GLOWFLY | Points: 58 | Gems: 3 | EvalScore: 61.00 | Swaps: 1 | Gems Before: 4 | After: 4
+Move: SMOKED | Points: 44 | Gems: 2 | EvalScore: 46.00 | Swaps: 1 | Gems Before: 3 | After: 2
 
-Game 91 Score: 278 | Gems left: 4
+Game 91 Score: 267 | Gems left: 2
 
 === Game 92 ===
 Round 1:
-XEUJ!W!@
-P!B!PA$I
-FD!MO!D
-OWYPO!
-MB!W!X!Y
+DI!@V!U!A!
+W!MZKW
+LOVK!C
+K!Y!ECZ
+RF!H!%KO
 
-Move: WAMBLY | Points: 54 | Gems: 3 | EvalScore: 111.50 | Swaps: 1 | Gems Before: 3 | After: 3
+Move: MIKVEH | Points: 68 | Gems: 2 | EvalScore: 117.23 | Swaps: 1 | Gems Before: 3 | After: 2
 
 Round 2:
-XEU!J!X
-P!RPJ@I$
-F!MCO!D
-OWOPO!
-MB!W!X!Y!
+DSV!U!A!
+W!YBKW
+LOQK!C
+K!Y!@FC!Z$
+RF!WK!O
 
-Move: BOOJUM | Points: 52 | Gems: 4 | EvalScore: 115.00 | Swaps: 1 | Gems Before: 3 | After: 4
+Move: FOLKY | Points: 38 | Gems: 2 | EvalScore: 101.00 | Swaps: 0 | Gems Before: 2 | After: 4
 
 Round 3:
-XEX@FX
-P!R!PNI$
-F!MCYD
-OWZ!P!O!
-ML!W!X!Y!
+DS!V!U!A!
+W!YBKW
+DU@QK!C
+ZBTC!Z$
+RF!WK!O!
 
-Move: FOWLPOX | Points: 36 | Gems: 5 | EvalScore: 110.00 | Swaps: 1 | Gems Before: 4 | After: 6
+Move: BUYBACK | Points: 66 | Gems: 3 | EvalScore: 129.00 | Swaps: 1 | Gems Before: 4 | After: 4
 
 Round 4:
-XEX@FX
-P!R!P!NI$
-KM!CY!D!
-XLIE!B
-ML!W!YY!
+DS!V!U!A!
+W!MCKW@
+DCQOC
+ZHT!FZ$
+RF!W!G!O!
 
-Move: PREPUNCHED | Points: 70 | Gems: 6 | EvalScore: 144.00 | Swaps: 2 | Gems Before: 6 | After: 6
+Move: BAWCOCK | Points: 64 | Gems: 2 | EvalScore: 121.50 | Swaps: 1 | Gems Before: 4 | After: 3
 
 Round 5:
-XB!CFX!
-NKPQI$
-KM!LVS!
-X!LIU!B!
-ML!W!@YY!
+DS!V!AA
+W!MVRG
+DCQ@T!E
+ZHT!F!Z$
+RF!W!G!O!
 
-Move: WAULKMILLS | Points: 74 | Gems: 5 | EvalScore: 79.00 | Swaps: 2 | Gems Before: 6 | After: 5
+Move: QUARTZ | Points: 76 | Gems: 1 | EvalScore: 77.00 | Swaps: 1 | Gems Before: 3 | After: 1
 
-Game 92 Score: 291 | Gems left: 5
+Game 92 Score: 313 | Gems left: 1
 
 === Game 93 ===
 Round 1:
-N$I!GQ!B
-P!KDGR
-VD!G!U!T
-T!BDQ!K
-M!CYB!G@
+DSJJ!P!
+G!O@N!%CM!
+L!WP!ZC
+Q!GYB!M!
+CSLXR
 
-Move: DUCKPIN | Points: 37 | Gems: 4 | EvalScore: 100.00 | Swaps: 1 | Gems Before: 3 | After: 4
+Move: POZZY | Points: 82 | Gems: 2 | EvalScore: 131.23 | Swaps: 1 | Gems Before: 3 | After: 2
 
 Round 2:
-BF!G$Q!B!
-IUCGR!
-VD!JOT
-T!B!DQ!K
-M!CYB!G@
+DSJ$J!P!
+G!GMCM!
+L!WGGC
+Q!GR!B!M!
+CSL@X!R
 
-Move: BRODDING | Points: 32 | Gems: 4 | EvalScore: 100.50 | Swaps: 1 | Gems Before: 4 | After: 5
+Move:  | Points: 0 | Gems: 0 | EvalScore: 0.00 | Swaps: 0 | Gems Before: 2 | After: 2
 
 Round 3:
-BR!IQ!U
-K!UCGM
-VJ!JBT
-T!B!OQ!%K!
-M!CYB!G@
+DSJ$J!P!
+G!GMCM!
+L!WGGC
+Q!GR!B!M!
+CSL@X!R
 
-Move: CYBORG | Points: 56 | Gems: 2 | EvalScore: 119.00 | Swaps: 1 | Gems Before: 5 | After: 4
+Move:  | Points: 0 | Gems: 0 | EvalScore: 0.00 | Swaps: 0 | Gems Before: 2 | After: 2
 
 Round 4:
-BR!IQ!U
-K!UCG!M
-VJ!JBT
-T!L@I$JK!
-M!H!BB!B
+DSJ$J!P!
+G!GMCM!
+L!WGGC
+Q!GR!B!M!
+CSL@X!R
 
-Move: JIBBAH | Points: 54 | Gems: 3 | EvalScore: 111.50 | Swaps: 1 | Gems Before: 4 | After: 4
+Move:  | Points: 0 | Gems: 0 | EvalScore: 0.00 | Swaps: 0 | Gems Before: 2 | After: 2
 
 Round 5:
-BR!IQ!U
-K!UC!G!M@
-VDJB!T
-T!IQJK!
-M!Q!O$ZB
+DSJ$J!P!
+G!GMCM!
+L!WGGC
+Q!GR!B!M!
+CSL@X!R
 
-Move: BRIQUET | Points: 54 | Gems: 2 | EvalScore: 56.00 | Swaps: 1 | Gems Before: 4 | After: 3
+Move:  | Points: 0 | Gems: 0 | EvalScore: 0.00 | Swaps: 0 | Gems Before: 2 | After: 2
 
-Game 93 Score: 236 | Gems left: 3
+Game 93 Score: 84 | Gems left: 2
 
 === Game 94 ===
 Round 1:
-D$DV!J!I
-DSI!D!J
-K!KUT!C
-MW!SWF!
-A!JY!X@F
+H!P!BPK!
+G!@YZW!F
+VGP!N$N
+FKR!Q!U
+MC!HP!O
 
-Move: XYSTUS | Points: 52 | Gems: 2 | EvalScore: 120.50 | Swaps: 0 | Gems Before: 3 | After: 5
+Move: CROGGY | Points: 46 | Gems: 4 | EvalScore: 109.00 | Swaps: 1 | Gems Before: 3 | After: 4
 
 Round 2:
-D$D@V!J!I
-DRI!D!J
-K!KTPC
-MW!AWF!
-A!J!Q!PF
+H!P!BPK!
+VIZW!F!
+VCON!$N
+FKI!Q!U
+M!FHP!@O
 
-Move: KIDVID | Points: 54 | Gems: 3 | EvalScore: 122.50 | Swaps: 1 | Gems Before: 5 | After: 5
+Move: PICKOFF | Points: 74 | Gems: 4 | EvalScore: 142.50 | Swaps: 1 | Gems Before: 4 | After: 5
 
 Round 3:
-IX@S!J!I
-D!RZJJ
-K!BTPC
-MW!A!W$F!
-A!J!Q!PF
+H!P!BPK!
+VIZW!B
+V$ZR!R!N
+F!HWQ!U
+M!FH!C@O
 
-Move: JAWBOX | Points: 60 | Gems: 4 | EvalScore: 134.00 | Swaps: 1 | Gems Before: 5 | After: 6
+Move: BRUNCH | Points: 52 | Gems: 3 | EvalScore: 120.50 | Swaps: 1 | Gems Before: 5 | After: 5
 
 Round 4:
-I!KS!J!I
-URZJ!J!
-K!MTP@C
-MNTW$F!
-A!T!Q!PF
+H!P!BPK!
+VIZ!W!H
+V$ZR!ON@
+F!H!WNN
+M!F!MXO
 
-Move: RIKSHAW | Points: 62 | Gems: 3 | EvalScore: 119.50 | Swaps: 2 | Gems Before: 6 | After: 3
+Move: HIZZONER | Points: 64 | Gems: 4 | EvalScore: 138.00 | Swaps: 1 | Gems Before: 5 | After: 6
 
 Round 5:
-L!HKJ!I
-UWZMJ!
-K!MTKC!
-MNT!$XF!
-A!T!Q!P@F
+TP!@BPK!
+VMU!GH!
+V$CSYS
+F!H!WNN
+M!F!M!XO!
 
-Move: PUTZ | Points: 44 | Gems: 1 | EvalScore: 45.00 | Swaps: 1 | Gems Before: 3 | After: 1
+Move: PUCKISH | Points: 74 | Gems: 3 | EvalScore: 77.00 | Swaps: 2 | Gems Before: 6 | After: 3
 
-Game 94 Score: 273 | Gems left: 1
+Game 94 Score: 313 | Gems left: 3
 
 === Game 95 ===
 Round 1:
-X!G!B!S!D@
-QOMD!K!
-M!QX!Y!G
-QVVJJ
-SG%U!ZT
+ACSH!Y!
+SLOD!Z!
+D!J!ADV
+Q@X!EVB!
+VF!Z$E!D
 
-Move: SKYBOX | Points: 34 | Gems: 5 | EvalScore: 102.50 | Swaps: 1 | Gems Before: 3 | After: 5
+Move: JAZZED | Points: 46 | Gems: 3 | EvalScore: 103.50 | Swaps: 1 | Gems Before: 3 | After: 3
 
 Round 2:
-FG!B!O!D!@
-QMMD!P
-M!QZNG
-QV!VJJ!
-SG%U!Z!T
+ACSH!Y!
+SLOD!Z!%
+D!L!M!DV
+Q@WEVB!
+VF!HAO!
 
-Move: BODGED | Points: 40 | Gems: 4 | EvalScore: 114.00 | Swaps: 1 | Gems Before: 5 | After: 6
+Move: ZYMOME | Points: 48 | Gems: 4 | EvalScore: 111.00 | Swaps: 1 | Gems Before: 3 | After: 4
 
 Round 3:
-FG!Q!MG
-Q!MMR@N
-M!Q!ZNS
-QV!V!JJ!
-SG%U!Z!T
+ACS!H!S
+SL!EMB
+D!L!MD!V
+Q@WVV!B!
+VF!HA$O!
 
-Move: GUMMERS | Points: 62 | Gems: 3 | EvalScore: 119.50 | Swaps: 2 | Gems Before: 6 | After: 3
+Move: DECALLED | Points: 50 | Gems: 4 | EvalScore: 118.50 | Swaps: 1 | Gems Before: 4 | After: 5
 
 Round 4:
-FG!JM!G!
-Q!JMAN
-PQ!ZNO
-Q@LV!%JJ!
-S!JU!Z!T
+GOS!H!S
+SR!D@MB
+XGMBV!
+KW!VV!B!
+V!F!HA$O!
 
-Move: VULNS | Points: 52 | Gems: 3 | EvalScore: 109.50 | Swaps: 1 | Gems Before: 3 | After: 3
+Move: BOVIDS | Points: 42 | Gems: 4 | EvalScore: 116.00 | Swaps: 1 | Gems Before: 5 | After: 6
 
 Round 5:
-FG!JM!G!
-Q!JMA!N!
-PQ!Z!@$NO
-YMYJJ!
-OJSZ!T
+GONH!S
+SR!XM!B!
+XGO!BV!
+KW!VUM!
+V!F!HA@$Y
 
-Move: GAZUMP | Points: 74 | Gems: 4 | EvalScore: 78.00 | Swaps: 1 | Gems Before: 3 | After: 4
+Move: MUZHIK | Points: 80 | Gems: 2 | EvalScore: 82.00 | Swaps: 2 | Gems Before: 6 | After: 2
 
-Game 95 Score: 266 | Gems left: 4
+Game 95 Score: 268 | Gems left: 2
 
 === Game 96 ===
 Round 1:
-KJ!VT!M
-VQ!EMX!@
-G!IRW!E$
-MZZ!HR
-P!KSX!G!
+IQ!@YGH
+CZ!BHN
+Z!SZ$Z!F
+EUQ!NN!
+XT!V!G!A!
 
-Move: TOWZIER | Points: 50 | Gems: 4 | EvalScore: 113.00 | Swaps: 1 | Gems Before: 3 | After: 4
+Move: QUIZZES | Points: 74 | Gems: 3 | EvalScore: 131.50 | Swaps: 1 | Gems Before: 3 | After: 3
 
 Round 2:
-KJ!VWM!@
-VQ!Q!MC!
-G!RQCE$
-MZAHR
-P!KS!X!G!
+VBYG@H
+BVBHN!
+KBZ$Z!F
+Y!UQ!N!N!
+XT!V!G!A!
 
-Move: SACHEMIC | Points: 58 | Gems: 3 | EvalScore: 121.00 | Swaps: 1 | Gems Before: 4 | After: 4
+Move: BUZZING | Points: 86 | Gems: 2 | EvalScore: 135.23 | Swaps: 1 | Gems Before: 3 | After: 2
 
 Round 3:
-KJ!VW!K@
-VQ!Q!BC
-G!RQB$D
-MZX!YR
-P!KL!X!G!
+VBYSH!
+BVB!RN%
+KK@PVF
+Y!IQ!N!N!
+XT!V!G!A!
 
-Move: DYBBUK | Points: 68 | Gems: 1 | EvalScore: 117.23 | Swaps: 1 | Gems Before: 4 | After: 2
+Move: KY | Points: 20 | Gems: 1 | EvalScore: 77.50 | Swaps: 0 | Gems Before: 2 | After: 3
 
 Round 4:
-KJ!VKU
-V@Q!Q!OC
-G!RQE!A
-MZX!AR
-P!KL!X!$G!
+VBYS!H!
+BVB!RN%
+KQPVF
+EIQ!N!N!
+XT!@V!G!A!
 
-Move: LAX | Points: 18 | Gems: 2 | EvalScore: 75.50 | Swaps: 0 | Gems Before: 2 | After: 4
+Move: GANNET | Points: 32 | Gems: 6 | EvalScore: 106.00 | Swaps: 1 | Gems Before: 3 | After: 6
 
 Round 5:
-KJ!VKU
-V@Q!Q!OC
-G!R!QE!A
-MZX!I%R
-P!KD!VG!
+V!@B!YS!H!
+B!VB!RN%
+KQPVF!
+EIQ!J!I
+X!ZZKN
 
-Move: COAXER | Points: 41 | Gems: 1 | EvalScore: 42.00 | Swaps: 1 | Gems Before: 4 | After: 2
+Move: HUBBUB | Points: 58 | Gems: 6 | EvalScore: 64.00 | Swaps: 2 | Gems Before: 6 | After: 6
 
-Game 96 Score: 237 | Gems left: 2
+Game 96 Score: 276 | Gems left: 6
 
 === Game 97 ===
 Round 1:
-I!YH!ZF!
-X%F!RJ!B
-NEY!A!N
-RP!RBM!
-K@FD!QT
+OG%U!HO
+QMK!B!S!
+MVYCN
+X!RY!O!@F!
+IY!MZJ!
 
-Move: PREFIX | Points: 78 | Gems: 2 | EvalScore: 127.23 | Swaps: 1 | Gems Before: 3 | After: 2
+Move: MOCKUP | Points: 74 | Gems: 3 | EvalScore: 131.50 | Swaps: 1 | Gems Before: 3 | After: 3
 
 Round 2:
-YYH!Z!F!
-OIRJ!B
-NKY!A!%N
-H@P!R!BM!
-XFD!QT
+OJMH!O
+Q@MI!B!S!
+MVY!LN
+X!RY!YF!
+IY!A$ZJ!
 
-Move: AMBRY | Points: 17 | Gems: 4 | EvalScore: 91.00 | Swaps: 0 | Gems Before: 2 | After: 6
+Move: SHIMMY | Points: 48 | Gems: 3 | EvalScore: 105.50 | Swaps: 1 | Gems Before: 3 | After: 3
 
 Round 3:
-YY!H!Z!F!
-OI%R!J!B
-N!KXHN
-H@P!HOX
-XFD!QT!
+OJKJO!
+EXDB!M
+MV!Y!L!N
+X!RY!YF!
+IY!A@$ZJ!
 
-Move: PHENOXY | Points: 84 | Gems: 3 | EvalScore: 141.50 | Swaps: 2 | Gems Before: 6 | After: 3
+Move: FLYWAY | Points: 56 | Gems: 5 | EvalScore: 124.50 | Swaps: 1 | Gems Before: 3 | After: 5
 
 Round 4:
-YJ!@H!Z!F!
-URR!J!B
-U!RXHN
-WLH%O!X
-XFD!QT!
+OJKJ!O!
+EX!@DB!M$
+MV!UZ!N
+X!RBYF!
+IO!EZJ!
 
-Move: FLURRY | Points: 50 | Gems: 3 | EvalScore: 107.50 | Swaps: 1 | Gems Before: 3 | After: 3
+Move: ZEBRULE | Points: 56 | Gems: 1 | EvalScore: 113.50 | Swaps: 1 | Gems Before: 5 | After: 3
 
 Round 5:
-YHH!Z!@F!
-U!GJJ!B!
-PRXHN
-WDH%O!X
-XQ!D!QT!
+OJKJ!O!
+UUDB!@M$
+MV!BZ!N!
+X!MEYF!
+IO!YYJ!
 
-Move: HAJJ | Points: 38 | Gems: 3 | EvalScore: 41.00 | Swaps: 1 | Gems Before: 3 | After: 3
+Move: DYBBUK | Points: 60 | Gems: 2 | EvalScore: 62.00 | Swaps: 1 | Gems Before: 3 | After: 2
 
-Game 97 Score: 270 | Gems left: 3
+Game 97 Score: 296 | Gems left: 2
 
 === Game 98 ===
 Round 1:
-SRA!F!G
-PE!B!D!O
-OLN!ES!
-NZZ!$U!H
-OS!QER@
+XHL!QX
+LVUO!H
+R!P!@EZ!N!
+R!AGS%V!
+B!LDL!F
 
-Move: REFUNDABLE | Points: 72 | Gems: 7 | EvalScore: 150.00 | Swaps: 1 | Gems Before: 3 | After: 7
+Move: PULQUES | Points: 70 | Gems: 3 | EvalScore: 127.50 | Swaps: 1 | Gems Before: 3 | After: 3
 
 Round 2:
-S!RPF!G
-PM!OW!O
-O!XYE%S!@
-NZ!U!QH!
-OS!QXE
+XHQ!KX
+LVGQH
+R!%UV!Z!N!
+R!A!@GXV!
+B!LDL!F
 
-Move: SCUZZY | Points: 92 | Gems: 4 | EvalScore: 160.50 | Swaps: 2 | Gems Before: 7 | After: 5
+Move: VULVAR | Points: 70 | Gems: 4 | EvalScore: 133.00 | Swaps: 1 | Gems Before: 3 | After: 4
 
 Round 3:
-S!R!PF!G
-PM!O@W!O
-O!XS!O%Z
-NKSQH!
-OM!QX!E
+X!HQ!K!$X
+DVGQ!H
+L@TEZ!N!
+KF!GXV!
+B!LDL!F
 
-Move: MOKOMOKO | Points: 82 | Gems: 3 | EvalScore: 150.50 | Swaps: 1 | Gems Before: 5 | After: 5
+Move: KLUDGE | Points: 50 | Gems: 1 | EvalScore: 99.23 | Swaps: 1 | Gems Before: 4 | After: 2
 
 Round 4:
-S!R!PF!G
-PVJW!T
-VXS!R!Z
-NF@%S!QH!
-F!JQX!E
+X!HQ!K!$X
+D!VGQ!H
+ETKZ!N!
+SZMXV!
+B!LKL!@F
 
-Move: JEFFS | Points: 60 | Gems: 2 | EvalScore: 117.50 | Swaps: 1 | Gems Before: 5 | After: 4
+Move: ZED | Points: 12 | Gems: 1 | EvalScore: 69.50 | Swaps: 0 | Gems Before: 2 | After: 3
 
 Round 5:
-S!R!PF!G
-PVJ@W!T!
-VXWR!Z
-TJS!QH!
-AGQX!E!%
+X!HQ!K!$X
+IVGQ!H
+FTKZ!N!
+SPMX!V!
+B!LKL!@F
 
-Move: TWERPS | Points: 42 | Gems: 4 | EvalScore: 46.00 | Swaps: 1 | Gems Before: 4 | After: 5
+Move: FLUMPS | Points: 54 | Gems: 2 | EvalScore: 56.00 | Swaps: 1 | Gems Before: 3 | After: 2
 
-Game 98 Score: 353 | Gems left: 5
+Game 98 Score: 258 | Gems left: 2
 
 === Game 99 ===
 Round 1:
-Q!Z!F!UX!
-M!@QU!AR
-ENF!KJ!
-MPCM%D
-EKBV!L!
+QS!SQ!H
+V!@QV!G!N
+ZL!OSN!
+EUQ!U%H!
+TBWPV!
 
-Move: JAZZMEN | Points: 72 | Gems: 4 | EvalScore: 135.00 | Swaps: 1 | Gems Before: 3 | After: 4
+Move: QUOLLS | Points: 68 | Gems: 4 | EvalScore: 131.00 | Swaps: 1 | Gems Before: 3 | After: 4
 
 Round 2:
-Q!VZ@UX!
-ZQU!N!R
-OS!F!KX
-MPCM%D
-E!KB!V!L!
+QR!SQ!H$
+R@QV!G!N
+ZXLSN!
+EUI!TH!
+TB!WP!V!
 
-Move: KANZUS | Points: 56 | Gems: 4 | EvalScore: 124.50 | Swaps: 1 | Gems Before: 4 | After: 5
+Move: GLUISH | Points: 27 | Gems: 3 | EvalScore: 105.00 | Swaps: 0 | Gems Before: 4 | After: 7
 
 Round 3:
-Q!VKU@X!
-Z!QDQR!
-OUNRX!
-M!PCM%D
-E!KB!V!L!
+QR!SQ!H!$
+R@QV!QN
+ZXF!TN!
+ETTTL!
+TB!WP!V!
 
-Move: DURUM | Points: 50 | Gems: 2 | EvalScore: 113.00 | Swaps: 1 | Gems Before: 5 | After: 4
+Move: TWEEZERS | Points: 54 | Gems: 2 | EvalScore: 111.50 | Swaps: 2 | Gems Before: 7 | After: 3
 
 Round 4:
-Q!@VK!ZX!
-Z!QPQA
-OUN$RE
-M!PCVD!
-E!KB!V!L!
+Q@TFQ!H!$
+VQV!Q!N
+EXF!TN!
+K!GTTL!
+TUUP!V!
 
-Move: MUZZ | Points: 48 | Gems: 3 | EvalScore: 105.50 | Swaps: 1 | Gems Before: 4 | After: 4
+Move: UPLIFT | Points: 29 | Gems: 3 | EvalScore: 86.50 | Swaps: 1 | Gems Before: 3 | After: 3
 
 Round 5:
-WV!K!ZX!
-AQPQA
-OQ!N$RE
-BPCV!D!
-E!@KB!V!L!
+Q!@TFQ!H!$
+VQ!V!Q!N
+EXFAN!
+K!G!TQV
+TURFV!
 
-Move: PRANCKE | Points: 56 | Gems: 2 | EvalScore: 58.00 | Swaps: 1 | Gems Before: 4 | After: 3
+Move: FRUCTAN | Points: 31 | Gems: 2 | EvalScore: 33.00 | Swaps: 1 | Gems Before: 3 | After: 2
 
-Game 99 Score: 285 | Gems left: 3
+Game 99 Score: 211 | Gems left: 2
 
 === Game 100 ===
 Round 1:
-RZ@JZS!
-PU!N!DR!
-VBD!%DW!
-BJRXS!
-WI!C!YC!
+HVR!F!S!
+SJ!R!OU
+NQHZ!N!%
+EE@D!HY
+BNNT!T!
 
-Move: ZUZ | Points: 72 | Gems: 2 | EvalScore: 121.23 | Swaps: 1 | Gems Before: 3 | After: 2
+Move: FUZZED | Points: 68 | Gems: 3 | EvalScore: 125.50 | Swaps: 1 | Gems Before: 3 | After: 3
 
 Round 2:
-R!JJZS!
-PDN!DR!
-V!B%JDW!@
-BJRXS!
-WI!C!YC!
+HVR!G!S!
+SJ!R!OC
+NQO!O!N!@%
+EQYHY
+BNNT!T!
 
-Move: JIBB | Points: 24 | Gems: 1 | EvalScore: 81.50 | Swaps: 0 | Gems Before: 2 | After: 3
+Move: ZORROS | Points: 74 | Gems: 5 | EvalScore: 142.50 | Swaps: 1 | Gems Before: 3 | After: 5
 
 Round 3:
-R!JJZS!
-P!DN!DR!
-V!SJDW!@
-RBR$XS!
-WCC!YC!
+H!V%NG!V!
+SJ!HC!C
+NQO!LZ
+EQY!HY@
+BN!NT!T!
 
-Move: CROWDS | Points: 50 | Gems: 3 | EvalScore: 107.50 | Swaps: 1 | Gems Before: 3 | After: 3
+Move: COUTHY | Points: 50 | Gems: 4 | EvalScore: 124.00 | Swaps: 1 | Gems Before: 5 | After: 6
 
 Round 4:
-R!JJZ%Y
-P!DN!MR!
-V!S!JE!W
-RBQ@X!S!
-WCSYC!
+H!V!%NG!@V!
+SJ!HSC
+NQWLZ
+E!QS!PB
+BN!N!TT!
 
-Move: ENZYMES | Points: 48 | Gems: 4 | EvalScore: 105.50 | Swaps: 1 | Gems Before: 3 | After: 4
+Move: ENSLAVING | Points: 70 | Gems: 6 | EvalScore: 144.00 | Swaps: 2 | Gems Before: 6 | After: 6
 
 Round 5:
-R!JJGF
-P!D!TNR!%
-V!AJCW
-RB!Q!@X!G
-W!CSYC!
+H!@SILV!
+SCHS$C!
+N!Q!W!OZ
+IQ!BP!B
+BKN!TT!
 
-Move: SCRATCHY | Points: 60 | Gems: 1 | EvalScore: 61.00 | Swaps: 1 | Gems Before: 4 | After: 2
+Move: BUCKSHISH | Points: 78 | Gems: 3 | EvalScore: 81.00 | Swaps: 2 | Gems Before: 6 | After: 3
 
-Game 100 Score: 256 | Gems left: 2
+Game 100 Score: 343 | Gems left: 3
 
 === Simulation Summary ===
 Games Simulated: 100
-Average Game Score: 297.23
-Median Game Score: 301.50
-Highest Game Score: 392
-Lowest Game Score: 58
-Top Single Move: JUMBUCK (Points: 106)
-Total Solve Time: 7828.00ms
-Time per Game: 78.28ms
+Average Game Score: 299.86
+Median Game Score: 302.00
+Highest Game Score: 387
+Lowest Game Score: 84
+Top Single Move: JAZZMEN (Points: 104)
+Total Solve Time: 4817.89ms
+Time per Game: 48.18ms
