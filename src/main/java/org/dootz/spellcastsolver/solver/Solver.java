@@ -180,6 +180,9 @@ final class MoveBuilder {
     /* char buffer for the word */
     private final char[] wordBuf = new char[MAX_LEN];
 
+    /* cached word */
+    private String cachedWord;
+
     /* running tallies */
     private int points = 0;
     private int gems   = 0;
@@ -197,6 +200,7 @@ final class MoveBuilder {
         if (t.hasModifier(TileModifier.TRIPLE_WORD))  wordMultiplier *= 3;
         if (t.hasModifier(TileModifier.GEM))          gems++;
         if (t.isWildcard())                           swaps++;
+        cachedWord = null;
     }
 
     public void pop() {
@@ -208,11 +212,16 @@ final class MoveBuilder {
         if (t.hasModifier(TileModifier.TRIPLE_WORD))  wordMultiplier /= 3;
         if (t.hasModifier(TileModifier.GEM))          gems--;
         if (t.isWildcard())                           swaps--;
+        cachedWord = null;
     }
 
     /* ---------- fast getters ---------- */
     public String word() {
-        return new String(wordBuf, 0, len);
+        if (cachedWord == null) {
+            cachedWord = new String(wordBuf, 0, len);
+            return cachedWord;
+        }
+        return cachedWord;
     }
 
     /* ---------- compare move builder with existing move ---------- */
