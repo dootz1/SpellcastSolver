@@ -1,8 +1,5 @@
 package org.dootz.spellcastsolver.game.board;
 
-import org.dootz.spellcastsolver.utils.TileModifier;
-
-import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
