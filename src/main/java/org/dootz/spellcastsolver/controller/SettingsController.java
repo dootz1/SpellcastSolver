@@ -168,7 +168,6 @@ public class SettingsController {
             } else {
                 tableModel.setShuffleRecommendedVisible(false); // nothing to recommend
             }
-
             tableModel.setResultTimeMs(System.currentTimeMillis() - settingsModel.getTimeStartedSolving()); // algorithm ends here
             tableModel.setResultWordCount(evaluatedMoves.size());
 

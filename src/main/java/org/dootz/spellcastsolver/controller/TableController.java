@@ -47,9 +47,9 @@ public class TableController {
 
     public void initialize() {
         wordsColumn.setCellValueFactory(cellData -> new ReadOnlyStringWrapper(cellData.getValue().toString()));
-        gemsColumn.setCellValueFactory(cellData -> new ReadOnlyIntegerWrapper(cellData.getValue().getMove().getTotalGems()));
-        pointsColumn.setCellValueFactory(cellData -> new ReadOnlyIntegerWrapper(cellData.getValue().getMove().getTotalPoints()));
-        swapsColumn.setCellValueFactory(cellData -> new ReadOnlyIntegerWrapper(cellData.getValue().getMove().getTotalSwaps()));
+        gemsColumn.setCellValueFactory(cellData -> new ReadOnlyIntegerWrapper(cellData.getValue().getMove().gems()));
+        pointsColumn.setCellValueFactory(cellData -> new ReadOnlyIntegerWrapper(cellData.getValue().getMove().points()));
+        swapsColumn.setCellValueFactory(cellData -> new ReadOnlyIntegerWrapper(cellData.getValue().getMove().swaps()));
         evaluationColumn.setCellValueFactory(cellData -> new ReadOnlyDoubleWrapper(cellData.getValue().getEvaluationScore()));
         evaluationColumn.setCellFactory(column -> new TableCell<>() {
             private final GradientText gradientText = new GradientText("");
@@ -138,11 +138,11 @@ public class TableController {
         resultsTable.getSelectionModel().select(newMove);
         board.setSolvedVisible(true);
         board.setCurrentWord(newMove.toString());
-        board.setCurrentWordScore(newMove.getMove().getTotalPoints());
-        board.setIsLongWordBonusApplied(newMove.getMove().isLongWord());
-        board.setCurrentWordGemsEarned(newMove.getMove().getTotalGems());
+        board.setCurrentWordScore(newMove.getMove().points());
+        board.setIsLongWordBonusApplied(newMove.getMove().isLong());
+        board.setCurrentWordGemsEarned(newMove.getMove().gems());
 
-        for (Tile tile : newMove.getMove().getTiles()) {
+        for (Tile tile : newMove.getMove().tiles()) {
             int index = tile.getRow() * Constants.BOARD_SIZE + tile.getColumn();
             board.addPathNode(index);
             var tileModel = board.getSolvedTileModelByIndex(index);
@@ -174,7 +174,7 @@ public class TableController {
 
         if (move == null) return;
 
-        for (Tile tile : move.getMove().getTiles()) {
+        for (Tile tile : move.getMove().tiles()) {
             int index = tile.getRow() * Constants.BOARD_SIZE + tile.getColumn();
             var tileModel = board.getInputTileModelByIndex(index);
             tileModel.getModifiers().clear();

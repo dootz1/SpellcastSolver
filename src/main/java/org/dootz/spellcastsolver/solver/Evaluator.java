@@ -36,8 +36,8 @@ public class Evaluator {
         List<EvaluatedMove> evaluatedMoves = new ArrayList<>(moves.size());
         boolean isFinalRound = round == 5;
         for (Move move: moves) {
-            double score = move.getTotalPoints() + estimatedFutureSwapValue(round, Math.min(10,  gems + move.gemProfit()));
-            if (isFinalRound) score += move.getTotalGems();
+            double score = move.points() + estimatedFutureSwapValue(round, Math.min(10,  gems + move.gemProfit()));
+            if (isFinalRound) score += move.gems();
             evaluatedMoves.add(new EvaluatedMove(move, score));
         }
         return evaluatedMoves;

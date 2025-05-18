@@ -98,13 +98,13 @@ public class BoardSimulator {
                 long time = times.get(i);
 
                 writer.println(board);
-                writer.printf("%s %d: %.2f %n%n", bestMove, bestMove.getMove().getTotalPoints(), bestMove.getEvaluationScore());
+                writer.printf("%s %d: %.2f %n%n", bestMove, bestMove.getMove().points(), bestMove.getEvaluationScore());
 
                 System.out.println(board);
-                System.out.printf("%s %d%n%n", bestMove, bestMove.getMove().getTotalPoints());
+                System.out.printf("%s %d%n%n", bestMove, bestMove.getMove().points());
 
                 totalWords += frequencies.get(i);
-                totalPoints += bestMove.getMove().getTotalPoints();
+                totalPoints += bestMove.getMove().points();
                 totalTime += time;
                 totalEvalScore += bestMove.getEvaluationScore();
             }

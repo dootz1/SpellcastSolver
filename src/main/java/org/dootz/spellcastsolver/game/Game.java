@@ -31,14 +31,14 @@ public class Game {
 
     public void submitMove(Evaluator.EvaluatedMove move) {
         player.addMove(move);
-        player.modifyGems(move.getMove().getTotalGems() - move.getMove().getTotalSwaps() * 3);
-        player.addPoints(move.getMove().getTotalPoints());
+        player.modifyGems(move.getMove().gemProfit());
+        player.addPoints(move.getMove().points());
 
-        currentRound.setChosenMove(new Evaluator.EvaluatedMove(move.getMove().copy(), move.getEvaluationScore()));
+        currentRound.setChosenMove(new Evaluator.EvaluatedMove(move.getMove(), move.getEvaluationScore()));
         currentRound.setPlayerSnapshot(player.copy());
         currentRound.setBoardSnapshot(board.copy());
 
-        for (Tile tile: move.getMove().getTiles()) {
+        for (Tile tile: move.getMove().tiles()) {
             int row = tile.getRow();
             int column = tile.getColumn();
             Tile boardTile = board.getTile(row, column);

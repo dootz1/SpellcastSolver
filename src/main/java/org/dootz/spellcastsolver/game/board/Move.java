@@ -3,110 +3,46 @@ package org.dootz.spellcastsolver.game.board;
 import org.dootz.spellcastsolver.utils.TileModifier;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
-public class Move {
-    private final List<Tile> tiles;
-    private double evaluationScore;
 
-    public Move() {
-        this(new ArrayList<>(20));
+public final class Move implements Comparable<Move> {
+    private final String word;          // immutable key
+    private final List<Tile> tiles;     // immutable copy
+    private final int points;
+    private final int gems;
+    private final int swaps;
+
+    public Move(String word, List<Tile> tiles, int points, int gems, int swaps) {
+        this.word   = word;
+        this.tiles  = Collections.unmodifiableList(tiles);
+        this.points = points;
+        this.gems   = gems;
+        this.swaps  = swaps;
     }
 
-    public Move(List<Tile> tiles) {
-        this.tiles = tiles;
-        this.evaluationScore = 0;
-    }
+    /* -------- public API -------- */
+    public String word()   { return word; }
+    public List<Tile> tiles() { return tiles; }
+    public int points()    { return points; }
+    public int gems()      { return gems; }
+    public int swaps()     { return swaps; }
+    public int gemProfit() { return gems - swaps * 3; }
+    public boolean isLong() { return word.length() >= 6; }
 
-    public boolean isLongWord() {
-        return tiles.size() >= 6;
-    }
-
-    public int getTotalPoints() {
-        int points = 0;
-        int multiplier = 1;
-        for (Tile tile: tiles) {
-            points += tile.getPoints();
-            if (tile.hasModifier(TileModifier.DOUBLE_WORD)) {
-                multiplier <<= 1; // multiply by 2
-            }
-            if (tile.hasModifier(TileModifier.TRIPLE_WORD)) {
-                multiplier *= 3;
-            }
-        }
-        points *= multiplier;
-        if (isLongWord()) {
-            points += 10;
-        }
-        return points;
-    }
-
-    public int getTotalGems() {
-        int gems = 0;
-        for (Tile tile: tiles) {
-            if (tile.hasModifier(TileModifier.GEM)) {
-                gems++;
-            }
-        }
-        return gems;
-    }
-
-    public int getTotalSwaps() {
-        int swaps = 0;
-        for (Tile tile: tiles) {
-            if (tile.isWildcard()) {
-                swaps++;
-            }
-        }
-        return swaps;
-    }
-
-    public int gemProfit() {
-        return getTotalGems() - getTotalSwaps() * 3;
-    }
-    public void appendTile(Tile tile) {
-        tiles.add(tile);
-    }
-    public void popTile() {
-        tiles.removeLast();
-    }
-
-    public List<Tile> getTiles() {
-        return tiles;
-    }
-
-    public Move copy() {
-        List<Tile> copied = new ArrayList<>(tiles.size());
-        for (Tile tile: tiles) {
-            copied.add(tile.copy());
-        }
-        return new Move(copied);
-    }
-
-    public int compareTo(Move other) { // no null check for performance
-        int cmp = Integer.compare(this.getTotalPoints(), other.getTotalPoints()); // higher points
-        if (cmp != 0) return cmp;
-
-        cmp = Integer.compare(other.getTotalSwaps(), this.getTotalSwaps()); // lower swaps
-        if (cmp != 0) return cmp;
-
-        return Integer.compare(this.getTotalGems(), other.getTotalGems()); // higher gems
-    }
-
-    public double getEvaluationScore() {
-        return evaluationScore;
-    }
-
-    public void setEvaluationScore(double evaluationScore) {
-        this.evaluationScore = evaluationScore;
+    @Override public String toString()      { return word; }
+    @Override public int hashCode()         { return word.hashCode(); }
+    @Override public boolean equals(Object o) {
+        return (o instanceof Move m) && word.equals(m.word);
     }
 
     @Override
-    public String toString() {
-        StringBuilder builder = new StringBuilder(tiles.size());
-        for (Tile tile: tiles) {
-            builder.append(tile.isWildcard() ? tile.getWildcardLetter() : tile.getLetter());
-        }
-        return builder.toString();
+    public int compareTo(Move o) {
+        int c = Integer.compare(points, o.points);
+        if (c != 0) return c;
+        c = Integer.compare(o.swaps, swaps);
+        if (c != 0) return c;
+        return Integer.compare(gems, o.gems);
     }
 }

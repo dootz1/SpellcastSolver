@@ -61,16 +61,16 @@ public class Solver {
         }
 
         boolean[][] visited = new boolean[Constants.BOARD_SIZE][Constants.BOARD_SIZE];
-        Move move = new Move();
+        MoveBuilder mb = new MoveBuilder();
         DictionaryNode root = dictionary.getRoot();
         char letter = tile.getLetter();
         int progressUnits = 0;
 
         DictionaryNode childNode = root.getChild(letter);
         if (childNode != null) {
-            move.appendTile(tile);
-            findValidMoves(board, visited, move, childNode, row, col, swaps);
-            move.popTile();
+            mb.push(tile);
+            findValidMoves(board, visited, mb, childNode, row, col, swaps);
+            mb.pop();
             onProgress.accept(1);
             progressUnits++;
         }
@@ -90,9 +90,9 @@ public class Solver {
 
                 tile.setWildcardLetter(wildcardLetter);
                 DictionaryNode wildcardChild = root.getChildByIndex(bit);
-                move.appendTile(tile);
-                findValidMoves(board, visited, move, wildcardChild, row, col, swaps - 1);
-                move.popTile();
+                mb.push(tile);
+                findValidMoves(board, visited, mb, wildcardChild, row, col, swaps - 1);
+                mb.pop();
 
                 onProgress.accept(increment);
                 progressUnits += increment;
@@ -104,11 +104,13 @@ public class Solver {
         onProgress.accept(26 - progressUnits); // Fake remaining progress
     }
 
-    private void findValidMoves(Board board, boolean[][] visited, Move move, DictionaryNode node, int row, int col, int swaps) {
+    private void findValidMoves(Board board, boolean[][] visited, MoveBuilder mb, DictionaryNode node, int row, int col, int swaps) {
         if (node.isWord()) {
-            result.compute(move.toString(), (key, oldWord) ->
-                (oldWord == null || move.compareTo(oldWord) > 0) ? move.copy() : oldWord
-            );
+            String key = mb.word();
+            Move best = result.get(key);
+            if (mb.beats(best)) {           // O(1) primitive compare
+                result.put(key, mb.toMove());// allocate only if needed
+            }
         }
 
         visited[row][col] = true;
@@ -132,9 +134,9 @@ public class Solver {
             // Normal move
             DictionaryNode childNode = node.getChild(letter);
             if (childNode != null) {
-                move.appendTile(tile);
-                findValidMoves(board, visited, move, childNode, newRow, newCol, swaps);
-                move.popTile();
+                mb.push(tile);
+                findValidMoves(board, visited, mb, childNode, newRow, newCol, swaps);
+                mb.pop();
             }
 
             // Swap move
@@ -151,9 +153,9 @@ public class Solver {
 
                     tile.setWildcardLetter(wildcardLetter);
                     DictionaryNode wildcardChild = node.getChildByIndex(bit);
-                    move.appendTile(tile);
-                    findValidMoves(board, visited, move, wildcardChild, newRow, newCol, swaps - 1);
-                    move.popTile();
+                    mb.push(tile);
+                    findValidMoves(board, visited, mb, wildcardChild, newRow, newCol, swaps - 1);
+                    mb.pop();
                 }
                 tile.setWildcard(false);
                 tile.setWildcardLetter(letter);
@@ -163,7 +165,77 @@ public class Solver {
 
         visited[row][col] = false;
     }
+
     private boolean isInBounds(int row, int col) {
         return row >= 0 && row < Constants.BOARD_SIZE && col >= 0 && col < Constants.BOARD_SIZE;
     }
 }
+final class MoveBuilder {
+    private static final int MAX_LEN = 50;
+
+    /* tiles in order */
+    private final Tile[] tileBuf = new Tile[MAX_LEN];
+    private int len = 0;
+
+    /* char buffer for the word */
+    private final char[] wordBuf = new char[MAX_LEN];
+
+    /* running tallies */
+    private int points = 0;
+    private int gems   = 0;
+    private int swaps  = 0;
+    private int wordMultiplier = 1;
+
+    /* ---------- mutate during DFS ---------- */
+    public void push(Tile t) {
+        tileBuf[len] = t;
+        wordBuf[len] = t.isWildcard() ? t.getWildcardLetter() : t.getLetter();
+        len++;
+
+        points += t.getPoints();
+        if (t.hasModifier(TileModifier.DOUBLE_WORD)) wordMultiplier <<= 1;
+        if (t.hasModifier(TileModifier.TRIPLE_WORD))  wordMultiplier *= 3;
+        if (t.hasModifier(TileModifier.GEM))          gems++;
+        if (t.isWildcard())                           swaps++;
+    }
+
+    public void pop() {
+        len--;
+        Tile t = tileBuf[len];
+
+        points -= t.getPoints();
+        if (t.hasModifier(TileModifier.DOUBLE_WORD)) wordMultiplier >>= 1;
+        if (t.hasModifier(TileModifier.TRIPLE_WORD))  wordMultiplier /= 3;
+        if (t.hasModifier(TileModifier.GEM))          gems--;
+        if (t.isWildcard())                           swaps--;
+    }
+
+    /* ---------- fast getters ---------- */
+    public String word() {
+        return new String(wordBuf, 0, len);
+    }
+
+    /* ---------- compare move builder with existing move ---------- */
+    public boolean beats(Move best) {
+        if (best == null) return true;
+        int totalPoints = points * wordMultiplier + (len >= 6 ? 10 : 0);
+        if (totalPoints != best.points()) return totalPoints > best.points();
+        if (swaps != best.swaps()) return swaps < best.swaps();
+        return gems > best.gems();
+    }
+
+    /* ---------- build final immutable Move ---------- */
+
+    public Move toMove() {
+        /* copy tiles into an immutable List */
+        List<Tile> tiles = new ArrayList<>(len);
+        for (int i = 0; i < len; i++) tiles.add(tileBuf[i].copy());
+
+        int totalPoints = points * wordMultiplier + (len >= 6 ? 10 : 0);
+        return new Move(word(), tiles, totalPoints, gems, swaps);
+    }
+}
+
+
+
+

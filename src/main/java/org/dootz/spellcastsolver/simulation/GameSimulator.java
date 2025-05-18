@@ -15,6 +15,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
@@ -59,7 +60,7 @@ public class GameSimulator {
 
                 for (Round round : game.getRounds()) {
                     Move move = round.getChosenMove().getMove();
-                    if (highestScoringMove == null || move.getTotalPoints() > highestScoringMove.getTotalPoints()) {
+                    if (highestScoringMove == null || move.points() > highestScoringMove.points()) {
                         highestScoringMove = move;
                     }
                 }
@@ -74,7 +75,7 @@ public class GameSimulator {
                     out.printf("Round %d:\n", roundNumber);
                     out.println(round.getBoardSnapshot());
                     out.printf("Move: %s | Points: %d | Gems: %d | EvalScore: %.2f | Swaps: %d | Gems Before: %d | After: %d\n\n",
-                            move, move.getTotalPoints(), move.getTotalGems(), evalScore, move.getTotalSwaps(), gemsBefore, gemsAfter);
+                            move, move.points(), move.gems(), evalScore, move.swaps(), gemsBefore, gemsAfter);
                 }
 
                 out.printf("Game %d Score: %d | Gems left: %d\n\n", i + 1, game.getFinalScore(), game.getPlayer().getGems());
@@ -105,7 +106,7 @@ public class GameSimulator {
             out.printf("Highest Game Score: %d\n", highestGameScore);
             out.printf("Lowest Game Score: %d\n", lowestGameScore);
             out.printf("Top Single Move: %s (Points: %d)\n",
-                    highestScoringMove, highestScoringMove != null ? highestScoringMove.getTotalPoints() : 0);
+                    highestScoringMove, highestScoringMove != null ? highestScoringMove.points() : 0);
             out.printf("Total Solve Time: %.2fms\n", totalTimeMillis);
             out.printf("Time per Game: %.2fms\n", timePerGame);
 
@@ -138,7 +139,7 @@ public class GameSimulator {
             List<Evaluator.EvaluatedMove> evaluatedMoves = evaluator.evaluateMoves(moves, roundNum, player.getGems());
             evaluatedMoves.sort(Comparator.comparingDouble(Evaluator.EvaluatedMove::getEvaluationScore).reversed());
             Evaluator.EvaluatedMove best = evaluatedMoves.isEmpty() ?
-                    new Evaluator.EvaluatedMove(new Move(), 0) : evaluatedMoves.getFirst();
+                    new Evaluator.EvaluatedMove(new Move("", Collections.emptyList(), 0, 0, 0), 0) : evaluatedMoves.getFirst();
 
             game.submitMove(best);
         }

@@ -20,7 +20,7 @@ public class Player {
     }
 
     public int getTotalScore() {
-        return movesPlayed.stream().mapToInt(move -> move.getMove().getTotalPoints()).sum();
+        return movesPlayed.stream().mapToInt(move -> move.getMove().points()).sum();
     }
 
     public int getGems() { return gems; }
@@ -32,7 +32,7 @@ public class Player {
         copy.points = this.points;
         copy.movesPlayed = new ArrayList<>(5);
         for (Evaluator.EvaluatedMove move: movesPlayed) {
-            copy.movesPlayed.add(new Evaluator.EvaluatedMove(move.getMove().copy(), move.getEvaluationScore()));
+            copy.movesPlayed.add(new Evaluator.EvaluatedMove(move.getMove(), move.getEvaluationScore()));
         }
         return copy;
     }
